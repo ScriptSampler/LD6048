@@ -1,0 +1,70 @@
+{
+  "key": "recent_05",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Javed, Danish", "Jhanjhi, N.Z.", "Ali, Najma Imtiaz"],
+  "year": 2026,
+  "title": "Explainable AI-driven triple adaptive feature selection model for enhanced telecom churn prediction",
+  "venue": "Results in Engineering",
+  "volume": "31",
+  "issue": "",
+  "pages": "111361",
+  "doi": "10.1016/j.rineng.2026.111361",
+  "url": "https://doi.org/10.1016/j.rineng.2026.111361",
+  "harvard_reference": "Javed, D., Jhanjhi, N.Z. and Ali, N.I. (2026) 'Explainable AI-driven triple adaptive feature selection model for enhanced telecom churn prediction', Results in Engineering, 31, 111361. doi:10.1016/j.rineng.2026.111361.",
+  "abstract_summary": "Proposes 'Churn-Explainer', a modular telecom churn pipeline: preprocessing (median imputation, label encoding, z-scoring), Random Minority Oversampling (RMO) for class imbalance, a 'triple adaptive' hybrid feature-selection controller that iterates Mutual Information, RFE and Boruta under three feedback metrics (noise, redundancy, stability), then seven classifiers (Decision Tree, Random Forest, XGBoost, SVM, AdaBoost, TabNet, FT-Transformer) with SHAP (beeswarm, waterfall, force) and LIME explanations. Evaluated with 5-fold CV on Cell2Cell and the 28-column IBM Telco Kaggle variant. Random Forest with adaptive feature selection is best: 88.16% accuracy / F1 0.878 / AUC-ROC 0.934 on Cell2Cell and 89.60% / 0.901 / 0.971 on IBM Telco, with feature counts cut from 57 to 15 and 28 to 12. Friedman and Bonferroni-corrected Wilcoxon tests show the adaptive selector beats some single selectors but not all. SHAP fidelity (Pearson r = 0.978 vs permutation importance) and stability (Jaccard 0.858 across folds) are quantified. SHAP names Tenure Months, Contract and Monthly Charges as the main IBM Telco drivers and PercChangeMinutes, MonthlyMinutes and MonthlyRevenue for Cell2Cell.",
+  "claims_supported": [
+    {
+      "claim": "Tree ensembles (random forest / gradient boosting) achieve top or near-top ROC-AUC on telecom churn data, often close to logistic regression.",
+      "supported": false,
+      "where": "Only the first half is supported. Table 5 (Section 4.3): Random Forest has the highest AUC-ROC on both datasets (0.934 Cell2Cell; 0.971 IBM Telco) and the text says 'Random Forest consistently achieved the highest overall performance across both datasets'. However (i) logistic regression is not among the seven classifiers compared (DT, RF, XGBoost, SVM, AdaBoost, TabNet, FT-Transformer), so the paper makes no LR comparison at all; (ii) gradient boosting is not near-top on Cell2Cell: XGBoost AUC 0.860 is below a single Decision Tree (0.887) and far below RF (0.934), and AdaBoost is the weakest ML model (0.764 / 0.862). Cite this paper only for the narrower statement that RF achieved the highest AUC-ROC of the models tested, not for the LR comparison."
+    },
+    {
+      "claim": "Explainability (SHAP or similar) identifies contract type, tenure and monthly charges (or equivalent) as key churn drivers.",
+      "supported": true,
+      "where": "Section 4.4.1 (SHAP beeswarm, Fig. 3): on IBM Telco 'features such as Tenure Months, Contract, and Monthly Charges exhibit wide SHAP value distributions', i.e. a strong and consistent influence; higher tenure lowers predicted churn. Section 4.6: 'TenureMonths, Contract, and MonthlyCharges are the primary factors for the IBM telecom dataset'. Conclusion: PercChangeMinutes, MonthlyMinutes, TenureMonths and Contract are 'the most significant factors influencing customer attrition'. Force plot (Fig. 5): shorter contract and lower tenure push the prediction toward churn. Cell2Cell equivalents are usage/revenue variables (PercChangeMinutes, MonthlyMinutes, MonthlyRevenue). Note the IBM data are the 28-column Kaggle 'Telco customer churn (IBM dataset)' variant (yeanzc), not the 21-column blastchar file, though the named drivers map directly to Contract, tenure and MonthlyCharges."
+    },
+    {
+      "claim": "Business or profit-oriented evaluation changes which model or threshold is preferred compared with accuracy-only evaluation.",
+      "supported": false,
+      "where": "Not tested. Evaluation uses only accuracy, precision, recall, F1 and AUC (Table 3, Section 4.2) and 'the best models for each dataset' are chosen 'based on their total metric ratings'. No profit, cost-sensitive, expected-value or threshold analysis is performed and the default 0.5 threshold is never varied. The only business remark is qualitative (Section 4.3): the RF's excess of false positives over false negatives 'makes sense from a business point of view, as excess targeting costs less than not recognizing potential clients' - an assertion, not an evaluation, and it did not alter the model or threshold chosen. Cannot be cited for this claim."
+    },
+    {
+      "claim": "Adaptive hybrid feature selection (MI + RFE + Boruta under a feedback controller) cut dimensionality by 57% (28 to 12 features, IBM Telco) and 74% (57 to 15, Cell2Cell) while accuracy improved only marginally (87.42% to 89.60% and 85.53% to 88.16%); the authors concede 'the improvement in the classification accuracy is small' and that the main benefit is dimensionality reduction.",
+      "supported": true,
+      "where": "Section 4.5 and Table 6 (ablation study); restated in Section 4.6 and the Conclusion ('marginally improves predictive performance and compresses the feature space ... reducing dimensionality by up to 74%')."
+    },
+    {
+      "claim": "Statistical testing shows the adaptive selector is not uniformly better than single feature-selection methods: on IBM Telco it beats MI (p = 0.000061) and Boruta (p = 0.003357) but not RFE (p = 0.136); on Cell2Cell it beats RFE (p = 0.00072) and Boruta (p = 0.00558) but not MI (p = 0.446) (Friedman chi-square 17.20, p = 0.00064; Bonferroni-corrected Wilcoxon signed-rank).",
+      "supported": true,
+      "where": "Section 4.5, paragraphs on the Friedman test and post-hoc Wilcoxon tests."
+    },
+    {
+      "claim": "SHAP explanation quality was quantified: Pearson r = 0.978 between SHAP feature importance and permutation importance (fidelity) and Jaccard similarity J = 0.858 for the top-K SHAP features across the five CV folds (stability).",
+      "supported": true,
+      "where": "Sections 4.4.3 (Quantitative explainability fidelity analysis) and 4.4.4 (Explanation stability analysis)."
+    },
+    {
+      "claim": "Deep tabular models (TabNet, FT-Transformer) underperformed tree-based models on both datasets: Cell2Cell AUC 0.768 / 0.769 versus RF 0.934 and a single Decision Tree 0.887; IBM Telco 0.864 / 0.875 versus RF 0.971 and XGBoost 0.917.",
+      "supported": true,
+      "where": "Table 5 (Section 4.3). Useful for a critical discussion of whether deep learning is warranted on small tabular churn data."
+    },
+    {
+      "claim": "Imbalance handling: Random Minority Oversampling (random duplication of minority-class rows), stated to be applied to training folds only, with feature selection performed inside each CV training fold to avoid leakage; on IBM Telco the RF reached 95% churner recall with more false positives than false negatives.",
+      "supported": true,
+      "where": "Sections 3.1-3.2 (preprocessing and 5-fold protocol), 4.1 ('oversampling is only done on the training data'), 4.3 and Fig. 2 (confusion matrices). Caveat: Section 3.2 says rebalancing is done on 'the refined dataset' before feature selection, so the exact placement of oversampling relative to the CV split is not stated unambiguously."
+    },
+    {
+      "claim": "Deployment trade-off: feature-selection runtime rises (IBM Telco 24.9 s versus 0.35 s for MI alone; Cell2Cell 155.65 s versus 8.09 s) but is argued to be acceptable because telecom models are trained offline and served in real time; worst-case complexity O(d^2 * n log n).",
+      "supported": true,
+      "where": "Section 4.5 (complexity paragraph, Table 6 FS-time columns) and Section 4.6 ('In industrial telecom systems, where models are trained offline but deployed for real-time inference, this trade-off is favourable')."
+    },
+    {
+      "claim": "The paper evaluates probability calibration, uplift modelling, survival analysis or fairness.",
+      "supported": false,
+      "where": "None of these is performed. 'Calibration' appears only as sklearn SVC probability=True in Table 4 (Platt scaling as a model option, never assessed) and loosely in a highlight bullet about oversampling. No uplift, survival, or fairness content anywhere. Future work (Conclusion) is multimodal/temporal data and continuous-learning feature selection."
+    }
+  ],
+  "verification_notes": "Publisher: Elsevier B.V. (Results in Engineering, ISSN 2590-1230, gold open access, CC BY). Crossref record for 10.1016/j.rineng.2026.111361 confirmed: type journal-article, container-title Results in Engineering, publisher Elsevier BV, volume 31, article number 111361, issue date September 2026, 42 references, CC BY licence. OpenAlex confirms the same title/venue/volume, online date 6 June 2026, gold OA, and author affiliations (Javed - University of Management and Technology, Pakistan; Jhanjhi - Asia University, Taiwan and Taylor's University, Malaysia, corresponding; Ali - Technical University of Malaysia Malacca). Semantic Scholar has the record (CorpusId 288994491, JournalArticle, open access) but its abstract field is null. The full text was read from the open-access ScienceDirect page (PII S2590123026023790) via the built-in browser because ScienceDirect returns 403 to automated fetches; article history there: Received 13 February 2026, Revised 26 April 2026, Accepted 1 June 2026, Available online 6 June 2026, Version of Record 17 June 2026. Venue legitimacy: DOAJ lists the journal (added 10 June 2019) with 'single anonymous peer review' and an APC of up to USD 2,160; it is Scopus-indexed (CiteScore 7.9, SJR 1.24, SNIP 1.52 per third-party metric sites). It is an established, non-predatory Elsevier mega-journal, although broad-scope and less selective than specialist venues. The paper is therefore peer-reviewed, published in 2026, in an established venue. Title capitalisation normalised from Crossref's 'Explainable ai-driven' to 'AI-driven'. The journal uses continuous volumes with no issue numbers, so issue is left empty and the pages field carries the article number. Claims were assessed against the complete full text (all sections read), not only the abstract.",
+  "caveats": "Reporting-quality issues a critical discussion should note: (1) F1 is almost equal to accuracy on both datasets (0.901 vs 89.60%; 0.878 vs 88.16%), a pattern typical of evaluation on class-balanced data; Section 3.2 says rebalancing precedes feature selection on 'the refined dataset' while Section 4.1 says oversampling is applied to training data only, and the paper never states explicitly that test folds were left imbalanced, so treat the headline metrics with caution. (2) The IBM Telco AUC-ROC of 0.971 is far above the roughly 0.83-0.86 usually reported for this dataset (the paper's own Table 7 cites 0.84 for stochastic gradient boosting). (3) Table 6's Cell2Cell F1 column contains feature counts (57, 18, 19, 16, ...) instead of F1 values for most rows. (4) Table 4 gives n_estimators=200 and learning_rate=0.03 for a single Decision Tree, which are not Decision Tree hyperparameters. (5) Cell2Cell is described as 71,047 rows but 14,711 churners + 36,336 non-churners = 51,047. (6) The Data availability statement says no datasets were analysed, contradicting the use of two Kaggle datasets. (7) No standard deviations or confidence intervals across the five folds are reported. (8) The Highlights mention Particle Swarm Optimization and an indexed version of the abstract mentions SMOTE, but the published body uses neither (it uses Random Minority Oversampling) - evidence of version drift. (9) No logistic regression or other linear baseline. (10) Two of three authors are frequent co-authors and 6 of 44 references are self-citations; peer review is single-anonymous. (11) The IBM dataset is the 28-column Kaggle variant (with City, Tenure Months, etc.), so results are not directly comparable with work on the 21-column blastchar file."
+}

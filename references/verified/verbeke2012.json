@@ -1,0 +1,41 @@
+{
+  "key": "verbeke2012",
+  "found": true,
+  "item_type": "journal-article",
+  "title": "New insights into churn prediction in the telecommunication sector: A profit driven data mining approach",
+  "authors": [
+    "Wouter Verbeke",
+    "Karel Dejaeger",
+    "David Martens",
+    "Joon Hur",
+    "Bart Baesens"
+  ],
+  "year": 2012,
+  "venue": "European Journal of Operational Research",
+  "volume": "218",
+  "issue": "1",
+  "pages": "211-229",
+  "doi": "10.1016/j.ejor.2011.09.031",
+  "url": "https://doi.org/10.1016/j.ejor.2011.09.031",
+  "harvard_reference": "Verbeke, W., Dejaeger, K., Martens, D., Hur, J. and Baesens, B. (2012) 'New insights into churn prediction in the telecommunication sector: a profit driven data mining approach', European Journal of Operational Research, 218(1), pp. 211-229. doi:10.1016/j.ejor.2011.09.031.",
+  "abstract_summary": "Churn models exist to cut the cost of attrition, yet are usually judged with statistical measures, which the authors argue leads to sub-optimal model selection. Part one develops a profit-centric performance measure: the maximum profit (MP) obtainable by targeting the optimal fraction of customers with the highest predicted churn probabilities in a retention campaign; this measure picks both the model and the fraction of customers to contact, and the authors report a significant profit gain relative to statistical measures. Part two is an extensive benchmark of many classification techniques on eleven real-life datasets from telecom operators worldwide, scored with both MP and statistical measures. Findings: a small number of variables suffices to predict churn with high accuracy; oversampling generally does not improve performance significantly; and a large group of classifiers yields comparable performance.",
+  "claims_supported": [
+    {
+      "claim": "Churn models should be evaluated on profit rather than accuracy or AUC alone; the maximum profit criterion can change model ranking.",
+      "supported": true,
+      "where": "Abstract (first part): statistically based measures give 'suboptimal model selection'; the MP measure 'selects the optimal model and fraction of customers to include, yielding a significant increase in profits compared to statistical measures'. Lead author's own summary of this study (Verbeke PhD thesis, KU Leuven Lirias, Chapter 4): applying the MP criterion 'leads to substantially different outcomes' versus top-decile lift/AUC and can have a profound impact on campaign profits. Section 3 of the paper introduces the MP measure; Section 5 reports results under MP, AUC and lift."
+    },
+    {
+      "claim": "In a benchmark across many telecom datasets, complex models did not consistently outperform simpler ones, and comprehensibility matters for practitioners.",
+      "supported": true,
+      "where": "Abstract (second part): benchmark of 'various classification techniques' on 'eleven real-life data sets from telecom operators worldwide'; 'a large group of classifiers is found to yield comparable performance'. Author's thesis summary of this chapter: Alternating Decision Trees had the best overall performance but 'a large number of other techniques were not significantly outperformed', so comprehensibility, justifiability and operational efficiency should drive technique choice; logistic regression, Naive Bayes, rule and tree learners are recommended as powerful yet comprehensible. Caveat: the paper does say technique choice significantly affects predictive power and that the top performer (ADT, a boosting-based tree) is not the simplest model, so phrase the claim as 'many techniques were statistically indistinguishable' rather than 'simple models won'."
+    },
+    {
+      "claim": "Oversampling did not generally improve performance in their benchmark.",
+      "supported": true,
+      "where": "Abstract (second part), verbatim finding: 'oversampling generally does not improve the performance significantly'. 'Oversampling' is also a paper keyword. Author's thesis summary adds nuance: the effect of oversampling depends on the dataset and technique and can be positive or negative, so it should be tested empirically in each case."
+    }
+  ],
+  "verification_notes": "Metadata verified against Crossref (api.crossref.org/works/10.1016/j.ejor.2011.09.031): journal-article, Elsevier BV, EJOR vol. 218 issue 1 pp. 211-229, print issue April 2012 (first online 26 Sept 2011, which is why OpenAlex/Unpaywall list 2011; cite as 2012 per the printed issue and Crossref 'issued'). Author names confirmed by Crossref and KU Leuven Lirias (handle 123456789/316841); Semantic Scholar renders 'Hur' as 'Joonyoung Hur' and OpenAlex as 'Joon Moo Hur' but the article byline is 'Joon Hur'. ISSN 0377-2217 / eISSN 1872-6860. Semantic Scholar and OpenAlex return no abstract (publisher-elided); RePEc/IDEAS/EconPapers carry only the first paragraph. The complete two-paragraph abstract was retrieved verbatim from the KU Leuven Lirias DSpace record. Paper keywords (from RePEc): Data mining; Churn prediction; Profit; Input selection; Oversampling; Telecommunication sector. Full text is paywalled (ScienceDirect 403, no open-access copy via Unpaywall or Lirias), so section-level checks rest on the full abstract plus the lead author's summary of this exact study in his KU Leuven PhD thesis record (also on Lirias). Google Scholar/S2 citation count approx. 465 (S2), Crossref 375.",
+  "caveats": "Claim 1: the abstract establishes that MP selects a different (better-profit) model than statistical measures; the specific wording 'changes model ranking' is consistent with this and with the author's summary but was not checked against a results table in the paywalled full text. Claim 2: the benchmark's best single technique was Alternating Decision Trees (not a simple model); the defensible statement is that a large group of techniques, including logistic regression and Naive Bayes, was not significantly outperformed, and that the authors argue comprehensibility should therefore inform technique choice. Claim 3: fully supported by the abstract, but the authors' fuller conclusion is that oversampling's effect is dataset- and technique-dependent and should be tested empirically. The lead may be cited with the truncated title 'a profit driven data mining approach' but the published title capitalises 'A'; either is acceptable in Harvard style with sentence-case titles. The publication year 2012 is correct despite some databases giving 2011."
+}

@@ -1,0 +1,29 @@
+{
+  "best_model": "LogReg",
+  "top5_lr": [
+    "Contract",
+    "InternetService",
+    "TotalCharges",
+    "MultipleLines",
+    "StreamingMovies"
+  ],
+  "top5_perm_best": [
+    "TotalCharges",
+    "InternetService",
+    "Contract",
+    "StreamingMovies",
+    "PaperlessBilling"
+  ],
+  "top5_shap_xgb": [
+    "Contract",
+    "InternetService",
+    "tenure",
+    "MonthlyCharges",
+    "PaymentMethod"
+  ],
+  "spearman_lr_vs_perm": 0.7526315789473684,
+  "spearman_lr_vs_perm_p": 0.00020063428764089902,
+  "spearman_lr_vs_shap": 0.6035087719298246,
+  "spearman_lr_vs_shap_p": 0.0062218614019963715,
+  "n_features_compared": 19
+}

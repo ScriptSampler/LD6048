@@ -1,0 +1,27 @@
+{
+  "key": "breiman1996",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Breiman, Leo"
+  ],
+  "year": 1996,
+  "title": "Bagging predictors",
+  "venue": "Machine Learning",
+  "volume": "24",
+  "issue": "2",
+  "pages": "123-140",
+  "doi": "10.1007/BF00058655",
+  "url": "https://doi.org/10.1007/BF00058655",
+  "harvard_reference": "Breiman, L. (1996) 'Bagging predictors', Machine Learning, 24(2), pp. 123–140. doi:10.1007/BF00058655.",
+  "abstract_summary": "Introduces bagging: a predictor is refitted on bootstrap replicates of the learning set and the versions are combined by averaging (regression) or voting (classification). Experiments with classification and regression trees and with subset selection in linear regression show large accuracy gains, and the abstract names the instability of the base method as the key condition for bagging to help. The body (read in the 1994 Technical Report 421 version) classes classification and regression trees, neural nets and subset selection as unstable and nearest-neighbour methods as stable, and advises against bagging stable classifiers.",
+  "claims_supported": [
+    {
+      "claim": "Classification and regression trees are unstable predictors: small changes in the learning set change them a lot.",
+      "supported": true,
+      "where": "Abstract (Springer): instability of the prediction method is the vital element for bagging; Section 1 of the author's Technical Report 421 version names classification and regression trees as unstable."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1007/BF00058655): journal-article, Machine Learning 24(2), pp. 123-140, issued August 1996, sole author Leo Breiman. Springer landing page (link.springer.com/article/10.1007/BF00058655) confirms title, author, volume, pages, date and the abstract's instability sentence. Body text checked in the author-hosted TR 421 (stat.berkeley.edu/~breiman/bagging.pdf); the published PDF sits behind a cookie wall and was not read. Supports: decision trees are unstable predictors. Checked again by an independent critic on 31 October 2026: Breiman (1996) is verified. Crossref gives Machine Learning 24(2), pp. 123-140, August 1996, sole author. The Springer abstract (https://link.springer.com/article/10.1007/BF00058655) says the vital element is the prediction method's instability. Section 1 of TR 421 (https://www.stat.berkeley.edu/~breiman/bagging.pdf) names classification and regression trees, neural nets and subset selection as unstable and k-NN as stable. The Breiman (2001) preprint (https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) uses 'stable' only for OOB estimates and error magnitudes, so it does not support the cell. The Harvard entry is correct. Place it before Breiman (2001); no a/b suffix is needed. Word delta 0.",
+  "caveats": ""
+}

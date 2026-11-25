@@ -1,0 +1,148 @@
+{
+  "key": "ofcom_uk_market_context",
+  "status_summary": "Verified against primary sources on 2026-09-28. Ofcom's flagship pricing/engagement report has been RETITLED: the December 2024 edition is 'Pricing trends for communications services in the UK' (published 12 December 2024); the latest edition is 'Pricing and consumer engagement: Trends in the UK communications sector' (published 26 February 2026, data to Q2/September 2025). Ofcom's ban on inflation-linked / percentage-based mid-contract price rises (modifications to General Condition C1.3, C1.5, Annex Table A and new definition 'Core Subscription Price Change Information') was made by notification under s.48(1) Communications Act 2003 on 19 July 2024 and entered into force on 17 January 2025 for new contracts; it remains in force in the unofficial consolidated General Conditions with effect from 8 April 2026 (C1.3(a)(ii) and the definition are present verbatim). The Data (Use and Access) Act 2025 does not amend the Communications Act 2003 ss.45-48 or the General Conditions (its telecoms-adjacent content is Part 5 Chapter 2 amending PECR). Latest quarterly Telecommunications Market Data Update is Q1 2026 (published 23 July 2026); Q2 2026 is scheduled for 14 October 2026. Communications Market Report 2026 published 30 June 2026. Switching statistics: Ofcom Switching Tracker 2025 (biennial; fieldwork Aug-Sep 2025) - broadband 18%, mobile 16%, pay TV 13%, fixed voice 11%, any service 26%. Out-of-contract: 28% of fixed-broadband customers out of contract for at least one bundled service at end-June 2025 (unchanged YoY); 41% of pay-monthly mobile users out of contract in Q2 2025 (up from 37%). Government (DSIT) Telecoms Consumer Charter (11 February 2026, updated 19 June 2026) adds voluntary commitments that April 2026 is the last inflation-linked rise on legacy contracts.",
+  "in_force": "The mid-contract price-rise rules (amended GC C1.3, C1.4-C1.5, Annex to C1 Table A para 3 'Price', definitions of 'Contract Summary' and 'Core Subscription Price Change Information') entered into force on 17 January 2025 and apply to contracts entered into from that date; customers on pre-17 January 2025 contracts may still see inflation-linked rises (Ofcom, 2026, p.24 ff.). Confirmed still in force in Ofcom's unofficial consolidated General Conditions of Entitlement 'Version with effect from: 8 April 2026' (the 8 April 2026 change concerned C4 Annex / ADR, not C1). The accompanying 'Ofcom's guidance under General Condition C1 - contract requirements (January 2025)' applies from 17 January 2025. No amendment by the Data (Use and Access) Act 2025 (which amends PECR via Part 5 Ch.2, ss.109-116, not the Communications Act 2003 general-conditions regime). Ofcom market reports and statistics are publications, not legal instruments; the latest editions as at 2026-09-28 are those listed in primary_sources. Pending: Q2 2026 Telecommunications Market Data Update due 14 October 2026; Ofcom says a full assessment of the pounds-and-pence rules will be published in 2027; next pricing report shown on the 2026 statistical release calendar as postponed to February 2027.",
+  "primary_sources": [
+    {
+      "title": "Pricing and consumer engagement: Trends in the UK communications sector (report PDF, published 26 February 2026)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/pricing/2025/pricing-and-consumer-engagement-report.pdf?v=413104",
+      "harvard_reference": "Ofcom (2026b) Pricing and consumer engagement: Trends in the UK communications sector. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/pricing/2025/pricing-and-consumer-engagement-report.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Pricing and consumer engagement 2025: interactive report (landing page, published 26 February 2026)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/pricing-and-consumer-engagement",
+      "harvard_reference": "Ofcom (2026b) Pricing and consumer engagement 2025: interactive report. Available at: https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/pricing-and-consumer-engagement (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Pricing trends for communications services in the UK: Research report (published 12 December 2024)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/pricing/2024/pricing-trends-for-communications-services-in-the-uk-2024.pdf?v=387092",
+      "harvard_reference": "Ofcom (2024a) Pricing trends for communications services in the UK: Research report. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/pricing/2024/pricing-trends-for-communications-services-in-the-uk-2024.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Prohibiting inflation-linked price rises: New rules and guidance for telecoms and pay TV providers - Statement (published 19 July 2024; Annex A2 = Notification modifying General Condition C1 under s.48(1) Communications Act 2003, in force 17 January 2025)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/272754-consultation-review-of-inflation-linked-telecoms-price-rises/associated-documents/statement-prohibiting-inflation-linked-price-rises2.pdf?v=370687",
+      "harvard_reference": "Ofcom (2024b) Prohibiting inflation-linked price rises: New rules and guidance for telecoms and pay TV providers. Statement. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/272754-consultation-review-of-inflation-linked-telecoms-price-rises/associated-documents/statement-prohibiting-inflation-linked-price-rises2.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Statement: Prohibiting inflation-linked price rises (project landing page listing statement, guidance and consultation documents)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/review-of-inflation-linked-telecoms-price-rises",
+      "harvard_reference": "Ofcom (2024c) Statement: Prohibiting inflation-linked price rises. Available at: https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/review-of-inflation-linked-telecoms-price-rises (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom bans mid-contract price rises linked to inflation (news release, 19 July 2024)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/ofcom-bans-mid-contract-price-rises-linked-to-inflation",
+      "harvard_reference": "Ofcom (2024d) Ofcom bans mid-contract price rises linked to inflation. 19 July. Available at: https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/ofcom-bans-mid-contract-price-rises-linked-to-inflation (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom's guidance under General Condition C1 - contract requirements (January 2025) (published 19 July 2024; applies from 17 January 2025)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/272754-consultation-review-of-inflation-linked-telecoms-price-rises/associated-documents/ofcoms-guidance-under-general-condition-c1--contract-requirements-january-2025.pdf?v=370675",
+      "harvard_reference": "Ofcom (2024e) Ofcom's guidance under General Condition C1 - contract requirements (January 2025). London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/272754-consultation-review-of-inflation-linked-telecoms-price-rises/associated-documents/ofcoms-guidance-under-general-condition-c1--contract-requirements-january-2025.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "General Conditions of Entitlement: Unofficial Consolidated Version - Version with effect from 8 April 2026 (C1.3(a)(ii) and definition of 'Core Subscription Price Change Information' present)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf?v=415458",
+      "harvard_reference": "Ofcom (2026c) General Conditions of Entitlement: Unofficial consolidated version with effect from 8 April 2026. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Telecommunications Market Data Update Q1 2026 (report PDF, published 23 July 2026)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/telecoms-research/telecoms-data-updates/telecommunications-market-data/telecommunications-market-data-update-q1-2026.pdf",
+      "harvard_reference": "Ofcom (2026d) Telecommunications Market Data Update Q1 2026. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/telecoms-research/telecoms-data-updates/telecommunications-market-data/telecommunications-market-data-update-q1-2026.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Telecommunications Market Data Update (landing page; latest = Q1 2026, published 23 July 2026)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/telecommunications-market-data-update",
+      "harvard_reference": "Ofcom (2026e) Telecommunications Market Data Update. Available at: https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/telecommunications-market-data-update (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Telecommunications Market Data Update Q4 2025 (report PDF, published 16 April 2026)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/telecoms-research/telecoms-data-updates/telecommunications-market-data/telecommunications-market-data-update-q4-2025.pdf?v=415936",
+      "harvard_reference": "Ofcom (2026f) Telecommunications Market Data Update Q4 2025. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/telecoms-research/telecoms-data-updates/telecommunications-market-data/telecommunications-market-data-update-q4-2025.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Communications Market Report 2026 (report PDF, published 30 June 2026)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/cmr/cmr26/communications-market-report-2026.pdf?v=420233",
+      "harvard_reference": "Ofcom (2026g) Communications Market Report 2026. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/cmr/cmr26/communications-market-report-2026.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Around 3.5 million Brits hit switch amidst cost-of-living concerns (news release, 12 September 2026)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/around-3.5-million-brits-hit-switch-amidst-cost-of-living-concerns",
+      "harvard_reference": "Ofcom (2026h) Around 3.5 million Brits hit switch amidst cost-of-living concerns. 12 September. Available at: https://www.ofcom.org.uk/phones-and-broadband/switching-provider/around-3.5-million-brits-hit-switch-amidst-cost-of-living-concerns (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "1.6 million Brits hit switch on their landline or broadband provider (news release, 12 September 2025)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/1.6-million-brits-hit-switch-on-their-broadband-provider",
+      "harvard_reference": "Ofcom (2025a) 1.6 million Brits hit switch on their landline or broadband provider. 12 September. Available at: https://www.ofcom.org.uk/phones-and-broadband/switching-provider/1.6-million-brits-hit-switch-on-their-broadband-provider (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Switching Tracker Technical Report 2025 (Critical Research for Ofcom; published 30 October 2025; 2,767 interviews, fieldwork August-September 2025)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/data/statistics/2025/affordability-of-communication-services/core-switching-tracker/2025-switching-tracker---technical-report.pdf?v=407175",
+      "harvard_reference": "Ofcom (2025b) Switching Tracker 2025: Technical report. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/data/statistics/2025/affordability-of-communication-services/core-switching-tracker/2025-switching-tracker---technical-report.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom statement on O2 price rises (30 October 2025)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/ofcom-statement-on-o2-price-rises",
+      "harvard_reference": "Ofcom (2025c) Ofcom statement on O2 price rises. 30 October. Available at: https://www.ofcom.org.uk/phones-and-broadband/bills-and-charges/ofcom-statement-on-o2-price-rises (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Statistical release calendar 2026 (Ofcom)",
+      "url": "https://www.ofcom.org.uk/about-ofcom/our-research/statistical-release-calendar-2026",
+      "harvard_reference": "Ofcom (2026i) Statistical release calendar 2026. Available at: https://www.ofcom.org.uk/about-ofcom/our-research/statistical-release-calendar-2026 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Telecoms Consumer Charter (DSIT; published 11 February 2026, last updated 19 June 2026)",
+      "url": "https://www.gov.uk/government/publications/telecoms-consumer-charter/telecoms-consumer-charter",
+      "harvard_reference": "Department for Science, Innovation and Technology (2026a) Telecoms Consumer Charter. Available at: https://www.gov.uk/government/publications/telecoms-consumer-charter/telecoms-consumer-charter (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "End to surprise phone and broadband bill hikes to help with cost of living (DSIT press release, 11 February 2026)",
+      "url": "https://www.gov.uk/government/news/end-to-surprise-phone-and-broadband-bill-hikes-to-help-with-cost-of-living",
+      "harvard_reference": "Department for Science, Innovation and Technology (2026b) End to surprise phone and broadband bill hikes to help with cost of living. 11 February. Available at: https://www.gov.uk/government/news/end-to-surprise-phone-and-broadband-bill-hikes-to-help-with-cost-of-living (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, c.18 - contents (checked: no amendment to Communications Act 2003 ss.45-48 or Ofcom General Conditions; Part 5 Ch.2 amends PECR)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
+      "harvard_reference": "Data (Use and Access) Act 2025, c.18. Available at: https://www.legislation.gov.uk/ukpga/2025/18/contents (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "TITLE CHANGE: Ofcom's 'Pricing trends for communications services in the UK' (Research report, published 12 December 2024, data to Sept 2024) has been succeeded by 'Pricing and consumer engagement: Trends in the UK communications sector' (published 26 February 2026, data to Sept 2025). Cite the 2026 edition under its new title; the 2026 statistical release calendar still lists it under the old name.",
+    "MID-CONTRACT PRICE RISES (Ofcom 2024b, statement 19 July 2024): Ofcom modified GC C1 (preamble; title before C1.3; C1.3; C1.5; Annex Table A para 3 'Price'; definition of 'Contract Summary'; new definition 'Core Subscription Price Change Information') under ss.45 and 48(1) Communications Act 2003; modifications 'shall enter into force on 17 January 2025' (Annex A2.10) and apply to new contracts from that date. Providers may no longer include inflation-linked or percentage-based rises to the Core Subscription Price; any in-contract rise must be stated in pounds and pence with the date it takes effect, prominently at point of sale and in the Contract Summary.",
+    "STILL IN FORCE: the consolidated General Conditions 'Version with effect from: 8 April 2026' contains C1.3(a)(ii) ('any Core Subscription Price Change Information') and the definition ('the changed Core Subscription Price(s), expressed in pounds and pence ... and the date from which any changed Core Subscription Price(s) ... shall have effect'). The 8 April 2026 amendment concerned C4 (ADR), not C1.",
+    "Scale of exposure before the ban: Ofcom estimated 'around six in ten broadband and mobile customers' were on contracts with inflation-linked price-rise terms in April 2024 (Ofcom 2024b para 1.x; repeated in Ofcom 2024a p.8); consumer research: 55% of broadband customers did not know what CPI/RPI measure and only 16% of fixed broadband / 12% of mobile customers were both aware of the rise and could identify it as inflation-linked plus a percentage (Ofcom 2026b).",
+    "Transition: Ofcom (2026b) reports 2026 in-contract rises announced at GBP 1.80-2.50/month for mobile and GBP 2-4/month for broadband; customers on pre-17 Jan 2025 contracts may still face inflation-linked rises in March/April 2026, but by March/April 2027 no in-contract customers will be subject to inflation-linked rises. Ofcom says it lacks sufficient evidence yet on impact and will publish a full assessment in 2027.",
+    "Government Telecoms Consumer Charter (DSIT, published 11 February 2026, updated 19 June 2026; signatories incl. BT Group, VMO2, Vodafone Three, Sky, TalkTalk, KCOM, Community Fibre, WightFibre, Hyperoptic): voluntary commitments that 'April 2026 will be the final increase expressed in [inflation-linked] terms for the core subscription' on legacy contracts, that the core subscription price signed up to is the price paid (barring unforeseen external events), and on social-tariff signposting, ECN/ABTN clarity and One Touch Switch / Text-to-Switch. Voluntary, not Ofcom rules.",
+    "Ofcom statement on O2 price rises (30 October 2025): Ofcom said O2's decision to raise in-contract prices above what customers signed up to 'goes against the spirit of our rules'; Ofcom wrote to major mobile providers reminding them of fairness obligations; customers may exit penalty-free where the rise exceeds contract terms. Relevant as a churn-trigger event.",
+    "SWITCHING RATES (Ofcom Switching Tracker 2025, biennial; fieldwork Aug-Sep 2025, n=2,767; reported in Ofcom 2026b pp.14-15): 26% of UK households switched provider for at least one communications service in the past year; by service: fixed broadband 18% (up from 14% in 2023; 23% standalone vs 13% bundled), mobile 16% (stable; standalone and bundled similar), pay TV 13% (up from 7% in 2020), fixed voice 11% (17% standalone vs 9% bundled), dual-play bundle 11%, triple-play bundle 10%. Switching lower among over-64s (19% any service) vs 25-44s (29%), and DE households (21%) vs AB (27%). 35% of households re-negotiated or changed services with their existing provider.",
+    "One Touch Switch (fixed broadband/landline) launched 12 September 2024: 'over 2 million' residential switches by end-2025 (Ofcom 2026b); 1.6 million in first year with 300+ providers signed up (Ofcom 2025a, 12 Sept 2025); 'around 3.5 million' switches in two years, 3,431,195 OTS processes initiated as at 3 September 2026 (Ofcom 2026h, 12 Sept 2026).",
+    "OUT-OF-CONTRACT SHARE (operator data, Ofcom 2026b): 28% of customers with a fixed broadband service were out of contract for at least one service in their bundle at end-June 2025, unchanged year on year; dual-play (broadband+landline) out-of-contract share rose 3pp to 39% in year to June 2025; 41% of pay-monthly mobile users were out of contract in Q2 2025 (up from 37%), partly because <30-day SIM-only plans are classed as always out of contract; 43% of SIM-only subscriptions with MCP >30 days out of contract; 78% of handset+airtime customers in contract. Earlier data (Ofcom 2024a, end-June 2024): 36% of dual-play and 32% of triple-play customers out of contract, paying 18% and 16% more than in-contract customers; 51% of pay-monthly SIM-only mobile customers out of contract.",
+    "PRICE PENALTY FOR NOT ENGAGING (Ofcom 2026b): in-contract customers save GBP 7-9/month vs out-of-contract for standalone broadband, dual-play and triple-play; promoted-vs-list price gap for dual-play GBP 4 (standard) to GBP 8 (ultrafast); triple-play out-of-contract customers pay GBP 78/month vs GBP 69 in-contract and could save 'over GBP 100 a year by switching' (Ofcom 2026h).",
+    "PRICE TRENDS (Ofcom 2026b): most telecoms prices flat or falling in real terms; average-use mobile basket 6% cheaper in real terms in 2025 vs 2024 and 20% cheaper than 2020 despite data use more than doubling; superfast/ultrafast dual-play prices fell faster than standard; SIM-only = half of pay-monthly subscriptions (June 2025); 70% of dual-play households made no outgoing landline call in Q2 2025; 78% of premises have full-fibre access; UK ranked third of six countries for communications prices in 2025.",
+    "AFFORDABILITY/ARREARS (Ofcom 2026b): 7% of fixed broadband households and 5% of mobile users found their service difficult to afford (Oct 2025); 0.6-0.7% of fixed and 1.0-1.1% of mobile contracts missed two or more payments (Jul 2024-Jun 2025); disconnections for non-payment ~1.0% fixed (~250,000) and 1.1% mobile (~510,000) in H1 2025; 532,000 social-tariff customers (June 2025), 70% of eligible households unaware, take-up <9%. Ofcom 2026h adds: 4% missed a payment in the last quarter; 12% changed services due to cost; 7% cancelled a service.",
+    "MARKET SIZE (Telecommunications Market Data Update Q1 2026, published 23 July 2026): 29.4m fixed broadband lines (+282k, +1.0% YoY); 90.6m active mobile subscriptions excl. M2M (+881k, +1.0%); mobile retail revenues GBP 3.57bn in the quarter (+1.6% YoY); average monthly retail revenue per mobile subscriber GBP 13.10 (post-pay GBP 15.54, pre-pay GBP 5.40); fixed voice revenues GBP 891.9m (-17.9% YoY); fixed lines 20.7m; mobile data 3,042 PB (+13.1%); SMS/MMS -21.3%. Q4 2025 (published 16 April 2026): 29.3m broadband lines; 91.1m mobile subs; ARPU GBP 13.24.",
+    "MARKET SIZE (Communications Market Report 2026, published 30 June 2026): UK telecoms revenue GBP 34.7bn in 2025 (-0.8%); retail fixed GBP 14.9bn and retail mobile GBP 14.5bn; 29.3m fixed broadband connections at end-2025, 42% full fibre (12.3m lines, +38%); FTTC down to 9.9m; ADSL 1.3m; 123m total mobile subscriptions (incl. M2M), 82% post-pay (101m post-pay, 22m pre-pay); 11.8 GB/month average mobile data per user; fixed voice connections 21.4m (-12%).",
+    "REGULATORY CONTEXT FOR RETENTION: GC C1.21-1.29 (end-of-contract notifications) and C1.30-1.36 (annual best tariff notifications) have applied since 15 February 2020 and remain in the 8 April 2026 consolidated GCs; the Telecoms Consumer Charter commits providers to keep ECNs/ABTNs clear and timely. Ofcom notes a 'notable proportion of customers do not re-contract or switch' at contract end (Ofcom 2026b p.~52).",
+    "PENDING/NEXT: Q2 2026 Telecommunications Market Data Update scheduled 14 October 2026; Ofcom impact assessment of pounds-and-pence rules in 2027; next pricing report shown as postponed to February 2027 on the release calendar; Switching Tracker is biennial (next expected 2027)."
+  ],
+  "uncertainties": "(1) The Q1 2026 TMDU PDF URL was resolved without a '?v=' cache parameter (it returned the correct 'Published 23 July 2026' document); cite the landing page as well in case Ofcom re-versions the file. (2) Ofcom's flagship pricing report was renamed for the Feb 2026 edition; the 2026 statistical release calendar entry and its note that the next edition is postponed to February 2027 were read from a fetch summary of the calendar page and should be re-checked if the exact next-release date matters. (3) Figures from 'Around 3.5 million Brits hit switch' (12 Sept 2026) - notably 3,431,195 OTS processes initiated as at 3 Sept 2026, GBP 78 vs GBP 69 triple-play spend, 4%/12%/7% affordability figures - were taken from a page summary, not the full text; the GBP 78/69 and 28% figures are consistent with Ofcom 2026b. (4) The 19 July 2024 statement's estimate of 'around six in ten' customers on inflation-linked terms is Ofcom's April 2024 estimate; the 11 million broadband / 'at least' figures relate to April 2023. (5) Ofcom's 'Helping consumers get better deals' review (30 Nov 2021) and the ex-post evaluations of ECNs (fixed: 6 May 2022; mobile: 10 May 2024) were located but their content was not re-verified here; the search summary said ECN effects on re-contracting were small/mixed and slightly negative for switching overall. (6) The Telecoms Consumer Charter is a voluntary DSIT-brokered industry commitment, not law or an Ofcom General Condition; the 19 June 2026 update appears to have added signatories (KCOM, Community Fibre, WightFibre, Hyperoptic, Olilo). (7) The Digital Markets, Competition and Consumers Act 2024 subscription-contract regime (Part 4 Ch.2) was NOT checked in this item and may be relevant to renewal/cancellation practices; check separately. (8) The Data (Use and Access) Act 2025 was checked only via the legislation.gov.uk contents page: it does not amend Communications Act 2003 ss.45-48 or the GCs, but its PECR amendments (Part 5 Ch.2, ss.109-116) may bear on retention marketing communications - covered under other legal items, not here. (9) Switching Tracker: no 2024 wave exists (biennial since 2023), so 2024 switching-rate comparisons are not available; 2025 fieldwork Aug-Sep 2025.",
+  "quotable": "Ofcom (2026b, p.6): \"In-contract customers typically pay less than out-of-contract customers.\""
+}

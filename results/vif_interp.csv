@@ -1,0 +1,23 @@
+feature,vif
+tenure,6.45202
+TotalCharges,6.34099
+InternetService_No,2.92711
+Contract_Two year,2.66651
+InternetService_Fiber optic,2.08473
+PaymentMethod_Electronic check,1.9711
+PaymentMethod_Mailed check,1.84708
+StreamingMovies_Yes,1.67256
+StreamingTV_Yes,1.65051
+Contract_One year,1.63606
+PaymentMethod_Credit card (automatic),1.55498
+TechSupport_Yes,1.50267
+DeviceProtection_Yes,1.49958
+Partner_Yes,1.45049
+MultipleLines_Yes,1.44347
+OnlineSecurity_Yes,1.42158
+PhoneService_Yes,1.39875
+OnlineBackup_Yes,1.39118
+Dependents_Yes,1.37433
+PaperlessBilling_Yes,1.20972
+SeniorCitizen_1,1.15289
+gender_Male,1.00381

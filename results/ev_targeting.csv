@@ -1,0 +1,3 @@
+split,n_customers,n_contacted,share_contacted,recall,precision,profit,n_contacted_operating,profit_operating,profit_diff,ci_lo,ci_hi,share_resamples_above_zero
+oof,5634,1437,0.2550585729,0.5872909699,0.6109951287,51350.832,1334,49968.752,1382.08,-1193.3936,4374.0472,0.831
+test,1409,372,0.2640170334,0.5909090909,0.5940860215,11772.312,334,11644.96,127.352,-1381.183,1738.9166,0.597

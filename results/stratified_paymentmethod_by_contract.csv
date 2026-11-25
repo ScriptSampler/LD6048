@@ -1,0 +1,13 @@
+Contract,feature,level,n,churners,churn_rate,ci_lo,ci_hi
+Month-to-month,PaymentMethod,Bank transfer (automatic),589,201,0.341256,0.304105,0.380465
+Month-to-month,PaymentMethod,Credit card (automatic),543,178,0.327808,0.289656,0.36838
+Month-to-month,PaymentMethod,Electronic check,1850,994,0.537297,0.514523,0.559917
+Month-to-month,PaymentMethod,Mailed check,893,282,0.315789,0.286147,0.34701
+One year,PaymentMethod,Bank transfer (automatic),391,38,0.0971867,0.0716268,0.130585
+One year,PaymentMethod,Credit card (automatic),398,41,0.103015,0.0768478,0.136772
+One year,PaymentMethod,Electronic check,347,64,0.184438,0.147163,0.228623
+One year,PaymentMethod,Mailed check,337,23,0.0682493,0.0459053,0.100325
+Two year,PaymentMethod,Bank transfer (automatic),564,19,0.0336879,0.0216711,0.052014
+Two year,PaymentMethod,Credit card (automatic),581,13,0.0223752,0.013122,0.0379029
+Two year,PaymentMethod,Electronic check,168,13,0.077381,0.045777,0.12788
+Two year,PaymentMethod,Mailed check,382,3,0.0078534,0.00267439,0.0228321

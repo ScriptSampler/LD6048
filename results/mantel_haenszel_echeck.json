@@ -1,0 +1,9 @@
+{
+  "crude_odds_ratio_echeck": 4.024241438216872,
+  "mh_pooled_odds_ratio_echeck": 2.403957656060871,
+  "mh_or_ci": [
+    2.1322449062398565,
+    2.7102948611680704
+  ],
+  "homogeneity_p": 0.46603816016605815
+}

@@ -1,0 +1,35 @@
+{
+  "key": "lundberg2020",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Lundberg, S.M.",
+    "Erion, G.",
+    "Chen, H.",
+    "DeGrave, A.",
+    "Prutkin, J.M.",
+    "Nair, B.",
+    "Katz, R.",
+    "Himmelfarb, J.",
+    "Bansal, N.",
+    "Lee, S.-I."
+  ],
+  "year": 2020,
+  "title": "From local explanations to global understanding with explainable AI for trees",
+  "venue": "Nature Machine Intelligence",
+  "volume": "2",
+  "issue": "1",
+  "pages": "56-67",
+  "doi": "10.1038/s42256-019-0138-9",
+  "url": "https://doi.org/10.1038/s42256-019-0138-9",
+  "harvard_reference": "Lundberg, S.M., Erion, G., Chen, H., DeGrave, A., Prutkin, J.M., Nair, B., Katz, R., Himmelfarb, J., Bansal, N. and Lee, S.-I. (2020) 'From local explanations to global understanding with explainable AI for trees', Nature Machine Intelligence, 2(1), pp. 56-67. Available at: https://doi.org/10.1038/s42256-019-0138-9.",
+  "abstract_summary": "The paper improves the interpretability of tree-based models (random forests, decision trees, gradient boosted trees) via TreeExplainer, with three contributions: (1) the first polynomial-time algorithm to compute optimal game-theoretic (Shapley value) explanations for trees; (2) SHAP interaction values, a new explanation type that directly measures local feature interaction effects; and (3) tools for understanding global model structure by combining many local explanations (e.g. SHAP summary plots, dependence plots, global importance from aggregated SHAP values). Applied to three medical datasets, the tools identify rare high-magnitude non-linear mortality risk factors, population subgroups with shared risk characteristics, non-linear interaction effects in chronic kidney disease risk, and features degrading a deployed hospital model's performance over time.",
+  "claims_supported": [
+    {
+      "claim": "TreeSHAP computes exact Shapley values for tree ensembles in polynomial time, and local explanations can be aggregated into global feature importance and dependence plots.",
+      "supported": true,
+      "where": "Abstract (contribution 1: 'first polynomial time algorithm to compute optimal explanations based on game theory'; contribution 3: global tools 'based on combining many local explanations'); main text states TreeExplainer enables the exact computation of Shapley values in low-order polynomial time; Methods (Tree SHAP) gives worst-case complexity O(TLD^2) (T trees, L leaves, D max depth); section 'Local explanations as building blocks for global insights' and Fig. 4 describe global feature importance from aggregated (mean absolute) SHAP values, SHAP summary plots and SHAP dependence plots."
+    }
+  ],
+  "verification_notes": "Metadata verified via Crossref (api.crossref.org/works/10.1038/s42256-019-0138-9): 10 authors in the order given, title, Nature Machine Intelligence, vol. 2, issue 1, pp. 56-67, published online 17 January 2020, publisher Springer Science and Business Media LLC, type journal-article. Abstract and external IDs cross-checked via Semantic Scholar (PMID 32607472, PMCID PMC7326367). Full text (author manuscript) checked on PubMed Central for the claim. Nature Machine Intelligence is a peer-reviewed Springer Nature journal; not predatory. The lead's metadata is correct; issue number (1) added from Crossref. Note: the paper names the method TreeExplainer and the underlying algorithm Tree SHAP; exactness refers to exact Shapley values of the tree model's (path-dependent or interventional) conditional-expectation value function, which is how the paper frames it. Crossref did not list a published-print date; year 2020 taken from the online publication date and the volume."
+}

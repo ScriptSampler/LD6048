@@ -1,0 +1,69 @@
+{
+  "key": "recent2_07",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Toon Vanderschueren",
+    "Tim Verdonck",
+    "Bart Baesens",
+    "Wouter Verbeke"
+  ],
+  "year": 2022,
+  "title": "Predict-then-optimize or predict-and-optimize? An empirical evaluation of cost-sensitive learning strategies",
+  "venue": "Information Sciences (Elsevier), ISSN 0020-0255 / eISSN 1872-6291",
+  "volume": "594",
+  "issue": "",
+  "pages": "400-415",
+  "doi": "10.1016/j.ins.2022.02.021",
+  "url": "https://doi.org/10.1016/j.ins.2022.02.021",
+  "harvard_reference": "Vanderschueren, T., Verdonck, T., Baesens, B. and Verbeke, W. (2022) 'Predict-then-optimize or predict-and-optimize? An empirical evaluation of cost-sensitive learning strategies', Information Sciences, 594, pp. 400-415. doi:10.1016/j.ins.2022.02.021.",
+  "abstract_summary": "The paper frames cost-sensitive classification as a two-stage problem. Under predict-then-optimize, a model is first trained for accuracy and costs enter only at the decision (threshold) stage. Under predict-and-optimize, the model is trained with a task-specific, cost-aware loss. The authors sort existing methods into cost-sensitive training (before or during training) and cost-sensitive decision-making (thresholding after training). They then benchmark both approaches on nine public datasets from fraud detection, direct marketing, customer churn and credit scoring. Two of the datasets are churn sets: Kaggle Telco Customer Churn (n = 7,032, 26.58% churners) and TV Subscription Churn. Three losses (cross-entropy, cost-weighted cross-entropy and average expected cost) are each combined with logistic regression, a one-hidden-layer MLP and gradient boosting. Each model is paired with nine threshold rules: instance- and class-dependent cost-sensitive thresholds with and without isotonic calibration, empirical thresholds tuned for cost or F1, the class-imbalance prior and 0.5. The authors test both instance-dependent and class-dependent costs, using 2x5-fold stratified cross-validation with Friedman/Nemenyi and Wilcoxon tests. Their main finding is that the decision-making (thresholding) strategy generally matters more for cost than training with a task-specific loss, or than combining the two. The best average savings came from a cost-insensitive model combined with an instance-dependent cost-sensitive threshold.",
+  "claims_supported": [
+    {
+      "claim": "1. Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": false,
+      "where": "Not addressed anywhere in the paper. A full-text search of the author manuscript for 'uplift', 'causal' and 'treatment' found nothing relevant. The paper covers cost-sensitive classification and thresholding of predicted probabilities, not treatment effects or uplift modelling."
+    },
+    {
+      "claim": "2. Survival models can estimate when customers are likely to churn and support timing of interventions; cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Not addressed. The paper has no survival analysis, time-to-event modelling, censoring or truncation. All tasks, including Telco churn, are treated as static binary classification."
+    },
+    {
+      "claim": "3a. Class weighting (reweighting the training loss) changes predicted probabilities and damages calibration.",
+      "supported": true,
+      "where": "Section 4.2.2 and Table 7 (averaged over all nine datasets). The authors used cost-weighted cross-entropy, i.e. training examples weighted by misclassification cost, which Section 2.2.1 calls equivalent to oversampling in proportion to misclassification costs. Before calibration, these models had Brier scores of 0.16 (wlogit), 0.16 (wnet) and 0.13 (wboost), against 0.07 for the unweighted cross-entropy models. Isotonic calibration brought them back to 0.07-0.08. Unweighted cross-entropy models were unchanged by calibration (0.07 to 0.07), which the authors read as a sign that their probabilities were already calibrated. Caveat: in the main experiment the weights are cost-based (instance-dependent), not plain inverse-class-frequency weights. Class-weighted calibration results are not shown in the main text."
+    },
+    {
+      "claim": "3b. Resampling such as SMOTE changes predicted probabilities/calibration.",
+      "supported": false,
+      "where": "SMOTE and synthetic oversampling are not tested or discussed. The only link to resampling is one sentence in Section 2.2.1 saying cost-weighted cross-entropy is equivalent to oversampling in proportion to misclassification costs. That does not support a claim about SMOTE."
+    },
+    {
+      "claim": "3c. Threshold moving / cost-sensitive thresholds on an unmodified model are an effective alternative to changing the training objective.",
+      "supported": true,
+      "where": "Section 4.2.2 (Table 6), Section 5 and Section 6. For cross-entropy models, average savings with the instance-dependent cost-sensitive threshold (IDCS) were 0.36 (logit), 0.41 (net) and 0.41 (boost), against 0.06, 0.12 and 0.13 at the default 0.5 threshold. The authors say it is 'absolutely crucial' not to use 0.5 for such models. The best savings overall came from a cost-insensitive model with IDCS thresholding. A cost-sensitive loss helped only for logistic regression, provided an appropriate threshold was used. The conclusion recommends training a cost-insensitive model and adding costs only at the thresholding stage."
+    },
+    {
+      "claim": "4a. Cost-optimal thresholds depend on calibrated probabilities; the paper examines calibration directly but its evidence on whether calibration improves thresholding is inconclusive.",
+      "supported": true,
+      "where": "Section 2.2.2 says the Bayes-optimal instance-dependent threshold needs calibrated probabilities or a prior calibration step. Calibration is tested explicitly (RQ2, hypotheses 2.2 and 2.4) using isotonic regression and the Brier score. Results: calibration improved savings only for cost-weighted models or class-dependent thresholds, and the two best savings were obtained without calibration (Section 4.2.2). Table 11 marks the calibration hypothesis '?' (inconclusive) for both costs and errors."
+    },
+    {
+      "claim": "4b. Minimising errors and minimising costs are different objectives: cost-sensitive models score lower on AUROC/AP but achieve lower expected cost, and the F1-optimal threshold is not the cost-optimal threshold.",
+      "supported": true,
+      "where": "Section 4.2.1 (Figs 3-4): cross-entropy models had the best AUROC and AP (significant at 5% only against cslogit), while average-expected-cost models had the lowest AEC, significant at 5% in almost all cases. Section 4.2.2 (Table 8): thresholds tuned for F1 gave the best F1 but not the lowest cost. Section 5 calls errors and costs two fundamentally different objectives at both the training and decision stages. This supports a critique of reporting only AUC, accuracy or F1 for churn models."
+    },
+    {
+      "claim": "4c. The study includes the Kaggle Telco Customer Churn dataset with an instance-dependent cost matrix based on monthly charges.",
+      "supported": true,
+      "where": "Section 4.1, Table 4 and Appendix A: KTCC with n = 7,032, 19 features and 26.58% positives. The churn cost parameters are set at 2 and 12 times the customer's monthly amount, following Petrides et al. [34] (Table 5c). Caveat: the paper reports results averaged across all nine datasets and puts per-dataset results in a digital appendix. The main text therefore gives no Telco-specific performance figures, so it should not be cited for Telco-only results."
+    },
+    {
+      "claim": "4d. Instance-dependent costs improve cost-based metrics but can reduce error-based metrics compared with class-dependent costs.",
+      "supported": true,
+      "where": "Section 4.2.3 (Tables 9-10) and Section 5. Training with class-dependent costs gave better AUROC, AP and F1 in almost all cases. Training with instance-dependent costs gave consistently lower AEC (not always significant) and better Spearman correlation between scores and costs, and better savings on average though not consistently. Summary from the authors: using no costs is best for errors, instance-dependent costs are best for costs, and class-dependent costs fall in between."
+    }
+  ],
+  "verification_notes": "Metadata verified via Crossref (DOI 10.1016/j.ins.2022.02.021; journal-article; Information Sciences, Elsevier BV; vol. 594, pp. 400-415; issue print date May 2022), Semantic Scholar (full abstract; venue Information Sciences, ISSN 0020-0255; 81 citations; DBLP journals/isci/VanderschuerenV22) and OpenAlex (published online 22 February 2022; not retracted; 79 citations). Crossref gives the issue as 'C', which is an Elsevier placeholder rather than a real issue number, so the issue is left blank and omitted from the Harvard reference. Information Sciences is an established peer-reviewed Elsevier journal, not a predatory venue, and the year (2022) is within the 2021-2026 window. The full text was checked from the authors' green open-access manuscript on KU Leuven Lirias (marked 'Preprint submitted to Elsevier', 18 pages). All section, table and numeric citations above come from that version, so check page-level details against the typeset version if quoting exactly. The scout's note is confirmed: (i) the paper compares cost-sensitive training with cost-sensitive decision-making under both class- and instance-dependent costs; (ii) its key finding is that the decision-making strategy generally matters more than a task-specific loss; (iii) Telco Customer Churn and TV Subscription Churn are among the nine datasets (Table 4, Appendix A); (iv) the paper covers four domains, not only churn. On calibration, it does examine calibration directly (isotonic regression, Brier score, Table 7, hypotheses 2.2/2.4), but it finds calibration beneficial only for cost-weighted models or class-dependent thresholds and calls the overall hypothesis inconclusive. Suitable to cite for cost-sensitive thresholding and the effect of weighted training on calibration. Not suitable for uplift or causal targeting, survival or timing of churn, or SMOTE specifically. The authors also caution that cost-sensitive training can be preferable under model misspecification (Section 6), which is worth noting in a critical discussion."
+}

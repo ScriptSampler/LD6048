@@ -1,0 +1,146 @@
+{
+  "key": "ukgdpr_art5_6_lia",
+  "verified_on": "2026-09-28",
+  "status_summary": "UK GDPR Article 5 (principles) and Article 6(1)(f) (legitimate interests) remain the governing provisions for churn-prediction profiling of existing customers, and both are in force as amended by the Data (Use and Access) Act 2025 (DUAA, c. 18, Royal Assent 19 June 2025). legislation.gov.uk shows Articles 5 and 6 as up to date with all changes in force on or before 27 September 2026. DUAA s.70 inserted a new lawful basis, Article 6(1)(ea) 'recognised legitimate interests', together with Article 6(5) (the condition must be one listed in new Annex 1, inserted by DUAA Schedule 4) and Article 6(6)-(12); Article 6(11) now lists direct marketing, intra-group administrative transfers and network/information security as examples of processing that 'may be' necessary for a legitimate interest under 6(1)(f). Article 6(1)(f) itself is textually unchanged; only the closing sub-paragraph of 6(1) was amended so that neither (ea) nor (f) is available to public authorities performing their tasks. DUAA s.71 amended Article 5(1)(b) (purpose limitation now framed by reference to the purposes for which the controller collected the data), inserted Article 5(3) (compatibility with the original purpose does not by itself make processing lawful) and omitted Article 6(4). These amendments commenced on 19 June 2025 for specified purposes (regulation-making powers, s.142(2)(h)) and in full on 5 February 2026 under the Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/82, reg. 2(c), 2(d) and 2(z6)). Annex 1 contains only five public-interest purposes (disclosures for public tasks, national security/public security/defence, emergencies, crime, safeguarding vulnerable individuals), so commercial churn profiling cannot use Article 6(1)(ea); a telecoms operator must rely on ordinary Article 6(1)(f) with a documented three-part legitimate interests assessment (LIA). The ICO's detailed legitimate-interests guidance and its new 'Recognised legitimate interest' guidance were both updated/published on 23 March 2026 to reflect DUAA, and the ICO direct marketing guidance was updated on 28 April 2026; the ICO confirms the balancing test is dispensed with only for Annex 1 purposes, that direct marketing (including profiling for it) is subject to an absolute right to object under Article 21(2)-(3), and that legitimate interests cannot be used where PECR requires consent for the marketing channel.",
+  "in_force": "Yes. As at 2026-09-28: (1) UK GDPR Article 5 and Article 6 (Regulation (EU) 2016/679 as retained) are in force in their DUAA-amended form; legislation.gov.uk states both articles are up to date with all changes known to be in force on or before 27 September 2026. (2) DUAA 2025 s.70 (lawfulness of processing: Art 6(1)(ea), Art 6(5)-(12)), s.71 (purpose limitation: Art 5(1)(b), new Art 5(3), omission of Art 6(4)) and Schedule 4 (new Annex 1) came into force on 19 June 2025 for specified purposes (regulation-making powers, s.142(1),(2)(h)) and otherwise on 5 February 2026 by SI 2026/82 reg. 2(c) (s.70), reg. 2(d) (s.71) and reg. 2(z6) (Sch. 4); SI 2026/82 was made on 29 January 2026 under ss.142(1) and 143(1). (3) The wording of Article 6(1)(f) has not been amended since IP completion day (31 December 2020). (4) No pending or prospective amendment to Article 5 or Article 6 is recorded in the legislation.gov.uk changes table; the only outstanding prospective change flagged on the UK GDPR relates to Article 4 (see uncertainties). (5) gov.uk (DSIT, updated 5 February 2026) confirms SI 2026/82 brought the majority of Part 5 data-protection provisions into force on 5 February 2026, and the ICO states (page updated 19 June 2026) that all DUAA provisions affecting data protection law and PECR are now in force.",
+  "primary_sources": [
+    {
+      "title": "UK GDPR Article 5 - Principles relating to processing of personal data (legislation.gov.uk, revised text as at 27 September 2026)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/5",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation, retained EU law as amended) Article 5: Principles relating to processing of personal data. Available at: https://www.legislation.gov.uk/eur/2016/679/article/5 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 6 - Lawfulness of processing (legislation.gov.uk, revised text as at 27 September 2026)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/6",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation, retained EU law as amended) Article 6: Lawfulness of processing. Available at: https://www.legislation.gov.uk/eur/2016/679/article/6 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Changes to legislation: Regulation (EU) 2016/679 (UK GDPR) - effects of 2025 legislation (Data (Use and Access) Act 2025)",
+      "url": "https://www.legislation.gov.uk/changes/affected/eur/2016/679?affecting-year=2025",
+      "harvard_reference": "The National Archives (2026) Changes to legislation: Regulation (EU) 2016/679, changes made by legislation of 2025. Available at: https://www.legislation.gov.uk/changes/affected/eur/2016/679?affecting-year=2025 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, c. 18, section 70 - Lawfulness of processing",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/70",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 70. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/70 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, c. 18, Schedule 4 - Lawfulness of processing: recognised legitimate interests (new UK GDPR Annex 1)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/schedule/4",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, Sch. 4. Available at: https://www.legislation.gov.uk/ukpga/2025/18/schedule/4 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, c. 18, section 142 - Commencement",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/142",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 142. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/142 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025 - contents (Part 5 sections 70, 71, 80; Schedules 4, 5, 6)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18. Available at: https://www.legislation.gov.uk/ukpga/2025/18/contents (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, SI 2026/82 (C. 10), regulation 2 - provisions commencing 5 February 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, SI 2026/82, reg. 2. Available at: https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data Use and Access Act 2025: plans for commencement (DSIT guidance, published 25 July 2025, updated 5 February 2026)",
+      "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement",
+      "harvard_reference": "Department for Science, Innovation and Technology (2026) Data Use and Access Act 2025: plans for commencement. Available at: https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Legitimate interests (detailed guidance; last updated 23 March 2026 to reflect DUAA amendments)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/",
+      "harvard_reference": "Information Commissioner's Office (2026) Legitimate interests. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - What is the 'legitimate interests' basis? (Article 6(1)(f) wording, three-part test, reasonable expectations, Article 6(11) examples)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/what-is-the-legitimate-interests-basis/",
+      "harvard_reference": "Information Commissioner's Office (2026) What is the 'legitimate interests' basis? Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/what-is-the-legitimate-interests-basis/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - When can we rely on legitimate interests? (direct marketing, PECR interaction, profiling/analytics of customers, recognised legitimate interests)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/when-can-we-rely-on-legitimate-interests/",
+      "harvard_reference": "Information Commissioner's Office (2026) When can we rely on legitimate interests? Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/when-can-we-rely-on-legitimate-interests/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - How do we apply legitimate interests in practice? (LIA process, documentation, LIA vs DPIA, link to sample LIA template)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/how-do-we-apply-legitimate-interests-in-practice/",
+      "harvard_reference": "Information Commissioner's Office (2026) How do we apply legitimate interests in practice? Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/how-do-we-apply-legitimate-interests-in-practice/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Sample legitimate interests assessment (LIA) template (Word, .docx; server last-modified 17 March 2025)",
+      "url": "https://ico.org.uk/media2/for-organisations/forms/2258435/gdpr-guidance-legitimate-interests-sample-lia-template.docx",
+      "harvard_reference": "Information Commissioner's Office (2025) Sample LIA template [Word document]. Available at: https://ico.org.uk/media2/for-organisations/forms/2258435/gdpr-guidance-legitimate-interests-sample-lia-template.docx (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Recognised legitimate interest (guide to lawful basis; published 23 March 2026 following the August-October 2025 consultation)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest/",
+      "harvard_reference": "Information Commissioner's Office (2026) Recognised legitimate interest. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Direct marketing guidance (published 5 December 2022; updated 28 April 2026 to reflect DUAA commencement)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/",
+      "harvard_reference": "Information Commissioner's Office (2026) Direct marketing guidance. Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Direct marketing guidance: Collect information and generate leads (section 'Can we create profiles of people for direct marketing?')",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/collect-information-and-generate-leads/",
+      "harvard_reference": "Information Commissioner's Office (2026) Collect information and generate leads (Direct marketing guidance). Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/collect-information-and-generate-leads/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Direct marketing guidance: Plan direct marketing (data protection by design; lawful basis choice; profiling and special category data)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/plan-direct-marketing/",
+      "harvard_reference": "Information Commissioner's Office (2026) Plan direct marketing (Direct marketing guidance). Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/plan-direct-marketing/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Direct marketing guidance: Respect people's preferences (right to object to direct marketing including profiling; no grounds to refuse)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/respect-peoples-preferences/",
+      "harvard_reference": "Information Commissioner's Office (2026) Respect people's preferences (Direct marketing guidance). Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/respect-peoples-preferences/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - The Data Use and Access Act 2025 (DUAA): what does it mean for organisations? (published 19 June 2025, updated 19 June 2026)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/",
+      "harvard_reference": "Information Commissioner's Office (2026) The Data Use and Access Act 2025 (DUAA) - what does it mean for organisations? Available at: https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "Article 5 UK GDPR still sets the seven principles (lawfulness/fairness/transparency, purpose limitation, data minimisation, accuracy, storage limitation, integrity/confidentiality, accountability). DUAA s.71(2) amended Art 5(1)(b) so that purpose limitation is assessed against the purposes for which the controller collected the data (whether from the data subject or otherwise), and DUAA s.71(3) inserted Art 5(3): further processing that is compatible with the original purpose is not, for that reason alone, lawful - a lawful basis under Art 6 is still needed. Art 5(1)(e) was also amended by s.87(1)(a) to cross-refer to new Article 84B. All in force since 5 February 2026 (SI 2026/82 reg. 2(d)); 19 June 2025 for regulation-making purposes only.",
+    "Article 6(1)(f) (legitimate interests) is textually unchanged: processing must be necessary for the legitimate interests of the controller or a third party, except where overridden by the interests or fundamental rights and freedoms of the data subject, with particular weight where the data subject is a child. The closing sub-paragraph of Art 6(1) was amended (DUAA s.70(2)(c)) so that points (ea) and (f) are both unavailable to public authorities performing their tasks - irrelevant to a private telecoms operator.",
+    "DUAA s.70(2)(b) inserted Article 6(1)(ea), a new lawful basis for processing necessary for the purposes of a 'recognised legitimate interest'. Under new Art 6(5) this applies only where a condition in new Annex 1 (inserted by DUAA Sch. 4) is met. Annex 1 contains five public-interest conditions: disclosures to public bodies for their public tasks, national security/public security/defence, emergencies (Civil Contingencies Act 2004 sense), crime, and safeguarding vulnerable individuals. None covers commercial marketing, customer retention or profiling, so a telecoms churn-prediction system cannot rely on Art 6(1)(ea). In force 5 February 2026 (SI 2026/82 reg. 2(c) for s.70; reg. 2(z6) for Sch. 4).",
+    "New Article 6(6)-(10) give the Secretary of State an affirmative-procedure power to amend Annex 1, so the recognised-interest list may change in future; as at 2026-09-28 no such regulations affecting Annex 1 are recorded on legislation.gov.uk.",
+    "New Article 6(11) (DUAA s.70(4)) writes recital 47-49 examples into the operative text: direct marketing, intra-group transmission for internal administrative purposes, and network and information security are named as examples of processing that 'may be' necessary for a legitimate interest under 6(1)(f). Article 6(12) defines the latter two terms. This strengthens the purpose limb of an LIA for retention marketing driven by churn scores, but it does not remove the necessity and balancing tests - the ICO's guidance treats it as an example only.",
+    "Article 6(4) (the compatibility test for further processing) was omitted by DUAA s.71(4); the compatibility assessment now lives in new Article 8A (with Annex 2, DUAA Sch. 5, listing processing deemed compatible). Re-using billing, usage and service data collected for contract performance to build churn models is 'further processing' that must satisfy both the Art 8A compatibility rules and a lawful basis (Art 5(3)).",
+    "ICO detailed guidance on legitimate interests (updated 23 March 2026 to reflect DUAA) retains the three-part test: purpose test (is the interest legitimate), necessity test (is the processing necessary and proportionate for it), and balancing test (do the individual's interests, rights and freedoms override it). The ICO says organisations must carry out the three-part test, should document the outcome and keep an audit trail (accountability, Art 5(2)), and provides a sample LIA template (.docx, live as at 2026-09-28).",
+    "The ICO describes an LIA as a lighter-touch risk assessment than a DPIA; where the LIA identifies potential high risk to individuals, a DPIA is likely to be required (Art 35). Large-scale profiling of customers to predict behaviour is the kind of processing the ICO flags for DPIA consideration, so the report should present the LIA and DPIA as complementary, not alternatives.",
+    "On reasonable expectations, the ICO applies an objective test (what a reasonable person would expect), taking account of the privacy notice, the nature of the relationship and whether the person is an existing customer; it cites recital 47 (legitimate interests more likely where there is a relevant and appropriate relationship, e.g. controller and client). An existing telecoms customer relationship supports, but does not settle, the balancing test for churn profiling.",
+    "ICO 'When can we rely on legitimate interests?' states that where PECR requires consent for a marketing channel (e.g. unsolicited electronic mail without the reg. 22 soft opt-in, calls to TPS-registered numbers), legitimate interests must not be used as the lawful basis for that marketing; legitimate interests is generally appropriate for postal marketing and, subject to PECR, for calls and electronic mail within the soft opt-in. The ICO also says legitimate interests should be avoided where people would not understand or reasonably expect the use, where there is a risk of significant harm, or where another basis more obviously applies.",
+    "ICO 'Recognised legitimate interest' guidance (published 23 March 2026) confirms that, for Annex 1 purposes only, the controller need not carry out the balancing test because the law has already done so, but must still satisfy itself that the processing is necessary for the specific condition; the guidance describes the basis as limited to the listed public-interest purposes and does not extend it to commercial marketing or profiling.",
+    "ICO Direct marketing guidance (updated 28 April 2026): profiling to target direct marketing must be fair and transparent (people must be told and the profiling explained), must have its own lawful basis, and organisations should address risks such as discrimination or stereotyping; profiling may engage special category data where inferences about health, race, etc. are drawn. Under 'Respect people's preferences', the Art 21(2)-(3) right to object to direct marketing expressly covers profiling for direct marketing and there are no grounds on which the objection can be refused - so churn-driven retention campaigns must honour objections and stop profiling the objector for that purpose.",
+    "Timeline for the report: DUAA Royal Assent 19 June 2025; regulation-making powers commenced that day (s.142(2)(h)); the substantive Art 5/6 amendments, Annex 1, purpose-limitation and automated-decision-making reforms commenced 5 February 2026 (SI 2026/82, made 29 January 2026); DSIT (updated 5 February 2026) confirms this brought the majority of Part 5 into force, with s.103 (complaints) scheduled for a later stage; the ICO (updated 19 June 2026) states that all DUAA provisions affecting data protection law and PECR are now in force.",
+    "Recommended framing for the report: churn-prediction profiling of existing customers by a UK telecoms operator should be grounded in Article 6(1)(f) supported by a documented LIA (purpose, necessity, balancing), with Article 6(11)(a) cited as statutory recognition that direct marketing may be a legitimate interest; Article 6(1)(ea)/Annex 1 should be cited only to explain why it does NOT apply; PECR and the absolute right to object under Article 21(2)-(3) constrain how churn scores may be acted upon; and Articles 5(1)(a)-(b), 5(2), 5(3) and new Article 8A govern fairness, transparency, purpose compatibility and accountability."
+  ],
+  "quotable": "UK GDPR Article 6(1)(ea) (inserted by DUAA 2025 s.70(2)(b), in force 5 February 2026): 'processing is necessary for the purposes of a recognised legitimate interest'.",
+  "uncertainties": "1) legislation.gov.uk states Articles 5 and 6 are up to date with changes in force 'on or before 27 September 2026' (the day before the access date); no change dated 28 September 2026 was identified. 2) The Article 6 page's 'changes that may be brought into force at a future date' notice was reported by the page summariser as relating to Article 4 (an insertion by S.I. 2026/386 Sch. 3 para. 41(2)(a)); this was not independently opened and does not affect Articles 5 or 6, but should be re-checked if Article 4 definitions are cited. 3) Commencement regulation sub-paragraph numbers (reg. 2(c) for s.70, 2(d) for s.71, 2(z6) for Sch. 4) are taken from the legislation.gov.uk F-/I-annotations and the Schedule 4 page rather than from a line-by-line read of SI 2026/82 reg. 2, which lists some 30 items. 4) Individual ICO guidance sub-pages (what-is / when-can-we-rely / how-do-we-apply; direct-marketing sub-pages) do not display their own dates; the dates used (23 March 2026 for legitimate-interests and recognised-legitimate-interest guidance; 28 April 2026 for direct marketing guidance) come from the parent/landing pages. 5) The ICO publishes both an 'in brief' legitimate-interests page (/lawful-basis/a-guide-to-lawful-basis/legitimate-interests/) and the detailed guidance (/lawful-basis/legitimate-interests/); both are live with no redirect, and the detailed URL is used here. 6) The sample LIA template .docx returned HTTP 200 with a server last-modified date of 17 March 2025; the document's internal version date was not inspected, so the year in the Harvard reference is approximate. 7) The ICO page 'Sending direct marketing: choosing your lawful basis' still shows a published date of 5 December 2022 and no DUAA update note; it was not relied on for DUAA-specific points. 8) New Article 8A (compatibility test) and Annex 2, PECR reg. 22 (soft opt-in), and the DUAA s.80 reforms to Article 22 (automated decision-making, also commenced 5 February 2026) were not fetched from legislation.gov.uk in this check and should be verified under their own item keys if the report relies on them; the ICO DUAA summary page indicates legitimate interests may now support significant automated decisions on non-special-category data subject to safeguards. 9) Law-firm commentary was not used; EU GDPR/EDPB materials (e.g. EDPB legitimate-interest guidelines) are not UK primary sources and are not cited."
+}

@@ -1,0 +1,46 @@
+{
+  "key": "recent_11",
+  "found": true,
+  "item_type": "conference-paper",
+  "title": "Profit-Sensitive Benchmarking of Post-hoc Explainability in Customer Churn",
+  "authors": [
+    "Awais Manzoor",
+    "Muhammad Deedahwar Mazhar Qureshi",
+    "Bilal Yousuf",
+    "Etain Kidney",
+    "Muhammad Atif Qureshi"
+  ],
+  "year": 2026,
+  "venue": "Artificial Intelligence and Cognitive Science: 33rd Irish Conference, AICS 2025, Dublin, Ireland, December 1-2, 2025, Revised Selected Papers (Communications in Computer and Information Science, vol. 2950). Publisher: Springer Nature Switzerland (Springer, Cham).",
+  "volume": "2950",
+  "issue": "",
+  "pages": "348-360",
+  "doi": "10.1007/978-3-032-25809-0_28",
+  "url": "https://doi.org/10.1007/978-3-032-25809-0_28",
+  "harvard_reference": "Manzoor, A., Mazhar Qureshi, M.D., Yousuf, B., Kidney, E. and Atif Qureshi, M. (2026) 'Profit-sensitive benchmarking of post-hoc explainability in customer churn', in Mai, T.T. et al. (eds) Artificial Intelligence and Cognitive Science: 33rd Irish Conference, AICS 2025, Dublin, Ireland, December 1-2, 2025, Revised Selected Papers. Communications in Computer and Information Science, vol. 2950. Cham: Springer, pp. 348-360. doi:10.1007/978-3-032-25809-0_28.",
+  "abstract_summary": "The paper benchmarks post-hoc explainability for churn prediction by applying LIME and SHAP to high-performing tree ensembles and comparing them with inherently interpretable baselines (logistic regression and a decision tree) on two public telco datasets (footnotes identify them as the Kaggle IBM Telco Customer Churn dataset, blastchar/telco-customer-churn, and the Maven Analytics telecom churn dataset). Models are assessed with standard predictive metrics (accuracy, F1, AUC) and with business/profit-sensitive measures (top-decile lift, Expected Maximum Profit (EMP) and customer-level e-Profits), while explanation quality is scored on fidelity, robustness, simplicity and consistency. SHAP, especially on boosted ensembles, reaches near-perfect fidelity and stable robustness, whereas LIME gives simpler but less faithful explanations. Profit-based metrics reorder the model rankings produced by accuracy and F1: ensembles that do not lead on F1 still deliver higher e-Profits. Gradient Boosting is presented as the balanced choice across predictive and profit-sensitive criteria, with SHAP offering dependable explanations for it, so the authors argue this is a practical alternative to relying only on inherently interpretable classifiers. The paper is framed as a compact benchmark that reports model performance and explanation quality side by side.",
+  "claims_supported": [
+    {
+      "claim": "Tree ensembles (random forest / gradient boosting) achieve top or near-top ROC-AUC on telecom churn data, often close to logistic regression.",
+      "supported": false,
+      "where": "Abstract only (full text is paywalled). The abstract says churn models on tabular data 'often favour boosted ensembles for predictive performance' and that Gradient Boosting 'emerges as a balanced choice across predictive and profit-sensitive measures', but it reports no ROC-AUC values, does not say which model tops AUC, and makes no comparison of ensemble AUC with logistic regression. The only ranking statement is that some ensembles 'do not lead on F1'. The specific claim (near-top AUC, close to logistic regression) therefore cannot be attributed to this source; at most it supports the weaker statement that boosted ensembles are the conventional performance choice and that Gradient Boosting balanced predictive and profit criteria in this benchmark."
+    },
+    {
+      "claim": "Explainability (SHAP or similar) identifies contract type, tenure and monthly charges (or equivalent) as key churn drivers.",
+      "supported": false,
+      "where": "Not supported by any accessible part of the source. The abstract evaluates the quality of LIME/SHAP explanations (fidelity, robustness, simplicity, consistency) but names no individual features and makes no statement about which variables drive churn. The full text could not be accessed (Springer paywall; the linked GitHub repository Awaismanzoor/aics-xai was empty on 2026-09-27), so this claim must be sourced elsewhere."
+    },
+    {
+      "claim": "Business or profit-oriented evaluation changes which model or threshold is preferred compared with accuracy-only evaluation.",
+      "supported": true,
+      "where": "Abstract: 'Profit-based metrics reorder model rankings relative to accuracy and F1, with ensembles that do not lead on F1 still delivering higher e-Profits, underscoring profitability as a key selection criterion.' This directly supports the model-preference half of the claim. The abstract says nothing about thresholds, so cite it for model selection only, not for threshold choice."
+    },
+    {
+      "claim": "Any other specific finding this paper makes that would be useful for a critical discussion of churn prediction methods, imbalance handling, calibration, uplift, survival, fairness or deployment.",
+      "supported": true,
+      "where": "Abstract. Usable findings: (a) SHAP applied to boosted tree ensembles 'achieves near-perfect fidelity and stable robustness, whereas LIME yields simpler but less faithful explanations' - a quantified explanation-quality comparison using fidelity, robustness, simplicity and consistency; (b) SHAP on Gradient Boosting is presented as 'a practical alternative to relying solely on inherently interpretable classifiers', which speaks to the interpretable-vs-post-hoc debate (the paper cites Rudin 2019) and to deployment of black-box churn models; (c) the benchmark jointly reports predictive metrics (accuracy, F1, AUC), top-decile lift, EMP and customer-level e-Profits alongside explanation metrics, and argues these perspectives should be reported 'side-by-side ... without conflation'; (d) one of the two datasets is the same Kaggle IBM Telco Customer Churn dataset (blastchar) used in the student's report, the other being the Maven Analytics telecom churn dataset. The abstract does not address class-imbalance handling, calibration, uplift modelling, survival analysis or fairness, so the paper should not be cited for those topics."
+    }
+  ],
+  "verification_notes": "VERIFIED via Crossref (api.crossref.org/works/10.1007/978-3-032-25809-0_28, status ok): title, five authors (Awais Manzoor; Muhammad Deedahwar Mazhar Qureshi; Bilal Yousuf; Etain Kidney; Muhammad Atif Qureshi), year 2026, pages 348-360, publisher Springer Nature Switzerland, container-title Communications in Computer and Information Science / Artificial Intelligence and Cognitive Science, print ISBN 9783032258083, eISBN 9783032258090. Crossref bibliographic search returned this DOI as the first hit. Crossref book record (10.1007/978-3-032-25809-0) confirms the volume is '33rd Irish Conference, AICS 2025, Dublin, Ireland, December 1-2, 2025, Revised Selected Papers', editors Mai, Tran, Zhang, Rossetto, Lee, Marks, Zhou, Jung, Rushe, Ward and Gurrin. Springer chapter page (reached via the idp.springer.com cookie redirect) supplied the verbatim abstract, series volume CCIS 2950, First Online 02 July 2026, author affiliations (ADAPT Centre and Faculty of Business, Technological University Dublin), keywords, footnote dataset links (kaggle.com/datasets/blastchar/telco-customer-churn and kaggle.com/datasets/johnp47/maven-churn-dataset) and the first reference entries. Springer book page states: 'The 33 full papers presented in these proceedings were carefully reviewed and selected from 122 submissions' (about 27% acceptance), eBook published 11 August 2026. PEER REVIEW / VENUE: AICS is the long-running Irish national AI conference (33rd edition, hosted by DCU School of Computing with the ADAPT and Insight research centres); proceedings are Springer CCIS, a legitimate, non-predatory Springer Nature series. It is a peer-reviewed conference chapter, not a journal article, and CCIS is a mid-tier proceedings series, so weight it accordingly. Crossref volume field was empty; the volume number 2950 comes from the Springer chapter and book pages. Issue is not applicable (left empty). NOT VERIFIED / LIMITATIONS: full text is closed access and could not be retrieved (Springer PDF route redirects to the cookie gate; no arXiv preprint found via the arXiv API; TU Dublin research-profile page returned 403; Semantic Scholar returned 404 for the DOI and 429 on title search; DBLP search blocked by anti-bot page; the paper's GitHub repository Awaismanzoor/aics-xai was empty on 2026-09-27). Consequently, claims about AUC values, comparison with logistic regression, and specific feature drivers cannot be checked and are marked unsupported. Author-name order and initials in the Harvard reference follow Springer's own citation format (Mazhar Qureshi, M.D.; Atif Qureshi, M.).",
+  "caveats": "Conference proceedings chapter (Springer CCIS), not a journal article; only the abstract, footnotes, keywords and partial reference list were accessible, so any numeric results or feature-level findings must be quoted from the full text if the student has institutional access. Published online 2 July 2026 (chapter) / 11 August 2026 (book), so it is within the 2021-2026 window but very recent and not yet indexed in Semantic Scholar."
+}

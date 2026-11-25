@@ -1,0 +1,11 @@
+split,rule,n_contacted,share_contacted,recall,precision,profit
+oof,S1 Month-to-month + fibre,1707,0.3029818956,0.6287625418,0.5506736965,45960.888
+oof,"S2 Month-to-month, tenure <= 12",1594,0.2829250976,0.5444816054,0.5106649937,9675.76
+oof,S3 Month-to-month + electronic cheque,1484,0.263400781,0.5384615385,0.5424528302,28105.856
+oof,S4 Fibre without security or tech support,1411,0.2504437345,0.5197324415,0.5506732814,36646.6
+oof,LogReg at its operating threshold,1334,0.2367767128,0.5799331104,0.6499250375,49968.752
+test,S1 Month-to-month + fibre,421,0.2987934705,0.5935828877,0.5273159145,9217.192
+test,"S2 Month-to-month, tenure <= 12",400,0.2838892832,0.5614973262,0.525,2076.328
+test,S3 Month-to-month + electronic cheque,366,0.2597586941,0.5053475936,0.5163934426,4726.608
+test,S4 Fibre without security or tech support,354,0.2512420156,0.5187165775,0.5480225989,8667.96
+test,LogReg at its operating threshold,334,0.2370475515,0.5802139037,0.6497005988,11644.96

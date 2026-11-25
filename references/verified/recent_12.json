@@ -1,0 +1,55 @@
+{
+  "key": "recent_12",
+  "found": true,
+  "item_type": "journal-article",
+  "title": "A predict-and-optimize approach to profit-driven churn prevention",
+  "authors": ["Nuria Gómez-Vargas", "Sebastián Maldonado", "Carla Vairetti"],
+  "year": 2025,
+  "venue": "European Journal of Operational Research",
+  "publisher": "Elsevier BV (on behalf of the Association of European Operational Research Societies, EURO)",
+  "volume": "324",
+  "issue": "2",
+  "pages": "555-566",
+  "doi": "10.1016/j.ejor.2025.02.008",
+  "url": "https://doi.org/10.1016/j.ejor.2025.02.008",
+  "preprint": "arXiv:2310.07047 (v1 10 Oct 2023; v2 15 Dec 2023)",
+  "dates": {
+    "online": "2025-02-13 (OpenAlex publication_date)",
+    "issue": "16 July 2025 (Crossref issued July 2025; Universidad de los Andes Pure portal: Published - 16 Jul 2025)"
+  },
+  "harvard_reference": "Gómez-Vargas, N., Maldonado, S. and Vairetti, C. (2025) 'A predict-and-optimize approach to profit-driven churn prevention', European Journal of Operational Research, 324(2), pp. 555-566. doi:10.1016/j.ejor.2025.02.008.",
+  "abstract_summary": "The paper proposes PnOcp, a profit-driven churn-prevention classifier that frames retention-campaign targeting as a regret-minimisation problem inside a predict-and-optimize (decision-focused learning) framework, described as the first such model for churn prevention. Instead of the average or segment-level customer lifetime value (CLV) used by maximum-profit / expected-maximum-profit (MP/EMP) and multi-segment (MSP) approaches, the loss uses each customer's individual CLV so that only the most valuable at-risk customers are targeted, and it explicitly charges a cost for failing to target a would-be churner, which conventional profit metrics treat as costless. A sigmoid smooth surrogate makes the regret loss differentiable, so a shallow neural network can be trained by stochastic gradient descent (Adam). On churn datasets from an investment (Chilean mutual-fund) company, 13 in the published version (12 monthly 2017 datasets in the preprint), the method achieved the best average rank and the highest average campaign profit against ProfLogit, MSP-based classifiers and standard classifiers (logistic regression, random forest, CART, KNN, SVM).",
+  "claims_supported": [
+    {
+      "claim": "Tree ensembles (random forest / gradient boosting) achieve top or near-top ROC-AUC on telecom churn data, often close to logistic regression.",
+      "supported": false,
+      "where": "Not supported. The experiments use no telecom data (Section 4.1: datasets from a Chilean mutual-fund company; Section 5 lists telecommunications only as future work). ROC-AUC is never reported; performance is measured as campaign profit and accuracy (Tables 5-7). No gradient boosting model is evaluated (baselines: logistic regression, random forest, CART, KNN, SVM, ProfLogit, MSP variants). Random forest does obtain the best accuracy ('For the statistical measure (accuracy), random forest achieves the best overall performance', Section 4.3) but ranks near the bottom on profit (Table 7: RF avg rank 7.88, avg profit EUR 92.33, versus logistic regression 7.71 / EUR 295.00 and PnOcp 2.79 / EUR 592.00). The paper cannot be cited for telecom ROC-AUC rankings."
+    },
+    {
+      "claim": "Explainability (SHAP or similar) identifies contract type, tenure and monthly charges (or equivalent) as key churn drivers.",
+      "supported": false,
+      "where": "Not supported. A keyword sweep of the full preprint finds no SHAP, Shapley, feature-importance or explainability analysis; the only use of 'interpretability' refers to normalising the optimality gap (Section 4.4, Eq. 13). The 24 features are mutual-fund variables (customer demographics, redemption/repurchase behaviour, fund financial indexes; Section 4.1), so no contract-type, tenure or monthly-charge variables exist, and no churn drivers are identified."
+    },
+    {
+      "claim": "Business or profit-oriented evaluation changes which model or threshold is preferred compared with accuracy-only evaluation.",
+      "supported": true,
+      "where": "Supported. Section 4.3 and Table 7: random forest is the best model on accuracy, but PnOcp is best on profit (avg rank 2.79, EUR 592.00; best on 7 of 12 datasets) while RF is second-worst on profit (EUR 92.33); Friedman test p < 0.0001 and the Holm post-hoc test rejects equality between PnOcp and every classifier validated with traditional statistical measures. Section 4.4: 'relying solely on traditional statistical measures does not guarantee the optimization of the specific objective at hand - in our context, the total profit from a retention campaign'. On thresholds, Section 3 replaces the single profit-maximising cut-off t of the MP/EMP framework with an individual, CLV-dependent decision threshold m^i per customer, so the preferred targeting rule itself changes. Caveat: the statistical benchmark is accuracy (not AUC) and the data are financial, not telecom."
+    },
+    {
+      "claim": "Other specific findings useful for a critical discussion of churn prediction methods, imbalance handling, calibration, uplift, survival, fairness or deployment.",
+      "supported": true,
+      "where": "(a) Cost of missed churners: the regret loss assigns a strictly positive cost -f - gamma(d - CLV_i) to leaving out a customer who should have been targeted (Table 2 / Section 3), whereas the MP/EMP framework assumes that failing to target potential churners incurs no cost (Section 1). (b) Individual vs aggregated CLV: profit gains do not come from targeting more people; in the December dataset PnOcp earns more while contacting fewer than half as many customers as ProfLogit (Figure 4, Section 4.4). (c) Imbalance handling: PnOcp and ProfLogit 'leverage profit metrics to address the class imbalance issue', while the standard classifiers are trained with SMOTE (Section 4.2); churn rates are 16.3-21.5%. (d) Profit-trained models (PnOcp, ProfLogit) are the two top performers, but the Holm test does not separate PnOcp from ProfLogit or from the MSP-SVM, MSP-RF and MSP-logistic variants (Table 7). (e) Sensitivity: as the retention incentive d grows, every method's profit converges towards zero because fewer customers are valuable enough to cover the cost (Section 4.4, Figures 2-3). (f) Limitations stated by the authors: acceptance probability gamma fixed at 0.3 rather than stochastic; single financial-sector source because public datasets with individual CLVs are scarce; no campaign-response data, so uplift-style evaluation and personalised incentives could not be assessed; shallow network only. Calibration, survival analysis, fairness and deployment are not discussed at all."
+    }
+  ],
+  "verification_notes": "Metadata verified from Crossref (api.crossref.org/works/10.1016/j.ejor.2025.02.008: type journal-article, EJOR, Elsevier BV, vol. 324 issue 2 pp. 555-566, issued July 2025, ISSN 0377-2217) and OpenAlex (publication_date 2025-02-13, ISSN 0377-2217 / 1872-6860, not open access, cited_by_count 5, 60 references). The verbatim published abstract was taken from the Universidad de los Andes Pure research portal (investigadores.uandes.cl), which also states 'Published - 16 Jul 2025'; the ScienceDirect page and Scimago returned HTTP 403 and the Semantic Scholar API returned HTTP 429 on every attempt, so neither was used. The published full text is paywalled; claim checks were therefore made against the complete text of the arXiv preprint v2 (2310.07047v2, 15 Dec 2023, 15 pages) plus the published abstract. Known differences between preprint and published version: the preprint reports 12 monthly datasets and says it was submitted to Information Sciences, whereas the published abstract reports 13 datasets sourced from an investment company; section numbers, table numbers and exact figures quoted here are from the preprint and may differ slightly in the EJOR version. Venue check: EJOR is a long-established peer-reviewed journal (founded 1977, published by Elsevier for EURO, Scopus and MathSciNet indexed, 2024 impact factor 6.0 per the Wikipedia infobox); not predatory. Publication year 2025 lies within the required 2021-2026 window. No conference version exists; item_type is journal-article. All requested bibliographic fields were verifiable; none left empty.",
+  "caveats": "The paper is about financial-services (mutual-fund) churn, not telecom, and it reports accuracy and campaign profit rather than ROC-AUC, so it cannot support claims about telecom model rankings or churn drivers (claims 1 and 2 are unsupported). It is best cited for (i) the profit-vs-accuracy model-ranking reversal and the individual-threshold argument (claim 3) and (ii) decision-focused / cost-sensitive learning as a critique of EMP-style evaluation. Test sets are small (roughly 200 customers per dataset), the incentive-acceptance rate is a fixed assumption (gamma = 0.3), and the preprint used for full-text checks differs from the published version (12 vs 13 datasets).",
+  "sources_checked": [
+    "https://api.crossref.org/works/10.1016/j.ejor.2025.02.008",
+    "https://api.openalex.org/works/https://doi.org/10.1016/j.ejor.2025.02.008",
+    "https://investigadores.uandes.cl/en/publications/a-predict-and-optimize-approach-to-profit-driven-churn-prevention/",
+    "https://arxiv.org/abs/2310.07047v2",
+    "https://arxiv.org/pdf/2310.07047v2",
+    "https://en.wikipedia.org/wiki/European_Journal_of_Operational_Research"
+  ],
+  "verified_on": "2026-09-27"
+}

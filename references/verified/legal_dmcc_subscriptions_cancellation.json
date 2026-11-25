@@ -1,0 +1,167 @@
+{
+  "key": "dmcc_subscriptions_cancellation",
+  "status_summary": "Verified against legislation.gov.uk, gov.uk, and ofcom.org.uk on 28 September 2026. (1) DMCC Act 2024 Part 4 Chapter 1 (unfair commercial practices, ss.224-252) has been in force since 6 April 2025 (SI 2025/272 reg 2), except the consumer private rights-of-redress sections ss.232, 234 and 235, which remain 'Prospective'; the CPUTR 2008 were revoked the same day with savings. (2) DMCC Act 2024 Part 4 Chapter 2 (subscription contracts, ss.253-281: reminder notices s.258-259, easy cancellation s.260, cooling-off ss.264-266) is NOT in force as of today: every substantive section is still marked 'Prospective' on legislation.gov.uk; only regulation-making powers (ss.255, 256, 258, 267, 277) took effect at Royal Assent for the purpose of making regulations. Three commencement SIs exist (2024/1226, 2025/272, 2026/284, plus amending SI 2026/1040) and none commences Chapter 2; no 'subscription contracts' SI (made or draft) exists on legislation.gov.uk. Government timeline: DBT consultation response (2 April 2026) said 'spring 2027'; a Prime Minister's Office press release (published 9 August 2026) then said 'New rules will now come into force in January 2027'. Critically for a telecoms report, Schedule 22 para 5 excludes from Chapter 2 any contract supplied by a person bound by an Ofcom general condition (i.e. broadband, landline and mobile contracts), so the DMCC subscription regime will not govern telecoms subscriptions even once commenced; Ofcom's General Conditions (C1 end-of-contract notifications, one-month notice after auto-prolongation; C7 switching) are the applicable regime. (3) Ofcom's One Touch Switch went live on 12 September 2024 for residential broadband and landline switching under General Condition C7 (C7.18-C7.27 in the consolidated GCs effective 8 April 2026); it remains fully operational (over 1.6 million switches in the first year per Ofcom, 12 September 2025). No amendment to any of these provisions by the Data (Use and Access) Act 2025 was found.",
+  "in_force": "Part 4 Chapter 1 (unfair commercial practices): IN FORCE from 6 April 2025 (SI 2025/272), except ss.232/234/235 (private rights of redress) which are NOT yet in force. Part 4 Chapter 2 (subscription contracts): NOT IN FORCE as of 28 September 2026; no commencement regulations made; government has announced commencement in January 2027 (press release 9 Aug 2026), superseding the 'spring 2027' estimate of 2 April 2026. Note Sch. 22 para 5 will exclude Ofcom-regulated telecoms contracts from Chapter 2. Ofcom One Touch Switch (GC C7.18-C7.27): IN FORCE - GC changes effective 3 April 2023, process live since 12 September 2024, current consolidated GCs effective 8 April 2026.",
+  "primary_sources": [
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, c. 13, Part 4 Chapter 1 (Protection from unfair trading), ss.224-252",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/part/4/chapter/1",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, Part 4, Chapter 1. Available at: https://www.legislation.gov.uk/ukpga/2024/13/part/4/chapter/1 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, c. 13, Part 4 Chapter 2 (Subscription contracts), ss.253-281",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/part/4/chapter/2",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, Part 4, Chapter 2. Available at: https://www.legislation.gov.uk/ukpga/2024/13/part/4/chapter/2 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, s.232 (Rights of redress) - marked Prospective",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/232",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, s. 232. Available at: https://www.legislation.gov.uk/ukpga/2024/13/section/232 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, s.258 (Reminder notices)",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/258",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, s. 258. Available at: https://www.legislation.gov.uk/ukpga/2024/13/section/258 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, s.260 (Arrangements for consumers to exercise right to end contract)",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/260",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, s. 260. Available at: https://www.legislation.gov.uk/ukpga/2024/13/section/260 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, s.339 (Commencement)",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/section/339",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, s. 339. Available at: https://www.legislation.gov.uk/ukpga/2024/13/section/339 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, Schedule 22 (Excluded contracts), paragraph 5 - Ofcom general-condition contracts",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/schedule/22/paragraph/5",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, Sch. 22, para. 5. Available at: https://www.legislation.gov.uk/ukpga/2024/13/schedule/22/paragraph/5 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 2) Regulations 2025, SI 2025/272 (made 4 March 2025)",
+      "url": "https://www.legislation.gov.uk/uksi/2025/272/made",
+      "harvard_reference": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 2) Regulations 2025, SI 2025/272. Available at: https://www.legislation.gov.uk/uksi/2025/272/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 3 and Transitional Provisions) Regulations 2026, SI 2026/284 (made 11 March 2026)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/284/made",
+      "harvard_reference": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 3 and Transitional Provisions) Regulations 2026, SI 2026/284. Available at: https://www.legislation.gov.uk/uksi/2026/284/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 3 and Transitional Provisions) (Amendment) Regulations 2026, SI 2026/1040 (made 16 September 2026)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/1040/made",
+      "harvard_reference": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 3 and Transitional Provisions) (Amendment) Regulations 2026, SI 2026/1040. Available at: https://www.legislation.gov.uk/uksi/2026/1040/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026, SI 2026/386 (made 26 March 2026) - Sch. 2 para. 27 (DMCC Act ss.11(5)(b), 107(3), 151(1)(k))",
+      "url": "https://www.legislation.gov.uk/uksi/2026/386/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026, SI 2026/386. Available at: https://www.legislation.gov.uk/uksi/2026/386/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "legislation.gov.uk - Changes to the DMCC Act 2024 made by the Data (Use and Access) Act 2025 (0 results)",
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2024/13/affecting/ukpga/2025/18",
+      "harvard_reference": "The National Archives (2026) Changes to legislation: Digital Markets, Competition and Consumers Act 2024 affected by Data (Use and Access) Act 2025. Available at: https://www.legislation.gov.uk/changes/affected/ukpga/2024/13/affecting/ukpga/2025/18 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Consumer Protection from Unfair Trading Regulations 2008, SI 2008/1277 - revoked 6 April 2025 with savings",
+      "url": "https://www.legislation.gov.uk/uksi/2008/1277",
+      "harvard_reference": "The Consumer Protection from Unfair Trading Regulations 2008, SI 2008/1277 (revoked). Available at: https://www.legislation.gov.uk/uksi/2008/1277 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Department for Business and Trade (2026) Government response to consultation on the implementation of the new subscription contracts regime, 2 April 2026",
+      "url": "https://www.gov.uk/government/consultations/consultation-on-the-implementation-of-the-new-subscription-contracts-regime/outcome/government-response-to-consultation-on-the-implementation-of-the-new-subscription-contracts-regime-web-accessible-version",
+      "harvard_reference": "Department for Business and Trade (2026) Government response to consultation on the implementation of the new subscription contracts regime. Available at: https://www.gov.uk/government/consultations/consultation-on-the-implementation-of-the-new-subscription-contracts-regime/outcome/government-response-to-consultation-on-the-implementation-of-the-new-subscription-contracts-regime-web-accessible-version (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Prime Minister's Office, 10 Downing Street (2026) PM starts roll out of 'everyday fixes' on the cost of living - ending rip-off discounts and subscription traps, press release published 9 August 2026",
+      "url": "https://www.gov.uk/government/news/pm-starts-roll-out-of-everyday-fixes-on-the-cost-of-living-ending-rip-off-discounts-and-subscription-traps",
+      "harvard_reference": "Prime Minister's Office, 10 Downing Street (2026) PM starts roll out of 'everyday fixes' on the cost of living - ending rip-off discounts and subscription traps. Available at: https://www.gov.uk/government/news/pm-starts-roll-out-of-everyday-fixes-on-the-cost-of-living-ending-rip-off-discounts-and-subscription-traps (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Competition and Markets Authority (2025) Unfair commercial practices: guidance (CMA207), updated 18 November 2025",
+      "url": "https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices",
+      "harvard_reference": "Competition and Markets Authority (2025) Unfair commercial practices (CMA207). Available at: https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Competition and Markets Authority (2025) CMA to boost consumer and business confidence as new consumer protection regime comes into force, press release 7 April 2025",
+      "url": "https://www.gov.uk/government/news/cma-to-boost-consumer-and-business-confidence-as-new-consumer-protection-regime-comes-into-force",
+      "harvard_reference": "Competition and Markets Authority (2025) CMA to boost consumer and business confidence as new consumer protection regime comes into force. Available at: https://www.gov.uk/government/news/cma-to-boost-consumer-and-business-confidence-as-new-consumer-protection-regime-comes-into-force (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Competition and Markets Authority (2026) Direct consumer enforcement: one year on, CMA blog, 17 April 2026",
+      "url": "https://competitionandmarkets.blog.gov.uk/2026/04/17/direct-consumer-enforcement-one-year-on/",
+      "harvard_reference": "Competition and Markets Authority (2026) Direct consumer enforcement: one year on. Available at: https://competitionandmarkets.blog.gov.uk/2026/04/17/direct-consumer-enforcement-one-year-on/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom (2024) Simpler and quicker broadband switching is here, 12 September 2024",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/simpler-broadband-switching-is-here",
+      "harvard_reference": "Ofcom (2024) Simpler and quicker broadband switching is here. Available at: https://www.ofcom.org.uk/phones-and-broadband/switching-provider/simpler-broadband-switching-is-here (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom (2021) Statement: Quick, easy and reliable switching (One Touch Switch decision; GC C7 changes effective 3 April 2023)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/simpler-broadband-switching",
+      "harvard_reference": "Ofcom (2021) Statement: Quick, easy and reliable switching. Available at: https://www.ofcom.org.uk/phones-and-broadband/switching-provider/simpler-broadband-switching (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom (2024) Letter to industry: Full implementation of One Touch Switch (and withdrawal of NoT+), 11 October 2024",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/211987-simpler-broadband-switching/industry-docs/letter-to-industry-full-implementation-of-one-touch-switch-and-withdrawal-of-not.pdf",
+      "harvard_reference": "Ofcom (2024) Full implementation of One Touch Switch: letter to communications providers, 11 October 2024. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/211987-simpler-broadband-switching/industry-docs/letter-to-industry-full-implementation-of-one-touch-switch-and-withdrawal-of-not.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom (2026) General Conditions of Entitlement: unofficial consolidated version with effect from 8 April 2026 (GC C1.21-C1.29 end-of-contract notifications; GC C7.18-C7.27 One Touch Switch; C7.47-C7.48 compensation)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf",
+      "harvard_reference": "Ofcom (2026) General Conditions of Entitlement: unofficial consolidated version, with effect from 8 April 2026. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom (2025) 1.6 million Brits hit switch on their landline or broadband provider, 12 September 2025",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/1.6-million-brits-hit-switch-on-their-broadband-provider",
+      "harvard_reference": "Ofcom (2025) 1.6 million Brits hit switch on their landline or broadband provider. Available at: https://www.ofcom.org.uk/phones-and-broadband/switching-provider/1.6-million-brits-hit-switch-on-their-broadband-provider (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom (2024) Update: Ofcom enforcement programme into failed implementation of One Touch Switch, 12 March 2024",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/enforcement-programme-into-failed-implementation-of-one-touch-switch",
+      "harvard_reference": "Ofcom (2024) Update: Ofcom enforcement programme into failed implementation of One Touch Switch. Available at: https://www.ofcom.org.uk/phones-and-broadband/switching-provider/enforcement-programme-into-failed-implementation-of-one-touch-switch (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "DMCC Act 2024 (c. 13; Royal Assent 24 May 2024). Under s.339(1) most of the Act commences by regulations; s.339(2)(c) brought regulation-making powers into force at Royal Assent.",
+    "Part 4 Chapter 1 (ss.224-252, prohibition of unfair commercial practices: misleading actions/omissions, aggressive practices, Sch. 20 banned practices) came into force on 6 April 2025 via SI 2025/272 reg 2(1)(3), replacing the CPUTR 2008 (SI 2008/1277 revoked 6 April 2025 by s.251(1), with transitional savings for CPUTR Part 4A private redress until regulations are made under s.233 - see ss.235, 243, 252).",
+    "Not yet in force in Chapter 1: ss.232, 234 and 235 (consumer private rights of redress) were expressly excluded from SI 2025/272 and remain marked 'Prospective' on legislation.gov.uk as of 28 September 2026. Public enforcement (s.231; CMA direct enforcement with fines up to the higher of GBP 300,000 or 10% of global turnover) is in force.",
+    "CMA guidance CMA207 (updated 18 November 2025) applies to practices from 6 April 2025 and treats retention/cancellation friction as potentially unfair: an aggressive practice can include requiring 'onerous or disproportionate action' to exercise rights (example given: a termination process requiring multiple clicks), and omitting that a contract runs for a minimum period can be a misleading omission. The CMA reported (17 April 2026) 14 investigations opened, GBP 4.7m fines and GBP 760k refunds in year one, including an investigation into Adobe's early cancellation fees.",
+    "Part 4 Chapter 2 (ss.253-281, subscription contracts) is NOT in force as of 28 September 2026. legislation.gov.uk (page dated 'up to date... on or before 28 September 2026') marks the substantive sections 'Prospective' ('not in force at Royal Assent, see s.339(1)'); ss.255, 256, 258, 267 and 277 are in force 'for specified purposes' only (making regulations).",
+    "Chapter 2 core duties once commenced: s.258-259 reminder notices before each renewal payment (at least six-monthly, with content/timing rules); s.260 arrangements for ending the contract must be 'straightforward' and not require 'any steps which are not reasonably necessary', with online exit where the contract was entered online; s.261 duties on cancellation; ss.264-266 14-day initial and renewal cooling-off periods; s.273 terms of no effect; ss.268-271 offences.",
+    "Commencement instruments to date: SI 2024/1226 (No. 1), SI 2025/272 (No. 2, 6 April 2025: Part 3 and Part 4 Ch. 1), SI 2026/284 (No. 3, made 11 March 2026: Part 4 Ch. 4 ADR and Schs 25-27 from 6 April 2026), SI 2026/1040 (made 16 September 2026: extends ADR transitional dates from 5 October 2026 to 7 January 2027). None commences Chapter 2. A legislation.gov.uk title search for 'subscription contracts' returns zero made or draft instruments.",
+    "Government timeline for Chapter 2: DBT's consultation response (2 April 2026) stated 'we anticipate that the regime will commence in spring 2027' and 'We will legislate when parliamentary time allows'; it confirmed reminder notices must be in writing on a durable medium with their purpose immediately apparent, that 'if a consumer can sign up online, they must be able to exit online', proportionate refunds on renewal-period cancellation, exclusion of charitable memberships, and forthcoming business guidance. A Prime Minister's Office press release (published 9 August 2026) then stated: 'New rules will now come into force in January 2027, in time for when customers often start new subscriptions for the year ahead', citing 155 million active UK subscriptions and c. GBP 1.6bn a year spent on unwanted ones.",
+    "Telecoms carve-out (essential for this report): Schedule 22 para 5 excludes from Chapter 2 'A contract for the supply of goods, services or digital content by a person who is bound, in relation to that supply, by a general condition set by OFCOM under section 45 of the Communications Act 2003'. Broadband, landline and mobile contracts supplied by Ofcom-regulated providers will therefore sit outside the DMCC subscription regime; the sector-specific equivalents are Ofcom GC C1.21-C1.29 (End-of-Contract Notification before the commitment period ends; one-month termination notice after automatic prolongation with no costs beyond the notice-period fee) and C1.30-C1.36 (Annual Best Tariff Notification). Chapter 1 (unfair practices) still applies to telecoms operators.",
+    "Data (Use and Access) Act 2025 (c. 18): legislation.gov.uk records 0 changes to the DMCC Act made by that Act. The only related effect is SI 2026/386 (made 26 March 2026, not yet applied; commences when DUAA s.119 is fully in force), which substitutes 'the Information Commission' for 'the Information Commissioner' in DMCC ss.11(5)(b), 107(3) and 151(1)(k) - Parts 1 and 3 only, nothing in Part 4. A separate outstanding change (s.151(1)(ha) inserted by the Tobacco and Vapes Act 2026, c. 18, Sch. 14 para 32(2)) concerns Part 3 enforcer lists and does not touch Part 4.",
+    "Ofcom One Touch Switch (OTS): decided in Ofcom's statement 'Quick, easy and reliable switching' (September 2021) amending General Condition C7 with effect from 3 April 2023; industry missed that deadline (Ofcom enforcement programme, update 12 March 2024) and OTS went live on 12 September 2024 for residential broadband and landline customers. Customers contact only the gaining provider, which manages the switch; the losing provider cannot require contact, consent or other steps (C7.19); the process is free (C7.20); providers may not charge for notice periods running beyond the switch date; loss of service must not exceed one working day; compensation is payable for failed switches/loss of service (C7.47-C7.48).",
+    "OTS current status: Ofcom's 11 October 2024 letter confirmed decommissioning of the interim NoT+ process on 24 October 2024 and that OTS is 'the only switching process for residential customers switching fixed services which is compliant with Ofcom's General Conditions'. Ofcom reported (12 September 2025) over 1.6 million switches via OTS in its first year and more than 300 providers signed up. The current consolidated General Conditions (effective 8 April 2026) retain OTS at C7.18-C7.27 unchanged in substance. Mobile switching remains under the separate Auto-Switch/PAC process (C7.30-C7.46)."
+  ],
+  "uncertainties": "1) The January 2027 commencement date for DMCC Part 4 Chapter 2 rests on a Prime Minister's Office press release (gov.uk metadata: published 2026-08-09T22:30 BST; law-firm commentary dates the announcement 10 August 2026). As of 28 September 2026 no commencement regulations or implementing 'subscription contracts' regulations have been made or laid in draft on legislation.gov.uk, so the date is an announced intention, not a legal fact; it also conflicts with the DBT response's 'spring 2027' estimate of 2 April 2026, and a report should cite both and flag that commencement regulations were still awaited on the access date. 2) The 13 April 2026 written ministerial statement (Commons HCWS1498 / Lords HLWS1503, 'Subscription Contracts Regime: Response to Implementation Consultation') was located via search but parliament.uk returned HTTP 403 / a JavaScript challenge on every retrieval attempt, so its text was not read directly; the gov.uk consultation response of 2 April 2026 is used as the primary source instead. 3) SI 2026/284's explanatory table of earlier commencements was summarised by the fetch tool as implying ss.232/234/235 commenced in 2025; this was rejected in favour of the operative text of SI 2025/272 reg 2 (which excludes them) and legislation.gov.uk's 'Prospective' markers on those sections as at 28 September 2026. 4) The Ofcom 'Statement: Quick, easy and reliable switching' page shows a February 2021 consultation date and a September 2021 final decision; the reference is given as 2021. 5) Section-level annotations were read via an automated fetch of legislation.gov.uk; the 'Changes to legislation' banners confirm the pages were current to 27-28 September 2026, but the reader should re-check legislation.gov.uk immediately before submission because a Chapter 2 commencement SI could be made at any time. 6) Schedule 22 para 5 was verified verbatim; whether specific bundled or non-communications add-on services sold by a telecoms operator fall outside the Ofcom general conditions (and hence inside Chapter 2) is a fact-specific question not resolved here. 7) Ofcom's One Touch Switch enforcement programme: the 12 March 2024 update page does not state a formal closure date; Ofcom's 11 October 2024 letter says the programme continues to monitor compliance.",
+  "quotable": "DMCC Act 2024 s.260(1): 'A trader must make arrangements to enable a consumer to exercise a right to bring a subscription contract to an end - (a) in a way which is straightforward, and (b) without having to take any steps which are not reasonably necessary for bringing the contract to an end.' (Prospective as at 28 September 2026.) Sch. 22 para 5 excludes 'A contract for the supply of goods, services or digital content by a person who is bound, in relation to that supply, by a general condition set by OFCOM under section 45 of the Communications Act 2003.' Prime Minister's Office (9 August 2026): 'New rules will now come into force in January 2027, in time for when customers often start new subscriptions for the year ahead.' Ofcom (11 October 2024): 'Since 3 April 2023, OTS is the only switching process for residential customers switching fixed services which is compliant with Ofcom's General Conditions.'"
+}

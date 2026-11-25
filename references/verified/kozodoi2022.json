@@ -1,0 +1,29 @@
+{
+  "key": "kozodoi2022",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Kozodoi, Nikita", "Jacob, Johannes", "Lessmann, Stefan"],
+  "year": 2022,
+  "title": "Fairness in credit scoring: Assessment, implementation and profit implications",
+  "venue": "European Journal of Operational Research",
+  "volume": "297",
+  "issue": "3",
+  "pages": "1083-1094",
+  "doi": "10.1016/j.ejor.2021.06.023",
+  "url": "https://doi.org/10.1016/j.ejor.2021.06.023",
+  "harvard_reference": "Kozodoi, N., Jacob, J. and Lessmann, S. (2022) 'Fairness in credit scoring: assessment, implementation and profit implications', European Journal of Operational Research, 297(3), pp. 1083-1094. Available at: https://doi.org/10.1016/j.ejor.2021.06.023.",
+  "abstract_summary": "The paper examines fair machine learning in credit scoring. It (1) reviews statistical group-fairness criteria (independence, separation, sufficiency) and assesses whether they suit credit scoring, (2) catalogues pre-, in- and post-processing algorithms for building fairness into the ML pipeline, and (3) benchmarks fairness processors in a profit-oriented credit scoring setting on real-world data. The authors find that several fairness criteria can be approximately satisfied at once, and they recommend separation as the criterion for scorecard fairness. Fair in-processors give a good balance of profit and fairness, and algorithmic discrimination can be reduced to a reasonable level at relatively low cost. Code is available on GitHub.",
+  "claims_supported": [
+    {
+      "claim": "Enforcing group-fairness constraints in a profit-driven scoring model costs profit, and the profit-fairness trade-off can be quantified; some fairness criteria are more compatible with profit than others.",
+      "supported": true,
+      "where": "Abstract ('clarify the profit-fairness trade-off'; discrimination reduced 'at a relatively low cost'). Section 6.1 and Table 4 (arXiv 2103.01907 preprint numbering): independence and separation have moderate negative rank correlations with profit (about -0.38 and -0.30), and adding fairness constraints 'decreases profit'. Sufficiency has a weak positive correlation with profit (about 0.16), so 'profit maximization is compatible with maximizing sufficiency'. That is the evidence for some criteria being more compatible with profit than others. Section 6.2 and Table 5: profit loss for each processor relative to the unconstrained scorecard (e.g. over 30% for reject option classification, under 5% for the prejudice remover, 23% for reweighing). Section 6.3, 'The Cost of Fairness', and Figure 2: Pareto frontiers put a number on the trade-off. Bringing separation below 0.2 costs under EUR 0.01 profit per EUR issued, an average profit reduction of 4.91%. Perfect separation (0) needs a profit sacrifice of more than 35%. Caveat: the evidence comes from credit scoring (profit is based on EMP), not churn. The criterion found compatible with profit is sufficiency, which the authors themselves consider a questionable fairness notion."
+    },
+    {
+      "claim": "Fairness processors (pre-, in- and post-processing) were empirically compared on real credit data.",
+      "supported": true,
+      "where": "Abstract ('we empirically compare different fairness processors in a profit-oriented credit scoring context using real-world data'). Section 1 (seven real-world credit scoring data sets). Section 5.1, Table 2 (data sets german, taiwan, pakdd, gmsc, homecredit, bene, uk). Section 5.2: eight processors were compared: pre-processors reweighing and disparate impact remover; in-processors prejudice remover, adversarial debiasing and meta fair algorithm; post-processors reject option classification, equalized odds processor and Platt scaling. They were tested against an unconstrained profit-maximising scorecard, using four base classifiers (LR, ANN, RF, XGB) with 5-fold cross-validation. Age was the sensitive attribute."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1016/j.ejor.2021.06.023) confirms the authors Nikita Kozodoi, Johannes Jacob and Stefan Lessmann, the title, and the journal European Journal of Operational Research (Elsevier BV). It also confirms volume 297, issue 3, pages 1083-1094, print issue March 2022 and online publication 18 June 2021. Crossref returned no abstract. The abstract comes from the Semantic Scholar Graph API, which gives year 2021 (the online-first date) and links the arXiv preprint 2103.01907. The reference uses 2022, the year of the issue, which matches the lead. EJOR is an established peer-reviewed Elsevier OR journal, not a predatory venue. Claims were checked against the full text of the arXiv preprint (text extracted locally from arxiv.org/pdf/2103.01907). Section, table and figure numbers follow the preprint and may differ slightly from the published version. Page-specific pinpoints in the published version could not be checked because the publisher PDF is paywalled. Relevance caveat for a telecom churn report: this is a credit scoring study. It supports points about the profit-fairness trade-off and fairness processors by analogy only. Its profit measure builds on the EMP framework of Verbraken et al. (2014), which parallels profit-based churn evaluation (EMPC). All lead metadata matched; no discrepancies were found."
+}

@@ -1,0 +1,57 @@
+model,attribute,group,n,metric,value,ci_lo,ci_hi
+LogReg,SeniorCitizen,Not senior,1187,recall,0.543478,0.497136,0.601072
+LogReg,SeniorCitizen,Not senior,1187,fpr,0.0922064,0.0735393,0.110521
+LogReg,SeniorCitizen,Not senior,1187,precision,0.641026,0.583503,0.706328
+LogReg,SeniorCitizen,Not senior,1187,selection_rate,0.197136,0.176613,0.218989
+LogReg,SeniorCitizen,Not senior,1187,observed_rate,0.232519,0.209024,0.254359
+LogReg,SeniorCitizen,Not senior,1187,mean_pred,0.239731,0.227126,0.253045
+LogReg,SeniorCitizen,Not senior,1187,brier,0.124936,0.113175,0.135145
+LogReg,SeniorCitizen,Senior,222,recall,0.683673,0.590156,0.770337
+LogReg,SeniorCitizen,Senior,222,fpr,0.266129,0.187723,0.347826
+LogReg,SeniorCitizen,Senior,222,precision,0.67,0.582524,0.762376
+LogReg,SeniorCitizen,Senior,222,selection_rate,0.45045,0.387791,0.512423
+LogReg,SeniorCitizen,Senior,222,observed_rate,0.441441,0.38128,0.504632
+LogReg,SeniorCitizen,Senior,222,mean_pred,0.419415,0.388227,0.450127
+LogReg,SeniorCitizen,Senior,222,brier,0.187141,0.160494,0.214106
+LogReg,gender,Female,687,recall,0.569948,0.497535,0.628544
+LogReg,gender,Female,687,fpr,0.111336,0.0845353,0.138628
+LogReg,gender,Female,687,precision,0.666667,0.592821,0.735493
+LogReg,gender,Female,687,selection_rate,0.240175,0.208362,0.269324
+LogReg,gender,Female,687,observed_rate,0.280932,0.247638,0.314451
+LogReg,gender,Female,687,mean_pred,0.268261,0.250278,0.286088
+LogReg,gender,Female,687,brier,0.140114,0.125235,0.155144
+LogReg,gender,Male,722,recall,0.59116,0.525129,0.657759
+LogReg,gender,Male,722,fpr,0.114603,0.0879121,0.142496
+LogReg,gender,Male,722,precision,0.633136,0.553649,0.705552
+LogReg,gender,Male,722,selection_rate,0.234072,0.204432,0.265544
+LogReg,gender,Male,722,observed_rate,0.250693,0.220173,0.279371
+LogReg,gender,Male,722,mean_pred,0.267833,0.249534,0.284742
+LogReg,gender,Male,722,brier,0.12962,0.116467,0.142998
+LogReg,Partner,No partner,736,recall,0.665323,0.604678,0.723749
+LogReg,Partner,No partner,736,fpr,0.170082,0.135748,0.201576
+LogReg,Partner,No partner,736,precision,0.665323,0.606695,0.722972
+LogReg,Partner,No partner,736,selection_rate,0.336957,0.304477,0.368276
+LogReg,Partner,No partner,736,observed_rate,0.336957,0.302435,0.369101
+LogReg,Partner,No partner,736,mean_pred,0.336472,0.317599,0.353912
+LogReg,Partner,No partner,736,brier,0.157742,0.143255,0.169816
+LogReg,Partner,Partner,673,recall,0.412698,0.329365,0.5
+LogReg,Partner,Partner,673,fpr,0.0621572,0.0439998,0.0798168
+LogReg,Partner,Partner,673,precision,0.604651,0.508294,0.715138
+LogReg,Partner,Partner,673,selection_rate,0.127786,0.104589,0.152456
+LogReg,Partner,Partner,673,observed_rate,0.187221,0.158245,0.215866
+LogReg,Partner,Partner,673,mean_pred,0.193205,0.17823,0.208685
+LogReg,Partner,Partner,673,brier,0.109578,0.0941913,0.122688
+LogReg,Dependents,No dependents,978,recall,0.650165,0.597587,0.702384
+LogReg,Dependents,No dependents,978,fpr,0.14963,0.123952,0.175518
+LogReg,Dependents,No dependents,978,precision,0.661074,0.60819,0.713108
+LogReg,Dependents,No dependents,978,selection_rate,0.304703,0.275148,0.332165
+LogReg,Dependents,No dependents,978,observed_rate,0.309816,0.283232,0.338725
+LogReg,Dependents,No dependents,978,mean_pred,0.320332,0.304972,0.335176
+LogReg,Dependents,No dependents,978,brier,0.149622,0.136916,0.16178
+LogReg,Dependents,Dependents,431,recall,0.28169,0.190045,0.392642
+LogReg,Dependents,Dependents,431,fpr,0.0444444,0.0234901,0.0649273
+LogReg,Dependents,Dependents,431,precision,0.555556,0.39625,0.741935
+LogReg,Dependents,Dependents,431,selection_rate,0.0835267,0.0588148,0.107728
+LogReg,Dependents,Dependents,431,observed_rate,0.164733,0.129997,0.203871
+LogReg,Dependents,Dependents,431,mean_pred,0.149387,0.132317,0.168578
+LogReg,Dependents,Dependents,431,brier,0.10096,0.0819439,0.123054

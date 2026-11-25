@@ -1,0 +1,34 @@
+{
+  "standard": {
+    "Part 1": 411,
+    "Part 2": 483,
+    "Part 3": 690,
+    "Part 4": 936,
+    "Part 5": 478,
+    "total": 2998
+  },
+  "strict": {
+    "Part 1": 693,
+    "Part 2": 939,
+    "Part 3": 1221,
+    "Part 4": 1767,
+    "Part 5": 763,
+    "total": 5383
+  },
+  "budget": {
+    "Part 1": 400,
+    "Part 2": 500,
+    "Part 3": 700,
+    "Part 4": 1000,
+    "Part 5": 400,
+    "total": 3000
+  },
+  "within_5pct": {
+    "Part 1": true,
+    "Part 2": true,
+    "Part 3": true,
+    "Part 4": false,
+    "Part 5": false
+  },
+  "total_ok": true
+}

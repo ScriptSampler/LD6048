@@ -1,0 +1,71 @@
+{
+  "key": "recent2_02",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "De Caigny, Arno",
+    "Coussement, Kristof",
+    "Verbeke, Wouter",
+    "Idbenjra, Khaoula",
+    "Phan, Minh"
+  ],
+  "year": 2021,
+  "title": "Uplift modeling and its implications for B2B customer churn prediction: A segmentation-based modeling approach",
+  "venue": "Industrial Marketing Management",
+  "volume": "99",
+  "issue": "",
+  "pages": "28-39",
+  "doi": "10.1016/j.indmarman.2021.10.001",
+  "url": "https://doi.org/10.1016/j.indmarman.2021.10.001",
+  "harvard_reference": "De Caigny, A., Coussement, K., Verbeke, W., Idbenjra, K. and Phan, M. (2021) 'Uplift modeling and its implications for B2B customer churn prediction: a segmentation-based modeling approach', Industrial Marketing Management, 99, pp. 28-39. doi:10.1016/j.indmarman.2021.10.001.",
+  "abstract_summary": "The paper presents uplift modelling as a prescriptive analytics tool for B2B customer retention. It proposes the uplift logit leaf model (uplift LLM), a two-step, segmentation-based method. An uplift decision tree (Kullback-Leibler divergence splitting) first splits customers into segments. A separate uplift logistic regression (Lo, 2002 interaction approach) is then fitted in each segment. The data are 6,432 contracts from a European B2B process-automation software provider: 1,399 treated with a retention campaign (17.58% churn) and 5,033 controls (19.29% churn), a baseline uplift of 1.71%. There are 144 predictors, and the evaluation uses stratified 5-fold cross-validation with the Qini metric. Uplift LLM beat uplift decision tree, uplift logistic regression and uplift random forest on the overall, top-30% and top-10% Qini (for example, overall Qini 4.56 against 3.25 for uplift RF; all differences significant by paired t-tests). The paper also shows interpretable global and segment-level outputs: a decision table, incremental-gains curves by segment and partial dependence plots. The findings support uplift modelling for B2B retention decisions.",
+  "claims_supported": [
+    {
+      "claim": "Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": true,
+      "where": "Supported, with a qualification. Introduction (manuscript pp. 2-3) and section 2.1 (p. 5): 'customers who are most likely to churn are not necessarily those that will respond positively to retention campaigns'. The paper cites Devriendt et al. (2020) and Ascarza (2018) for the finding that ranking by churn probability is less effective than ranking by sensitivity to the intervention. Section 2.2 and Figure 1 (p. 6) set out the persuadables / sure things / do-not-disturbs / lost causes typology. Section 6.2 (p. 27) says traditional churn models target the gross outcome, so they include customers who cannot be retained. The paper's own evidence is limited: every model compared is an uplift model, and the only comparison is against random targeting (Qini, Table 6; Figure 4, where all models beat random targeting except uplift LR at 10%). It never runs a churn-probability-ranking model on its own data. The first half of the claim is argued here and shown empirically only in the cited Ascarza (2018) and Devriendt et al. (2020). Evidence that uplift targeting beats churn-probability targeting should be cited to those papers. It also comes from B2B software, not telecom. One further caveat: Segment 4 has negative uplift (-9.36%; Table 7, p. 23), so a campaign can raise churn for some customers."
+    },
+    {
+      "claim": "Survival models can estimate when customers are likely to churn and support timing of interventions; cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Not supported. The paper contains no survival or hazard modelling and does not mention censoring or truncation (full-text keyword search of the HAL accepted manuscript). Churn is defined as a binary outcome: non-renewal within a six-month window after a contract renewal date (section 4.1, p. 14). The only point about timing is that contractual settings have a 'two-clock nature' (Ascarza and Hardie, 2013): usage is daily but renewal is yearly, so churn can be predicted at the renewal point (section 2.1, p. 4). It also cites the Ascarza et al. (2018) framework question 'When do we target?' (p. 1) but does not address it. Do not cite this paper for survival analysis."
+    },
+    {
+      "claim": "Resampling (e.g. SMOTE) or class weighting changes predicted probabilities/calibration; threshold moving or cost-sensitive thresholds are an alternative.",
+      "supported": false,
+      "where": "Not supported. The only reference to class imbalance is methodological: 'Due to the typically imbalanced class distribution, the folds are stratified' (section 4.1, p. 15). SMOTE, resampling, class weighting, calibration, threshold moving and cost-sensitive thresholds are not discussed (full-text keyword search)."
+    },
+    {
+      "claim": "Additional precise finding 1: in a randomised B2B retention campaign (6,432 customers; 1,399 treated, 5,033 control), treated customers churned at 17.58% and controls at 19.29%, so the campaign's average effect (baseline uplift) was only 1.71 percentage points.",
+      "supported": true,
+      "where": "Section 4.1 and Table 3 (manuscript p. 14). Useful for a critical point: the average treatment effect of a retention campaign can be small, so knowing who to target matters. The paper states that uplift models use randomised experiments with treatment and control groups (p. 2)."
+    },
+    {
+      "claim": "Additional precise finding 2: the segment-based uplift logit leaf model gave the highest Qini at every targeting depth (overall Qini 4.5646 against 3.2543 for uplift random forest, 2.1869 for uplift logistic regression and 1.9344 for uplift decision tree; all differences significant). All models reached their best cumulative uplift when targeting about 60-80% of customers.",
+      "supported": true,
+      "where": "Section 5.1, Table 6 and Figure 4 (manuscript pp. 18-19). Section 5.2 (p. 19) reports that uplift LLM's biggest gain comes from targeting about 60-70% of customers, for an uplift of about 6%."
+    },
+    {
+      "claim": "Additional precise finding 3: uplift models cannot be evaluated per customer, because each customer is observed only as treated or as control. Evaluation therefore uses group-based metrics such as the Qini curve or coefficient rather than accuracy or AUC.",
+      "supported": true,
+      "where": "Section 4.2 (manuscript pp. 16-17). Relevant to critiquing accuracy- or AUC-only evaluation of churn classifiers when the goal is a retention decision."
+    },
+    {
+      "claim": "Additional precise finding 4: a retention campaign can increase churn for some customers. The model found a segment (managerial contact with a long contract duration, n = 864) with negative uplift of -9.36%: 15.64% churn in control against 25.0% when treated.",
+      "supported": true,
+      "where": "Section 5.2 (pp. 20-21) and Table 7 (p. 23). The authors link this to Ascarza et al. (2016): targeting may make past usage more salient and prompt customers to reconsider the contract. Section 6.3 (p. 28) names this as motivation for multi-treatment extensions."
+    },
+    {
+      "claim": "Additional precise finding 5: interpretable, segment-level models are valued by managers. Uplift LLM produced 4 segments, each with an uplift logistic regression averaging about 3 variables, whereas a global uplift logistic regression used 34 variables and an uplift decision tree had 8 leaves (first fold).",
+      "supported": true,
+      "where": "Section 5.2 (pp. 19-20) and section 6.2, third implication (p. 27). Cross-fold means in section 5.1 (p. 18): 4.00 segments (sd 3.08) against 6.00 for uplift DT, and 10.80 variables per segment model against 37.00 for uplift LR."
+    },
+    {
+      "claim": "Limitation statement: the results come from one proprietary B2B dataset. The authors call for validation on multiple datasets and in B2C settings.",
+      "supported": true,
+      "where": "Section 6.3 (manuscript p. 28). Relevant when comparing with the B2C telecom Telco Customer Churn dataset, which is also cross-sectional and has no treatment or control group, so uplift modelling cannot be applied to it directly. (That last point is the verifier's inference, not a statement in the paper.)"
+    }
+  ],
+  "caveats": "Peer-reviewed article in Industrial Marketing Management (Elsevier, ISSN 0019-8501), an established journal; not a predatory venue. Published online 7 October 2021 in volume 99 (November 2021). The setting is B2B contractual software, not telecom, so findings may not transfer to the B2C Telco dataset. The Telco dataset has no randomised treatment or control, so this paper supports a critical or future-work discussion (predictive vs prescriptive targeting), not a method that can be run on the Telco data. The paper does not itself benchmark churn-probability targeting against uplift targeting; that comparison is cited from Ascarza (2018) and Devriendt et al. (2020). Page numbers in claims_supported are the accepted-manuscript pagination (HAL hal-03599615, CC BY-NC), not journal pages 28-39. The Elsevier version of record could not be accessed (HTTP 403).",
+  "verification_notes": "Crossref (api.crossref.org/works/10.1016/j.indmarman.2021.10.001) confirms: journal-article; title as given; authors in order Arno De Caigny, Kristof Coussement, Wouter Verbeke, Khaoula Idbenjra, Minh Phan; Industrial Marketing Management; volume 99; no issue number (Elsevier continuous volume); pages 28-39; published in print November 2021; publisher Elsevier BV; 77 references; is-referenced-by 48. OpenAlex confirms the same metadata, online date 2021-10-07, 48 citations, and gives the fifth author's fuller name as 'Vu Minh Hieu Phan'. Crossref, Semantic Scholar, HAL and the manuscript byline all use 'Minh Phan', so the Harvard reference uses 'Phan, M.' as published. Semantic Scholar (CorpusId 241215511) confirms title, year, venue and authors but returned no abstract. The abstract was taken from the HAL API record and from the full-text accepted manuscript (hal.science/hal-03599615/file/S0019850121001930.pdf, downloaded and read in full), and matches the OpenAlex reconstructed abstract. The scout's details (6,432 customers, European software provider, uplift logit leaf model, three comparator uplift models, superior performance, managerial implications) are all correct. A small refinement: the three comparators are uplift decision tree, uplift logistic regression and uplift random forest. ScienceDirect pages returned HTTP 403 and EconBiz/HAL landing pages were behind a bot-check; neither was bypassed. The HAL direct file link and the HAL search API were used instead. Claims 2 (survival or censoring) and 3 (resampling, calibration or thresholds) are not supported, confirmed by full-text keyword search (surviv, censor, truncat, hazard, SMOTE, resampl, class weight, calibrat, threshold, cost-sensitive): the only relevant hit was stratified folds because of class imbalance."
+}

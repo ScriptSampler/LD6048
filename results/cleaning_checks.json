@@ -1,0 +1,103 @@
+{
+  "levels": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "SeniorCitizen": [
+      "0",
+      "1"
+    ],
+    "Partner": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "No",
+      "Yes"
+    ],
+    "PhoneService": [
+      "No",
+      "Yes"
+    ],
+    "PaperlessBilling": [
+      "No",
+      "Yes"
+    ],
+    "MultipleLines": [
+      "No",
+      "No phone service",
+      "Yes"
+    ],
+    "InternetService": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "OnlineSecurity": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "OnlineBackup": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "DeviceProtection": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "TechSupport": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "StreamingTV": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "StreamingMovies": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Contract": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "PaymentMethod": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  },
+  "consistency": {
+    "ratio_median": 1.0,
+    "ratio_q05": 0.9244505968019248,
+    "ratio_q95": 1.0748160653430823,
+    "ratio_min": 0.6893564356435644,
+    "ratio_max": 1.5734536082474226,
+    "n_ratio_outside_0.8_1.2": 59,
+    "r_tenure_totalcharges": 0.8258804609332019,
+    "abs_diff_median": 28.64999999999999,
+    "tenure_iqr_outliers": 0,
+    "tenure_min": 0.0,
+    "tenure_max": 72.0,
+    "tenure_skew": 0.2395397495619829,
+    "MonthlyCharges_iqr_outliers": 0,
+    "MonthlyCharges_min": 18.25,
+    "MonthlyCharges_max": 118.75,
+    "MonthlyCharges_skew": -0.22052443394398033,
+    "TotalCharges_iqr_outliers": 0,
+    "TotalCharges_min": 18.8,
+    "TotalCharges_max": 8684.8,
+    "TotalCharges_skew": 0.9616424997242504,
+    "n_attribute_duplicates": 22,
+    "n_full_duplicates_incl_id": 0
+  }
+}

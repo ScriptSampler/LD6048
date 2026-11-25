@@ -1,0 +1,28 @@
+{
+  "key": "kleinberg2017",
+  "found": true,
+  "item_type": "conference paper (published proceedings)",
+  "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+  "authors": [
+    "Kleinberg, Jon",
+    "Mullainathan, Sendhil",
+    "Raghavan, Manish"
+  ],
+  "year": 2017,
+  "venue": "8th Innovations in Theoretical Computer Science Conference (ITCS 2017), Leibniz International Proceedings in Informatics (LIPIcs), edited by Christos H. Papadimitriou. Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik. Conference held Berkeley, CA, USA, 9-11 January 2017; volume published 28 November 2017.",
+  "volume": "67",
+  "issue": "",
+  "pages": "43:1-43:23",
+  "doi": "10.4230/LIPIcs.ITCS.2017.43",
+  "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2017.43",
+  "harvard_reference": "Kleinberg, J., Mullainathan, S. and Raghavan, M. (2017) 'Inherent trade-offs in the fair determination of risk scores', in Papadimitriou, C.H. (ed.) 8th Innovations in Theoretical Computer Science Conference (ITCS 2017). Berkeley, CA, USA, 9-11 January 2017. Leibniz International Proceedings in Informatics (LIPIcs), vol. 67. Dagstuhl: Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik, pp. 43:1-43:23. doi:10.4230/LIPIcs.ITCS.2017.43.",
+  "abstract_summary": "The paper responds to public debate (notably around the COMPAS recidivism tool) over what it means for a probabilistic risk score to be fair to different demographic groups. It formalises three fairness conditions for risk assignments across two groups: (A) calibration within groups, (B) balance for the negative class (equal average score for true negatives in each group) and (C) balance for the positive class (equal average score for true positives in each group). Its main theorem shows that no risk assignment can satisfy all three at once unless the instance admits perfect prediction (every feature vector has positive-class probability 0 or 1) or the two groups have equal base rates. A second theorem shows the impossibility is robust: approximately satisfying all three conditions forces the data to be approximately in one of those two special cases. The authors present this as a framework for reasoning about unavoidable trade-offs between fairness notions.",
+  "claims_supported": [
+    {
+      "claim": "Calibration within groups, balance for the positive class and balance for the negative class cannot all be satisfied simultaneously except in trivial cases (equal base rates or perfect prediction), so fairness definitions are mutually incompatible.",
+      "supported": true,
+      "where": "Abstract (p. 43:1): 'except in highly constrained special cases, there is no method that can satisfy these three conditions simultaneously'. Section 1, 'The present work: Trade-offs among the guarantees' (p. 43:3): the conditions 'are in general incompatible with each other; they can only be simultaneously satisfied in certain highly constrained cases'. Section 1.1 (p. 43:5) defines (A) Calibration within groups, (B) Balance for the negative class, (C) Balance for the positive class. Section 1.2, Theorem 1.1 (p. 43:6): an instance with a risk assignment satisfying (A), (B) and (C) 'must either allow for perfect prediction (with p_sigma equal to 0 or 1 for all sigma) or have equal base rates'. Theorem 1.2 (p. 43:6) extends this to epsilon-approximate versions of the conditions. Caveat on wording: the paper calls the two exceptions 'highly constrained special cases' rather than 'trivial', and its incompatibility result concerns these three specific conditions (under a two-group model with known p_sigma); it does not claim that all fairness definitions in general are mutually incompatible, so the report should phrase the generalisation as 'these key fairness notions' rather than 'fairness definitions' at large."
+    }
+  ],
+  "verification_notes": "Verified 2026-09-27. The Crossref bibliographic search returned only the 2023 ACM book-chapter reprints (DOIs 10.1145/3603195.3603206 and 10.1145/3603195.3603197 in 'The Societal Impacts of Algorithmic Decision-Making'); the ITCS 2017 LIPIcs version is registered with DataCite, not Crossref (Crossref /works/10.4230/LIPIcs.ITCS.2017.43 returns 404). DOI 10.4230/LIPIcs.ITCS.2017.43 was confirmed via the DataCite API (creators Jon Kleinberg, Sendhil Mullainathan, Manish Raghavan; publisher Schloss Dagstuhl; year 2017; LIPIcs vol. 67, article 43, pp. 43:1-43:23; ISBN 978-3-95977-029-3; ISSN 1868-8969; CC BY 3.0), the DROPS landing page, the LIPIcs volume 67 page (editor Christos H. Papadimitriou; ITCS 2017, Berkeley, CA, USA, 9-11 January 2017; published 28 November 2017) and the published PDF itself, whose footer reads 'Editor: Christos H. Papadimitrou [sic]; Article No. 43; pp. 43:1-43:23'. Author affiliations from the PDF: Kleinberg and Raghavan (Cornell University), Mullainathan (Harvard University). Abstract and Theorems 1.1/1.2 confirmed from the published PDF text (pp. 43:1, 43:5-43:6) and cross-checked against the arXiv version (arXiv:1609.05807, v1 19 Sep 2016, v2 17 Nov 2016) via ar5iv. Semantic Scholar lists year 2016 (the arXiv date) and an incorrect venue string ('Information Technology Convergence and Services'); the correct venue is ITCS 2017 / LIPIcs 67 and the citation year should be 2017. OpenAlex (W2962922665) agrees on 2017 and the DOI, reporting 616 citations. The lead reference supplied was accurate. No 'issue' field applies to a LIPIcs volume, so it is left empty. The report should use the published spelling 'Trade-Offs' (hyphenated) in the title; the 2023 ACM reprint uses 'Tradeoffs'."
+}

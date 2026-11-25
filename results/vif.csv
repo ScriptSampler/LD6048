@@ -1,0 +1,24 @@
+feature,vif
+MonthlyCharges,860.434
+InternetService_Fiber optic,147.782
+InternetService_No,103.12
+PhoneService_Yes,35.3054
+StreamingTV_Yes,24.0245
+StreamingMovies_Yes,24.0095
+MultipleLines_Yes,7.25064
+DeviceProtection_Yes,6.91871
+OnlineBackup_Yes,6.70302
+TechSupport_Yes,6.50058
+tenure,6.45382
+OnlineSecurity_Yes,6.35419
+TotalCharges,6.34315
+Contract_Two year,2.66655
+PaymentMethod_Electronic check,1.97132
+PaymentMethod_Mailed check,1.84708
+Contract_One year,1.63607
+PaymentMethod_Credit card (automatic),1.55499
+Partner_Yes,1.45058
+Dependents_Yes,1.37434
+PaperlessBilling_Yes,1.20994
+SeniorCitizen_1,1.1529
+gender_Male,1.00398

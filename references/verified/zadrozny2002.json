@@ -1,0 +1,30 @@
+{
+  "key": "zadrozny2002",
+  "found": true,
+  "item_type": "conference paper (proceedings-article)",
+  "authors": ["Zadrozny, Bianca", "Elkan, Charles"],
+  "year": 2002,
+  "title": "Transforming classifier scores into accurate multiclass probability estimates",
+  "venue": "Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '02), Edmonton, Alberta, Canada",
+  "volume": "",
+  "issue": "",
+  "pages": "694-699",
+  "doi": "10.1145/775047.775151",
+  "url": "https://doi.org/10.1145/775047.775151",
+  "harvard_reference": "Zadrozny, B. and Elkan, C. (2002) 'Transforming classifier scores into accurate multiclass probability estimates', in Proceedings of the eighth ACM SIGKDD international conference on knowledge discovery and data mining (KDD '02). Edmonton, Alberta, Canada. New York: ACM, pp. 694-699. Available at: https://doi.org/10.1145/775047.775151.",
+  "abstract_summary": "Argues that many data-mining applications need accurate class-membership probabilities (e.g. for example-dependent misclassification costs or combining with other classifiers), and that earlier calibration methods only handled two-class problems. The paper (i) proposes a new two-class calibration method, isotonic regression computed with the pair-adjacent violators (PAV) algorithm, applicable to any classifier that produces a ranking of examples, and (ii) shows how to obtain multiclass probability estimates by calibrating and then combining binary estimates (normalisation, least-squares, coupling). Experiments use naive Bayes, SVM and boosted naive Bayes on direct marketing (KDD-98), Adult, text categorisation (20 Newsgroups) and digit recognition (Pendigits); PAV-calibrated scores give lower MSE (and higher profit on KDD-98) than raw scores and are comparable to or better than sigmoid fitting and binning.",
+  "claims_supported": [
+    {
+      "claim": "Isotonic regression (pair-adjacent violators) can calibrate classifier scores into accurate probability estimates and is applicable to boosted and naive Bayes models.",
+      "supported": true,
+      "where": "Abstract (new calibration method 'can be applied to any classifier that produces a ranking of examples'; experiments with naive Bayes and SVM); Section 3 (isotonic regression proposed as intermediary between sigmoid fitting and binning, computed with the pair-adjacent violators (PAV) algorithm; Figure 5 applies PAV to naive Bayes and SVM scores on Adult); Section 5.1, Tables 1-3 (PAV naive Bayes improves MSE/profit over raw NB); Section 5.2, Tables 4-5 (naive Bayes and boosted naive Bayes used as binary learners on Pendigits, calibrated with PAV, lowering MSE and error rate); Section 6 Conclusions (recommends PAV for two-class calibration). Caveat: 'boosted' in this paper means boosted naive Bayes (Elkan's boosting of NB), not boosted decision trees/gradient boosting such as XGBoost; do not cite it as evidence for calibrating gradient-boosted trees."
+    }
+  ],
+  "verification_notes": "Metadata confirmed via Crossref (api.crossref.org/works/10.1145/775047.775151): authors Bianca Zadrozny and Charles Elkan (UC San Diego); title as given; container 'Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining'; event KDD02, Edmonton, Alberta, Canada; publisher ACM, New York, NY, USA; published 23 July 2002; pages 694-699; type proceedings-article; no volume or issue (left empty, not applicable to this proceedings). OpenAlex confirmed same metadata and supplied the abstract; Semantic Scholar confirmed title/year/venue/authors (abstract elided there; DBLP conf/kdd/ZadroznyE02). Full text was read from a PDF copy (cs.columbia.edu course handout) whose copyright notice gives 'SIGKDD '02 Edmonton, Alberta, Canada' and ISBN 1-58113-567-X. Peer-reviewed ACM SIGKDD conference paper; not predatory. Conference day-range not given by Crossref, so it was omitted from the reference. Note the paper uses the name 'pair-adjacent violators'; the algorithm is also widely called 'pool-adjacent violators'. Claim 1 is supported, with the caveat that the boosted model evaluated is boosted naive Bayes only (multiclass Pendigits experiments), and the two-class experiments use naive Bayes and SVM.",
+  "sources": [
+    "https://api.crossref.org/works/10.1145/775047.775151",
+    "https://api.openalex.org/works/https://doi.org/10.1145/775047.775151",
+    "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145/775047.775151",
+    "http://www.cs.columbia.edu/~djhsu/coms4771-f25/handouts/zadrozny2002kdd.pdf"
+  ]
+}

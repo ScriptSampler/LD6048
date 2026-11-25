@@ -1,0 +1,211 @@
+{
+  "key": "pecr_marketing",
+  "status_summary": "As at 28 September 2026, regulations 21 (unsolicited marketing calls) and 22 (marketing by electronic mail, which includes SMS) of the Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426) are in force. They remain the rules that govern a UK telecoms operator sending churn-triggered retention offers to its own customers. Under reg 22(2), direct-marketing e-mail or SMS to individual subscribers needs prior consent unless the commercial soft opt-in in reg 22(3) applies. The Data (Use and Access) Act 2025 (DUAA) did not change the wording of reg 22(3): the details must be obtained in the course of a sale or negotiations for a sale, the marketing must cover the sender's similar products and services only, and a simple, free opt-out must be offered at collection and in every message. DUAA s.114 added a separate charity soft opt-in (reg 22(3A) and (5)) from 5 February 2026. It does not apply to a commercial operator. The text of reg 21 was last amended on 9 January 2019: callers must show a number, must not call TPS/CTPS-registered numbers or anyone who has objected, and the 28-day grace period and the consent override in reg 21(4)-(5) still apply. Reg 21 must now be read with the DUAA-amended definition of 'call' in reg 2(1), which includes an attempt to connect, and new reg 2(1A), under which 'recipient' means the intended recipient. Both have been in force since 5 February 2026. All of the DUAA's PECR provisions (Part 5 Chapter 2, ss.109-116, and Sch 13) have commenced. Commencement No. 1 (SI 2025/904) brought in s.109, s.110 except (2)(a), (2)(b) and (3) (this inserted the statutory definition of 'direct marketing'), s.111 (72-hour breach notification) and s.113 on 20 August 2025. Commencement No. 6 (SI 2026/82, reg 2(v), (w), (x), (y), (z), (z14)) brought in the rest of s.110, s.112, s.114, s.115, s.116 and Sch 13 on 5 February 2026. Since then, breaching regs 5-8, 14, 19-24 or 32B(4)-(5) can lead to a penalty of up to the 'higher maximum amount' in DPA 2018 s.157(5), which is GBP 17.5m or 4% of worldwide annual turnover, whichever is higher. The previous PECR maximum was GBP 500,000. Under SI 2026/82 reg 11, the new penalty regime only applies to acts or omissions on or after 5 February 2026. One change is still pending, and it is institutional only. On 30 September 2026, two days after the access date, DUAA ss.118-119 come into force (SI 2026/1015). They abolish the office of Information Commissioner and transfer its functions, including PECR enforcement, to the Information Commission. SI 2026/386 then replaces 'Commissioner' with 'Commission' throughout PECR. legislation.gov.uk still lists these changes as not yet applied. ICO guidance: the detailed 'Guidance on direct marketing using electronic mail' is final and was updated on 28 April 2026 for the DUAA. The Guide to PECR landing, e-mail marketing and telephone marketing pages still say they are 'under review' because of the DUAA. The ICO says separate PECR fining guidance is still being developed.",
+  "in_force": "Yes. PECR regs 21 and 22 are in force. Reg 22 is as amended by DUAA 2025 s.114 with effect from 5 February 2026, which added the charity soft opt-in only; the commercial soft opt-in in reg 22(3) is unamended. Reg 21 has not been amended since 9 January 2019, but it operates through the DUAA-amended reg 2 definitions. The DUAA definition of 'direct marketing' has applied since 20 August 2025, and the wider 'call' definition and reg 2(1A) since 5 February 2026. All DUAA PECR provisions (ss.109-116, Sch 13) have commenced: partly on 20 August 2025 (SI 2025/904) and the rest on 5 February 2026 (SI 2026/82). UK GDPR-level PECR fines (up to GBP 17.5m or 4% of turnover) apply to contraventions on or after 5 February 2026. Pending: on 30 September 2026 the Information Commission takes over from the Information Commissioner (SI 2026/1015), and 'Commissioner' becomes 'Commission' in PECR (SI 2026/386). Also still awaited: ICO PECR fining guidance and rewritten Guide to PECR pages.",
+  "primary_sources": [
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, regulation 22 (Use of electronic mail for direct marketing purposes) - latest revised text, amended by DUAA 2025 s.114 from 5 February 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/regulation/22",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), reg. 22. Available at: https://www.legislation.gov.uk/uksi/2003/2426/regulation/22 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, regulation 21 (Calls for direct marketing purposes) - latest revised text (last amended 9 January 2019)",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/regulation/21",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), reg. 21. Available at: https://www.legislation.gov.uk/uksi/2003/2426/regulation/21 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, regulation 2 (Interpretation) - definitions of 'call', 'direct marketing' and 'electronic mail', and new reg 2(1A)",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/regulation/2",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), reg. 2. Available at: https://www.legislation.gov.uk/uksi/2003/2426/regulation/2 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, regulation 23 (Use of electronic mail for direct marketing purposes where the identity or address of the sender is concealed)",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/regulation/23",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), reg. 23. Available at: https://www.legislation.gov.uk/uksi/2003/2426/regulation/23 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, regulation 24 (Information to be provided for the purposes of regulations 19, 20, 21 and 21A)",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/regulation/24",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), reg. 24. Available at: https://www.legislation.gov.uk/uksi/2003/2426/regulation/24 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, regulation 31 (Enforcement) - substituted by DUAA 2025 s.115(5) from 5 February 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/regulation/31",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), reg. 31. Available at: https://www.legislation.gov.uk/uksi/2003/2426/regulation/31 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, Schedule 1 (DPA 2018 enforcement provisions applied with modifications) - substituted by DUAA 2025 Sch 13 from 5 February 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/schedule/1",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), sch. 1. Available at: https://www.legislation.gov.uk/uksi/2003/2426/schedule/1 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Privacy and Electronic Communications (EC Directive) Regulations 2003, Schedule 1 - point-in-time version as at 4 February 2026 (pre-DUAA regime applying DPA 1998 s.55A monetary penalties)",
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/schedule/1/2026-02-04",
+      "harvard_reference": "The Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), sch. 1 (version as at 4 February 2026). Available at: https://www.legislation.gov.uk/uksi/2003/2426/schedule/1/2026-02-04 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data Protection (Monetary Penalties) (Maximum Penalty and Notices) Regulations 2010, regulation 2 (prescribed maximum GBP 500,000 under DPA 1998 s.55A)",
+      "url": "https://www.legislation.gov.uk/uksi/2010/31/regulation/2/made",
+      "harvard_reference": "The Data Protection (Monetary Penalties) (Maximum Penalty and Notices) Regulations 2010 (SI 2010/31), reg. 2. Available at: https://www.legislation.gov.uk/uksi/2010/31/regulation/2/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, c. 18 - table of contents (Part 5 Chapter 2 ss.109-116; Part 6 ss.117-119; Schedules 12-13)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18. Available at: https://www.legislation.gov.uk/ukpga/2025/18/contents (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 114 (Use of electronic mail for direct marketing by charities)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/114",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 114. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/114 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 115 (Commissioner's enforcement powers)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/115",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 115. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/115 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, Schedule 13 (Privacy and electronic communications: Commissioner's enforcement powers) - para 18 modifies DPA 2018 s.157 for PECR",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/schedule/13",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, sch. 13. Available at: https://www.legislation.gov.uk/ukpga/2025/18/schedule/13 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data Protection Act 2018, section 157 (Maximum amount of penalty) - higher maximum GBP 17.5m/4%, standard maximum GBP 8.7m/2%",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/157",
+      "harvard_reference": "Data Protection Act 2018, c. 12, s. 157. Available at: https://www.legislation.gov.uk/ukpga/2018/12/section/157 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 1) Regulations 2025 (SI 2025/904), regulation 2 - ss.109, 110 (in part), 111, 113 in force 20 August 2025",
+      "url": "https://www.legislation.gov.uk/uksi/2025/904/regulation/2/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 1) Regulations 2025 (SI 2025/904), reg. 2. Available at: https://www.legislation.gov.uk/uksi/2025/904/regulation/2/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/82) - ss.110 (remainder), 112, 114-116 and Sch 13 in force 5 February 2026; PECR transitional provisions in regs 8-11",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/82). Available at: https://www.legislation.gov.uk/uksi/2026/82/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 2) Regulations 2025 (SI 2025/982) - s.124 only; no PECR provisions",
+      "url": "https://www.legislation.gov.uk/uksi/2025/982/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 2) Regulations 2025 (SI 2025/982). Available at: https://www.legislation.gov.uk/uksi/2025/982/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 3 and Transitional and Saving Provisions) Regulations 2025 (SI 2025/996) - ss.79, 88-90 only; no PECR provisions",
+      "url": "https://www.legislation.gov.uk/uksi/2025/996/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 3 and Transitional and Saving Provisions) Regulations 2025 (SI 2025/996). Available at: https://www.legislation.gov.uk/uksi/2025/996/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 4) Regulations 2025 (SI 2025/1213) - no PECR provisions",
+      "url": "https://www.legislation.gov.uk/uksi/2025/1213/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 4) Regulations 2025 (SI 2025/1213). Available at: https://www.legislation.gov.uk/uksi/2025/1213/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/1015) - ss.117(4)(a), 118, 119 in force 30 September 2026 (Information Commission)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/1015). Available at: https://www.legislation.gov.uk/uksi/2026/1015/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026 (SI 2026/386) - Sch 3 para 6 replaces 'Commissioner' with 'Commission' in PECR, in force when s.119 is fully in force",
+      "url": "https://www.legislation.gov.uk/uksi/2026/386/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026 (SI 2026/386). Available at: https://www.legislation.gov.uk/uksi/2026/386/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Guidance on direct marketing using electronic mail (final; latest update 28 April 2026 to reflect DUAA)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+      "harvard_reference": "Information Commissioner's Office (2026) Guidance on direct marketing using electronic mail. Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - How do we comply with the PECR electronic mail marketing rules? (commercial and charity soft opt-in conditions)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/",
+      "harvard_reference": "Information Commissioner's Office (2026) How do we comply with the PECR electronic mail marketing rules? Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO Direct marketing guidance - Identify direct marketing (latest update 20 August 2025; service messages v marketing, contract-end and upgrade messages)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/identify-direct-marketing/",
+      "harvard_reference": "Information Commissioner's Office (2025) Direct marketing guidance: Identify direct marketing. Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/identify-direct-marketing/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO Guide to PECR - Electronic mail marketing (carries 'under review' notice due to DUAA)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/electronic-mail-marketing/",
+      "harvard_reference": "Information Commissioner's Office (n.d.) Guide to PECR: Electronic mail marketing. Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/electronic-mail-marketing/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO Guide to PECR - Telephone marketing (carries 'under review' notice due to DUAA)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/telephone-marketing/",
+      "harvard_reference": "Information Commissioner's Office (n.d.) Guide to PECR: Telephone marketing. Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/telephone-marketing/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO Guide to Privacy and Electronic Communications Regulations - landing page (DUAA review notice)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/",
+      "harvard_reference": "Information Commissioner's Office (n.d.) Guide to Privacy and Electronic Communications Regulations. Available at: https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - The Data (Use and Access) Act 2025 (DUAA): summary of the changes - Privacy and electronic communications (19 June 2025)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-duaa-summary-of-the-changes/privacy-and-electronic-communications/",
+      "harvard_reference": "Information Commissioner's Office (2025) The Data (Use and Access) Act 2025 (DUAA): summary of the changes - Privacy and electronic communications. Available at: https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-duaa-summary-of-the-changes/privacy-and-electronic-communications/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Statement on the commencement of the Data (Use and Access) Act (DUAA) (5 February 2026)",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/02/statement-on-the-commencement-of-the-data-use-and-access-act-duaa/",
+      "harvard_reference": "Information Commissioner's Office (2026) Statement on the commencement of the Data (Use and Access) Act (DUAA). Available at: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/02/statement-on-the-commencement-of-the-data-use-and-access-act-duaa/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO blog - One year on: marking the 12-month commencement of the Data (Use and Access) Act (23 June 2026)",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/06/one-year-on-marking-the-12-month-commencement-of-the-data-use-and-access-act/",
+      "harvard_reference": "Information Commissioner's Office (2026) One year on: marking the 12-month commencement of the Data (Use and Access) Act. Available at: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/06/one-year-on-marking-the-12-month-commencement-of-the-data-use-and-access-act/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Our plans for new and updated guidance: Direct marketing and privacy and electronic communications",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/direct-marketing-and-privacy-and-electronic-communications/",
+      "harvard_reference": "Information Commissioner's Office (n.d.) Our plans for new and updated guidance: Direct marketing and privacy and electronic communications. Available at: https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/direct-marketing-and-privacy-and-electronic-communications/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "Reg 22(2) PECR (current revised text, legislation.gov.uk, no outstanding effects): except where reg 22(3) or (3A) applies, a person must not transmit, or instigate the transmission of, unsolicited direct-marketing communications by electronic mail to individual subscribers unless the recipient has previously notified the sender of consent. 'Electronic mail' (reg 2(1)) expressly includes messages sent by short message service, so both e-mail and SMS retention offers are caught. Reg 22 applies only to individual subscribers (reg 22(1)); corporate subscribers are outside it.",
+    "The commercial soft opt-in in reg 22(3) is UNCHANGED by the DUAA 2025 (DUAA s.114 amends only reg 22(2) and adds reg 22(3A) and (5)). A sender may use e-mail or SMS marketing without consent where: (a) it obtained the recipient's contact details in the course of the sale, or negotiations for the sale, of a product or service to that recipient; (b) the marketing is about its 'similar products and services only'; and (c) the recipient was given a simple, free means of refusing (apart from the cost of sending the refusal), both when the details were collected and in each later communication.",
+    "ICO interpretation (Guidance on direct marketing using electronic mail, final, updated 28 April 2026): the 'similar products and services' test turns on whether people would reasonably expect marketing about that product or service, given their previous interactions. The details must be collected while selling or negotiating to sell, and browsing alone is not enough. The opt-out must be clear and prominent, both when details are collected and in every message; burying it in a privacy policy does not count. For SMS, 'reply STOP' is an acceptable mechanism.",
+    "Application to AI-driven retention offers by a telecoms operator: the customer's e-mail address or mobile number was captured when they contracted for the service. If an opt-out was offered then and is repeated in each message, and the customer has not opted out, e-mail/SMS retention offers for the operator's own similar services (discounted renewals, tariff changes, add-ons) can rely on reg 22(3). Otherwise PECR-standard prior consent is needed. Reg 23 also applies: the sender's identity must not be disguised or concealed, and a valid address must be given for opt-out requests.",
+    "Retention messages will usually be 'direct marketing'. Since 20 August 2025, reg 2(1) defines direct marketing as 'the communication (by whatever means) of advertising or marketing material which is directed to particular individuals' (DUAA s.110; SI 2025/904 reg 2(o)). The ICO's 'Identify direct marketing' guidance (updated 20 August 2025) treats as a service message only a message that advises customers factually of their end-of-contract options without encouraging or promoting one option over another. A message that encourages take-up of a special offer is direct marketing. A churn-model-triggered 'stay with us' offer is therefore within regs 21/22.",
+    "Reg 21 PECR (live unsolicited marketing calls; textually unchanged since 9 January 2019, no outstanding effects). Callers must not withhold calling line identification and must present a number on which they can be contacted (reg 21(A1)). They must not make unsolicited direct-marketing calls to a subscriber who has told the caller not to call, or to a number on the TPS/CTPS register kept under reg 26 (reg 21(1)). There is a 28-day grace period after a number is registered (reg 21(3)). A TPS-registered subscriber may tell a particular caller that they do not object to its calls, and may withdraw that at any time (reg 21(4)-(5)). Reg 24 requires the caller's name and, on request, an address or freephone number. The ICO Guide to PECR telephone page says being an existing customer does not by itself override TPS registration: the customer must have told the caller they do not object.",
+    "The DUAA widened 'call' and added reg 2(1A), both in force 5 February 2026 (DUAA s.110(2)(a) and (3); SI 2026/82 reg 2(v)). A reference to making a call now includes attempting to establish a connection. Where an e-mail or SMS is sent but not received, or a call attempt is unsuccessful, 'recipient' is read as the intended recipient. Unanswered retention calls and undelivered retention messages therefore still engage regs 21/22.",
+    "DUAA s.114 (in force 5 February 2026, SI 2026/82 reg 2(x)) inserts reg 22(3A) and (5): a soft opt-in for registered charities (England and Wales, Scotland and Northern Ireland). It covers marketing whose sole purpose is to further the charity's charitable purposes, where the details were obtained when the person expressed an interest in, or offered or gave support to, those purposes, with the same opt-out conditions. It is irrelevant to a commercial telecoms operator. No DUAA provision widens the commercial soft opt-in.",
+    "Enforcement and fines: DUAA s.115 and Sch 13 (in force 5 February 2026; SI 2026/82 reg 2(y) and (z14)) substitute PECR reg 31 and Sch 1. Parts 5-7 of the DPA 2018 now apply to PECR with modifications, and regs 5B, 31A and 31B are omitted. Under PECR Sch 1 para 18 (DUAA Sch 13 para 18, as amended by s.116(4)), DPA 2018 s.157(2)(a) applies the 'higher maximum amount' to failures to comply with regs 5, 6, 7, 8, 14, 19, 20, 21, 21A, 21B, 22, 23, 24 or 32B(4)-(5). Under s.157(5), that amount is GBP 17,500,000 or 4% of total annual worldwide turnover in the preceding financial year, whichever is higher. The higher maximum also applies to breaches of s.142(8B). Other PECR contraventions attract the 'standard maximum amount' of GBP 8,700,000 or 2% (s.157(6)). The ICO confirmed PECR fines of up to GBP 17.5m or 4% of global turnover in its 5 February 2026 statement and 23 June 2026 blog.",
+    "Before the DUAA, PECR Sch 1 applied DPA 1998 s.55A monetary penalties (version at 4 February 2026). The maximum was GBP 500,000 (SI 2010/31 reg 2). Transitional rules in SI 2026/82 regs 8-11: the new investigatory powers can be used from 5 February 2026 even for earlier conduct (reg 8); powers exercised and audits begun before that date are completed under the old rules (regs 9-10); enforcement and monetary penalties for acts or omissions before 5 February 2026 stay under the pre-DUAA PECR, and conduct on or after that date is under the new regime (reg 11).",
+    "Other DUAA PECR changes relevant to a telecoms operator: s.111 (in force 20 August 2025, SI 2025/904 reg 2(p)) requires a public electronic communications service provider to notify a personal data breach to the Commissioner without undue delay and, where feasible, within 72 hours, as under UK GDPR. s.112 and Sch 12 (in force 5 February 2026) restructure the reg 6 cookies/storage rule and add new exceptions. s.116 (in force 5 February 2026, SI 2026/82 reg 2(z)) inserts regs 32A-32C on PECR codes of conduct.",
+    "Commencement audit: DUAA Part 5 Chapter 2 is ss.109-116. It was commenced by SI 2025/904 (Commencement No. 1: ss.109, 110 except (2)(a), (2)(b) and (3), 111 and 113, from 20 August 2025) and SI 2026/82 (Commencement No. 6: rest of s.110, ss.112, 114, 115, 116 and Schs 12-13, from 5 February 2026). Commencement Nos 2, 3 and 4 (SI 2025/982, 2025/996, 2025/1213) contain no PECR provisions. legislation.gov.uk shows no outstanding DUAA effects on regs 21, 22, 23 or 24.",
+    "Pending, institutional only: on 30 September 2026 DUAA s.117(4)(a), s.118 (abolition of the office of Information Commissioner) and s.119 (transfer of functions to the Information Commission) come into force (SI 2026/1015 reg 2, made 10 September 2026). SI 2026/386 (made 26 March 2026) comes into force when s.119 is fully in force. Its Sch 3 para 6 changes PECR references from 'Commissioner' to 'Commission' (reg 2(1) definitions, regs 5A, 5C, 6A, 25, 26, 29A, 31, 32, 32A, 32B, 33 and Sch 1). legislation.gov.uk still lists these as outstanding effects on regs 2 and 31 and Sch 1. Substantive regs 21 and 22 are unaffected.",
+    "Currency of ICO guidance: the Guide to PECR landing, e-mail marketing and telephone marketing pages still say 'this guidance is under review and may be subject to change' because of the DUAA. The ICO lists an update to its PECR advice for small organisations as being drafted, due Summer 2026. The ICO says separate PECR fining guidance is still being developed (23 June 2026 blog), and no published version was found at 28 September 2026."
+  ],
+  "quotable": "Under PECR reg 22(3)(b), an operator may send unsolicited marketing e-mails or texts to an existing customer without consent only where the marketing concerns its \"similar products and services only\" (SI 2003/2426, reg 22(3)(b), unamended by the Data (Use and Access) Act 2025; accessed 2026-09-28). Since 5 February 2026, a breach of regs 21-24 can lead to a penalty of up to GBP 17.5 million or 4% of worldwide annual turnover (PECR Sch 1 para 18 as substituted by DUAA 2025 Sch 13, applying DPA 2018 s.157(2)(a) and (5)).",
+  "uncertainties": "(1) legislation.gov.uk and ICO pages were read through an automated fetch and summariser, not by reading the printed SIs. Verbatim wording was requested and returned for regs 21, 22, 23 and 24, the reg 2 'call' definition and reg 2(1A), DUAA Sch 13 para 18 and DPA 2018 s.157(2), (5) and (6). The paragraph letters of SI 2026/82 reg 2 ((v), (w), (x), (y), (z), (z14)) and the list of PECR provisions in SI 2026/386 Sch 3 para 6 come from summaries and should be spot-checked against the SI PDFs before quoting. One summary of PECR Sch 1 para 18 wrongly said regs 19-24 attract the standard maximum. Cross-checking DUAA Sch 13 para 18 against the unmodified structure of DPA 2018 s.157(2) confirms they attract the higher maximum (GBP 17.5m/4%). (2) The commercial soft opt-in text is unchanged, but it is a matter of ICO and Tribunal interpretation, not statute, whether a particular retention offer is a 'similar' product and whether a contract-end message is neutral service information or marketing. The ICO Guide to PECR pages are still formally 'under review', so ICO views may be refined. (3) The Information Commission takes over on 30 September 2026, two days after the access date. After that date, PECR references to 'the Commissioner' should be read as 'the Commission', and the revised legislation.gov.uk text should be re-checked. (4) Separate ICO PECR fining guidance had not been found as published at the access date. How the new GBP 17.5m/4% maximum will be calibrated in practice is therefore uncertain, and the first penalties under the new regime can only concern conduct on or after 5 February 2026. (5) Out of scope but relevant in parallel: the UK GDPR lawful basis for the churn-scoring profiling itself; the absolute right to object to direct marketing, including related profiling, under Art 21(2)-(3); Art 22 automated decision-making as amended by the DUAA; and Ofcom General Conditions and CMA consumer law on retention and cancellation practices. These are covered in other items. (6) The ICO e-mail guidance sub-page 'How do we comply...' shows no page-level date; its 2026 date is taken from the parent guidance's 28 April 2026 update."
+}

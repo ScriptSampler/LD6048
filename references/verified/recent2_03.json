@@ -1,0 +1,75 @@
+{
+  "key": "recent2_03",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Verhelst, Théo",
+    "Mercier, Denis",
+    "Shrestha, Jeevan",
+    "Bontempi, Gianluca"
+  ],
+  "year": 2024,
+  "title": "Partial counterfactual identification and uplift modeling: theoretical results and real-world assessment",
+  "venue": "Machine Learning",
+  "volume": "113",
+  "issue": "3",
+  "pages": "1043-1067",
+  "doi": "10.1007/s10994-023-06317-w",
+  "url": "https://doi.org/10.1007/s10994-023-06317-w",
+  "harvard_reference": "Verhelst, T., Mercier, D., Shrestha, J. and Bontempi, G. (2024) 'Partial counterfactual identification and uplift modeling: theoretical results and real-world assessment', Machine Learning, 113(3), pp. 1043-1067. doi:10.1007/s10994-023-06317-w.",
+  "abstract_summary": "This is a methods paper on causal inference from ULB (Machine Learning Group) and Orange Belgium's Data Science Team. It asks what can be said about unobservable counterfactual customer types when all you have is uplift (CATE) estimates. For a retention campaign the types are: sure thing (does not churn either way), persuadable (churns only if not contacted), do-not-disturb (churns only if contacted) and lost cause (churns either way). The authors derive new bounds on the probability of each type, written in terms of the two uplift-model scores S0(x) and S1(x). They show these bounds are never looser than the classical Fréchet bounds and become tighter as the features carry more information about the uplift. They also propose a point estimator that assumes the two potential outcomes are conditionally independent. The estimators are tested first on simulated data from a hierarchical Bayesian model. They are then applied to Orange Belgium data from 6 randomised churn-prevention campaigns run over 6 months in 2019-2020: 11,268 customers and 145 features, with the target group phoned and offered an adapted tariff plan. The model is an uplift random forest with EasyEnsemble balancing, a probability-calibration correction and 5-fold cross-validation. Estimated shares of the campaign population are 91.12% sure things, 4.29% persuadables (bounds 0.52-4.49%), 4.39% do-not-disturbs and 0.20% lost causes. That is at most about 505 persuadable customers, against 7,500 actually called. A simplistic profit analysis (EUR 1 per call, EUR 120 lifetime value) puts the campaign as run at a net loss of about EUR 130, against a possible profit of up to EUR 57,477 if only the persuadables could have been called. The uplift bounds were only slightly tighter than the Fréchet bounds on real data, which the authors read as showing that counterfactual probabilities are hard to estimate in real churn settings.",
+  "claims_supported": [
+    {
+      "claim": "1 (as stated). Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": false,
+      "where": "Only partly supported, so it is marked false under strict reading. The paper supports the conceptual difference. Sect. 3, p. 1048 says an effective campaign 'should then only reach out to persuadable customers', because sure things and lost causes would not change their behaviour and do-not-disturbs would react negatively. Sect. 7.1, pp. 1061-1062 shows the real campaigns contacted the riskiest customers ranked by a churn-prediction model. Sects. 7.3-7.4, pp. 1063-1064 estimate that only about 4.29% of them were persuadable (at most 505, against 7,500 called) and that the campaign roughly broke even or lost money. However, the paper does NOT show empirically that uplift-based targeting improves outcomes. Sect. 7.5, p. 1064 says outright that these results 'do not indicate which customers should be targeted'. It also cites Fernández-Loría and Provost (2022a, 2022b), who show uplift models can be sub-optimal and that proxy targets such as outcome probability are sometimes more effective. The EUR 57,477 figure is a hypothetical upper bound that assumes the persuadables could be identified perfectly."
+    },
+    {
+      "claim": "1a (narrower, supportable). Orange Belgium ran randomised retention campaigns that phoned customers ranked highest by a churn-risk model. Only an estimated 4.29% of that campaign population was persuadable (uplift bounds 0.52-4.49%; about 483 customers, bounded 58-505, against 7,500 called), and about as many were do-not-disturb (4.39%). The overall campaign uplift was about 0.8 percentage points (control churn 4.85% against target churn 4.03%). A simplistic profit analysis puts the campaign as run at a net loss of about EUR 130, against up to EUR 57,477 had only persuadables been called.",
+      "supported": true,
+      "where": "Sect. 7.1, pp. 1061-1062 (campaign design, 11,268 customers, churn rates 4.85%/4.03%, control group 33%); Table 4 and Sect. 7.3, p. 1063 (counterfactual shares and bounds, 483 [58-505] persuadables against 7,500 called); Sect. 7.4, pp. 1063-1064 (profit analysis assuming EUR 1 per call and EUR 120 CLV, uplift about 0.8%, net loss about EUR 130 against up to EUR 57,477). The authors themselves call the profit analysis 'simplistic'."
+    },
+    {
+      "claim": "2. Survival models can estimate when customers are likely to churn and support timing of interventions; cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Not supported anywhere. A full-text search of the published version found no mention of survival analysis, hazard models, time-to-churn, censoring or truncation. Churn is treated as a binary outcome within the campaign window. Cite a survival-analysis source instead."
+    },
+    {
+      "claim": "3 (as stated). Resampling (e.g. SMOTE) or class weighting changes predicted probabilities/calibration; threshold moving or cost-sensitive thresholds are an alternative.",
+      "supported": false,
+      "where": "Only partly supported. Sect. 7.2, p. 1062 says that balancing the data with a resampling strategy (EasyEnsemble undersampling, k = 10) changes the prior probability of churn, so the predicted scores are biased. The authors correct this with the calibration formula of Dal Pozzolo et al. (2015) and cite Batista et al. (2004). SMOTE, class weighting, threshold moving and cost-sensitive thresholds are not discussed. This is a methodological remark that cites other work, not a finding of the paper."
+    },
+    {
+      "claim": "3a (narrower, supportable). Undersampling-based class balancing (EasyEnsemble) shifts the churn prior, so a model trained on the balanced data gives biased scores that need a calibration correction before they are used as probabilities.",
+      "supported": true,
+      "where": "Sect. 7.2, p. 1062. Secondary support only: for a primary source, cite Dal Pozzolo et al. (2015), 'Calibrating probability with undersampling for unbalanced classification', as listed in the paper's references."
+    },
+    {
+      "claim": "4a. The paper's assessment data: 6 randomised churn-prevention campaigns at Orange Belgium (monthly, Sept 2019-Feb 2020), with 11,268 customers and 145 features. The riskiest customers by a churn model were randomly split into target (phoned with an adapted tariff-plan offer) and control (33%). The treatment indicator records a call attempt, not whether the customer answered or accepted.",
+      "supported": true,
+      "where": "Sect. 7.1, pp. 1061-1062; the campaign months come from Fig. 8, p. 1063."
+    },
+    {
+      "claim": "4b. On the Orange Belgium data, the uplift bounds were consistently tighter than the Fréchet bounds, but not by a large margin. The authors conclude that uplift terms, and so counterfactual probabilities, are difficult to estimate in real-world churn settings, and that more informative features or stronger uplift models are needed.",
+      "supported": true,
+      "where": "Sect. 7.3, p. 1063 (Fig. 7, Table 4) and Sect. 7.5, p. 1064."
+    },
+    {
+      "claim": "4c. The authors acknowledge an open debate: uplift modelling is not always the best approach for causal decision-making. They cite Fernández-Loría and Provost (2022a, 2022b) as showing that outcome-probability proxies (i.e. churn-risk scores) are sometimes more effective, in line with the large churn literature that uses predictive rather than uplift models.",
+      "supported": true,
+      "where": "Sect. 7.5, p. 1064. This reports other authors' results; cite Fernández-Loría and Provost directly for the substantive claim."
+    },
+    {
+      "claim": "4d. Stated limitations: the estimators assume unconfoundedness (randomised treatment), depend on an unbiased and accurate uplift model, and need separate estimates of S0(x) and S1(x). That rules out single-model learners such as the X-learner and restricts them to approaches such as uplift random forest or T-learner. The point estimator also assumes conditional independence of the potential outcomes.",
+      "supported": true,
+      "where": "Sect. 7.2, p. 1062; Sect. 8 (Conclusion), pp. 1064-1065."
+    },
+    {
+      "claim": "4e. Companion resource: the same authors released an anonymised Orange Belgium churn/uplift dataset. It is published as a benchmark in 'A churn prediction dataset from the telecom sector: a new benchmark for uplift modeling' (doi:10.1007/978-3-031-74640-6_21), whose abstract calls it the first publicly available dataset for evaluating uplift modelling on churn prediction.",
+      "supported": true,
+      "where": "Journal article, 'Availability of code, data and material' statement, p. 1065 (anonymised data and code on GitHub). The companion chapter's abstract is on SpringerLink. Metadata verified via Crossref and SpringerLink: Communications in Computer and Information Science, vol. 2136, pp. 292-299, 2025, in the International Workshops of ECML PKDD 2023 volume (Part IV), eds. Meo, R. and Silvestri, F., Springer, Cham."
+    }
+  ],
+  "verification_notes": "Crossref (query and DOI record) confirms: DOI 10.1007/s10994-023-06317-w; authors Théo Verhelst, Denis Mercier, Jeevan Shrestha, Gianluca Bontempi; Machine Learning (Springer, ISSN 0885-6125/1573-0565), vol. 113, issue 3, pp. 1043-1067; published online 14 Mar 2023, print issue March 2024; journal-article. The peer-review history is printed on the article (received 1 Mar 2022, revised 8 Nov 2022, accepted 7 Feb 2023). Funding: Innoviris 2019-PHD-16. Machine Learning is a long-established peer-reviewed Springer journal, not a predatory venue. Semantic Scholar gives the same abstract and the arXiv preprint 2211.07264 (v1, 14 Nov 2022) and DBLP key journals/ml/VerhelstMSB24. Its venue label 'Machine-mediated learning' and year 2022 are S2 artefacts from the preprint. I downloaded and read the full published PDF from SpringerLink, header 'Machine Learning (2024) 113:1043-1067'. All page numbers cited are journal pagination from that PDF. Affiliations are confirmed on p. 1043: ULB Machine Learning Group, and Data Science Team, Orange Belgium. The industrial partner is named as Orange Belgium in Sects. 7 and 7.5. The published version is 'under exclusive licence to Springer', not open access; the arXiv preprint is freely available and its Sect. 7 numbers match. Year choice: I used 2024 (volume/issue year) because the reference gives vol. 113(3) pagination. The lead's '2023' is the online-first year. Use one year consistently. If the report cites the online-first version, write (2023) and drop the volume/issue/pages. Currency symbols were lost in the PDF text extraction; the arXiv text shows them as euros. Scout's note: mostly accurate. Crossref and the S2 abstract do not by themselves say 'Orange Belgium', but the full text does. Corrections to the companion paper details: (i) it is a workshop paper in the 'International Workshops of ECML PKDD 2023 ... Revised Selected Papers, Part IV' volume, not the main ECML PKDD conference proceedings; (ii) it was published in 2025, not 2023; (iii) Crossref and SpringerLink spell the third author 'Shestha', a metadata typo for Shrestha. CCIS vol. 2136, pp. 292-299 and DOI 10.1007/978-3-031-74640-6_21 are confirmed. I did not verify the workshop's review process. Suggested Harvard entry for the companion: Verhelst, T., Mercier, D., Shrestha, J. and Bontempi, G. (2025) 'A churn prediction dataset from the telecom sector: a new benchmark for uplift modeling', in Meo, R. and Silvestri, F. (eds) Machine Learning and Principles and Practice of Knowledge Discovery in Databases: International Workshops of ECML PKDD 2023. Cham: Springer (Communications in Computer and Information Science, 2136), pp. 292-299. doi:10.1007/978-3-031-74640-6_21.",
+  "caveats": "This is a methods paper on causal inference, not a churn-classifier benchmarking study. It does not compare churn prediction algorithms or use the Kaggle/IBM Telco dataset. Its main contribution is bounds and point estimates for counterfactual customer types. The profit figures come from a deliberately simplistic calculation (assumed EUR 1 per call, EUR 120 CLV), and the persuadable count is an estimate with wide bounds (58-505), so neither should be presented as measured campaign results. The paper does not show that uplift-targeted campaigns beat churn-risk-targeted ones, and it explicitly flags evidence that churn-probability targeting can sometimes be better. Pair it with Ascarza (2018) or Devriendt et al. for the 'risk is not responsiveness' argument. Inference by the verifier, not stated in the paper: the Kaggle Telco dataset has no treatment/control indicator, so uplift and counterfactual types cannot be estimated from it. That makes this paper most useful in the report's critical discussion and limitations sections, not for its methods. It says nothing about survival analysis, censoring, SMOTE, class weights or threshold moving; claims 2 and 3 need other sources."
+}

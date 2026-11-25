@@ -1,0 +1,17 @@
+{
+  "model": "LogReg",
+  "threshold": 0.47000000000000003,
+  "n_test": 1409,
+  "TP": 217,
+  "FN": 157,
+  "FP": 117,
+  "TN": 918,
+  "fn_mean_p": 0.2674982612101911,
+  "fn_share_p_below_0.2": 0.33121019108280253,
+  "fn_share_two_year_or_one_year": 0.2802547770700637,
+  "fn_share_tenure_gt_24": 0.46496815286624205,
+  "fp_share_month_to_month": 0.9829059829059829,
+  "fp_share_fibre": 0.8034188034188035,
+  "fp_mean_tenure": 13.222222222222221,
+  "fn_mean_tenure": 26.37579617834395
+}

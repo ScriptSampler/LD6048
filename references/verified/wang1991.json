@@ -1,0 +1,27 @@
+{
+  "key": "wang1991",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Wang, M.-C."
+  ],
+  "year": 1991,
+  "title": "Nonparametric estimation from cross-sectional survival data",
+  "venue": "Journal of the American Statistical Association",
+  "volume": "86",
+  "issue": "413",
+  "pages": "130-143",
+  "doi": "10.1080/01621459.1991.10475011",
+  "url": "https://doi.org/10.1080/01621459.1991.10475011",
+  "harvard_reference": "Wang, M.-C. (1991) 'Nonparametric estimation from cross-sectional survival data', Journal of the American Statistical Association, 86(413), pp. 130–143. doi:10.1080/01621459.1991.10475011.",
+  "abstract_summary": "Wang considers follow-up studies in which survival data are gathered by cross-sectional sampling, so that the observations are left-truncated as well as right-censored. The paper revisits the product-limit estimate for left-truncated, right-censored data as a conditional maximum-likelihood estimate; derives the nonparametric MLE of the truncation distribution, with uses including testing the stationarity assumption and estimating the proportion of truncated data in prevalent cohort studies; develops asymptotic results through nonparametric score functions; derives the nonparametric MLE of the joint distribution of truncation and censoring variables; and uses these estimates to extend Efron's simple bootstrap for right-censored data to data that are both left-truncated and right-censored.",
+  "claims_supported": [
+    {
+      "claim": "Survival data collected by cross-sectional sampling (a snapshot of current customers) are left-truncated as well as right-censored.",
+      "supported": true,
+      "where": "Abstract, opening sentences (OpenAlex W2103527136, the publisher abstract): the paper states that follow-up data gathered by cross-sectional sampling are left-truncated as well as right-censored. Independently corroborated by the zbMATH Open review Zbl 0739.62026 (reviewer B. K. Kale), which describes the setting the same way."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1080/01621459.1991.10475011): type journal-article; title 'Nonparametric Estimation from Cross-Sectional Survival Data'; sole author Mei-Cheng Wang; Journal of the American Statistical Association, vol. 86, issue 413, pp. 130-143; issued March 1991; publisher Informa UK Limited (Taylor & Francis); no abstract deposited. Semantic Scholar (CorpusId 123323004, MAG 2103527136) gives JASA 86, pp. 130-143, abstract elided by the publisher. OpenAlex W2103527136 matches (published 1991-03-01, vol. 86, issue 413) and supplies the abstract. zbMATH Open (Zbl 0739.62026, via api.zbmath.org) records the JSTOR DOI 10.2307/2289722, MSC 62G05/62G20/62G09 and a reviewer summary consistent with the abstract. The Taylor & Francis landing page returned HTTP 403 and JSTOR failed to load, so the full text was not read. JASA is the peer-reviewed journal of the American Statistical Association, not a predatory venue. Title given in sentence case per Cite Them Right. Checked again by an independent critic on 31 October 2026: Kaplan and Meier (1958), abstract via https://api.openalex.org/works/doi:10.1080/01621459.1958.10501452: observing each item's initial event is presupposed, and the PL estimate is defined for random samples. Wang (1991) is verified: Crossref gives JASA 86(413), pp. 130-143, March 1991, and the OpenAlex abstract (https://api.openalex.org/works/doi:10.1080/01621459.1991.10475011) says cross-sectionally sampled survival data are left-truncated as well as right-censored. src/eda.py fits the lifelines KM (lines 100-101) and Cox (129-130) models with no entry times. results/km_contract.json gives S(12) = 0.703, which implies 2.9% a month (1 - 0.703^(1/12)). churn_by_category.csv gives 42.7% month-to-month churn in one window, so the clash holds whether the window is a month or a quarter. The contract ordering matches 2.8%, 11.3% and 42.7%. 'Overstate retention' rests on the report's own numbers, not on Wang's abstract, which is how the sentence is built. Cox (1972) stays cited in Table 1. Word delta -3 raw and counted (Part 2 486 to 483, inside ±5%). No new numbers; the number-check simulation finds 0 unmatched.",
+  "caveats": "1) The paper's motivating applications are prevalent-cohort (biomedical) studies, not customer churn; applying it to the Telco snapshot is the report's own step. 2) The abstract does not state that a naive Kaplan-Meier fit overstates survival; in the report that conclusion rests on the 70.3% versus 42.7% inconsistency in results/, not on Wang. 3) A left-truncation correction needs each subject's entry (truncation) time; for the Telco file that depends on the label window, which IBM's documentation describes both as a month and as a quarter. 4) Only the abstract and an independent review were checked, not the full text. 5) The JSTOR DOI 10.2307/2289722 is an alternative identifier for the same article; cite the Taylor & Francis DOI."
+}

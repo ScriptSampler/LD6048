@@ -1,0 +1,81 @@
+{
+  "Majority": {
+    "f1_opt": 0.02,
+    "f1_at_opt": 0.0,
+    "f2_opt": 0.02,
+    "f2_at_opt": 0.0,
+    "profit_opt": 0.02,
+    "profit_at_opt_oof": 0.0,
+    "default": 0.5,
+    "operating": 0.02
+  },
+  "LogReg": {
+    "f1_opt": 0.35000000000000003,
+    "f1_at_opt": 0.6415094339622641,
+    "f2_opt": 0.16999999999999998,
+    "f2_at_opt": 0.7507018528916339,
+    "profit_opt": 0.47000000000000003,
+    "profit_at_opt_oof": 49968.752000000015,
+    "default": 0.5,
+    "operating": 0.47000000000000003
+  },
+  "DecisionTree": {
+    "f1_opt": 0.30000000000000004,
+    "f1_at_opt": 0.6254485233232128,
+    "f2_opt": 0.15,
+    "f2_at_opt": 0.7458926615553122,
+    "profit_opt": 0.42000000000000004,
+    "profit_at_opt_oof": 46036.672000000006,
+    "default": 0.5,
+    "operating": 0.42000000000000004
+  },
+  "RandomForest": {
+    "f1_opt": 0.31,
+    "f1_at_opt": 0.6382147838214783,
+    "f2_opt": 0.16,
+    "f2_at_opt": 0.7495308532950656,
+    "profit_opt": 0.45,
+    "profit_at_opt_oof": 49359.712000000014,
+    "default": 0.5,
+    "operating": 0.45
+  },
+  "XGBoost": {
+    "f1_opt": 0.33,
+    "f1_at_opt": 0.6386210926088227,
+    "f2_opt": 0.18,
+    "f2_at_opt": 0.7490294587805435,
+    "profit_opt": 0.44,
+    "profit_at_opt_oof": 50170.600000000006,
+    "default": 0.5,
+    "operating": 0.44
+  },
+  "MLP": {
+    "f1_opt": 0.30000000000000004,
+    "f1_at_opt": 0.6387259010896899,
+    "f2_opt": 0.12000000000000001,
+    "f2_at_opt": 0.7489508232002583,
+    "profit_opt": 0.46,
+    "profit_at_opt_oof": 50256.13600000001,
+    "default": 0.5,
+    "operating": 0.46
+  },
+  "Voting": {
+    "f1_opt": 0.34,
+    "f1_at_opt": 0.6398104265402843,
+    "f2_opt": 0.19,
+    "f2_at_opt": 0.7508551881413911,
+    "profit_opt": 0.45,
+    "profit_at_opt_oof": 51338.70400000001,
+    "default": 0.5,
+    "operating": 0.45
+  },
+  "_cost_model": {
+    "horizon_months": 12,
+    "margin": 0.4,
+    "offer_cost": 60.0,
+    "contact_cost": 5.0,
+    "save_rate": 0.3,
+    "leakage": 1.0
+  },
+  "_note": "All thresholds chosen on out-of-fold predictions from the training split; 'operating' = expected-profit-optimal under the illustrative cost model."
+}

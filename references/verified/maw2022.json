@@ -1,0 +1,30 @@
+{
+  "key": "maw2022",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Maw, Maw", "Haw, Su-Cheng", "Ho, Chin-Kuan"],
+  "year": 2022,
+  "title": "Utilizing data sampling techniques on algorithmic fairness for customer churn prediction with data imbalance problems",
+  "venue": "F1000Research",
+  "volume": "10",
+  "issue": "",
+  "pages": "988",
+  "doi": "10.12688/f1000research.72929.2",
+  "url": "https://doi.org/10.12688/f1000research.72929.2",
+  "harvard_reference": "Maw, M., Haw, S.-C. and Ho, C.-K. (2022) 'Utilizing data sampling techniques on algorithmic fairness for customer churn prediction with data imbalance problems', F1000Research, 10, p. 988. Available at: https://doi.org/10.12688/f1000research.72929.2.",
+  "abstract_summary": "The paper examines whether applying data sampling techniques (DSTs) to address class imbalance in customer churn prediction (CCP) affects algorithmic fairness between male and female customers. Three versions of a real-world telecom dataset with different churn rates (5%, 15%, 30%) were prepared, four DSTs (Random Over Sampler, Random Under Sampler, SMOTE, ADASYN) were applied, and six classifiers were evaluated on both predictive performance and fairness metrics (statistical parity difference and disparate impact, with gender as the protected attribute). Random Forest performed best on all three datasets; SMOTE and ADASYN produced more discrimination against the female group; and unintentional discrimination appeared higher in the original (unsampled) data of the extremely imbalanced dataset under Logistic Regression, LightGBM and XGBoost.",
+  "claims_supported": [
+    {
+      "claim": "Applying resampling techniques (SMOTE, ADASYN) to imbalanced churn data can change group fairness outcomes (e.g. gender disparity) in churn prediction.",
+      "supported": true,
+      "where": "Abstract (Results): 'using SMOTE and ADASYN techniques causes more discrimination in the female group'; Methods define gender as the protected attribute (female = protected group) with statistical parity and disparate impact (0.8 threshold) as fairness metrics; Results/Discussion fairness tables compare original vs resampled data (for the 5% churn dataset, the reported statistical parity difference moves from about -0.0056 on original data to about 0.14 under SMOTE/ADASYN). Caveat: evidence comes from a single proprietary Telekom Malaysia dataset, not the Kaggle Telco data, so cite it as evidence that resampling can alter fairness, not as a result on the Telco dataset."
+    },
+    {
+      "claim": "The study uses the IBM/Kaggle Telco Customer Churn dataset (state which dataset it actually uses).",
+      "supported": false,
+      "where": "Methods (dataset) and Data availability: the study uses a proprietary real-world telecom dataset from the Business Intelligence and Analytics department of Telekom Malaysia Bhd (1,265,535 customer records, January-December 2011, 22 features incl. gender). A random sample of 100,000 records was drawn, and three imbalanced versions were prepared (5%, 15% and 30% churn). The IBM Cognos 'Telco Customer Churn' sample and Kaggle Telco Customer Churn datasets appear only in the Data availability statement as representative alternative datasets for readers, and are not analysed in the paper."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.12688/f1000research.72929.2) confirms: authors Maw Maw (Crossref given='Maw', family='Maw'; a mononymous Burmese name, so 'Maw, M.' is correct Harvard form), Su-Cheng Haw (ORCID 0000-0002-7190-0837), Chin-Kuan Ho; title as above; container F1000Research; volume 10; article/page 988; no issue number; version 2 published online 27 June 2022; publisher F1000 Research Ltd; CC-BY 4.0. Version 1 (doi:10.12688/f1000research.72929.1) was published 30 Sep 2021, so volume 10 is the 2021 volume, but the year of the cited version 2 is 2022. Semantic Scholar lists year 2021 (the v1 date), PMID 36071889 and PMCID PMC9428497. The abstract was taken from the Crossref record. Dataset and review details were checked on the F1000Research v2 landing page and the PMC full text. F1000Research peer-review status (post-publication open peer review): Version 1 had two reports, Chu Kiong Loo (University of Malaya, 11 Jan 2022) and Prabu P (CHRIST University, 24 Feb 2022), both 'Approved with reservations'. Version 2 had one report, Kok-Chin Khor (Universiti Tunku Abdul Rahman, 30 Aug 2022), 'Approved'. The overall status is 1 approved and 2 approved with reservations, which meets F1000Research's indexing threshold; the article is indexed in PubMed/PMC. The venue is not predatory, but it uses post-publication peer review, so it is less rigorous than conventional pre-publication review. The specific fairness values in claim 1 (SPD about 0.14 vs -0.0056; a reported DI of about 1.32) were extracted via page summarisation of the PMC full text and should be checked against the paper's tables before quoting exact numbers.",
+  "caveats": "Does NOT use the Kaggle/IBM Telco Customer Churn dataset; it uses a proprietary Telekom Malaysia dataset (2011), so it cannot be cited as prior work on the Telco dataset. The abstract's 'three real-world datasets' are three imbalance-rate versions (5%, 15%, 30%) of one source dataset, not three independent datasets. The findings come from one operator's data and may not generalise. F1000Research uses post-publication peer review: v1 was 'Approved with reservations' by two reviewers and v2 was 'Approved' by one. Cite version 2 (2022) with its DOI."
+}

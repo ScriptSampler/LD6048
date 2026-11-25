@@ -1,0 +1,25 @@
+{
+  "key": "brier1950",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Brier, Glenn W."],
+  "year": 1950,
+  "title": "Verification of forecasts expressed in terms of probability",
+  "venue": "Monthly Weather Review",
+  "volume": "78",
+  "issue": "1",
+  "pages": "1-3",
+  "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+  "url": "https://doi.org/10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+  "harvard_reference": "Brier, G.W. (1950) 'Verification of forecasts expressed in terms of probability', Monthly Weather Review, 78(1), pp. 1-3. Available at: https://doi.org/10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2.",
+  "abstract_summary": "The paper has no abstract: Crossref, Semantic Scholar and OpenAlex all return none, which is normal for a 1950 article. This summary comes from how secondary sources describe the paper, not from reading it. Brier (U.S. Weather Bureau) proposes a verification score, P, for weather forecasts given as probabilities. On each of n occasions the event falls into exactly one of r mutually exclusive and exhaustive classes, and the forecaster gives a probability f_ij for each class. The score is P = (1/n) sum_i sum_j (f_ij - E_ij)^2, where E_ij is 1 if the event occurred in class j and 0 otherwise. In other words, it is the squared difference between forecast probabilities and the 0/1 observed outcomes, summed over classes and averaged over forecasts. P is 0 for perfect forecasts and 2 for the worst possible forecasts. This score later became known as the Brier score.",
+  "claims_supported": [
+    {
+      "claim": "The Brier score measures the mean squared difference between forecast probabilities and observed outcomes.",
+      "supported": true,
+      "where": "p. 1: the definition of the verification score P = (1/n) sum sum (f_ij - E_ij)^2, with E_ij = 1 or 0 depending on whether the event occurred in class j. This was checked through secondary descriptions of the original definition (Wikipedia 'Brier score', section on Brier's original definition; UVA Library 'A Brief on Brier Scores'). The AMS full text could not be opened directly. Caveat: the original score adds up the squared errors across all r outcome classes before averaging over the n forecasts, so it runs from 0 to 2. The modern binary Brier score is half of this (range 0 to 1). Brier also does not call it the 'Brier score'; he calls it the verification score P. The claim is accurate as a general description, but if the report states the binary formula or the 0 to 1 range, it should say that this is the common modern binary form, not Brier's original multi-category formula."
+    }
+  ],
+  "verification_notes": "Metadata confirmed through the Crossref API: author Glenn W. Brier; title 'VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY' (all capitals in Crossref, changed to sentence case for Harvard); Monthly Weather Review, vol. 78, issue 1, pp. 1-3; published in print January 1950; publisher American Meteorological Society; type journal-article. The DOI resolves. Semantic Scholar (CorpusId 122906757) and OpenAlex (U.S. Weather Bureau affiliation, about 5,500 citations, closed access) agree. None of these sources has an abstract. The AMS landing page and PDF returned HTTP 403 or a bot challenge, which was not bypassed, so I did not read the full text myself. The content of the score definition was confirmed from consistent secondary descriptions of Brier's original formula: Wikipedia 'Brier score' and UVA Library 'A Brief on Brier Scores', both of which give the multi-category form ranging from 0 to 2. Monthly Weather Review is a long-established AMS journal and not a predatory venue. This is the correct primary source for the Brier score. Not an F1000Research item, so no peer-review status note is needed.",
+  "caveats": "The full text was not accessed directly (the AMS site blocked automated access), so the claim check relies on the well-documented original formula as reported by secondary sources. Brier's original score sums over all outcome classes, so it ranges from 0 to 2, and for a binary event it equals twice the modern binary Brier score (mean squared error of the predicted probability of the positive class, range 0 to 1). If the report gives the binary formula or the 0 to 1 range, cite it as the modern or binary form of Brier's (1950) score, and optionally add a textbook or software source for that form (for example scikit-learn's brier_score_loss documentation). Brier does not use the name 'Brier score' in the paper."
+}

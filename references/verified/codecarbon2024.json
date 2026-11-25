@@ -1,0 +1,24 @@
+{
+  "key": "codecarbon2024",
+  "found": true,
+  "item_type": "software",
+  "authors": [
+    "Courty, Benoit",
+    "Schmidt, Victor",
+    "Goyal-Kamal",
+    "and contributors"
+  ],
+  "year": 2024,
+  "title": "mlco2/codecarbon: v2.4.1",
+  "venue": "Zenodo",
+  "doi": "10.5281/zenodo.11171501",
+  "url": "https://github.com/mlco2/codecarbon",
+  "harvard_reference": "Courty, B. et al. (2024) *mlco2/codecarbon* (Version 2.4.1) [Computer program]. Zenodo. doi:10.5281/zenodo.11171501.",
+  "verification_notes": "Citation block taken from the project README on GitHub (mlco2/codecarbon), which gives a BibTeX entry for v2.4.1 (2024), publisher Zenodo, DOI 10.5281/zenodo.11171501, MIT licence; the README directs users to Zenodo for other citation formats. The report uses codecarbon 3.3.1; the project's recommended citation record (v2.4.1) is cited as the software reference. Zenodo record 11171501 confirmed the title (mlco2/codecarbon v2.4.1), first authors Courty, Schmidt and Goyal-Kamal, publication date 10 May 2024 and DOI. Checked 28 September 2026.",
+  "claims_supported": [
+    {
+      "claim": "CodeCarbon estimates the CO2e of a computation and is the tool used for the compute footprint reported.",
+      "supported": true
+    }
+  ]
+}

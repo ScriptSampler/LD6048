@@ -1,0 +1,20 @@
+{
+  "n": 7043,
+  "churners": 1869,
+  "churn_rate": 0.2653698707936959,
+  "ci_lo": 0.25518811288450727,
+  "ci_hi": 0.2758074374889079,
+  "majority_accuracy": 0.7346301292063041,
+  "total_mrr": 456116.6,
+  "churner_mrr": 139130.85,
+  "churner_mrr_share": 0.3050335155528214,
+  "annualised_churner_revenue": 1669570.2000000002,
+  "mean_monthly_charge_churn": 74.44133226324237,
+  "mean_monthly_charge_stay": 61.26512369540008,
+  "median_tenure_churn": 10.0,
+  "median_tenure_stay": 38.0,
+  "n_tenure0": 11,
+  "pearson_tenure_totalcharges": 0.8258804609332019,
+  "pearson_monthly_totalcharges": 0.6510648032262017,
+  "spearman_tenure_totalcharges": 0.8891770805365491
+}

@@ -1,0 +1,34 @@
+{
+  "key": "mitchell2019",
+  "found": true,
+  "item_type": "conference-paper",
+  "authors": [
+    "Mitchell, Margaret",
+    "Wu, Simone",
+    "Zaldivar, Andrew",
+    "Barnes, Parker",
+    "Vasserman, Lucy",
+    "Hutchinson, Ben",
+    "Spitzer, Elena",
+    "Raji, Inioluwa Deborah",
+    "Gebru, Timnit"
+  ],
+  "year": 2019,
+  "title": "Model cards for model reporting",
+  "venue": "FAT* '19: Proceedings of the Conference on Fairness, Accountability, and Transparency (Atlanta, GA, USA, 29-31 January 2019). New York: ACM",
+  "volume": "",
+  "issue": "",
+  "pages": "220-229",
+  "doi": "10.1145/3287560.3287596",
+  "url": "https://doi.org/10.1145/3287560.3287596",
+  "harvard_reference": "Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I.D. and Gebru, T. (2019) 'Model cards for model reporting', FAT* '19: Proceedings of the Conference on Fairness, Accountability, and Transparency. Atlanta, GA, USA, 29-31 January 2019. New York: ACM, pp. 220-229. doi:10.1145/3287560.3287596.",
+  "abstract_summary": "The paper proposes 'model cards': short documents that accompany released machine learning models to encourage transparent model reporting. A model card gives benchmarked evaluation under a variety of conditions, including across cultural, demographic or phenotypic groups (e.g. race, geographic location, sex, Fitzpatrick skin type) and intersectional groups relevant to the intended application domain, and discloses the context in which the model is intended to be used, details of the evaluation procedure, and other relevant information. Section 4 sets out nine card sections: Model Details; Intended Use (primary intended uses, primary intended users, out-of-scope use cases); Factors; Metrics; Evaluation Data; Training Data; Quantitative Analyses (unitary and intersectional results); Ethical Considerations; and Caveats and Recommendations. Two worked examples are given (a smiling-face detector and a toxic-comment classifier). The authors frame model cards as a step towards the responsible democratisation of ML and as 'an approach for responsible transparent and accountable practices in machine learning'.",
+  "claims_supported": [
+    {
+      "claim": "Model cards document a model's intended use, evaluation across demographic groups and conditions, and limitations, to support transparent and responsible model reporting.",
+      "supported": true,
+      "where": "Abstract: model cards are proposed 'to encourage such transparent model reporting'; they 'provide benchmarked evaluation in a variety of conditions, such as across different cultural, demographic, or phenotypic groups ... and intersectional groups' and 'disclose the context in which models are intended to be used'; proposed 'as a step towards the responsible democratization of machine learning'. Section 4.2 'Intended Use' (primary intended uses, primary intended users, out-of-scope use cases); Section 4.3 'Factors' (demographic/phenotypic groups, environmental conditions); Section 4.7 'Quantitative Analyses' (unitary and intersectional results); Section 4.8 'Ethical Considerations'; Section 4.9 'Caveats and Recommendations'. Section 2 (p. 2): model reporting is 'an approach for responsible transparent and accountable practices in machine learning'. Caveat: the paper never uses the word 'limitation(s)'; the corresponding content is expressed as 'out-of-scope use cases', 'potential pitfalls' (Introduction) and 'Caveats and Recommendations'. 'Limitations' is a fair paraphrase, but citing 'out-of-scope uses and caveats' would track the source's wording more exactly."
+    }
+  ],
+  "verification_notes": "Verified 2026-09-27. Crossref (api.crossref.org/works/10.1145/3287560.3287596) returns type proceedings-article, container-title 'Proceedings of the Conference on Fairness, Accountability, and Transparency', event 'FAT* '19: Conference on Fairness, Accountability, and Transparency', event location Atlanta, GA, USA, published 2019-01-29, pages 220-229, publisher ACM; all nine authors match the lead in the same order. Semantic Scholar (DOI lookup) returned the full abstract, venue 'FAT', arXiv ID 1810.03993 (Semantic Scholar lists year 2018 because of the arXiv v1 preprint of 5 Oct 2018; the published ACM version is 2019). The ACM-formatted PDF (arXiv v2, 14 Jan 2019) was retrieved and its text extracted; its header confirms 'FAT* '19, January 29-31, 2019, Atlanta, GA, USA', ACM ISBN 978-1-4503-6125-5/19/01, DOI 10.1145/3287560.3287596, and the ACM reference format 'ACM, New York, NY, USA, 10 pages'. Volume and issue do not apply to this proceedings paper and are left empty. The lead's title casing 'Model cards for model reporting' matches; Harvard sentence case used. No conflicting metadata found."
+}

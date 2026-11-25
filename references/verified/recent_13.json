@@ -1,0 +1,75 @@
+{
+  "key": "recent_13",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Vanderschueren, Toon",
+    "Verdonck, Tim",
+    "Baesens, Bart",
+    "Verbeke, Wouter"
+  ],
+  "year": 2022,
+  "title": "Predict-then-optimize or predict-and-optimize? An empirical evaluation of cost-sensitive learning strategies",
+  "venue": "Information Sciences (Elsevier BV; ISSN 0020-0255 print, 1872-6291 online)",
+  "volume": "594",
+  "issue": "",
+  "pages": "400-415",
+  "doi": "10.1016/j.ins.2022.02.021",
+  "url": "https://doi.org/10.1016/j.ins.2022.02.021",
+  "harvard_reference": "Vanderschueren, T., Verdonck, T., Baesens, B. and Verbeke, W. (2022) 'Predict-then-optimize or predict-and-optimize? An empirical evaluation of cost-sensitive learning strategies', Information Sciences, 594, pp. 400-415. doi:10.1016/j.ins.2022.02.021.",
+  "abstract_summary": "The paper contrasts two ways of making classification cost-aware: the conventional two-stage 'predict-then-optimize' route (train a standard classifier, then apply a cost-sensitive decision threshold) and the integrated 'predict-and-optimize' route (train the classifier with a task-specific, cost-weighted or expected-cost loss). It uses this two-stage framing to organise the cost-sensitive learning literature into training-stage and decision-stage methods, then benchmarks combinations of three classifiers (logistic regression, one-hidden-layer neural network, gradient boosting), three objectives (cross-entropy, cost-weighted cross-entropy, average expected cost) and nine thresholding rules on nine public datasets from fraud, direct marketing, churn (including Kaggle Telco Customer Churn) and credit scoring, with both instance-dependent and class-dependent costs and with cost-sensitive and cost-insensitive metrics. The headline result is that how the decision threshold is set matters more for cost outcomes than which loss the model was trained with; the best savings came from a cost-insensitive model combined with an instance-dependent cost-sensitive threshold.",
+  "claims_supported": [
+    {
+      "claim": "1. Tree ensembles (random forest / gradient boosting) achieve top or near-top ROC-AUC on telecom churn data, often close to logistic regression.",
+      "supported": false,
+      "where": "NOT supported as worded. (a) Random forests are not in the study; the classifiers are logistic regression, a one-hidden-layer MLP and gradient boosting (Section 3.1.1, Table 3). (b) No per-model AUROC is reported for the Telco dataset in the paper body: Figure 3a (critical-difference diagram) ranks models on AUROC averaged across all nine datasets (net > boost > logit > csnet > wboost > wnet > csboost > wlogit > cslogit; only the gap to cslogit is significant at 5%), and Table B1 gives one pooled AUC of 0.82 for KTCC across cost-sensitive models, not a per-classifier comparison. Per-dataset, per-model results are only in a digital appendix. The most the paper supports is a weaker, aggregate statement: across nine datasets, gradient boosting and logistic regression trained with plain cross-entropy rank adjacently on AUROC with no significant difference, and 'neither logistic regression, neural networks nor gradient boosting consistently outperform another category' (Section 4.2.1). Cite it for that weaker claim only, and not for random forests or for telecom-specific AUC."
+    },
+    {
+      "claim": "2. Explainability (SHAP or similar) identifies contract type, tenure and monthly charges (or equivalent) as key churn drivers.",
+      "supported": false,
+      "where": "NOT supported. The paper contains no SHAP, feature-importance or other explainability analysis and never discusses contract type, tenure or monthly charges as churn drivers. The only appearance of monthly charges is in the cost matrix design: for the Telco data the false-positive cost is set to 2x and the false-negative cost to 12x the customer's monthly amount A_i (Section 4.1, Table 5c, following Petrides and Verbeke 2021). Do not cite this source for claim 2."
+    },
+    {
+      "claim": "3. Business or profit-oriented evaluation changes which model or threshold is preferred compared with accuracy-only evaluation.",
+      "supported": true,
+      "where": "Strongly supported, for both model choice and threshold choice. Model choice: Section 4.2.1 and Figures 3-4 show the cost-insensitive models (net, boost, logit) rank best on AUROC and average precision while the cost-sensitive models (cslogit, csboost, csnet) rank best on average expected cost; cslogit is worst on AUROC/AP but best on AEC and logit is the reverse; the authors conclude that 'minimizing errors or minimizing costs are two fundamentally different objectives'. Threshold choice: Section 4.2.2, Tables 6 and 8 - for gradient boosting the best savings (0.41) come from the instance-dependent cost-sensitive threshold whereas the best F1 (0.48) comes from t = 0.5; the authors state that the best thresholding strategies in terms of F1 'do not necessarily achieve the lowest costs' and that t = 0.5 gives good F1 'even though it does not result in large cost savings'. Discussion (Section 5): the differences in best-performing thresholds under savings vs F1 show that minimising errors and costs are different objectives in the decision stage too. Conclusion (Section 6): optimising for accuracy can be detrimental when the real objective is cost minimisation, 'which is the case in a large variety of business applications'."
+    },
+    {
+      "claim": "4a. Headline finding: the decision-making (thresholding) strategy matters more for costs than the training objective; a cost-insensitive model plus an instance-dependent cost-sensitive threshold gave the best overall savings.",
+      "supported": true,
+      "where": "Highlights; Abstract (final sentence); Section 4.2.2 (Table 6: net and boost with IDCS threshold both reach mean savings of 0.41, the highest in the table); Section 5 (RQ3: 'the best savings were obtained by training with a cost-insensitive objective function and using the instance-dependent cost-sensitive threshold'); Section 6 ('a conceptually simple yet well-performing strategy is to first train a cost-insensitive model and only introduce costs in a second stage through instance-dependent thresholding'). The authors note this agrees with Nikolaou et al. (2016) and Zheng (2010) in the class-dependent setting."
+    },
+    {
+      "claim": "4b. For models trained with ordinary cross-entropy, using the default 0.5 threshold is costly; cost-sensitive thresholding is essential, and cost-sensitive training only helped savings for the least flexible model (logistic regression).",
+      "supported": true,
+      "where": "Section 4.2.2: for cost-insensitive models 'it is absolutely crucial to not use the default threshold 0.5 and instead use the instance-dependent cost-sensitive threshold' (Table 6: logit savings 0.36 with IDCS vs 0.24 at t = 0.5; boost 0.41 vs 0.29). 'Given that an appropriate threshold is used, it is only beneficial in terms of savings to use a cost-sensitive objective function for the simplest model: logistic regression. For neural networks and gradient boosting, the cost-insensitive models also achieve good results given that the optimal threshold is used.'"
+    },
+    {
+      "claim": "4c. Calibration: cross-entropy-trained models were already well calibrated (isotonic calibration left Brier unchanged at 0.07), whereas cost-weighted and expected-cost objectives distort probabilities (Brier 0.13-0.24 before calibration) and calibration only improved savings for the weighted-cross-entropy models or when class-dependent thresholds were used; the hypothesis that calibration makes thresholding more effective was left inconclusive.",
+      "supported": true,
+      "where": "Section 3.1.2 (isotonic regression used for IDCS*/CDCS*); Section 4.2.2 and Table 7 (Brier before/after: logit 0.07/0.07, wlogit 0.16/0.07, cslogit 0.24/0.08, boost 0.07/0.07, csboost 0.19/0.08); 'the two best savings are obtained without calibration'; Section 5 and Table 11 (hypotheses 2.2 and 2.4 marked inconclusive). Section 2.2.2 also states the theoretical optimal threshold t* = (cFP - cTN)/(cFP - cTN + cFN - cTP) requires calibrated probabilities."
+    },
+    {
+      "claim": "4d. Imbalance handling: cost-weighted cross-entropy is equivalent to oversampling proportional to misclassification cost, class-dependent cost-sensitive learning is 'intertwined' with the class-imbalance literature, and the popular class-imbalance threshold heuristic (t = P(Y=1)) can produce very poor cost outcomes for cost-weighted models.",
+      "supported": true,
+      "where": "Section 2.1.1 (cost-sensitive and imbalance literatures intertwined; refers to Leevy et al. 2018 survey); Section 2.2.1 ('this approach is equivalent to oversampling proportional to misclassification costs'); Section 2.2.2 (class-imbalance threshold defined); Table 6 (savings with CI threshold: wlogit -1.33, wnet -0.66, i.e. worse than the trivial default classifier) and Section 4.2.2 ('empirical thresholding with the F1-score, the class imbalance heuristic or t = 0.5 can obtain bad results'). Note: no SMOTE or resampling experiments are run; the point is conceptual plus the CI-threshold result."
+    },
+    {
+      "claim": "4e. Telco-specific details usable in a report: the Kaggle Telco Customer Churn data are used with N = 7,032, 19 features and 26.58% churners; costs are instance-dependent with cFP = 2x and cFN = 12x the customer's monthly charge (cTP = cTN = 0); categorical features are WoE-encoded and features standardised; evaluation is 2x5-fold stratified CV with Friedman/Nemenyi and Wilcoxon tests; on this dataset the pooled AUC was 0.82 and cost savings from cost-sensitive thresholding were modest (about 0.20-0.26 versus 0.10 when the threshold is tuned for F1).",
+      "supported": true,
+      "where": "Table 4 (KTCC: N 7,032, D 19, 26.58% positive); Section 4.1 and Table 5c (2A_i / 12A_i cost matrix, following Petrides and Verbeke 2021); Algorithm 1 (WoE encoding, z-standardisation, 2x5-fold stratified CV); Section 3.2 (statistical tests); Table B1 (KTCC AUC 0.82 ID / 0.82 CD; F1 0.54-0.61); Table B2 (KTCC savings: IDCS 0.21, IDCS* 0.26, CDCS* 0.26, empirical ID/CD 0.26, empirical F1 0.10, t=0.5 0.20). Caveat: Tables B1/B2 average over the six cost-sensitive models, not per classifier. N = 7,032 rather than the raw 7,043 is consistent with dropping the 11 rows with blank TotalCharges, but the paper does not say so (my inference)."
+    },
+    {
+      "claim": "4f. Instance-dependent vs class-dependent costs: training with instance-level costs improves cost metrics (lower AEC, higher Spearman correlation between scores and cost) but worsens error metrics (AUROC, AP, F1); no costs at all is best for minimising errors.",
+      "supported": true,
+      "where": "Section 4.2.3, Tables 9 and 10; Section 5 (RQ4): 'not using costs at all is preferential for minimizing errors, using instance-dependent costs is optimal for minimizing costs, and using class-dependent costs lies somewhere between these two.'"
+    },
+    {
+      "claim": "4g. Topics absent from this paper: uplift modelling, survival analysis, fairness, deployment/monitoring, random forests, SHAP/explainability, and resampling methods such as SMOTE are not studied.",
+      "supported": true,
+      "where": "Confirmed by reading the full accepted manuscript (Sections 1-6 and appendices). The paper explicitly scopes out cost-sensitive feature selection, model selection, ensembles, semi-supervised and PU learning (Section 2). Code is public under MIT licence at https://github.com/toonvds/CostSensitiveLearning (Section 1 and repository README)."
+    }
+  ],
+  "verification_notes": "Metadata triangulated and consistent across Crossref (api.crossref.org: DOI 10.1016/j.ins.2022.02.021, Information Sciences, vol. 594, pp. 400-415, Elsevier BV, published May 2022, ISSN 0020-0255, type journal-article), OpenAlex (same; available online 22 Feb 2022; Green OA; 79 citations) and Semantic Scholar (same; 81 citations; DBLP journals/isci/VanderschuerenV22). Crossref lists issue 'C', which is Elsevier's placeholder for a continuously paginated volume with no real issue number, so the issue field is left empty and the Harvard reference cites the volume only. Author affiliations from the manuscript: KU Leuven (all four), University of Antwerp (Vanderschueren, Verdonck), University of Southampton (Baesens). Venue check: Information Sciences is a long-established (1968) peer-reviewed Elsevier journal, Editor-in-Chief Witold Pedrycz, 2021 Journal Impact Factor 8.233, OpenAlex h-index 282, indexed in Scopus and Web of Science; not predatory. Publication year 2022 is within the 2021-2026 window. Abstract obtained verbatim from Semantic Scholar and matched against the manuscript. Full-text claim checks were made on the author-accepted manuscript (Green OA copy, 'Preprint submitted to Elsevier', 18 pages) retrieved via the Lirias KU Leuven link given by Semantic Scholar (https://lirias.kuleuven.be/retrieve/93b678ab-a7bd-4945-b2fd-8057814a3c17); section numbers and quotations therefore refer to the AAM, whose page numbers differ from the published 400-415. Not verified: received/revised/accepted dates and any last-minute copy-editing differences in the version of record, because ScienceDirect, the ACM DL mirror, Scimago, ResearchGate and the Southampton eprints copy returned HTTP 403 to the fetch tool. GitHub repository verified (toonvds/CostSensitiveLearning, MIT licence, lists the nine datasets including Kaggle Telco Customer Churn and TV Subscription Churn). The scout's relevance summary was accurate; however, of the four candidate claims only claim 3 and the additional findings are genuinely supported, and claims 1 and 2 are not.",
+  "caveats": "1) Do not cite this paper for random forests or for SHAP/feature-driver findings; it contains neither. 2) Most reported numbers are averages over nine heterogeneous datasets; Telco-specific results appear only as pooled AUC/savings in appendix tables B1-B2 (averaged across cost-sensitive models), and per-model, per-dataset results are in an unpublished digital appendix. 3) The Telco cost matrix (FP = 2x, FN = 12x monthly charge, no retention-offer acceptance modelling) is an assumption inherited from Petrides and Verbeke (2021), so profit figures are sensitive to it; savings on the Telco data were modest (about 0.2-0.26). 4) The MLP is a single-hidden-layer network, so 'neural network' results should not be read as deep learning. 5) Quotations and section numbers come from the accepted manuscript rather than the version of record."
+}

@@ -1,0 +1,65 @@
+{
+  "key": "recent2_01",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Devriendt, F.", "Berrevoets, J.", "Verbeke, W."],
+  "year": 2021,
+  "title": "Why you should stop predicting customer churn and start using uplift models",
+  "venue": "Information Sciences",
+  "volume": "548",
+  "issue": "",
+  "pages": "497-515",
+  "doi": "10.1016/j.ins.2019.12.075",
+  "url": "https://doi.org/10.1016/j.ins.2019.12.075",
+  "harvard_reference": "Devriendt, F., Berrevoets, J. and Verbeke, W. (2021) 'Why you should stop predicting customer churn and start using uplift models', Information Sciences, 548, pp. 497-515. doi:10.1016/j.ins.2019.12.075.",
+  "abstract_summary": "The authors note that uplift modelling (estimating the net effect of a retention action on a customer's churn probability) is promoted as better than predictive churn modelling, but no study had compared the two directly, and the two are normally scored with different metrics. They propose the maximum profit uplift (MPU) measure, which extends the maximum profit (MP) measure used for churn-prediction (CCP) models. They also propose the liftup curve and liftup measure as the uplift versions of lift. They test logistic-regression and random-forest CCP and churn-uplift (CCU) models on one retention campaign from a European financial institution: 200,903 customers, 162 variables, and three-month churn of 25.52% in the untargeted control group against 13.25% in the treatment group. Scored with MP on control-group data only, CCP models earn more profit. Scored with MPU on treatment and control data, CCU models do better. CCP models rank 'lost causes' (customers who churn whether targeted or not) near the top, while CCU models pick out 'persuadables' (customers who stay only if targeted), cut churn further and make campaigns more profitable.",
+  "claims_supported": [
+    {
+      "claim": "1. Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": true,
+      "where": "Abstract ('uplift models outperform predictive models and lead to improved profitability of retention campaigns'); Sec. 1.2 and 2.2.1 (sure things / lost causes / persuadables / do-not-disturbs; churn models only predict the gross outcome); Sec. 4.3.1-4.3.3; Sec. 5. Rankings differ a lot: Spearman correlation between CCP and CCU rankings is 0.17-0.52, and the overlap in the top 5% is as low as 21%. Limits for a strict reader: the evidence is one offline case study (a European financial institution, not telecom) using only LR and RF. Cost and benefit figures were assumed from the literature, because the institution did not supply them. The advantage shows up only under MPU; under the classic MP measure (Scenario 1) CCP beats CCU. The method needs a randomised treatment/control group."
+    },
+    {
+      "claim": "2. Survival models can estimate when customers are likely to churn and support timing of interventions; cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Not supported. Sec. 2.1 has one literature-review sentence saying survival analysis 'can be used to analyze and estimate the time until a customer's defection' (citing Backiel et al.). The paper says nothing on when to intervene, censoring or truncation. Cite a primary survival-analysis source instead."
+    },
+    {
+      "claim": "3. Resampling (e.g. SMOTE) or class weighting changes predicted probabilities/calibration; threshold moving or cost-sensitive thresholds are an alternative.",
+      "supported": false,
+      "where": "Not supported. The full text does not mention SMOTE, resampling, class imbalance, class weighting or probability calibration. The nearest point is Sec. 3.1: the MP measure picks the profit-maximising share of customers to target instead of a fixed top-decile cut-off. That is a cost-based choice of cut-off on a ranking, not threshold moving after resampling."
+    },
+    {
+      "claim": "4a. Case-study data: 200,903 customers of a European financial institution (118,809 control, 82,094 treatment), 162 variables; three-month churn 25.52% in the untargeted control group vs 13.25% in the treated group, a baseline uplift of 12.27 percentage points.",
+      "supported": true,
+      "where": "Sec. 4.1.1 and Table 2"
+    },
+    {
+      "claim": "4b. The verdict depends on the evaluation metric. Under MP (control-group test data, constant retention rate assumed) CCP profit curves beat CCU for both LR and RF. Under MPU (treatment + control test data, retention rate varies with the targeted fraction) CCU beats CCP. MPU can only be computed when a randomised control group exists, which standard churn datasets do not have.",
+      "supported": true,
+      "where": "Sec. 3.1-3.2 (Eqs. 3-13; MP assumes a constant retention rate); Sec. 4.3.1"
+    },
+    {
+      "claim": "4c. Churn-probability models tend to target 'lost causes' (and, for RF, 'sure things'); uplift models target 'persuadables' and cut the churn rate by more.",
+      "supported": true,
+      "where": "Sec. 4.3.2 (Figs. 7-10; the liftup curve of the CCP RF model rises around 20-40% of customers targeted); Sec. 5"
+    },
+    {
+      "claim": "4d. Feedback loop: a churn model retrained on data collected while a model-driven retention campaign was running learns from behaviour the campaign changed. Retained would-be churners are labelled non-churners, so the new model is biased.",
+      "supported": true,
+      "where": "Sec. 1.2 and Figure 1"
+    },
+    {
+      "claim": "4e. Judging churn models by top-decile lift at an arbitrary cut-off can pick a suboptimal model; the maximum profit measure scores a model at its profit-maximising targeted fraction (from Verbeke et al., 2012).",
+      "supported": true,
+      "where": "Sec. 1.3 and Sec. 3.1"
+    },
+    {
+      "claim": "4f. Random forests beat logistic regression for both CCP and CCU in this case. The logistic-regression CCP and CCU models barely beat random targeting on the Qini curve, and the LR CCP model falls below random from 50% targeted onwards. Results were stable over five repeated random 2/3-1/3 train/test splits.",
+      "supported": true,
+      "where": "Sec. 4.3.1, Sec. 4.3.2 (Fig. 9), end of Sec. 4.3.3"
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1016/j.ins.2019.12.075) gives: journal article, Elsevier BV; authors Floris Devriendt (ORCID 0000-0003-3479-3398), Jeroen Berrevoets, Wouter Verbeke; Information Sciences, vol. 548, pp. 497-515; published-print February 2021; record created 31 Dec 2019; CC BY-NC-ND 4.0 licence. Crossref's issue value 'C' is Elsevier's placeholder for a continuous volume, so the issue is left empty. Semantic Scholar gives the abstract, venue Information Sciences, year 2021, publicationDate 2021-02-01, and DBLP key journals/isci/DevriendtBV21. OpenAlex gives publication_date 2019-12-31, 90 citations, not retracted, all three authors at Vrije Universiteit Brussel (Data Analytics Laboratory / Solvay Business School). DOI resolves to ScienceDirect PII S0020025519312022; ScienceDirect returned 403, so the version of record was not opened directly. Full text was read from the KU Leuven Lirias copy, which is the 'Journal Pre-proof' (accepted manuscript) with an article history of received 22 March 2018, revised 8 November 2019, accepted 27 December 2019, which confirms peer review. Page numbers and volume come from Crossref and Semantic Scholar, not the pre-proof. Venue: Information Sciences is an established Elsevier journal, not predatory. All claim assessments are based on the pre-proof text; minor wording in the final version may differ.",
+  "caveats": "Date window: the article was first published online on 31 Dec 2019 (accepted 27 Dec 2019). It meets the 2021-2026 requirement only through its 2021 volume year (vol. 548, Feb 2021). Cite Them Right uses the volume year (2021), but if the report's recency rule means 'first published', this is a 2019 paper. The same DOI may already be in the reference list as devriendt2021.json, so do not cite it twice. The evidence comes from one financial-services case study (not telecom) with assumed cost/benefit parameters and only LR and RF. It is an offline evaluation on held-out data from one past campaign, not a new field test. Uplift modelling and MPU need a randomised treatment/control indicator. The Kaggle Telco Customer Churn dataset has none, so this paper supports a critical or limitations discussion (churn probability does not tell you whom a campaign will retain), not a method that can be applied to that dataset. It does not support claims about survival analysis, censoring, SMOTE/resampling, class weighting, calibration or threshold moving."
+}

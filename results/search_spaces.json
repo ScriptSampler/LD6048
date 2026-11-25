@@ -1,0 +1,182 @@
+{
+  "Majority": {},
+  "LogReg": {
+    "model__C": {
+      "distribution": "loguniform",
+      "args": [
+        0.001,
+        100.0
+      ],
+      "kwds": {}
+    }
+  },
+  "DecisionTree": {
+    "model__max_depth": {
+      "distribution": "randint",
+      "args": [
+        2.0,
+        12.0
+      ],
+      "kwds": {}
+    },
+    "model__min_samples_leaf": {
+      "distribution": "randint",
+      "args": [
+        5.0,
+        200.0
+      ],
+      "kwds": {}
+    },
+    "model__ccp_alpha": {
+      "distribution": "loguniform",
+      "args": [
+        1e-05,
+        0.01
+      ],
+      "kwds": {}
+    },
+    "model__criterion": [
+      "gini",
+      "entropy"
+    ]
+  },
+  "RandomForest": {
+    "model__n_estimators": [
+      200,
+      400,
+      600
+    ],
+    "model__max_depth": [
+      null,
+      6,
+      10,
+      16
+    ],
+    "model__min_samples_leaf": {
+      "distribution": "randint",
+      "args": [
+        1.0,
+        30.0
+      ],
+      "kwds": {}
+    },
+    "model__max_features": [
+      "sqrt",
+      0.3,
+      0.5
+    ]
+  },
+  "XGBoost": {
+    "model__n_estimators": {
+      "distribution": "randint",
+      "args": [
+        50.0,
+        1001.0
+      ],
+      "kwds": {}
+    },
+    "model__learning_rate": {
+      "distribution": "loguniform",
+      "args": [
+        0.005,
+        0.3
+      ],
+      "kwds": {}
+    },
+    "model__max_depth": {
+      "distribution": "randint",
+      "args": [
+        1.0,
+        9.0
+      ],
+      "kwds": {}
+    },
+    "model__min_child_weight": {
+      "distribution": "loguniform",
+      "args": [
+        1.0,
+        100.0
+      ],
+      "kwds": {}
+    },
+    "model__subsample": {
+      "distribution": "uniform",
+      "args": [
+        0.5,
+        0.5
+      ],
+      "kwds": {}
+    },
+    "model__colsample_bytree": {
+      "distribution": "uniform",
+      "args": [
+        0.3,
+        0.7
+      ],
+      "kwds": {}
+    },
+    "model__reg_lambda": {
+      "distribution": "loguniform",
+      "args": [
+        0.001,
+        100.0
+      ],
+      "kwds": {}
+    },
+    "model__reg_alpha": {
+      "distribution": "loguniform",
+      "args": [
+        0.001,
+        10.0
+      ],
+      "kwds": {}
+    },
+    "model__gamma": {
+      "distribution": "uniform",
+      "args": [
+        0.0,
+        5.0
+      ],
+      "kwds": {}
+    }
+  },
+  "MLP": {
+    "model__hidden_layer_sizes": [
+      "(8,)",
+      "(16,)",
+      "(32,)",
+      "(64,)",
+      "(128,)",
+      "(256,)",
+      "(32, 16)",
+      "(64, 32)",
+      "(128, 64)"
+    ],
+    "model__activation": [
+      "relu",
+      "tanh"
+    ],
+    "model__alpha": {
+      "distribution": "loguniform",
+      "args": [
+        1e-05,
+        10.0
+      ],
+      "kwds": {}
+    },
+    "model__learning_rate_init": {
+      "distribution": "loguniform",
+      "args": [
+        0.0001,
+        0.03
+      ],
+      "kwds": {}
+    },
+    "model__batch_size": [
+      32,
+      64,
+      128,
+      256
+    ]
+  }
+}

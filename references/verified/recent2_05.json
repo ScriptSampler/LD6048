@@ -1,0 +1,70 @@
+{
+  "key": "recent2_05",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Kimitei, Symon",
+    "Agiro, Don",
+    "Ni, Sherri",
+    "Ni, Huan"
+  ],
+  "year": 2025,
+  "title": "Predictability & explainability of survival analysis in churn prediction",
+  "venue": "Journal of Marketing Analytics",
+  "volume": "",
+  "issue": "",
+  "pages": "1-17",
+  "doi": "10.1057/s41270-025-00450-2",
+  "url": "https://link.springer.com/article/10.1057/s41270-025-00450-2",
+  "harvard_reference": "Kimitei, S., Agiro, D., Ni, S. and Ni, H. (2025) 'Predictability & explainability of survival analysis in churn prediction', Journal of Marketing Analytics, pp. 1-17 [advance online publication, 22 December]. doi:10.1057/s41270-025-00450-2.",
+  "abstract_summary": "Kimitei et al. (Kennesaw State University) apply survival analysis to churn in contractual utility services. The main aims are to compare the Cox Proportional Hazards (CPH) and Aalen Additive (AA) hazards models for finding churn drivers, and to show that the models can be read clearly when predicting when churn happens. The data come from one US gas utility and cover 3,667 monthly customer-product rows, 69 columns and 2016-2023. Churn is 75% of rows, the real rate rather than the result of resampling. Churn is defined as early cancellation, internal switching at renewal or leaving the company, and all three are pooled. Feature selection by domain experts, p<0.05 tests and VIF left 11 predictors, including heating degree days, daily usage, product (price) switch count, automatic contract renewal and tariff or NYMEX prices at enrolment. The authors used an 80:20 split with five-fold cross-validation, a ridge-regularised AA model, and the concordance index (C-index) as the only metric. Models were fitted to the full data and to segments by product (6- or 12-month contract) and by time (before or after contract expiry). Test C-index for CPH (Table 1) was 73.3% on the full data, 78.5% and 60.1% for 6-month contracts before and after expiry, and 79.1% and 71.8% for 12-month contracts before and after expiry. Test C-index for AA (Table 3) was 72.20%, 73.99%, 70.19% and 80.70% in the same order. Survival drops sharply at the 6- and 12-month renewal points, and customers on automatic renewal had lower survival. AA cumulative-coefficient plots show when each predictor matters. The authors argue that separate product-level models work better than one pooled model and that hazard-based segments (for example 'critical risk: likely to churn within 30 days') support retention offers timed around contract renewal.",
+  "claims_supported": [
+    {
+      "claim": "1. Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": false,
+      "where": "Not supported. Uplift appears only once in the text, in the last sentence of the Conclusion, as a 'broader application' of survival models ('uplift modeling, propensity scoring, and customer lifetime value analysis'). An uplift paper (Carla et al. 2024, EJOR) appears in the reference list. The paper does no causal or uplift analysis and never contrasts risk-based with uplift-based targeting. It actually recommends targeting by predicted risk and timing ('Customer segmentation guided by survival risk analysis': Critical/High/Moderate/Low risk bands), which is the practice uplift critics question. Cite Ascarza (2018) or Devriendt et al. (2021) for this claim instead."
+    },
+    {
+      "claim": "2a. Survival models can estimate when customers are likely to churn and support the timing of interventions.",
+      "supported": true,
+      "where": "Supported. The abstract says the models forecast 'not only ... whether customers are at risk but also when churn is likely', which supports 'timely, tailored strategies'. The Introduction says fixed-time classifiers 'fail to capture the dynamic changes in the likelihood of customer churn over time'. Literature review gap (i): 'fixed-horizon classifiers rank who will churn but not when, limiting the timing of outreach'. The Results (Fig. 3) and the Discussion subsection 'Contract time critical intervention program' show sharp survival drops at the 6- and 12-month contract points and suggest campaigns about 60 days before contract end. Caveat: this rests on one gas-utility dataset, and the timing benefit is shown by description only. No field test of intervention timing was run."
+    },
+    {
+      "claim": "2b. Cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Only partly supported, so marked false under strict reading. The Introduction defines censoring as 'a defining feature' of time-to-event data: a customer still subscribed at 180 days 'is censored at 180'. It says survival methods 'handle both event times and censored observations without bias', and the Literature review says survival analysis models hazards 'while handling censoring'. The paper does not discuss truncation (left truncation or delayed entry) or the limits of cross-sectional tenure snapshots such as the Telco dataset. The closest point is in the Discussion: CPH 'after-contract' models 'lose substantial data on customers who have already churned'. That is really a conditioning/truncation effect, but the authors call it a data-availability problem. You can cite this paper for 'survival models handle right-censoring'. You cannot cite it for truncation or snapshot-bias claims."
+    },
+    {
+      "claim": "3. Resampling (e.g. SMOTE) or class weighting changes predicted probabilities/calibration; threshold moving or cost-sensitive thresholds are an alternative.",
+      "supported": false,
+      "where": "Not supported. SMOTE, class weighting, calibration, Brier score and decision thresholds do not appear anywhere in the paper. The only related sentence is in Materials and methods: the 75% churn / 25% non-churn split 'is not the result of re-sampling or labeling but reflects the business reality'. Cite Chawla et al. (2002), Elkan (2001) or a calibration source instead."
+    },
+    {
+      "claim": "4a. On this utility dataset, churn is much harder to predict after the contract term ends. CPH test C-index falls from 78.5% to 60.1% for 6-month contracts and from 79.1% to 71.8% for 12-month contracts (73.3% on the full dataset).",
+      "supported": true,
+      "where": "Results, 'Cox proportional hazard (CPH) model', Table 1 (CPH test-set concordance index), with the text 'churn behavior becomes significantly more unpredictable once contractual obligations end'."
+    },
+    {
+      "claim": "4b. The Aalen additive model, which relaxes the proportional-hazards assumption and allows time-varying covariate effects, keeps performance high after contract expiry. Test C-index was 72.20% and 73.99% for 6-month contracts before and after expiry, and 70.19% and 80.70% for 12-month contracts. CPH did better before expiry.",
+      "supported": true,
+      "where": "Results, 'Aalen additive model', Table 3 (testing C-index), and Discussion ('the CPH model better predicts customer churn before the contract expires, while the AA model performs well across all product contract periods'). The authors warn this 'may be specific to the scenario presented by the dataset being used'. Note that the Conclusion gives different AA figures (60.96%, 74.45%, 58.85%, 78.65%) and a CPH 6-month figure of '72%', which do not match Tables 1 and 3. Cite the table values."
+    },
+    {
+      "claim": "4c. Churn hazard is concentrated at contract renewal points (6 and 12 months), and separate product-level (contract-type) churn models outperform a single pooled model.",
+      "supported": true,
+      "where": "Results, 'Full Dataset' (Fig. 3): survival 'declines more sharply' for 6-month products, with 'significant drops' at the 6- and 12-month marks. Discussion: 'building product-level churn models can be more effective than relying solely on one model for all customers'. Conclusion: 'product renewal dates are especially high-risk periods'. For the Telco dataset this is analogous to the Contract (month-to-month / one-year / two-year) variable, but that link is ours, not the authors'."
+    },
+    {
+      "claim": "4d. The Cox proportional-hazards assumption is often assumed rather than tested in churn studies. Unchecked violations can bias effect sizes and mis-time interventions.",
+      "supported": true,
+      "where": "Literature review: 'the proportional-hazards (PH) assumption ... is often assumed rather than tested', and 'unexamined PH violations can bias effect sizes and mis-time interventions', citing Grambsch and Therneau 1994. Caveat: the authors say they 'explicitly run PH diagnostics', but the results do not report any Schoenfeld-residual test."
+    },
+    {
+      "claim": "4e. The paper empirically shows survival models outperforming standard (non-survival) churn classifiers.",
+      "supported": false,
+      "where": "Not supported, despite the scout's note and the paper's own wording. The Conclusion claims 'survival models outperform traditional churn prediction approaches', and the Discussion says they are 'outperforming traditional models'. However, no logistic regression, tree-ensemble or other classifier is fitted as a baseline. The only metric is the C-index for CPH and AA. The claim is an assertion about extra capability (timing and interpretability), not a measured result."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1057/s41270-025-00450-2) confirms the title, the four authors in order (Symon Kimitei, ORCID 0009-0008-5112-0500; Don Agiro; Sherri Ni; Huan Ni) and the journal (Journal of Marketing Analytics, ISSN 2050-3318 print / 2050-3326 online, Springer Science and Business Media LLC). It records type journal-article, published online 22 December 2025, and a CC BY 4.0 licence. Crossref still lists NO volume, issue, page or published-print date, so the article is online-first and has not yet been assigned to an issue. Semantic Scholar gives the same abstract, year 2025 and venue. The Springer landing page (fetched in full; open access) gives publisher 'Palgrave Macmillan UK', article type 'Original Article', Received 10 May 2025, Accepted 28 October 2025, Published / Version of record 22 December 2025, and online-first pagination 1-17 (citation_firstpage/lastpage meta tags). The volume and issue fields are left empty because no source has assigned them yet. The pages '1-17' are online-first pagination and may change when the article goes into an issue, so re-check volume, issue and pages before submission. All four authors are affiliated with the School of Data Science and Analytics, Kennesaw State University, USA. Peer review is shown by the received and accepted dates in an established Palgrave Macmillan / Springer Nature marketing journal (running since 2013). It is not a predatory venue. Indexing (Scopus/ESCI) was not re-checked in this session. It falls within 2021-2026. The claims were checked against the full article text and Tables 1-3 on the publisher page, not only the abstract. The Harvard reference follows Cite Them Right for an advance-online article; if your marker prefers it, the 'pp. 1-17' can be dropped until final pagination exists.",
+  "caveats": "(1) Domain: the data come from one US contract-based gas utility, not a telecom provider. The scout's note is right that it fits the subscription/contract framing, but transfer to the Telco dataset is by analogy. (2) Class balance: the data are unusual, at 75% churn / 25% non-churn, over 3,667 monthly rows. (3) No classifier baseline and no calibration or Brier score: the only metric is the concordance index. So it does NOT show survival models beating plain classifiers, even though the Discussion and Conclusion say so. (4) The paper contradicts itself: the Conclusion's C-index figures (CPH '72%' for 6-month; AA 60.96/74.45/58.85/78.65%) differ from Table 1 (78.5/60.1/79.1/71.8%) and Table 3 (72.20/73.99/70.19/80.70%). The optimal tau for 12-month after-expiry customers is 20 in Table 2 but 100 in Table 3. Cite the table values and treat the numbers with caution. (5) Our own inference, not stated by the authors: customer IDs repeat across monthly rows and the paper reports only a plain 80:20 split. No grouping by customer is mentioned, so leakage across train and test may have inflated the C-index. (6) The authors say they ran PH diagnostics but report no results for them. (7) The 'after-contract' subsets only include customers who survived to contract end. This conditions on survival, a form of left truncation, and it complicates the before/after comparison. (8) The paper is online-first, with volume, issue and pages not yet assigned as of 2026-09-28. Best used as a recent example that time-to-event models add 'when' to 'who' for timing retention, not as evidence on uplift, imbalance handling or calibration."
+}

@@ -1,0 +1,25 @@
+{
+  "key": "strobl2007",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Strobl, Carolin", "Boulesteix, Anne-Laure", "Zeileis, Achim", "Hothorn, Torsten"],
+  "year": 2007,
+  "title": "Bias in random forest variable importance measures: illustrations, sources and a solution",
+  "venue": "BMC Bioinformatics",
+  "volume": "8",
+  "issue": "1",
+  "pages": "25 (article number)",
+  "doi": "10.1186/1471-2105-8-25",
+  "url": "https://doi.org/10.1186/1471-2105-8-25",
+  "harvard_reference": "Strobl, C., Boulesteix, A.-L., Zeileis, A. and Hothorn, T. (2007) 'Bias in random forest variable importance measures: illustrations, sources and a solution', BMC Bioinformatics, 8(1), 25. doi:10.1186/1471-2105-8-25.",
+  "abstract_summary": "The paper examines random forest variable importance measures as a tool for variable selection and shows, via simulation studies, that they are unreliable when predictor variables differ in scale of measurement or number of categories: suboptimal predictors can be artificially preferred. Two mechanisms are identified - biased variable selection in the individual CART-style trees (favouring variables with many possible split points) and effects induced by bootstrap sampling with replacement. The authors propose using an alternative random forest implementation built on conditional inference trees (cforest in the R party package), which provides unbiased variable selection in the individual trees; combined with subsampling without replacement, its permutation importance can be used reliably for variable selection even with mixed-type predictors. The approach is illustrated with a re-analysis of RNA editing data.",
+  "claims_supported": [
+    {
+      "claim": "Impurity-based (Gini) variable importance in random forests is biased towards variables with more categories or continuous scales; permutation importance with unbiased trees is preferable.",
+      "supported": true,
+      "where": "Abstract (Results and Conclusion paragraphs): importance measures are 'not reliable in situations where potential predictor variables vary in their scale of measurement or their number of categories'; the authors 'propose to employ an alternative implementation of random forests, that provides unbiased variable selection in the individual classification trees'. Full text, Results section on the simulation studies (null and power cases): the Gini importance 'shows a strong preference for variables with many categories and the continuous variable' and the authors 'conclude that the Gini importance cannot be used to reliably measure variable importance in this situation'. Conclusion: recommends cforest (conditional inference trees, unbiased split selection) with the permutation importance and subsampling without replacement."
+    }
+  ],
+  "verification_notes": "Metadata verified against Crossref (DOI 10.1186/1471-2105-8-25; authors Carolin Strobl, Anne-Laure Boulesteix, Achim Zeileis, Torsten Hothorn; BMC Bioinformatics, vol. 8, issue 1, article number 25, 2007, Springer Science and Business Media LLC, type journal-article) and Semantic Scholar (title, abstract, year 2007, venue BMC Bioinformatics, PubMed 17254353, PMC1796903). Full text checked at PMC (PMC1796903) for the Gini-specific finding, because the abstract itself does not use the word 'Gini' - it refers generically to 'random forest variable importance measures'. Lead reference was accurate; the only correction is that '25' is an article number, not a page number (BMC Bioinformatics is article-numbered, so there is no page range). The publisher landing page (biomedcentral.com -> link.springer.com) redirected to a cookie-authorisation endpoint and was not followed; Crossref (publisher-deposited metadata) was used instead.",
+  "caveats": "The paper's evidence is from simulation studies and an RNA-editing bioinformatics application, not customer churn data, so the report should present it as a general methodological finding. The paper also shows that the permutation importance of the ORIGINAL randomForest (Breiman/CART) implementation is affected by the same two biases (variable selection bias plus bootstrap-with-replacement effects), so the claim should not be paraphrased as 'permutation importance alone fixes the problem' - the recommendation is specifically permutation importance computed on unbiased (conditional inference) trees with subsampling WITHOUT replacement. Cite Them Right formatting of article-numbered journals varies; '8(1), 25' is used here, with 25 being the article number."
+}

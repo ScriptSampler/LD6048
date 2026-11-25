@@ -1,0 +1,41 @@
+{
+  "Majority": {},
+  "LogReg": {
+    "model__C": 1.1462107403425035,
+    "_inner_cv_pr_auc": 0.672294300884452
+  },
+  "DecisionTree": {
+    "model__ccp_alpha": 1.5673095467235405e-05,
+    "model__criterion": "entropy",
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 64,
+    "_inner_cv_pr_auc": 0.631837570633023
+  },
+  "RandomForest": {
+    "model__max_depth": 10,
+    "model__max_features": "sqrt",
+    "model__min_samples_leaf": 15,
+    "model__n_estimators": 600,
+    "_inner_cv_pr_auc": 0.6641453880762277
+  },
+  "XGBoost": {
+    "model__colsample_bytree": 0.7521420689321208,
+    "model__gamma": 2.8538915233445596,
+    "model__learning_rate": 0.021486409215395772,
+    "model__max_depth": 5,
+    "model__min_child_weight": 4.578223207895638,
+    "model__n_estimators": 426,
+    "model__reg_alpha": 0.008890110660871557,
+    "model__reg_lambda": 0.0032278427050432138,
+    "model__subsample": 0.576429569592166,
+    "_inner_cv_pr_auc": 0.6714560093548377
+  },
+  "MLP": {
+    "model__activation": "relu",
+    "model__alpha": 0.0016080324863550586,
+    "model__batch_size": 128,
+    "model__hidden_layer_sizes": "(256,)",
+    "model__learning_rate_init": 0.0004021535729341344,
+    "_inner_cv_pr_auc": 0.6723292091129839
+  }
+}

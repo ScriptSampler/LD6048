@@ -1,0 +1,32 @@
+{
+  "key": "kaplanmeier1958",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Kaplan, E.L.",
+    "Meier, P."
+  ],
+  "year": 1958,
+  "title": "Nonparametric estimation from incomplete observations",
+  "venue": "Journal of the American Statistical Association",
+  "volume": "53",
+  "issue": "282",
+  "pages": "457-481",
+  "doi": "10.1080/01621459.1958.10501452",
+  "url": "https://doi.org/10.1080/01621459.1958.10501452",
+  "harvard_reference": "Kaplan, E.L. and Meier, P. (1958) 'Nonparametric estimation from incomplete observations', Journal of the American Statistical Association, 53(282), pp. 457–481. Available at: https://doi.org/10.1080/01621459.1958.10501452.",
+  "abstract_summary": "In life-testing and medical follow-up, observation of the time to the event of interest ('death') may be prevented for some sample items by an earlier 'loss' (what is now called right-censoring), which may be accidental or controlled; lifetime is assumed independent of potential loss time. The paper estimates P(t), the proportion of the population whose lifetimes would exceed t, without assuming any functional form for P(t). It defines the product-limit (PL) estimate as a product of factors (N - r)/(N - r + 1) over ordered observed death times up to t, and shows that it is the distribution, unrestricted as to form, that maximises the likelihood of the observations. It also discusses actuarial (grouped) estimates and reduced-sample estimates, and notes that all reduce to the binomial proportion of survivors when no losses occur before t.",
+  "claims_supported": [
+    {
+      "claim": "The product-limit estimator gives a nonparametric estimate of the survival function from censored data.",
+      "supported": true,
+      "where": "Abstract: the paper sets out to estimate P(t), the proportion of items whose lifetimes would exceed t (the survival function), 'without making any assumption about the form of the function P(t)' (nonparametric), from data made incomplete by 'losses' (censoring), and defines the product-limit (PL) estimate for this purpose. The paper uses the terms 'losses' and 'incomplete observations', not 'censored'; calling these 'censored' data follows standard later usage and is an accurate description."
+    },
+    {
+      "claim": "The product-limit estimator presupposes a random sample in which each item is observed from its initial event (no left truncation).",
+      "supported": true,
+      "where": "Abstract (OpenAlex record of the JASA paper): observation of each item's initial event is presupposed and the PL estimate is defined for random samples; checked by an independent critic on 31 October 2026."
+    }
+  ],
+  "verification_notes": "Metadata confirmed via Crossref (api.crossref.org/works/10.1080/01621459.1958.10501452): authors E. L. Kaplan (University of California Radiation Laboratory) and Paul Meier (University of Chicago); title 'Nonparametric Estimation from Incomplete Observations'; Journal of the American Statistical Association, vol. 53, issue 282, pp. 457-481; print publication June 1958 (online version on Taylor & Francis dated 12 April 2012); publisher Informa UK Limited (Taylor & Francis); type journal-article. OpenAlex matches all fields (1958, 53(282), 457-481) and supplied the full abstract. Semantic Scholar returned HTTP 404 for the DOI lookup and the Taylor & Francis landing page returned HTTP 403, so the abstract comes from OpenAlex only. JASA is a long-established peer-reviewed journal of the American Statistical Association, so this is not a predatory venue. The lead metadata (authors, year, title, journal, volume, issue, DOI) is correct; the page range 457-481 was added from Crossref. Title is given in sentence case per Cite Them Right. Strictness note: the original text says 'losses' and 'incomplete observations' rather than 'censored'; the claim is a faithful modern restatement."
+}

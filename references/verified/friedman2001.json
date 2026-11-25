@@ -1,0 +1,24 @@
+{
+  "key": "friedman2001",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Friedman, Jerome H."],
+  "year": 2001,
+  "title": "Greedy function approximation: a gradient boosting machine",
+  "venue": "The Annals of Statistics",
+  "volume": "29",
+  "issue": "5",
+  "pages": "1189-1232",
+  "doi": "10.1214/aos/1013203451",
+  "url": "https://doi.org/10.1214/aos/1013203451",
+  "harvard_reference": "Friedman, J.H. (2001) 'Greedy function approximation: a gradient boosting machine', The Annals of Statistics, 29(5), pp. 1189-1232. Available at: https://doi.org/10.1214/aos/1013203451.",
+  "abstract_summary": "Friedman treats function estimation as numerical optimisation in function space rather than parameter space. He links stagewise additive expansions to steepest-descent minimisation and develops a general gradient-descent 'boosting' method for additive expansions that works with any fitting criterion. He gives algorithms for least-squares, least-absolute-deviation and Huber-M losses in regression, and for multiclass logistic likelihood in classification. He derives special enhancements for the case where the additive components are regression trees, and presents tools for interpreting these 'TreeBoost' models. The paper reports that gradient-boosted trees are competitive, highly robust and interpretable for both regression and classification, especially on less-than-clean data. It also discusses how the method relates to the boosting methods of Freund and Schapire and of Friedman, Hastie and Tibshirani.",
+  "claims_supported": [
+    {
+      "claim": "Gradient boosting builds an additive model by fitting successive trees to the negative gradient of a loss function (stagewise functional gradient descent).",
+      "supported": true,
+      "where": "Abstract (Project Euclid publisher page and OpenAlex): the paper frames estimation as 'numerical optimization in function space', connects 'stagewise additive expansions and steepest-descent minimization', develops a 'general gradient descent boosting paradigm' for additive expansions under any fitting criterion, and gives special enhancements where the additive components are regression trees (TreeBoost). The detailed mechanism of fitting each new base learner by least squares to pseudo-responses equal to the negative gradient of the loss is the paper's generic Gradient_Boost algorithm (Algorithm 1, in the finite-data section, believed to be Section 3), with the tree-specific version in the regression-trees subsection (believed to be Section 4.3). Those section and algorithm numbers could not be checked against the full text in this session."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1214/aos/1013203451) confirms the author (Jerome H. Friedman), the title, the container title (The Annals of Statistics), volume 29, issue 5, the publication date (1 October 2001, print and online), the publisher (Institute of Mathematical Statistics), ISSN 0090-5364 and the type (journal article). The Crossref record has no page field. The pages 1189-1232 come from the publisher's Project Euclid landing page, which gives 'Vol. 29, No. 5, pp. 1189-1232, October 2001'. OpenAlex also confirms the metadata and gives the abstract through its inverted index. Semantic Scholar confirms the title, year and DOI but has no abstract ('elided by publisher'). The journal is a leading peer-reviewed IMS journal, not predatory. Project Euclid keywords: boosting, decision trees, function estimation, robust nonparametric regression. The full text is paywalled on Project Euclid and marked closed access in OpenAlex. Attempts to reach author and course-hosted PDF mirrors (jerryfriedman.su.domains, statweb.stanford.edu, biostat.jhsph.edu, luthuli.cs.uiuc.edu) all failed. As a result, the claim is verified against the abstract only. The abstract strongly supports stagewise additive expansion, steepest (gradient) descent in function space and regression trees as the additive components. The phrase 'fitting to the negative gradient' is implied by 'steepest-descent minimization' but is not spelled out verbatim in the abstract. Section and algorithm numbers are not verified. Harvard formatting note: italicise the journal title 'The Annals of Statistics' in the final document. The title is in sentence case following Cite Them Right. The source record capitalises 'A gradient boosting machine'."
+}

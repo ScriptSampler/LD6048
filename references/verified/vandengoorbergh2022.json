@@ -1,0 +1,30 @@
+{
+  "key": "vandengoorbergh2022",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "van den Goorbergh, Ruben",
+    "van Smeden, Maarten",
+    "Timmerman, Dirk",
+    "Van Calster, Ben"
+  ],
+  "year": 2022,
+  "title": "The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression",
+  "venue": "Journal of the American Medical Informatics Association",
+  "volume": "29",
+  "issue": "9",
+  "pages": "1525-1534",
+  "doi": "10.1093/jamia/ocac093",
+  "url": "https://doi.org/10.1093/jamia/ocac093",
+  "harvard_reference": "van den Goorbergh, R., van Smeden, M., Timmerman, D. and Van Calster, B. (2022) 'The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression', Journal of the American Medical Informatics Association, 29(9), pp. 1525-1534. doi:10.1093/jamia/ocac093.",
+  "abstract_summary": "Simulation study plus an ovarian-cancer case study examining how four approaches to class imbalance (no correction, random undersampling, random oversampling, SMOTE) affect standard and ridge logistic regression models, evaluated on discrimination, calibration and classification while varying training-set size, number of predictors and event fraction. Undersampling, oversampling and SMOTE produced poorly calibrated models in which the probability of belonging to the minority class was strongly overestimated, and they did not yield higher AUCs than uncorrected models. Although corrections improved the sensitivity/specificity balance, the same effect was obtained simply by shifting the probability threshold. The authors conclude that outcome imbalance is not a problem in itself and that imbalance correction may even worsen model performance, reducing clinical utility because treatment decisions are ill-informed by inaccurate probabilities.",
+  "claims_supported": [
+    {
+      "claim": "Imbalance corrections such as random undersampling, oversampling and SMOTE lead to strongly miscalibrated models that overestimate the probability of the minority class, without improving discrimination (AUC); they recommend against them for risk prediction models.",
+      "supported": true,
+      "where": "Abstract (Results): 'The use of random undersampling, random oversampling, or SMOTE yielded poorly calibrated models: the probability to belong to the minority class was strongly overestimated. These methods did not result in higher areas under the ROC curve when compared with models developed without correction for class imbalance.' Abstract (Conclusion): 'Outcome imbalance is not a problem in itself, imbalance correction may even worsen model performance.' Discussion (full text, PMC9382395): 'We therefore warn researchers for the limitations of imbalance corrections when developing a prediction model.' The title itself frames these corrections as harmful for risk prediction models. Note: the source's own wording is a warning/caution ('warn researchers', 'may even worsen model performance') rather than a formal sentence saying 'we recommend against'; phrasing such as 'caution against' or 'warn against' is the most faithful paraphrase. The findings are also specific to standard and ridge logistic regression (the authors' stated scope), so the report should not present them as demonstrated for all model classes."
+    }
+  ],
+  "verification_notes": "Verified via Crossref (api.crossref.org/works/10.1093/jamia/ocac093), Semantic Scholar (DOI:10.1093/jamia/ocac093; PubMed 35686364; PMC9382395; arXiv 2202.09101) and the PMC full text. All fields in the lead were confirmed except the title, which the lead gave imprecisely as 'illustrated using logistic regression'; the correct title is '...illustration and simulation using logistic regression'. Author order and name capitalisation (van den Goorbergh, van Smeden, Timmerman, Van Calster) follow Crossref. Published online 10 June 2022; Crossref lists the print issue date as 16 August 2022 for volume 29, issue 9, pages 1525-1534; publisher Oxford University Press; ISSN 1527-974X. Claim 1 is supported by the abstract and discussion, with the caveat about wording ('warn' rather than 'recommend against') and scope (logistic regression) noted in the claim entry.",
+  "caveats": "The study's empirical scope is logistic regression (standard and ridge) in a clinical risk-prediction setting, with Monte Carlo simulations and one ovarian-cancer case study; extrapolation to tree ensembles or gradient boosting on the Telco churn dataset should be presented as an inference, not a finding of this paper. The authors' conclusion is phrased as a warning about the limitations and potential harm of imbalance corrections rather than an explicit formal 'recommendation against'; the report should paraphrase accordingly (e.g. 'caution against'). Published online June 2022; issue dated 2022 (vol. 29, no. 9)."
+}

@@ -1,0 +1,166 @@
+{
+  "key": "equality_act_2010",
+  "status_summary": "Verified on legislation.gov.uk on 2026-09-28. Sections 4 (protected characteristics), 13 (direct discrimination), 19 (indirect discrimination) and 29 (provision of services) of the Equality Act 2010 (c. 15) are all in force in England, Wales and Scotland and legislation.gov.uk states each is 'up to date with all changes known to be in force on or before 28 September 2026'. Sections 4 and 19 are textually unamended since commencement. Section 13 was amended from 1 January 2024 by the Equality Act 2010 (Amendment) Regulations 2023 (SI 2023/1425): s.13(6)(b) now refers to 'pregnancy, childbirth or maternity' and s.13(7) was omitted, extending breast-feeding protection to the work context; the same Regulations inserted s.19A (indirect discrimination: same disadvantage) from 1 January 2024. Sections 4-27 (Part 2) and Part 3 (ss.28-31) commenced 1 October 2010 (SI 2010/2317, art. 2) except in relation to age; Part 3 was extended to age (adults only) on 1 October 2012 (SI 2012/1569), with age exceptions inserted into Schedule 3 Part 7 by SI 2012/2466 (paras 30A-30D, including para 30A on age-based concessions). None of ss.4, 13, 19 or 29 has been amended by the Data (Use and Access) Act 2025 (c. 18). The only DUAA-related effect on the Equality Act 2010 is a consequential change to Schedule 19 Part 1 (list of public authorities: 'The Information Commissioner' replaced by 'The Information Commission') made by SI 2026/386 Sch. 2 para 16, which comes into force when DUAA s.119 is fully commenced; SI 2026/1015 reg. 2(c) appoints 30 September 2026 for s.119, so as at 2026-09-28 the Sch. 19 text still reads 'The Information Commissioner'. Outstanding prospective amendments by the Employment Rights Act 2025 (c. 36) affect ss.40, 40B, 78, 153, 154 and 208 only, not the sections in question. Two 2025-2026 developments affect how the sections are read: For Women Scotland Ltd v The Scottish Ministers [2025] UKSC 16 (16 April 2025) unanimously held that 'man', 'woman' and 'sex' in the Act refer to biological sex; and the EHRC's revised Code of Practice for services, public functions and associations (issued under s.14(2) Equality Act 2006) came into force on 5 August 2026, revoking the 2011 Code.",
+  "in_force": "Yes. As at 2026-09-28: s.4 in force from 1 October 2010 (unamended); s.13 in force from 1 October 2010, as amended from 1 January 2024 by SI 2023/1425; s.19 in force from 1 October 2010 (unamended), with s.19A inserted from 1 January 2024; s.29 (and ss.28, 31 and Schedule 3) in force from 1 October 2010 for all characteristics other than age, and from 1 October 2012 for age (persons aged 18 and over only, per s.28(1)(a)). Extent: England, Wales and Scotland (Parts 2 and 3 do not extend to Northern Ireland). No amendment to any of these four sections by the Data (Use and Access) Act 2025. Consequential DUAA change to Sch. 19 Pt 1 takes effect 30 September 2026 (SI 2026/1015).",
+  "primary_sources": [
+    {
+      "title": "Equality Act 2010, section 4 (The protected characteristics)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/4",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 4. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/4 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 5 (Age)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/5",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 5. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/5 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 11 (Sex)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/11",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 11. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/11 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 13 (Direct discrimination)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/13",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 13. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/13 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 19 (Indirect discrimination)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/19",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 19. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/19 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 19A (Indirect discrimination: same disadvantage)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/19A",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 19A. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/19A (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 28 (Application of this Part)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/28",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 28. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/28 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 29 (Provision of services, etc.)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/29",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 29. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/29 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, section 31 (Interpretation and exceptions)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/31",
+      "harvard_reference": "Equality Act 2010, c. 15, s. 31. Available at: https://www.legislation.gov.uk/ukpga/2010/15/section/31 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, Schedule 3, Part 7 (Services and public functions: exceptions - Age)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/schedule/3/part/7",
+      "harvard_reference": "Equality Act 2010, c. 15, Sch. 3, Pt 7. Available at: https://www.legislation.gov.uk/ukpga/2010/15/schedule/3/part/7 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010, Schedule 19, Part 1 (Public authorities: general)",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/schedule/19/part/1",
+      "harvard_reference": "Equality Act 2010, c. 15, Sch. 19, Pt 1. Available at: https://www.legislation.gov.uk/ukpga/2010/15/schedule/19/part/1 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Changes to legislation: Equality Act 2010 (changes affecting the Act, sorted by affecting year)",
+      "url": "https://www.legislation.gov.uk/changes/affected/ukpga/2010/15?results-count=100&sort=affecting-year-number&order=descending",
+      "harvard_reference": "The National Archives (2026) Changes to legislation: Equality Act 2010. Available at: https://www.legislation.gov.uk/changes/affected/ukpga/2010/15?results-count=100&sort=affecting-year-number&order=descending (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Equality Act 2010 (Commencement No. 4, Savings, Consequential, Transitional, Transitory and Incidental Provisions and Revocation) Order 2010, article 2",
+      "url": "https://www.legislation.gov.uk/uksi/2010/2317/article/2/made",
+      "harvard_reference": "The Equality Act 2010 (Commencement No. 4, Savings, Consequential, Transitional, Transitory and Incidental Provisions and Revocation) Order 2010, SI 2010/2317, art. 2. Available at: https://www.legislation.gov.uk/uksi/2010/2317/article/2/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Equality Act 2010 (Commencement No. 9) Order 2012",
+      "url": "https://www.legislation.gov.uk/uksi/2012/1569/made",
+      "harvard_reference": "The Equality Act 2010 (Commencement No. 9) Order 2012, SI 2012/1569. Available at: https://www.legislation.gov.uk/uksi/2012/1569/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Equality Act 2010 (Age Exceptions) Order 2012",
+      "url": "https://www.legislation.gov.uk/uksi/2012/2466/made",
+      "harvard_reference": "The Equality Act 2010 (Age Exceptions) Order 2012, SI 2012/2466. Available at: https://www.legislation.gov.uk/uksi/2012/2466/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Equality Act 2010 (Amendment) Regulations 2023",
+      "url": "https://www.legislation.gov.uk/uksi/2023/1425/made",
+      "harvard_reference": "The Equality Act 2010 (Amendment) Regulations 2023, SI 2023/1425. Available at: https://www.legislation.gov.uk/uksi/2023/1425/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2026/386/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026, SI 2026/386. Available at: https://www.legislation.gov.uk/uksi/2026/386/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 119 (Transfer of functions to the Information Commission)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/119",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 119. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/119 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026, SI 2026/1015 (C. 83). Available at: https://www.legislation.gov.uk/uksi/2026/1015/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "For Women Scotland Ltd (Appellant) v The Scottish Ministers (Respondent) [2025] UKSC 16 - case page and press summary",
+      "url": "https://www.supremecourt.uk/cases/uksc-2024-0042",
+      "harvard_reference": "For Women Scotland Ltd v The Scottish Ministers [2025] UKSC 16. Available at: https://www.supremecourt.uk/cases/uksc-2024-0042 (Accessed: 2026-09-28). Press summary available at: https://supremecourt.uk/uploads/uksc_2024_0042_press_summary_8a42145662.pdf (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Equality Act 2010: Code of Practice for services, public functions and associations, 2026 (GOV.UK publication page)",
+      "url": "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+      "harvard_reference": "Office for Equality and Opportunity and Equality and Human Rights Commission (2026) Equality Act 2010: Code of Practice for services, public functions and associations, 2026. Available at: https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Guidance on AI and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/",
+      "harvard_reference": "Information Commissioner's Office (2023) Guidance on AI and data protection. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - What about fairness, bias and discrimination? (Guidance on AI and data protection)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/",
+      "harvard_reference": "Information Commissioner's Office (2023) What about fairness, bias and discrimination? Guidance on AI and data protection. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-about-fairness-bias-and-discrimination/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom - General Conditions of Entitlement (unofficial consolidated version with effect from 8 April 2026)",
+      "url": "https://www.ofcom.org.uk/phones-telecoms-and-internet/information-for-industry/telecoms-competition-regulation/general-conditions-of-entitlement",
+      "harvard_reference": "Ofcom (2026) General Conditions of Entitlement. Available at: https://www.ofcom.org.uk/phones-telecoms-and-internet/information-for-industry/telecoms-competition-regulation/general-conditions-of-entitlement (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "Section 4 lists nine protected characteristics: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, sexual orientation. In force since 1 October 2010 (SI 2010/2317 art. 2); unamended; extent E+W+S. Section 5 defines age by reference to 'age group' (a particular age or a range of ages) and section 11 defines sex by reference to 'a man or to a woman'.",
+    "Section 13(1) (direct discrimination): A discriminates against B if, because of a protected characteristic, A treats B less favourably than A treats or would treat others. Section 13(2) provides that for AGE only, direct discrimination is not unlawful if A shows the treatment is a proportionate means of achieving a legitimate aim; there is no such justification defence for direct SEX discrimination. Amended from 1 January 2024 by SI 2023/1425 (s.13(6)(b) extended to 'maternity'; s.13(7) omitted) - these amendments do not affect the age or sex analysis for service pricing.",
+    "Section 19 (indirect discrimination): applying a provision, criterion or practice (PCP) that puts persons sharing a characteristic at a particular disadvantage, and puts B at that disadvantage, is discrimination unless A shows the PCP is a proportionate means of achieving a legitimate aim (s.19(2)(d)). Relevant characteristics under s.19(3) include age and sex (pregnancy and maternity is not listed). Unamended since 2010. Section 19A (inserted 1 January 2024) extends indirect discrimination to a person who does not share the characteristic but suffers 'substantially the same disadvantage' - relevant where an AI model's proxy variables disadvantage people who correlate with, but do not have, a protected characteristic.",
+    "Section 29 (Part 3, services): a 'service-provider' concerned with the provision of a service to the public or a section of the public (for payment or not) must not discriminate by not providing the service (s.29(1)), or, in providing it, 'as to the terms on which A provides the service to B', by terminating the service, or by subjecting B to any other detriment (s.29(2)); parallel victimisation prohibitions in s.29(4)-(5); a reasonable-adjustments duty in s.29(7). A UK telecoms operator supplying consumer contracts is squarely a service-provider; differential pricing or retention offers are 'terms on which A provides the service'. Section 31(2) confirms 'service' includes goods and facilities.",
+    "Commencement of Part 3 for age was deferred: SI 2010/2317 art. 2 commenced Part 3 on 1 October 2010 'except so far as they apply to the protected characteristic of age'; SI 2012/1569 commenced ss.28-31 and Sch. 3 for age from 1 October 2012. Section 28(1)(a) excludes age in relation to persons under 18, and s.28(1)(b) excludes marriage and civil partnership from Part 3 entirely.",
+    "Age exceptions for services: Sch. 3 Pt 7 paras 30A-30D (inserted by SI 2012/2466, in force 1 October 2012). Para 30A permits age-based 'concessions' (a benefit, right or privilege making the service MORE favourable to an age group, e.g. student or senior discounts); it does not authorise LESS favourable pricing for an age group. Less favourable age-based pricing or withholding retention offers by age therefore falls to be justified, if at all, under s.13(2) (direct) or s.19(2)(d) (indirect). Sch. 3 Pt 5 financial-services age exceptions (risk-based pricing) apply to financial services, not telecoms.",
+    "Data (Use and Access) Act 2025 (c. 18): does NOT amend ss.4, 13, 19, 19A or 29. The only DUAA-driven change to the Equality Act 2010 is consequential: SI 2026/386 Sch. 2 para 16 substitutes 'The Information Commission' for 'The Information Commissioner' in Sch. 19 Pt 1 (public sector equality duty list), taking effect when DUAA s.119 is fully in force - appointed for 30 September 2026 by SI 2026/1015 reg. 2(c) (made 10 September 2026). As at 2026-09-28 Sch. 19 Pt 1 on legislation.gov.uk still reads 'The Information Commissioner'.",
+    "Other outstanding changes: legislation.gov.uk flags prospective amendments by the Employment Rights Act 2025 (c. 36) to ss.40, 40B, 78, 153, 154 and 208 (employment and equality-duty provisions) - none touches ss.4, 13, 19 or 29 or Part 3.",
+    "Meaning of 'sex': For Women Scotland Ltd v The Scottish Ministers [2025] UKSC 16 (16 April 2025, unanimous) held that 'man', 'woman' and 'sex' in the Equality Act 2010 refer to biological sex; a Gender Recognition Certificate does not change a person's sex for the purposes of the Act, while gender reassignment remains a separately protected characteristic (s.7). This bears on how a churn model's 'sex'/'gender' feature maps onto the statutory characteristic.",
+    "Statutory guidance: the EHRC's revised Code of Practice for services, public functions and associations (issued under s.14(2) Equality Act 2006) was published on GOV.UK on 21 May 2026 and 'came into force on 5th August 2026', revoking the 2011 Code on the same date. Courts and tribunals must take a statutory code into account where relevant (s.15(4) Equality Act 2006). Cite the 2026 Code, not the 2011 Code.",
+    "Regulatory context for AI churn models: ICO Guidance on AI and data protection (last updated 15 March 2023; flagged 'under review' because of the Data (Use and Access) Act) states that the Equality Act 2010 sits alongside data protection law and protects individuals from direct and indirect discrimination 'whether generated by a human or an automated decision-making system'. Ofcom's General Conditions of Entitlement (consolidated version in force from 8 April 2026), Condition C1, separately require end-of-contract and annual best-tariff notifications and fair treatment of end-users; these are telecoms-regulatory duties distinct from the Equality Act."
+  ],
+  "quotable": "Equality Act 2010, s. 29(2) (Crown copyright, Open Government Licence): 'A service-provider (A) must not, in providing the service, discriminate against a person (B)- (a) as to the terms on which A provides the service to B; (b) by terminating the provision of the service to B; (c) by subjecting B to any other detriment.' Supreme Court press summary, [2025] UKSC 16: the Court 'holds that the terms \"man\", \"woman\" and \"sex\" in the EA 2010 refer to biological sex.'",
+  "uncertainties": "1) legislation.gov.uk 'up to date' banners on individual section pages carried dates between 25 and 28 September 2026 (server-side caching); no substantive difference between versions. 2) The legislation.gov.uk 'changes affecting' table marks SI 2026/386 Sch. 2 para 16 (Sch. 19 Pt 1) as applied, but the Sch. 19 Pt 1 text still shows 'The Information Commissioner' and DUAA s.119 is shown as prospective until 30 September 2026 (SI 2026/1015); treat the substitution as effective from 30 September 2026 and re-check after that date. 3) Whether an AI-driven differential retention offer constitutes 'less favourable treatment because of' a characteristic (s.13) or a PCP causing 'particular disadvantage' (s.19) is fact-specific; no reported UK judgment applying ss.13/19/29 to algorithmic pricing was located on official sources, so the report should present this as a legal-risk analysis rather than settled law. Note that s.13(2) offers a justification defence only for age, not sex. 4) The EHRC website (equalityhumanrights.com) returned HTTP 403 to automated fetching, so the Code's in-force date (5 August 2026) was verified from the GOV.UK publication page rather than the EHRC page. 5) The Supreme Court holding was verified from the official press summary PDF; the National Archives Find Case Law page excerpt was truncated before the concluding paragraphs. 6) ICO AI guidance is explicitly 'under review' following the DUAA and may be revised; DUAA changes to automated decision-making (UK GDPR Arts 22A-22D) are outside this item and should be verified separately. 7) Extent: ss.4-31 extend to England, Wales and Scotland only; Northern Ireland has separate equality legislation. 8) Ofcom General Conditions are a separate regime; their 'consolidated version' is described by Ofcom as unofficial."
+}

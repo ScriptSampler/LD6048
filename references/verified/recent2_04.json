@@ -1,0 +1,59 @@
+{
+  "key": "recent2_04",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Kurt A. Pflughoeft",
+    "Nikolaus T. Butz",
+    "Alick Corbley"
+  ],
+  "year": 2025,
+  "title": "Customer churn prediction for fixed wireless access: The case of a regional internet service provider",
+  "venue": "Telecommunications Policy (Elsevier)",
+  "volume": "49",
+  "issue": "4",
+  "pages": "102929 (article number)",
+  "doi": "10.1016/j.telpol.2025.102929",
+  "url": "https://doi.org/10.1016/j.telpol.2025.102929",
+  "harvard_reference": "Pflughoeft, K.A., Butz, N.T. and Corbley, A. (2025) 'Customer churn prediction for fixed wireless access: The case of a regional internet service provider', Telecommunications Policy, 49(4), article 102929. doi:10.1016/j.telpol.2025.102929.",
+  "abstract_summary": "The paper studies customer churn at a fixed wireless access (FWA) internet service provider. It argues that churn is a major problem in telecoms and that competition in FWA is growing, partly because 5G now serves both cellular and FWA customers. The authors model the risk factors behind churn with three survival-analysis methods: random survival forests, Cox regression and Kaplan-Meier survival plots. The abstract says fiber, sales zone (brand presence), age, speed and discounts are among the more important variables for the cumulative hazard ratio. Discounts worked in many sales zones, but their effect was weaker for more expensive internet services. The authors present the findings as a basis for providers' retention strategies in the FWA market. The publisher keywords are fixed wireless access, telecommunications, Cox regression model, random survival forests, Kaplan-Meier survival plots, concordance index, data augmentation and customer churn. Secondary sources, not read in full, add that the case firm is Bug Tussel, a regional ISP based in Green Bay, Wisconsin, that the data cover customers with an active account at some point between 1 January 2018 and 1 March 2023, and that the analysis used JMP Pro and R with cross-validation tuning.",
+  "claims_supported": [
+    {
+      "claim": "Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": false,
+      "where": "Not supported. The abstract and keywords never mention uplift, causal or treatment-effect modelling, or campaign targeting. The one related finding is that discounts had a weaker observed association with churn for more expensive services, and that is an observational survival-model result, not an uplift or causal targeting comparison."
+    },
+    {
+      "claim": "Survival models can estimate when customers are likely to churn and support timing of interventions; cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Only partly supported, so it is marked false as worded. The abstract supports the narrower point that survival methods (Kaplan-Meier, Cox regression, random survival forests) were used to model time-to-churn risk and rank risk factors by cumulative hazard, and it says the insights help providers 'curtail customer churn over time'. I could not check whether the paper explicitly argues for timing interventions or discusses censoring or truncation limits of cross-sectional tenure snapshots, because the full text is closed access (ScienceDirect, ResearchGate and Academia.edu all returned HTTP 403). Do not cite it for the censoring/truncation part."
+    },
+    {
+      "claim": "Survival-analysis methods (Kaplan-Meier, Cox proportional hazards regression and random survival forests) have been applied to real telecom (FWA ISP) subscriber data to model churn hazard and rank churn risk factors, with model fit assessed by the concordance index.",
+      "supported": true,
+      "where": "Abstract: the three methods are named ('Random Survival Forests, the Cox regression model, and Kaplan-Meier Survival Plots'), and variables are ranked 'with regard to the cumulative hazard ratio'. The publisher keyword list includes 'Concordance index'."
+    },
+    {
+      "claim": "Resampling (e.g. SMOTE) or class weighting changes predicted probabilities/calibration; threshold moving or cost-sensitive thresholds are an alternative.",
+      "supported": false,
+      "where": "Not supported. The abstract does not mention class imbalance, SMOTE, class weighting, calibration or decision thresholds. 'Data augmentation' is one of the publisher keywords, but I could not read what it refers to in the paper, so it must not be cited as evidence about resampling or calibration."
+    },
+    {
+      "claim": "In a regional FWA ISP, fiber, sales zone (brand presence), customer age, speed and discounts were among the more important variables for the cumulative hazard of churn.",
+      "supported": true,
+      "where": "Abstract (verbatim on RePEc/IDEAS): 'fiber, sales zone (i.e., brand presence), age, speed, and discounts are some of the more important variables with regard to the cumulative hazard ratio.'"
+    },
+    {
+      "claim": "Discounts were associated with reduced churn in many sales zones, but their effect was diminished for more expensive (premium) internet services, so retention incentives have heterogeneous effects.",
+      "supported": true,
+      "where": "Abstract: discounts 'were effective in many sales zones' but 'their impact was diminished for more expensive internet services'. Note that this is an observational association from survival models, not a randomised or uplift estimate."
+    },
+    {
+      "claim": "Fibre competition was the top predictor with about 18% importance, and churn risk peaks within the first 10 to 20 months after activation (scout's note).",
+      "supported": false,
+      "where": "Not verified. The abstract lists fiber first among 'some of the more important variables' but gives no ranking percentages and does not say fiber is the single top predictor. It also says nothing about the months when hazard peaks. The full text could not be accessed, so neither figure should be cited unless the student checks it in the full paper."
+    }
+  ],
+  "verification_notes": "Crossref (queried by title and first author) confirms the metadata: DOI 10.1016/j.telpol.2025.102929; authors Kurt A. Pflughoeft, Nikolaus T. Butz and Alick Corbley; journal Telecommunications Policy (Elsevier BV); volume 49, issue 4; article number 102929; issue dated May 2025; type journal-article. OpenAlex agrees on the metadata. It gives an online publication date of 3 March 2025, lists all three authors at the University of Wisconsin-Stevens Point, shows 5 citations and marks the paper closed access. Semantic Scholar confirms the title, venue, year and authors but has a null abstract, and OpenAlex also has no abstract. I took the abstract and keywords verbatim from the RePEc/IDEAS record (ideas.repec.org/a/eee/telpol/v49y2025i4s0308596125000266.html). The PII S0308596125000266 comes from the doi.org redirect. ScienceDirect, ResearchGate, Academia.edu and the ACM DL all returned HTTP 403, so I could not read the full text. Telecommunications Policy is an established, peer-reviewed Elsevier journal indexed in SSCI and Scopus, not a predatory venue, and the 2025 date falls inside the required 2021-2026 window. Details I could not check first-hand, all taken from web search snippets or a university blog: the case firm is Bug Tussel of Green Bay, Wisconsin; the study window is 1 January 2018 to 1 March 2023; the software was JMP Pro and R; and a related conference talk was given in Amsterdam in 2024 (UWSP blog, 9 July 2024). The scout's specific figures (fibre about 18% importance as the top predictor; churn risk peaking at 10 to 20 months) are not verified.",
+  "caveats": "The work is a single-firm case study of a rural fixed-wireless ISP in the US Midwest, not the IBM/Kaggle Telco Customer Churn dataset, so its variables (fibre availability, sales zone, tower speed) have no direct equivalents in the Telco data and results may not generalise. The findings on discount effects are observational hazard associations, not causal or uplift estimates. The full text is paywalled, so only abstract-level and keyword-level statements are verified; cite the paper for the method choice (survival analysis for time-to-churn) and the headline risk factors, not for specific numbers. Use the article number (102929), not page numbers, in the reference."
+}

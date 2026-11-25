@@ -1,0 +1,30 @@
+{
+  "key": "lemmens2020",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Lemmens, Aurélie", "Gupta, Sunil"],
+  "year": 2020,
+  "title": "Managing churn to maximize profits",
+  "venue": "Marketing Science",
+  "volume": "39",
+  "issue": "5",
+  "pages": "956-973",
+  "doi": "10.1287/mksc.2020.1229",
+  "url": "https://doi.org/10.1287/mksc.2020.1229",
+  "harvard_reference": "Lemmens, A. and Gupta, S. (2020) 'Managing churn to maximize profits', Marketing Science, 39(5), pp. 956-973. doi:10.1287/mksc.2020.1229.",
+  "abstract_summary": "The paper proposes a profit-based loss function for targeting proactive customer-retention campaigns. Instead of ranking customers by predicted churn probability (the conventional churn model) or by churn uplift (responsiveness to the offer), it predicts each customer's expected profit lift: the incremental effect of the retention intervention on churn and on post-campaign cash flows, net of the intervention cost. The loss function also weights prediction errors by each customer's expected profit lift, so the model is most accurate for the customers who matter most to campaign profit, and the authors add a procedure to optimise the campaign's target size. Estimation uses stochastic gradient boosting on data from randomised experiments (heterogeneous treatment effects on churn and cash flows). Two field experiments, a European interactive-TV subscription firm and a North American membership organisation, show that the profit-based approach yields significantly higher campaign profit than churn-classification, reordered-churn and uplift benchmarks.",
+  "claims_supported": [
+    {
+      "claim": "Optimising the targeting model with a profit-based loss function, rather than a classification-accuracy loss, increases campaign profit.",
+      "supported": true,
+      "where": "Abstract: 'Two field experiments affirm that our approach leads to significantly more profitable campaigns than competing models.' Section 7.3.1 / Table 1 (accepted manuscript pp. 22-23): in Study 1 the campaign profit for the profit-based loss is 168% higher than for the 'classic loss' (a stochastic-gradient-boosting churn model trained with the standard churn-classification loss, Section 6.1.1), 300% higher than the reordered classic loss and 23% higher than the uplift model; in Study 2 only the profit-based approach yields a positive campaign profit. The authors state the classic loss 'produces the lowest profit, because it is the only estimation method that optimizes a non-profit-related criterion' and that firms 'need to align their estimation method, and in particular their loss function, with their evaluation criterion'. Section 7.3.9 replicates with logistic regression vs profit-weighted regression: EUR 3,331 vs EUR 4,907 (Study 1) and minus USD 1,112 vs USD 416 (Study 2), p < .01. Caveat from Section 7.3.8 / Table 3: the classic loss remains the most accurate at predicting churn itself (Gini, top-decile lift), so the paper's claim is about campaign profit, not predictive accuracy."
+    },
+    {
+      "claim": "Customer heterogeneity in value and response should drive retention targeting decisions.",
+      "supported": true,
+      "where": "Abstract: conventional churn-probability and responsiveness approaches 'ignore that some customers contribute more to the profitability of retention campaigns than others'; the method ranks customers on 'the incremental impact of the intervention on churn and post-campaign cash flows, after accounting for the cost of the intervention'. Introduction (manuscript pp. 1-2): 'not all customers are equally valuable, and incorrectly predicting the churn risk or lift would be costlier for some customers than others'; targeting on churn lift alone may select customers whose profit lift is negative. Section 5.1 estimates heterogeneous treatment effects of the intervention on churn and on cash flows separately. Section 7.3.5 shows that target-size rules based on aggregate metrics that 'do not reflect customer heterogeneity in profit lift' yield 93% and 84% less profit. Nuance: the paper's own construct is heterogeneity in profit lift (response to the offer in churn and cash flows, net of cost); 'value and response' is a fair paraphrase, but the report should not attribute a customer-lifetime-value framing to the paper."
+    }
+  ],
+  "verification_notes": "Metadata verified from the Crossref record for DOI 10.1287/mksc.2020.1229 (journal-article, Marketing Science, vol. 39, issue 5, pp. 956-973, INFORMS, published-print September 2020, ISSN 0732-2399 / 1526-548X) and from OpenAlex (W2115769109; online publication date 2020-08-27; affiliations Erasmus University Rotterdam and Harvard Business School). Semantic Scholar returned HTTP 404 for the DOI lookup and 429 for title search; INFORMS, SSRN and HBS landing pages returned HTTP 403, so the abstract was confirmed on the Erasmus University Pure repository page and the full text was checked in the author-hosted accepted manuscript (aurelielemmens.com, dated 6 Dec 2019, marked 'Forthcoming at Marketing Science', 56 pages). Section numbers and page references above refer to that manuscript, not to the published pagination. The lead reference was accurate in every field it gave. Earlier versions exist as HBS Working Paper 14-020 (2013) and SSRN 2964906 (2017); cite the 2020 Marketing Science version.",
+  "caveats": "The report's Telco Customer Churn (Kaggle) dataset has no randomised treatment/control assignment, no intervention cost and no post-campaign cash flows, so Lemmens and Gupta's profit-lift method cannot be replicated on it; cite the paper for the principle that the loss function should be aligned with the business (profit) objective and that customers differ in retention value, not as a method the report implements. Do not cite it as evidence that a profit-based loss improves churn-classification accuracy: Table 3 shows the opposite. Percentage figures (168%, 300%, 23%) come from the accepted manuscript and should be checked against the published version before quoting them verbatim."
+}

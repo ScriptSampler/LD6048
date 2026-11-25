@@ -1,0 +1,50 @@
+{
+  "key": "recent2_08",
+  "found": true,
+  "item_type": "journal-article",
+  "title": "Investigating the impact of undersampling and bagging: an empirical investigation for customer attrition modeling",
+  "authors": ["Arno De Caigny", "Kristof Coussement", "Matthijs Meire", "Steven Hoornaert"],
+  "year": 2025,
+  "venue": "Annals of Operations Research (Springer; ISSN 0254-5330 print, 1572-9338 online)",
+  "volume": "346",
+  "issue": "3",
+  "pages": "2401-2421",
+  "doi": "10.1007/s10479-025-06516-9",
+  "url": "https://doi.org/10.1007/s10479-025-06516-9",
+  "harvard_reference": "De Caigny, A., Coussement, K., Meire, M. and Hoornaert, S. (2025) 'Investigating the impact of undersampling and bagging: an empirical investigation for customer attrition modeling', Annals of Operations Research, 346(3), pp. 2401-2421. doi:10.1007/s10479-025-06516-9.",
+  "abstract_summary": "The authors note that undersampling and bagging are both popular in customer churn prediction (CCP). Undersampling tackles class imbalance and bagging improves model stability. However, the CCP literature is unclear about how undersampling affects model stability and predictive performance, and bagging on its own struggles with class imbalance. The paper therefore benchmarks 'underbagging', which combines the two. Each bag passes an undersampled, more balanced training set to the classifier, and using many bags recovers majority-class customer data that plain undersampling would discard. In an experiment on 11 real-life churn datasets, underbagging is compared with its constituents (undersampling alone, bagging alone) and with other popular CCP classifiers on predictive performance, profit and operational efficiency. The authors conclude that underbagging is 'a valid and reliable alternative framework for CCP prediction'. Springer keywords: Underbagging, Logistic regression, Business analytics, Customer relationship management, Data science.",
+  "claims_supported": [
+    {
+      "claim": "Targeting retention offers by predicted churn probability is not the same as targeting by expected uplift; uplift/causal targeting improves campaign outcomes.",
+      "supported": false,
+      "where": "Not supported. The abstract and keywords do not mention uplift, treatment effects or causal targeting. The paper is a predictive-classifier benchmark that measures profit alongside predictive performance, not a study of who responds to a retention offer. The full text is paywalled and was not read, but nothing in the abstract, keywords or visible reference list suggests an uplift analysis."
+    },
+    {
+      "claim": "Survival models can estimate when customers are likely to churn and support timing of interventions; cross-sectional tenure snapshots have censoring/truncation limitations.",
+      "supported": false,
+      "where": "Not supported. The abstract and keywords do not mention survival analysis, time-to-churn, censoring or truncation. The study frames CCP as binary classification (undersampling, bagging, underbagging, other classifiers)."
+    },
+    {
+      "claim": "Resampling (e.g. SMOTE) or class weighting changes predicted probabilities/calibration; threshold moving or cost-sensitive thresholds are an alternative.",
+      "supported": false,
+      "where": "Not supported as stated. The paper is about resampling: the abstract says undersampling 'helps in tackling the class imbalance problem' and that the effect of undersampling on 'model stability and predictive performance' is unclear in the CCP literature. It says nothing about predicted probabilities, calibration, class weighting, threshold moving or cost-sensitive thresholds. SMOTE (Chawla et al., 2002) and cost-sensitive learning (Coussement, 2014) appear in the visible reference list, but whether and how the text discusses them could not be checked because the full text is paywalled. Cite it only for the point that resampling choices (undersampling vs underbagging) affect predictive performance, profit and operational efficiency in churn models, not for calibration or thresholding."
+    },
+    {
+      "claim": "Other precise finding (a): Undersampling and bagging are popular in churn prediction for different reasons. Undersampling addresses class imbalance and bagging improves model stability. The CCP literature is unclear on how undersampling affects model stability and predictive performance, and bagging has difficulty handling class imbalance.",
+      "supported": true,
+      "where": "Abstract (Springer landing page, RePEc/IDEAS record). This is the paper's stated motivation."
+    },
+    {
+      "claim": "Other precise finding (b): Plain undersampling throws away majority-class (non-churner) data. Underbagging recovers it by drawing a different undersampled, more balanced training set for each of multiple bags.",
+      "supported": true,
+      "where": "Abstract: combining the techniques lets the authors recover customer data that undersampling would lose by using it in multiple bags, each passing an undersampled, more balanced training set to the classifier."
+    },
+    {
+      "claim": "Other precise finding (c): Across 11 real-life churn datasets, underbagging was benchmarked against undersampling alone, bagging alone and other popular CCP classifiers on predictive performance, profit and operational efficiency, and was found to be a valid and reliable alternative framework for churn prediction.",
+      "supported": true,
+      "where": "Abstract. Caveat: the abstract does not say that underbagging wins on every metric or dataset. It does not name the profit measure, the base learner(s) (though 'Logistic regression' is a keyword), the number of bags or the effect sizes. These details are only in the paywalled full text and must not be stated without reading it. The paper evaluates profit and operational efficiency as well as AUC-type performance, which makes it useful when critiquing accuracy-only churn evaluation."
+    }
+  ],
+  "verification_notes": "Existence and metadata verified on 2026-09-28. Crossref (api.crossref.org/works/10.1007/s10479-025-06516-9): journal-article in Annals of Operations Research, publisher Springer Science and Business Media LLC, authors in order Arno De Caigny, Kristof Coussement, Matthijs Meire, Steven Hoornaert, volume 346, issue 3, pages 2401-2421, published online 11 Feb 2025, print issue March 2025. A Crossref bibliographic search on title plus first author returned this DOI as the top hit. OpenAlex agrees (vol 346, issue 3, pp. 2401-2421, 2025, closed access, no abstract index), and so does the HAL record hal-05114891 (a bibliographic notice only, no full text). Semantic Scholar returns the record but the publisher has elided the abstract. The abstract, keywords and publication history (received 11 Dec 2023, accepted 29 Jan 2025, published 11 Feb 2025, issue date March 2025) come from the Springer landing page (link.springer.com), whose article body is paywalled; only the abstract and reference list were visible. The lead gave no issue number; Crossref and OpenAlex confirm issue 3. Crossref gives the surname as 'De Caigny' (HAL uses 'de Caigny'), and the capitalised form is used here. Venue check: Annals of Operations Research is a long-running peer-reviewed Springer journal (OpenAlex source record: earliest works 1984, 9,861 works, 288,764 citations, h-index 187, two-year mean citedness 3.97; subscription/hybrid, APC USD 3,090, not in DOAJ). It is a mainstream, well-established operations research journal, not a predatory venue. Rankings such as the ABS/AJG grade or JCR impact factor were not checked in this session and are not asserted. Publication year 2025 falls within the requested 2021-2026 window. The authors are an established churn-modelling group (IESEG School of Management), consistent with the scout's note. The full text could not be read, so every claim judgement rests on the abstract, keywords and visible reference list. The scout's statement that the paper 'does not look at probability calibration' fits the abstract, which never mentions calibration, but could not be confirmed against the full text.",
+  "caveats": "Full text paywalled, so the profit metric, base classifiers, number of bags, statistical tests and effect sizes are unverified; do not quote specific results without reading the article (for example via institutional access). The conclusion is qualitative ('valid and reliable alternative'), not a claim that underbagging beats all rivals. It covers only undersampling-based rebalancing combined with bagging. It does not support claims about calibration, threshold moving, uplift or survival modelling. Whether the 11 datasets include the IBM/Kaggle Telco Customer Churn dataset is unknown, so do not imply the paper tested that dataset."
+}

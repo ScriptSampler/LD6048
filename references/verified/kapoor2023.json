@@ -1,0 +1,30 @@
+{
+  "key": "kapoor2023",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Kapoor, Sayash", "Narayanan, Arvind"],
+  "year": 2023,
+  "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+  "venue": "Patterns",
+  "volume": "4",
+  "issue": "9",
+  "pages": "100804",
+  "doi": "10.1016/j.patter.2023.100804",
+  "url": "https://doi.org/10.1016/j.patter.2023.100804",
+  "harvard_reference": "Kapoor, S. and Narayanan, A. (2023) 'Leakage and the reproducibility crisis in machine-learning-based science', Patterns, 4(9), 100804. doi:10.1016/j.patter.2023.100804.",
+  "abstract_summary": "The authors systematically investigate reproducibility problems in machine-learning-based science, focusing on data leakage. A literature survey across research communities that have adopted ML finds 22 papers in 17 fields reporting leakage, collectively affecting 294 papers and in some cases producing wildly overoptimistic conclusions. From this survey they build a taxonomy of eight leakage types grouped under three headings: (L1) lack of clean train/test separation, comprising no test set, pre-processing on training and test set, feature selection on training and test set, and duplicates in datasets; (L2) model uses illegitimate features; and (L3) test set not drawn from the distribution of scientific interest, comprising temporal leakage, non-independence between train and test samples, and sampling bias. They propose 'model info sheets', a 21-question template that requires researchers to argue explicitly that each type of leakage is absent, as a means to detect and prevent leakage. Finally, a reproducibility study of civil-war prediction shows that once leakage errors are corrected, complex ML models do not substantively outperform decades-old logistic regression.",
+  "claims_supported": [
+    {
+      "claim": "Data leakage (including pre-processing on the full dataset before splitting and duplicates across train and test) is a pervasive cause of over-optimistic results across many fields; they propose model info sheets to prevent it.",
+      "supported": true,
+      "where": "Abstract/Summary: leakage found in 17 fields, affecting 294 papers, 'in some cases, leading to wildly overoptimistic conclusions'; 'We propose that researchers test for each type of leakage by filling out model info sheets, which we introduce.' Taxonomy (Section 'A taxonomy of leakage', Table 1 / Figure 1): item [L1.2] 'Pre-processing on training and test set' and item [L1.4] 'Duplicates in datasets' are explicitly named leakage types under [L1] 'Lack of clean separation of training and test dataset'. Body text: 'leakage usually leads to inflated estimates of model performance' and 'We introduce model info sheets to detect and prevent leakage in ML-based science ... by answering 21 questions based on our taxonomy of leakage.'"
+    }
+  ],
+  "verification_notes": "Metadata verified via the Crossref REST API (DOI 10.1016/j.patter.2023.100804; Elsevier BV; journal-article; Patterns; volume 4, issue 9, page/article-number 100804; issued 2023-09; authors Sayash Kapoor and Arvind Narayanan). Abstract retrieved from the Semantic Scholar Graph API (PMID 37720327; PMC10499856; Gold open access, CC BY). Full text checked on PubMed Central (PMC10499856), which confirms the eight-type taxonomy including [L1.2] pre-processing on training and test set and [L1.4] duplicates in datasets, the 17-field/294-paper finding, the statement that leakage inflates performance estimates, and the 21-question model info sheets. Date nuance: the article was published online 4 August 2023 and appears in the September 2023 issue (4(9)); the citation year 2023 is unaffected. The lead's citation details were accurate. The paper's exact wording is '17 fields' and '294 papers' rather than 'pervasive'; the report should keep the claim tied to those figures rather than implying the authors quantified prevalence across all of ML science. Note also that the paper does not study the Telco churn dataset; it is a general methodological source.",
+  "verified_on": "2026-09-27",
+  "sources_checked": [
+    "https://api.crossref.org/works?query.bibliographic=Leakage%20and%20the%20reproducibility%20crisis%20in%20machine-learning-based%20science%20Kapoor&rows=3",
+    "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.patter.2023.100804",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499856/"
+  ]
+}

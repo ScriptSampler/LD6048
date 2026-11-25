@@ -1,0 +1,19 @@
+{
+  "key": "ofcom_general_conditions",
+  "status_summary": "Verified on 31 October 2026 against Ofcom's unofficial consolidated General Conditions of Entitlement (cover: 'Version with effect from: 8 April 2026'; still listed as current on Ofcom's General Conditions page). Condition C1.8 requires that conditions or procedures for contract termination do not act as disincentives against changing provider. The Digital Markets, Competition and Consumers Act 2024 subscription-contract rules (Part 4 Chapter 2, s.260) were not in force on that date, and Schedule 22 para 5 will exclude contracts with providers bound by an Ofcom general condition.",
+  "in_force": "Conditions set under s.45 Communications Act 2003; consolidation with effect from 8 April 2026.",
+  "primary_sources": [
+    {
+      "title": "General Conditions of Entitlement: unofficial consolidated version (version with effect from 8 April 2026)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf",
+      "harvard_reference": "Ofcom (2026a) General Conditions of Entitlement: unofficial consolidated version. Version with effect from 8 April 2026. London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf (Accessed: 31 October 2026).",
+      "accessed": "2026-10-31",
+      "pages": "Condition C1 pp. 21-35; C1.8 p. 24; C1.22 pp. 26-27"
+    }
+  ],
+  "key_points": [
+    "Ofcom's unofficial consolidation of the General Conditions of Entitlement that bind UK providers of public electronic communications services. It incorporates every modification since September 2017. The cover reads 'Version with effect from: 8 April 2026' (latest change: the Annex to C4, on ADR), and Ofcom's General Conditions page (last updated 8 April 2026) still lists it as current on 31 October 2026. Condition C1 (contract requirements for consumers and small businesses): C1.8 requires providers to ensure that conditions or procedures for contract termination do not act as disincentives against changing provider. C1.10 bars renewal for a further commitment period without express consent. C1.11 caps commitment periods at 24 months. C1.22 gives a right to end an automatically prolonged contract on one month's notice, with no costs beyond the notice-period service fee. C1.23-C1.29 require end-of-contract notifications that include best tariffs. Supports the Part 5 claim that obstructive cancellation would breach GC C1.8."
+  ],
+  "uncertainties": "Whether a given cancellation procedure is a disincentive to switching is fact-dependent, so the report says obstructive cancellation 'could' breach C1.8. Unofficial consolidation: the notifications take precedence.",
+  "quotable": "Ofcom (2026a, C1.8): termination conditions or procedures must not act as disincentives to changing provider."
+}

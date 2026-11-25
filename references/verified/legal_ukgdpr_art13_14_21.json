@@ -1,0 +1,161 @@
+{
+  "key": "ukgdpr_art13_14_21",
+  "status_summary": "Verified against legislation.gov.uk 'latest available (revised)' text on 2026-09-28. UK GDPR Articles 13, 14 and 21 (Regulation (EU) 2016/679 as retained and amended) are in force. The Data (Use and Access) Act 2025 (c. 18) ('DUAA') HAS changed the transparency wording on automated decision-making: Article 13(2)(f) and Article 14(2)(g) now require controllers to give 'the existence of automated decision-making, including profiling, which is subject to the requirement to provide safeguards under Article 22C and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject' (DUAA Sch. 6 paras 3 and 4; in force 5 February 2026 via S.I. 2026/82 reg. 2). The previous cross-reference to 'Article 22(1) and (4)' has gone because DUAA s.80 replaced Article 22 with new Articles 22A-22D (in force 5 February 2026). DUAA s.103 / Sch. 10 inserted Art 13(2)(ca) and Art 14(2)(da) (right to make a complaint to the controller under new DPA 2018 s.164A) from 19 June 2026, and DUAA s.77 inserted new paragraphs 5-7 into Arts 13 and 14 (research/archiving 'disproportionate effort' exemption) from 5 February 2026. Article 21(2) (right to object at any time to processing for direct marketing, 'which includes profiling to the extent that it is related to such direct marketing') and Article 21(3) ('the personal data shall no longer be processed for such purposes') are UNAMENDED and carry no DUAA annotation; the ICO continues to describe this as an absolute right with no exemptions. Article 21(1) was amended by DUAA s.70(5) to add the new 'recognised legitimate interests' basis (Art 6(1)(ea)) to the grounds that can be objected to, and Art 21(6) was amended by DUAA s.87(1)(d), both from 5 February 2026. New Art 6(11) (DUAA s.70(4), in force 5 February 2026) expressly lists direct marketing as an example of processing that may be necessary for a legitimate interest, which reinforces the practical importance of Art 21(2)-(3) for churn-driven retention marketing. Only pending change touching these Articles: substitution of 'Commissioner' with 'Commission' in Art 13(2)(d) and Art 14(2)(e) (S.I. 2026/386, Sch. 3), tied to DUAA s.119, which S.I. 2026/1015 brings into force on 30 September 2026; Article 21 is not amended by that instrument.",
+  "in_force": "Yes. As of 2026-09-28 Articles 13, 14 and 21 UK GDPR are in force in their DUAA-amended form. Art 13(2)(f) / Art 14(2)(g) (Article 22C reference), Arts 13(5)-(7) / 14(5)-(7), Art 21(1) '(ea)' and Art 21(6): in force since 5 February 2026 (S.I. 2026/82 reg. 2). Art 13(2)(ca) / Art 14(2)(da) (complaint to controller): in force since 19 June 2026 (S.I. 2026/82 reg. 3). Art 21(2)-(4): unamended since the retained-EU-law adaptation on 31 December 2020 (S.I. 2019/419). Pending: 'Commissioner' to 'Commission' substitution in Art 13(2)(d) and Art 14(2)(e) expected from 30 September 2026 (S.I. 2026/386 read with S.I. 2026/1015); legislation.gov.uk lists this as a change 'yet to be applied'.",
+  "primary_sources": [
+    {
+      "title": "UK GDPR Article 13 - Information to be provided where personal data are collected from the data subject (revised, as amended by DUAA 2025)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/13",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK GDPR) (2016) Article 13: Information to be provided where personal data are collected from the data subject (revised version incorporating amendments by the Data (Use and Access) Act 2025). Available at: https://www.legislation.gov.uk/eur/2016/679/article/13 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 14 - Information to be provided where personal data have not been obtained from the data subject (revised, as amended by DUAA 2025)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/14",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK GDPR) (2016) Article 14: Information to be provided where personal data have not been obtained from the data subject (revised version incorporating amendments by the Data (Use and Access) Act 2025). Available at: https://www.legislation.gov.uk/eur/2016/679/article/14 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 21 - Right to object (revised; paragraphs 2-3 unamended)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/21",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK GDPR) (2016) Article 21: Right to object (revised version). Available at: https://www.legislation.gov.uk/eur/2016/679/article/21 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 22C - Safeguards for decisions based solely on automated processing (inserted by DUAA 2025 s.80)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK GDPR) (2016) Article 22C: Significant decisions based solely on automated processing: safeguards (inserted by the Data (Use and Access) Act 2025, s. 80). Available at: https://www.legislation.gov.uk/eur/2016/679/article/22C (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 6 - Lawfulness of processing (including new Art 6(1)(ea) and Art 6(11) direct-marketing example)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/6",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK GDPR) (2016) Article 6: Lawfulness of processing (revised version incorporating amendments by the Data (Use and Access) Act 2025, s. 70). Available at: https://www.legislation.gov.uk/eur/2016/679/article/6 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025 (c. 18) - Contents",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18. Available at: https://www.legislation.gov.uk/ukpga/2025/18/contents (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 80 - Automated decision-making (new UK GDPR Articles 22A-22D)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/80",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 80 (Automated decision-making). Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/80 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, Schedule 6 - Automated decision-making: minor and consequential amendments (amends Arts 13(2)(f), 14(2)(g), 15(1)(h))",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/schedule/6",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, Sch. 6 (Automated decision-making: minor and consequential amendments). Available at: https://www.legislation.gov.uk/ukpga/2025/18/schedule/6 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 77 - Information to be provided to data subjects (new Arts 13(5)-(7), 14(5)-(7))",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/77",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 77 (Information to be provided to data subjects). Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/77 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 103 - Complaints by data subjects (new DPA 2018 s.164A; Arts 13(2)(ca), 14(2)(da))",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/103",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 103 (Complaints by data subjects). Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/103 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 70 - Lawfulness of processing (Art 6(1)(ea) recognised legitimate interests; Art 6(11) direct marketing example; Art 21(1) amendment)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/70",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 70 (Lawfulness of processing). Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/70 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (S.I. 2026/82, C. 10)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, SI 2026/82 (C. 10). Available at: https://www.legislation.gov.uk/uksi/2026/82/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026 (S.I. 2026/1015) - Information Commission from 30 September 2026",
+      "url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026, SI 2026/1015. Available at: https://www.legislation.gov.uk/uksi/2026/1015/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026 (S.I. 2026/386) - 'Commissioner' to 'Commission' substitutions in Arts 13(2)(d), 14(2)(e)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/386/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026, SI 2026/386. Available at: https://www.legislation.gov.uk/uksi/2026/386/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "GOV.UK - Data Use and Access Act 2025: plans for commencement (last updated 5 February 2026)",
+      "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement",
+      "harvard_reference": "Department for Science, Innovation and Technology (2026) Data Use and Access Act 2025: plans for commencement. Available at: https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - The Data Use and Access Act 2025 (DUAA): what does it mean for organisations? (last updated 19 June 2026)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/",
+      "harvard_reference": "Information Commissioner's Office (2026) The Data Use and Access Act 2025 (DUAA): what does it mean for organisations? Available at: https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Data (Use and Access) Act 2025 hub page (states all data protection and PECR provisions now in force)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+      "harvard_reference": "Information Commissioner's Office (2026) Data (Use and Access) Act 2025. Available at: https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Right to object (guidance; carries DUAA 'under review' banner)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-object/",
+      "harvard_reference": "Information Commissioner's Office (n.d.) Right to object. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/right-to-object/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Rights related to automated decision making including profiling (guidance; still framed around old Article 22, pending update)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/",
+      "harvard_reference": "Information Commissioner's Office (n.d.) Rights related to automated decision making including profiling. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Consultation on the draft guidance about automated decision-making, including profiling (31 March - 29 May 2026)",
+      "url": "https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/",
+      "harvard_reference": "Information Commissioner's Office (2026) ICO consultation on the draft guidance about automated decision-making, including profiling. Available at: https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Our plans for new and updated guidance: Technology (ADM and profiling guidance final version expected Winter 2026)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/technology/",
+      "harvard_reference": "Information Commissioner's Office (2026) Our plans for new and updated guidance: Technology. Available at: https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/technology/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Guidance on AI and data protection (last updated 15 March 2023; carries DUAA 'under review' banner)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/",
+      "harvard_reference": "Information Commissioner's Office (2023) Guidance on AI and data protection. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO blog - One year on: marking the 12-month commencement of the Data (Use and Access) Act (23 June 2026)",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/06/one-year-on-marking-the-12-month-commencement-of-the-data-use-and-access-act/",
+      "harvard_reference": "Information Commissioner's Office (2026) One year on: marking the 12-month commencement of the Data (Use and Access) Act. Available at: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/06/one-year-on-marking-the-12-month-commencement-of-the-data-use-and-access-act/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "Current text (2026-09-28): Art 13(2)(f) and Art 14(2)(g) UK GDPR require controllers to inform data subjects of 'the existence of automated decision-making, including profiling, which is subject to the requirement to provide safeguards under Article 22C and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject'. The words 'referred to in Article 22(1) and (4)' were replaced by DUAA 2025 Sch. 6 paras 3-4 (Art 15(1)(h) was amended identically by para 5).",
+    "Reason for the change: DUAA 2025 s.80 replaced UK GDPR Article 22 with Articles 22A-22D. Art 22A defines a 'significant decision' (legal or similarly significant effect) and 'based solely on automated processing' (no meaningful human involvement, taking into account the extent of profiling); Art 22B restricts solely automated significant decisions using special category data; Art 22C requires safeguards (information about the decision, right to make representations, human intervention, right to contest); Art 22D lets the Secretary of State make regulations on 'meaningful human involvement' and 'similarly significant effect'. In force 5 February 2026 (S.I. 2026/82 reg. 2(z8) with reg. 5 transitional provision: does not apply to decisions taken before 5 February 2026).",
+    "Practical effect for a churn model: the specific ADM disclosure in Art 13(2)(f)/14(2)(g) is triggered only where the processing is a 'significant decision' 'based solely on automated processing' within Art 22A (i.e. one that attracts Art 22C safeguards). Purely analytical churn scoring that feeds a human-led retention campaign will usually not be a 'significant decision', but the general transparency duties in Arts 13-14 (purposes, lawful basis, legitimate interests pursued under Art 13(1)(d)/14(2)(b), right to object under Art 13(2)(b)/14(2)(c)) still apply, and the controller must document its 'meaningful human involvement' analysis.",
+    "DUAA s.103 and Sch. 10 paras 3-4 inserted Art 13(2)(ca) ('the right to make a complaint to the controller under section 164A of the 2018 Act') and Art 14(2)(da), in force 19 June 2026 (S.I. 2026/82 reg. 3); new DPA 2018 s.164A obliges controllers to facilitate complaints (e.g. electronic form), acknowledge within 30 days and respond without undue delay - privacy notices for the churn programme must now mention this route alongside the ICO complaint route in Art 13(2)(d)/14(2)(e).",
+    "DUAA s.77 inserted new Arts 13(5)-(7) and 14(5)-(7) (in force 5 February 2026): an exemption from providing privacy information where processing is for scientific/historical research, archiving in the public interest or statistical purposes and provision is impossible or a disproportionate effort (factors: number of data subjects, age of the data, safeguards), with a duty to protect rights e.g. by publishing the information. Commercial churn prediction will not normally fall within this research exemption.",
+    "Article 21(2) UK GDPR is unamended: 'Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.' Article 21(3) is unamended: 'Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.' legislation.gov.uk shows no F-note against either paragraph; the only annotations on Art 21 are F1 (para 1, DUAA s.70(5), 5 February 2026), F2-F3 (S.I. 2019/419, 31 December 2020) and F4 (para 6, DUAA s.87(1)(d), 5 February 2026).",
+    "Article 21(4) (unamended) requires the right to object under paras 1 and 2 to be 'explicitly brought to the attention of the data subject' at the latest at the first communication and 'presented clearly and separately from any other information' - relevant to how retention/marketing contacts generated by the churn model are worded.",
+    "The ICO's right-to-object guidance (carrying a DUAA 'under review' banner) continues to state that the objection to direct marketing is 'an absolute right and there are no exemptions or grounds for you to refuse'; suppression (rather than erasure) is the recommended way to honour it.",
+    "DUAA s.70 (in force 5 February 2026) added Art 6(1)(ea) 'processing is necessary for the purposes of a recognised legitimate interest' (Annex 1 list) and new Art 6(11) which names 'processing that is necessary for the purposes of direct marketing' as an example of processing that may be a legitimate interest under Art 6(1)(f). Art 21(1) was amended in consequence so that the general (non-absolute) right to object now covers processing under Art 6(1)(e), (ea) or (f), 'including profiling based on those provisions'. Direct marketing is NOT a recognised legitimate interest under Annex 1, so the Art 6(1)(f) balancing test still applies to churn-driven marketing.",
+    "Commencement chronology (primary sources): Royal Assent 19 June 2025; S.I. 2025/904 commenced first provisions 20 August 2025; S.I. 2026/82 (made 29 January 2026) commenced the bulk of Part 5 including ss. 70, 71, 77, 80 and Schs 4-9 on 5 February 2026 and s.103/Sch. 10 on 19 June 2026; S.I. 2026/1015 (made 10 September 2026) commences ss. 118-119 (abolition of the Information Commissioner; functions transfer to the Information Commission) on 30 September 2026. The ICO hub page states all provisions affecting data protection law and PECR are now in force.",
+    "Pending wording change only: S.I. 2026/386 Sch. 3 Part 4 substitutes 'Commission' for 'Commissioner' in Art 13(2)(d) and Art 14(2)(e) (and inserts Art 4(A2A) 'the Commission'); it does not amend Article 21. legislation.gov.uk still lists these as 'changes yet to be applied' as at 2026-09-28; they should take effect with s.119 on 30 September 2026. Substantive obligations are unchanged by this.",
+    "ICO guidance status: the ICO's 'Rights related to automated decision making including profiling' page and the 2023 'Guidance on AI and data protection' still refer to the old Article 22 and carry 'under review' banners. The ICO consulted on updated ADM/profiling guidance (31 March - 29 May 2026); the final version 'including amendments in the Data (Use and Access) Act' is scheduled for 'Winter 2026' on the ICO guidance pipeline, and the ICO has announced work on a statutory code of practice on AI and automated decision-making. For the report, cite the legislation for the current law and flag ICO guidance as transitional."
+  ],
+  "uncertainties": "1) Legislative text was extracted from legislation.gov.uk by automated fetch; the quoted wording of Arts 13(2)(f), 14(2)(g) and 21(1)-(4) matched across two independent fetches, but the report author should eyeball the pages before final submission. 2) The 'Commissioner' to 'Commission' substitution in Arts 13(2)(d)/14(2)(e) (S.I. 2026/386) had not been applied on legislation.gov.uk as at 2026-09-28; its commencement is tied to DUAA s.119, which S.I. 2026/1015 commences on 30 September 2026, so any report finalised after that date should refer to the 'Information Commission' for post-30-September material and to the 'Information Commissioner's Office' for earlier publications. 3) The Art 21(6) amendment (F4, DUAA s.87(1)(d)) was noted from the annotation only and not independently traced; it concerns research/statistical processing and does not affect paras 2-3. 4) The GOV.UK commencement page (last updated 5 February 2026) gives stages rather than section-by-section dates; individual dates above were taken from S.I. 2026/82, S.I. 2026/1015 and the I-notes on legislation.gov.uk. 5) No regulations under Art 22D (defining 'meaningful human involvement' or 'similarly significant effect') were located as at 2026-09-28, but this was not exhaustively searched. 6) Whether a given churn-prediction workflow amounts to a 'significant decision' 'based solely on automated processing' under Art 22A is fact-specific; the DUAA did not change Arts 21(2)-(3), so the absolute right to object to profiling for direct marketing applies regardless of that classification. 7) The ICO's updated ADM/profiling guidance was still unpublished ('Winter 2026'); any reliance on ICO ADM guidance in the report should note it predates Arts 22A-22D.",
+  "quotable": "Art 13(2)(f) / Art 14(2)(g) UK GDPR (as amended by DUAA 2025 Sch. 6, in force 5 February 2026): 'the existence of automated decision-making, including profiling, which is subject to the requirement to provide safeguards under Article 22C and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject'. Art 21(2) UK GDPR (unamended): 'Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing.' Art 21(3): 'Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes.'"
+}

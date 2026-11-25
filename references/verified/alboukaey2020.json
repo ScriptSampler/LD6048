@@ -1,0 +1,29 @@
+{
+  "key": "alboukaey2020",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Alboukaey, Nadia",
+    "Joukhadar, Ammar",
+    "Ghneim, Nada"
+  ],
+  "year": 2020,
+  "title": "Dynamic behavior based churn prediction in mobile telecom",
+  "venue": "Expert Systems with Applications",
+  "volume": "162",
+  "issue": "",
+  "pages": "113779 (article number)",
+  "doi": "10.1016/j.eswa.2020.113779",
+  "url": "https://doi.org/10.1016/j.eswa.2020.113779",
+  "harvard_reference": "Alboukaey, N., Joukhadar, A. and Ghneim, N. (2020) 'Dynamic behavior based churn prediction in mobile telecom', Expert Systems with Applications, 162, 113779. doi:10.1016/j.eswa.2020.113779.",
+  "abstract_summary": "Argues that monthly, static behavioural features miss day-to-day changes before churn and flag early-month leavers too late. It models each customer's daily behaviour as a multivariate time series and compares four daily models: RFM-based and statistics-based models on extracted features, and LSTM and CNN models that learn features. On 150 days of data from an MTN mobile operator, daily models beat monthly ones, predicting churners earlier and more accurately. LSTM beats CNN, but LSTM and CNN only equal the RFM-based model; all three beat the statistics-based model.",
+  "claims_supported": [
+    {
+      "claim": "Sequence (LSTM, CNN) churn models need daily usage series and, even then, only matched an RFM-feature model.",
+      "supported": true,
+      "where": "Abstract (publisher abstract via the Semantic Scholar API): daily behaviour modelled as multivariate time series; daily models beat monthly ones; LSTM and CNN performed equal to the RFM-based model. Full text not read."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.1016/j.eswa.2020.113779): Expert Systems with Applications vol. 162, article 113779, issued December 2020, authors Nadia Alboukaey, Ammar Joukhadar, Nada Ghneim. Abstract read via the Semantic Scholar API (publisher abstract); OpenAlex confirms title, venue and DOI. Full text not accessed (paywalled). Supports: sequence/deep churn models need daily usage series and, even then, matched but did not beat an RFM-feature model. Checked again by an independent critic on 31 October 2026: The critique is right: Ahmad et al. tested only tree learners on aggregated features. The new source exists and supports the cell. Crossref (https://api.crossref.org/works/10.1016/j.eswa.2020.113779) gives Expert Systems with Applications 162, article 113779, December 2020, by Nadia Alboukaey, Ammar Joukhadar and Nada Ghneim. The abstract, read through the Semantic Scholar API (https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.eswa.2020.113779), models daily behaviour as multivariate time series. Daily models beat monthly ones. The LSTM and CNN models performed equal to the RFM-based model, and all three beat the statistics-based model. The proposed Harvard entry and JSON fields match Crossref; the full text was not read. Word delta +6 raw, 0 counted (table row). Consequential edits: add the entry to references.md between Ahmad and Ascarza, and create references/verified/alboukaey2020.json.",
+  "caveats": ""
+}

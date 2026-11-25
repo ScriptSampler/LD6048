@@ -1,0 +1,29 @@
+{
+  "key": "verbraken2013",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Verbraken, Thomas",
+    "Verbeke, Wouter",
+    "Baesens, Bart"
+  ],
+  "year": 2013,
+  "title": "A novel profit maximizing metric for measuring classification performance of customer churn prediction models",
+  "venue": "IEEE Transactions on Knowledge and Data Engineering",
+  "volume": "25",
+  "issue": "5",
+  "pages": "961-973",
+  "doi": "10.1109/TKDE.2012.50",
+  "url": "https://doi.org/10.1109/TKDE.2012.50",
+  "harvard_reference": "Verbraken, T., Verbeke, W. and Baesens, B. (2013) 'A novel profit maximizing metric for measuring classification performance of customer churn prediction models', IEEE Transactions on Knowledge and Data Engineering, 25(5), pp. 961-973. doi:10.1109/TKDE.2012.50.",
+  "abstract_summary": "The paper formalises a cost-benefit analysis framework for defining classifier performance measures that are aligned with the end user's objective of profit maximisation, and defines a new measure, the expected maximum profit (EMP) criterion. The general framework is then applied to customer churn prediction with its particular cost-benefit structure (customer lifetime value, cost of the retention offer, cost of contact, and the probability that a targeted would-be churner accepts the offer, the latter modelled with a beta distribution). The authors argue the measure lets companies select the classifier that maximises profit and, as a practical by-product, gives guidance on the fraction of the customer base that should be included in a retention campaign.",
+  "claims_supported": [
+    {
+      "claim": "The expected maximum profit (EMP) measure evaluates churn classifiers by expected profit, incorporating offer cost, customer lifetime value and probability of acceptance, and determines the optimal fraction of customers to target.",
+      "supported": true,
+      "where": "Abstract (via OpenAlex, verbatim): defines 'the expected maximum profit criterion', applies it to churn 'with its particular cost-benefit structure', states it 'assists companies with selecting the classifier which maximizes the profit' and 'provides guidance about the fraction of the customer base that should be included in retention campaign'. The specific parameters (CLV per retained customer, retention-offer cost d, contact cost f, acceptance probability gamma ~ Beta(6,14)) and the profit-maximising fraction eta are the paper's churn profit function (its eqs for P_C(t; gamma, CLV, delta, phi), MPC and EMPC), as reproduced with attribution to Verbraken et al. (2013) in Hoppner et al., arXiv:1712.08101, Section 2, eqs (14)-(18), and exposed as the alpha/beta/clv/d/f arguments and EMPfrac output of the CRAN 'EMP' R package co-authored by Verbraken. Note the model also includes a contact cost, which the claim omits but does not contradict."
+    }
+  ],
+  "verification_notes": "DOI 10.1109/TKDE.2012.50 verified via Crossref (api.crossref.org/works/<doi>): authors Thomas Verbraken, Wouter Verbeke, Bart Baesens; container IEEE Transactions on Knowledge and Data Engineering; vol. 25, issue 5, pp. 961-973; publisher IEEE; issued 2013. doi.org resolves (302) to ieeexplore.ieee.org/document/6165289. Semantic Scholar (DOI lookup) confirms title, venue, year 2013 and authors but withholds the abstract; the abstract was reconstructed verbatim from OpenAlex's abstract_inverted_index. OpenAlex and the Edinburgh Research Explorer record give 2012 because the article appeared online (early access) on 2012-03-06; the print issue (25(5)) is May 2013, so 2013 is used in the reference, matching Crossref and how the paper is normally cited (e.g. in the CRAN EMP package citation). The full text is paywalled (IEEE Xplore page is JavaScript-rendered; Southampton ePrints 336464 and CORE returned 403; no open-access PDF listed by Semantic Scholar/OpenAlex), so the claim's parameter details were checked against two secondary sources that reproduce the paper's formulas with explicit attribution: Hoppner, Stripling, Baesens, vanden Broucke and Verdonck, 'Profit driven decision trees for churn prediction' (arXiv:1712.08101, later EJOR 2020) and the CRAN EMP package documentation (Bravo, vanden Broucke and Verbraken). Crossref's query.bibliographic endpoint returned HTTP 429 on the first attempt; the direct DOI endpoint succeeded.",
+  "caveats": "Year is 2013 (print issue) although some databases list 2012 (online-first date 2012-03-06). Full text not accessed directly; the abstract supports the general claim and the specific parameters were confirmed through secondary sources that quote the paper. The EMP churn model also includes a cost of contact (f) alongside offer cost, CLV and acceptance probability; the report should not imply the list in the claim is exhaustive."
+}

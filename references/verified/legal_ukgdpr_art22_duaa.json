@@ -1,0 +1,206 @@
+{
+  "key": "ukgdpr_art22_duaa",
+  "status_summary": "VERIFIED AS AT 2026-09-28. Section 80 of the Data (Use and Access) Act 2025 (c. 18) repealed UK GDPR Article 22 and substituted a new Chapter III Section 4A comprising Articles 22A-22D. The substitution is fully in force: the regulation-making elements (Article 22D powers) commenced on Royal Assent, 19 June 2025, under s.142(2)(h), and the remainder commenced on 5 February 2026 under regulation 2(j) of the Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/82, C. 10), with Schedule 6 consequentials commenced by reg. 2(z8) and a saving in reg. 5 for decisions taken before 5 February 2026. legislation.gov.uk shows Articles 22A-22D as the current text, 'up to date as of 27 September 2026', with the only outstanding change to the UK GDPR being unrelated (Art. 4(A2A) via SI 2026/386, which itself commences only when s.119 is in force). Under the new regime a solely automated 'significant decision' (legal or similarly significant effect, taken with no meaningful human involvement) that is NOT based on special category data is no longer prohibited by default: it may be taken on any Article 6 lawful basis except recognised legitimate interests (Art 6(1)(ea)), provided the controller has Article 22C safeguards in place (information about the decision; ability to make representations; ability to obtain human intervention; ability to contest). Where special category data is involved, Article 22B(1)-(3) restricts such decisions to explicit consent, or contract/legal authorisation combined with the substantial-public-interest condition in Art 9(2)(g). No regulations have been made under Article 22D as at today. The ICO published draft updated guidance on automated decision-making including profiling on 31 March 2026 (consultation closed 29 May 2026); final guidance is listed by the ICO as due 'Winter 2026', so it remains draft today. The ICO's legacy 'Rights related to automated decision making including profiling' page still describes the pre-DUAA Article 22 regime without a DUAA banner, while the ICO's AI-and-data-protection page on Article 22 carries an 'under review' banner. Note also that the office of Information Commissioner is abolished and replaced by the Information Commission on 30 September 2026 (SI 2026/1015), two days after the access date.",
+  "in_force": "YES - fully in force. UK GDPR Articles 22A-22D (inserted by DUAA 2025 s.80(1)) have applied since 5 February 2026 (SI 2026/82, reg. 2(j)); Schedule 6 consequential amendments (including omission of DPA 2018 s.14 and amendment of Art 15(1)(h) to refer to Art 22C) also in force from 5 February 2026 (SI 2026/82, reg. 2(z8)). The Article 22D regulation-making powers have been in force since Royal Assent on 19 June 2025 (DUAA s.142(2)(h)). Saving provision: SI 2026/82 reg. 5 - the s.80/Sch 6 amendments do not apply to any decision taken before 5 February 2026 to which old Art 22(3) or DPA 2018 s.14/s.50(2) applied. No regulations under Article 22D have been made as at 2026-09-28. Pending but unrelated to substance: the Information Commission replaces the Information Commissioner on 30 September 2026 (SI 2026/1015, reg. 2), and SI 2026/386 will then substitute 'Commission' for 'Commissioner' throughout the UK GDPR.",
+  "primary_sources": [
+    {
+      "title": "Data (Use and Access) Act 2025, section 80 (Automated decision-making) - inserting UK GDPR Articles 22A-22D",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/80",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 80. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/80 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025, section 142 (Commencement) - s.142(1) regulations; s.142(2)(h) regulation-making powers in force on Royal Assent",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/section/142",
+      "harvard_reference": "Data (Use and Access) Act 2025, c. 18, s. 142. Available at: https://www.legislation.gov.uk/ukpga/2025/18/section/142 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, SI 2026/82 (C. 10) - reg. 2(j) commences s.80 and reg. 2(z8) commences Sch 6 on 5 February 2026; reg. 5 saving for pre-5 February 2026 decisions",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, SI 2026/82 (C. 10). Available at: https://www.legislation.gov.uk/uksi/2026/82/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "SI 2026/82, regulation 2 (provisions coming into force on 5 February 2026) - direct link used to verify the lettered points (d) s.70, (j) s.80, (z6) Sch 4, (z8) Sch 6",
+      "url": "https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 6 and Transitional and Saving Provisions) Regulations 2026, SI 2026/82, reg. 2. Available at: https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR (Regulation (EU) 2016/679 as retained), Article 22 - page shows F1 note 'Ch. 3 Section 4A substituted for Art. 22' by DUAA 2025 s.80(1); in force 19.6.2025 for specified purposes and 5.2.2026 otherwise (SI 2026/82 reg. 2(j))",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 22 (as substituted by Data (Use and Access) Act 2025, s. 80). Available at: https://www.legislation.gov.uk/eur/2016/679/article/22 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 22A - Automated processing and significant decisions (definitions of 'based solely on automated processing' and 'significant decision')",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22A",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 22A. Available at: https://www.legislation.gov.uk/eur/2016/679/article/22A (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 22B - Restrictions on automated decision-making (special category data conditions; Art 6(1)(ea) bar)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22B",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 22B. Available at: https://www.legislation.gov.uk/eur/2016/679/article/22B (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 22C - Safeguards for automated decision-making",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22C",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 22C. Available at: https://www.legislation.gov.uk/eur/2016/679/article/22C (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 22D - Further provision about automated decision-making (Secretary of State regulation-making powers; affirmative procedure; no regulations listed)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/22D",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 22D. Available at: https://www.legislation.gov.uk/eur/2016/679/article/22D (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 6 - point (ea) 'recognised legitimate interest' inserted by DUAA 2025 s.70(2)(b), in force 5 February 2026 (SI 2026/82 reg. 2(c)); relevant because Art 22B(4) bars solely automated significant decisions relying on Art 6(1)(ea)",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/6",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 6. Available at: https://www.legislation.gov.uk/eur/2016/679/article/6 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "UK GDPR Article 15(1)(h) - right of access now refers to automated decision-making 'subject to the requirement to provide safeguards under Article 22C' (amended by DUAA Sch 6 para 5, in force 5 February 2026, SI 2026/82 reg. 2(z8))",
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/15",
+      "harvard_reference": "Regulation (EU) 2016/679 (UK General Data Protection Regulation), Article 15. Available at: https://www.legislation.gov.uk/eur/2016/679/article/15 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data Protection Act 2018, section 14 (Automated decision-making authorised by law: safeguards) - shown as omitted from 5 February 2026 by DUAA 2025 Sch 6 para 11; SI 2026/82 reg. 2(z8)",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/14",
+      "harvard_reference": "Data Protection Act 2018, c. 12, s. 14 (omitted by Data (Use and Access) Act 2025, Sch. 6, para. 11). Available at: https://www.legislation.gov.uk/ukpga/2018/12/section/14 (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Data (Use and Access) Act 2025 Explanatory Notes, Part 5 (paras 634-647 on section 80: replacement of Article 22 with Articles 22A-22D)",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/notes/division/10/index.htm",
+      "harvard_reference": "Department for Science, Innovation and Technology (2025) Data (Use and Access) Act 2025: Explanatory Notes, Part 5 - Data protection and privacy. Available at: https://www.legislation.gov.uk/ukpga/2025/18/notes/division/10/index.htm (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026, SI 2026/1015 (C. 83) - brings ss.117(4)(a), 118 and 119 into force on 30 September 2026 (abolition of the Information Commissioner; transfer to the Information Commission)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026, SI 2026/1015 (C. 83). Available at: https://www.legislation.gov.uk/uksi/2026/1015/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026, SI 2026/386 - terminology substitutions ('Commissioner' to 'Commission') across UK GDPR/DPA 2018; no substantive change to Arts 22A-22D; commences when s.119 fully in force",
+      "url": "https://www.legislation.gov.uk/uksi/2026/386/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Consequential Amendments and Transitional Provision) Regulations 2026, SI 2026/386. Available at: https://www.legislation.gov.uk/uksi/2026/386/made (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO draft guidance: Automated decision-making, including profiling (updated for the DUAA; published for consultation 31 March 2026; still draft as at 2026-09-28)",
+      "url": "https://ico.org.uk/for-organisations/adm/",
+      "harvard_reference": "Information Commissioner's Office (2026) Automated decision-making, including profiling: draft guidance (updated for the Data (Use and Access) Act 2025). Available at: https://ico.org.uk/for-organisations/adm/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO draft guidance sub-page: What does the UK GDPR say about ADM? (Article 22A definitions; meaningful human involvement; examples of legal and similarly significant effects)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm/",
+      "harvard_reference": "Information Commissioner's Office (2026) What does the UK GDPR say about ADM? (draft guidance). Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-does-the-uk-gdpr-say-about-adm/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO draft guidance sub-page: How do we carry out ADM lawfully? (lawful bases available; bar on recognised legitimate interests; DPIA)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/how-do-we-carry-out-adm-lawfully/",
+      "harvard_reference": "Information Commissioner's Office (2026) How do we carry out ADM lawfully? (draft guidance). Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/how-do-we-carry-out-adm-lawfully/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO draft guidance sub-page: When can we use special category data in our ADM? (Article 22B conditions; inferred special category data)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm/",
+      "harvard_reference": "Information Commissioner's Office (2026) When can we use special category data in our ADM? (draft guidance). Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/when-can-we-use-special-category-data-in-our-adm/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO draft guidance sub-page: What are the ADM safeguards? (Article 22C: information, representations, human intervention, contest; one-month response; reviewer competence)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/",
+      "harvard_reference": "Information Commissioner's Office (2026) What are the ADM safeguards? (draft guidance). Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-are-the-adm-safeguards/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO draft guidance sub-page: What else do we need to consider? (DPIA; bias sampling; statistical procedures; transparency)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-else-do-we-need-to-consider/",
+      "harvard_reference": "Information Commissioner's Office (2026) What else do we need to consider? (draft guidance). Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making/what-else-do-we-need-to-consider/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO consultation on the draft guidance about automated decision-making, including profiling (opened 31 March 2026; closed 29 May 2026)",
+      "url": "https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/",
+      "harvard_reference": "Information Commissioner's Office (2026) ICO consultation on the draft guidance about automated decision-making, including profiling. Available at: https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Our plans for new and updated guidance: Technology (ADM and profiling guidance listed as 'Drafting', consultation closed, final due 'Winter 2026')",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/technology/",
+      "harvard_reference": "Information Commissioner's Office (2026) Our plans for new and updated guidance: Technology. Available at: https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/technology/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Update to automated decision making guidance: draft impact assessment (March 2026)",
+      "url": "https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/impact-and-evaluation/impact-assessment/update-to-automated-decision-making-guidance-draft-impact-assessment/",
+      "harvard_reference": "Information Commissioner's Office (2026) Update to automated decision making guidance: draft impact assessment. Available at: https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/impact-and-evaluation/impact-assessment/update-to-automated-decision-making-guidance-draft-impact-assessment/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - The Data (Use and Access) Act 2025 (DUAA): summary of the changes - Data protection (ADM section; page last updated 20 August 2025)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-duaa-summary-of-the-changes/data-protection/",
+      "harvard_reference": "Information Commissioner's Office (2025) The Data (Use and Access) Act 2025 (DUAA): summary of the changes - Data protection. Available at: https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-duaa-summary-of-the-changes/data-protection/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - The Data (Use and Access) Act 2025 (DUAA): what does it mean for organisations? (updated 19 June 2026)",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/",
+      "harvard_reference": "Information Commissioner's Office (2026) The Data (Use and Access) Act 2025 (DUAA): what does it mean for organisations? Available at: https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Rights related to automated decision making including profiling (legacy guidance; still describes pre-DUAA Article 22 prohibition-with-exceptions; no DUAA banner as at 2026-09-28)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/",
+      "harvard_reference": "Information Commissioner's Office (no date) Rights related to automated decision making including profiling. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO - Guidance on AI and data protection: What is the impact of Article 22 of the UK GDPR on fairness? (carries banner: 'Due to changes made by the Data (Use and Access) Act, this guidance is under review and may be subject to change')",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/",
+      "harvard_reference": "Information Commissioner's Office (2023) Guidance on AI and data protection: What is the impact of Article 22 of the UK GDPR on fairness? Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "ICO news (31 March 2026): Automated decisions can streamline the hiring process - with the right safeguards in place",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/",
+      "harvard_reference": "Information Commissioner's Office (2026) Automated decisions can streamline the hiring process - with the right safeguards in place. Available at: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "GOV.UK guidance: Data (Use and Access) Act 2025: data protection and privacy changes (published 27 June 2025; describes the 'more permissive framework' for solely automated decisions)",
+      "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes",
+      "harvard_reference": "Department for Science, Innovation and Technology (2025) Data (Use and Access) Act 2025: data protection and privacy changes. Available at: https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "Structure of the reform: DUAA 2025 s.80(1) repeals UK GDPR Article 22 and substitutes a new Chapter III 'Section 4A - Automated individual decision-making' made up of Articles 22A (definitions), 22B (restrictions), 22C (safeguards) and 22D (regulation-making powers). legislation.gov.uk annotates Article 22 as 'Ch. 3 Section 4A substituted for Art. 22' (Explanatory Notes para 634).",
+    "Commencement - precise: s.142(1) makes commencement by regulations the default; s.142(2)(h) brought into force on Royal Assent (19 June 2025) 'any other provision of this Act ... so far as it confers power to make regulations', i.e. the Article 22D powers. SI 2026/82 reg. 2 then provided that s.80 ('(j) section 80 (automated decision-making)') and Sch 6 ('(z8) Schedule 6 (automated decision-making: minor and consequential amendments)') come into force on 5 February 2026 'so far as not already in force'. The regulations were made on 29 January 2026 by Ian Murray MP, Minister of State, DSIT.",
+    "Transitional/saving: SI 2026/82 reg. 5 - 'The amendments made by section 80 of, and Schedule 6 to, the 2025 Act do not apply in relation to any decision taken before 5th February 2026 to which Article 22(3) of the UK GDPR ... or section 14 or 50(2) of the 2018 Act ... applied.' Decisions taken on or after 5 February 2026 are governed by Articles 22A-22D.",
+    "Article 22A(1)(a): a decision is 'based solely on automated processing if there is no meaningful human involvement in the taking of the decision'. Article 22A(1)(b): a decision is a 'significant decision' if '(i) it produces a legal effect for the data subject, or (ii) it has a similarly significant effect for the data subject'. Article 22A(2): when assessing meaningful human involvement 'a person must consider, among other things, the extent to which the decision is reached by means of profiling'. Note: the enacted text contains no 'adverse' qualifier; an earlier Bill draft used 'adverse legal effect', so secondary sources quoting 'adverse' are citing superseded Bill wording.",
+    "Solely automated significant decisions NOT based on special category data (the churn-prediction scenario): there is no longer a general prohibition. Article 22B only restricts (a) decisions 'based entirely or partly on processing described in Article 9(1)' (special category data) and (b) decisions where the processing 'is carried out entirely or partly in reliance on Article 6(1)(ea)' (recognised legitimate interests, Annex 1). Otherwise the decision may proceed on any Article 6(1) lawful basis - the ICO draft guidance lists consent, contract, public task and ordinary legitimate interests (three-part test) - subject to the Article 22C safeguards. The ICO summarises this as opening up 'the full range of reasons, or lawful bases' for significant automated decisions, 'so long as you continue to apply appropriate safeguards', while it 'keeps the restriction on the use of special category personal information'.",
+    "Special category data (Article 22B(1)-(3)): a significant decision based entirely or partly on Art 9(1) data 'may not be taken based solely on automated processing' unless (first condition, 22B(2)) 'the decision is based entirely on processing of personal data to which the data subject has given explicit consent', or (second condition, 22B(3)) the decision is '(i) necessary for entering into, or performing, a contract between the data subject and a controller, or (ii) required or authorised by law, and (b) point (g) of Article 9(2) applies' (substantial public interest). The ICO draft guidance adds that inferred information counts as special category data where the controller intends to infer, or treats someone differently on the basis of, a special-category characteristic - relevant to churn features that could proxy for health, ethnicity, etc.",
+    "Safeguards (Article 22C): where a significant decision is 'based entirely or partly on personal data' and 'based solely on automated processing', the controller 'must ensure that safeguards for the data subject's rights, freedoms and legitimate interests are in place' which 'must consist of or include measures which - (a) provide the data subject with information about decisions ... taken in relation to the data subject; (b) enable the data subject to make representations about such decisions; (c) enable the data subject to obtain human intervention on the part of the controller in relation to such decisions; (d) enable the data subject to contest such decisions.' The ICO draft guidance expects information to be given at the point the decision is delivered, responses to requests 'without undue delay and at the latest within one month' (extendable by two months for complex requests), and human reviewers who can actually alter the outcome, are suitably trained, and consider any additional evidence; periodic spot-checks do not satisfy the individual's right to intervention.",
+    "Article 22D: the Secretary of State may by regulations (affirmative procedure) provide that there is or is not 'meaningful human involvement' in described cases (22D(1)), that a description of decision is or is not to be taken to have a 'similarly significant effect' (22D(2)), and may add to or supplement the Article 22C safeguards (22D(3)), but 'may not amend Article 22C' (22D(4)). As at 2026-09-28 the Article 22D page on legislation.gov.uk lists no regulations made under it, so 'meaningful human involvement' and 'similarly significant effect' currently rest on the statutory words and ICO (draft) guidance.",
+    "Consequential amendments (Sch 6, in force 5 February 2026): DPA 2018 s.14 (safeguards for ADM authorised by law) is omitted (Sch 6 para 11); UK GDPR Art 15(1)(h) now refers to 'automated decision-making, including profiling, which is subject to the requirement to provide safeguards under Article 22C and, at least in those cases, meaningful information about the logic involved' (Sch 6 para 5). Transparency duties under Arts 13-15 therefore continue to attach to solely automated significant decisions.",
+    "ICO guidance position as at 2026-09-28: the ICO published DRAFT updated guidance 'Automated decision-making, including profiling' on 31 March 2026, restructured around Articles 22A-22D (sections: What is ADM?; What does the UK GDPR say about ADM?; How do we carry out ADM lawfully?; When can we use special category data in our ADM?; What are the ADM safeguards?; What rights do people have?; What else do we need to consider?). The consultation ran 31 March - 29 May 2026 and is closed. The ICO's guidance-plans page lists the final version as 'Drafting' with publication due 'Winter 2026'. Until then the draft is the ICO's most current statement but has no final status.",
+    "ICO draft guidance on 'similarly significant effect': defined as an effect with 'an equivalent impact on someone's circumstances, behaviour, opportunities, or choices'; assessed by reference to financial circumstances, employment opportunities, health, access to education, access to housing, 'access to essential public and private services', reputation, behaviour and choices. Examples given include automatic refusal of an online credit application, an automated bank-account freeze, algorithmic pay-setting and e-recruiting; a video-on-demand recommendation engine is given as typically NOT significant. Profiling-driven engagement/incentive strategies (the online-game example) are treated as potentially significant because of their effect on behaviour and choices. For a telecoms churn model, whether outputs are 'significant' therefore turns on what the decision does: pure propensity scoring feeding human-led retention calls or marketing prioritisation is unlikely to be a solely automated significant decision, whereas automated denial or withdrawal of service, automated price or credit-term changes, or automated contract-termination decisions with no meaningful human involvement would engage Articles 22B-22C.",
+    "ICO draft guidance on meaningful human involvement: human involvement must be 'active and not just a token gesture'; the reviewer must engage before the decision is applied to the person, while they can still change the recommendation, and must have the authority and competence to alter the outcome; where profiling is complex the ICO warns it can be difficult for reviewers to explain or challenge the output, which cuts against treating rubber-stamp review as meaningful.",
+    "ICO draft guidance on accountability for ADM: a DPIA is mandatory 'if you carry out systematic and extensive ADM or other significant decisions based on profiling'; the controller cannot base such decisions 'entirely or partly on the recognised legitimate interest lawful basis'; the ICO expects sample-based manual review of automated decisions 'to identify any bias or discriminatory effects', 'appropriate mathematical or statistical procedures for profiling', correction of inaccuracies, and clear information to individuals about the processing and their rights.",
+    "Inconsistency in ICO web estate to flag in the report: the legacy page 'Rights related to automated decision making including profiling' still describes the old Article 22 prohibition with three exceptions and carries no DUAA banner, whereas the AI-and-data-protection page on Article 22 states 'Due to changes made by the Data (Use and Access) Act, this guidance is under review and may be subject to change'. Cite the statute (Articles 22A-22D) and the 2026 draft guidance rather than the legacy page for the current rules.",
+    "Regulator identity: SI 2026/1015 (made 10 September 2026) brings DUAA ss.117(4)(a), 118 and 119 into force on 30 September 2026, abolishing the office of Information Commissioner and transferring functions to the Information Commission; SI 2026/386 then substitutes 'Commission' for 'Commissioner' throughout the UK GDPR/DPA 2018. Material accessed on 2026-09-28 is correctly attributed to the Information Commissioner's Office; anything published from 30 September 2026 should be attributed to the Information Commission, and the legislation.gov.uk 'outstanding changes' banner on Article 22 (Art 4(A2A) via SI 2026/386) relates to this and not to the substance of Articles 22A-22D."
+  ],
+  "uncertainties": "1) The ICO's updated ADM guidance is still a DRAFT (consultation closed 29 May 2026; final due 'Winter 2026' per the ICO plans page) - wording on 'meaningful human involvement', response timings and examples may change in the final version, and the report should describe it as draft. 2) No regulations have been made under Article 22D as at 2026-09-28 based on the legislation.gov.uk Article 22D page and searches; absence of a listing is strong but not absolute proof, so re-check before submission. 3) The Information Commissioner is replaced by the Information Commission on 30 September 2026 (SI 2026/1015), two days after the access date; reference author names are correct for 2026-09-28 but URLs/branding may change afterwards. 4) The ICO's overview DUAA pages (summary of changes last updated 20 August 2025; 'what does it mean for organisations' updated 19 June 2026; GOV.UK guidance dated 27 June 2025) do not state the 5 February 2026 commencement date themselves - that date is taken from SI 2026/82 and the legislation.gov.uk annotations, which are the authoritative sources. 5) Article 22A does not define 'similarly significant effect'; whether a given churn-driven action (e.g. automated retention pricing or service restriction) is a 'significant decision' is a fact-specific judgement guided only by the ICO draft's factor list. 6) Page contents were read through an automated fetch-and-summarise step; verbatim statutory quotations were cross-checked across the DUAA s.80 page and the consolidated UK GDPR article pages, but any quotation used in the report should be re-read against the live legislation.gov.uk text. 7) The ICO consultation page and Citizen Space page differ on status wording ('closed' vs 'open' cached text); the ICO plans page and the closing date of 29 May 2026 confirm it is closed.",
+  "quotable": "UK GDPR Article 22C(2), as inserted by DUAA 2025 s.80 and in force from 5 February 2026 (SI 2026/82 reg. 2(j)): 'The safeguards must consist of or include measures which - (a) provide the data subject with information about decisions described in paragraph 1 taken in relation to the data subject; (b) enable the data subject to make representations about such decisions; (c) enable the data subject to obtain human intervention on the part of the controller in relation to such decisions; (d) enable the data subject to contest such decisions.' Article 22A(1)(a): 'a decision is based solely on automated processing if there is no meaningful human involvement in the taking of the decision'."
+}

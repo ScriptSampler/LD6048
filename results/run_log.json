@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "quick": false,
+  "stages": [
+    {
+      "stage": "manifest",
+      "seconds": 0.0
+    },
+    {
+      "stage": "clean",
+      "seconds": 0.0
+    },
+    {
+      "stage": "eda",
+      "seconds": 1.9
+    },
+    {
+      "stage": "models",
+      "seconds": 498.6
+    },
+    {
+      "stage": "evaluate",
+      "seconds": 102.5
+    },
+    {
+      "stage": "explain",
+      "seconds": 15.0
+    },
+    {
+      "stage": "fairness",
+      "seconds": 9.2
+    },
+    {
+      "stage": "derived",
+      "seconds": 1.9
+    }
+  ],
+  "total_seconds": 629.4
+}

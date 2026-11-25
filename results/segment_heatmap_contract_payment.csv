@@ -1,0 +1,13 @@
+Contract,PaymentMethod,churn_rate,n
+Month-to-month,Bank transfer (automatic),0.341256,589
+Month-to-month,Credit card (automatic),0.327808,543
+Month-to-month,Electronic check,0.537297,1850
+Month-to-month,Mailed check,0.315789,893
+One year,Bank transfer (automatic),0.0971867,391
+One year,Credit card (automatic),0.103015,398
+One year,Electronic check,0.184438,347
+One year,Mailed check,0.0682493,337
+Two year,Bank transfer (automatic),0.0336879,564
+Two year,Credit card (automatic),0.0223752,581
+Two year,Electronic check,0.077381,168
+Two year,Mailed check,0.0078534,382

@@ -1,0 +1,5 @@
+model,attribute,threshold,demographic_parity_difference,equalized_odds_difference,equal_opportunity_difference,recall_difference,fpr_difference,selection_rate_ratio,base_rate_difference,groups
+LogReg,SeniorCitizen,0.47,0.253315,0.173923,0.140195,0.140195,0.173923,0.437641,0.208922,Not senior (n=1187) | Senior (n=222)
+LogReg,gender,0.47,0.00610265,0.021212,0.021212,0.021212,0.00326656,0.974591,0.0302391,Female (n=687) | Male (n=722)
+LogReg,Partner,0.47,0.20917,0.252624,0.252624,0.252624,0.107925,0.379236,0.149735,No partner (n=736) | Partner (n=673)
+LogReg,Dependents,0.47,0.221177,0.368475,0.368475,0.368475,0.105185,0.274124,0.145083,No dependents (n=978) | Dependents (n=431)

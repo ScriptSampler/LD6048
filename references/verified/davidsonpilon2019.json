@@ -1,0 +1,27 @@
+{
+  "key": "davidsonpilon2019",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Davidson-Pilon, Cameron"
+  ],
+  "year": 2019,
+  "title": "lifelines: survival analysis in Python",
+  "venue": "Journal of Open Source Software",
+  "volume": "4",
+  "issue": "40",
+  "pages": "1317",
+  "doi": "10.21105/joss.01317",
+  "url": "https://doi.org/10.21105/joss.01317",
+  "harvard_reference": "Davidson-Pilon, C. (2019) 'lifelines: survival analysis in Python', Journal of Open Source Software, 4(40), 1317. doi:10.21105/joss.01317.",
+  "abstract_summary": "A three-page JOSS software paper (no formal abstract; the 'Summary' section serves that role) introducing lifelines, a pure-Python survival-analysis library intended to spare data scientists from switching between R (survival, flexsurv) and Python when a fitted survival model must be deployed in a Python system. The paper describes three internal innovations: (1) implementing the Efron-tie partial likelihood, gradient and Hessian of the Cox proportional-hazards model with NumPy einsum for roughly a 4x speed-up; (2) a meta-algorithm, trained by linear regression on synthetic datasets, that picks at runtime the faster of two Cox partial-likelihood algorithms depending on the number of tied event times; and (3) user-defined parametric cumulative-hazard models, whose log-likelihood (with right-censoring and left-truncation) is maximised via automatic differentiation (Autograd) and SciPy's minimize, returning MLEs, standard errors, p-values and confidence intervals. It acknowledges Terry Therneau and the R survival package authors.",
+  "claims_supported": [
+    {
+      "claim": "lifelines implements Kaplan-Meier estimation, the log-rank test and Cox proportional-hazards regression in Python.",
+      "supported": false,
+      "where": "PARTIAL ONLY. The Cox proportional-hazards part is explicitly supported: the Summary (p. 1-2) describes 'the lifelines' implementation of Cox proportional hazard model' with Efron's tie-handling, its partial likelihood/Hessian computed via NumPy einsum, and a runtime meta-algorithm choosing between two Cox algorithms. However, the paper never mentions Kaplan-Meier, Nelson-Aalen or the log-rank test anywhere (0 occurrences of 'Kaplan', 'Meier', 'log-rank'/'logrank' in the version-of-record PDF and in the paper.md source). It only says generically that lifelines lets users 'perform common survival analysis tasks in Python'. Kaplan-Meier (KaplanMeierFitter) and the log-rank test (lifelines.statistics.logrank_test) are confirmed in the lifelines documentation (lifelines.readthedocs.io), not in this paper. Suggested fix: either (a) cite Davidson-Pilon (2019) for lifelines as the library and for its Cox PH implementation, and cite the lifelines documentation for Kaplan-Meier and the log-rank test, or (b) soften the sentence to 'lifelines, a pure-Python survival-analysis library (Davidson-Pilon, 2019), was used for Kaplan-Meier estimation, the log-rank test and Cox proportional-hazards regression' (i.e. cite the paper as the software citation, not as evidence that it lists those estimators)."
+    }
+  ],
+  "verification_notes": "Verified via Crossref (api.crossref.org/works/10.21105/joss.01317): title, single author Cameron Davidson-Pilon, container Journal of Open Source Software (The Open Journal), vol. 4, issue 40, page 1317, issued 2019-08-04, ISSN 2475-9066, CC BY 4.0. Corroborated by Semantic Scholar (CorpusId 201207884, DBLP journals/jossw/Davidson-Pilon19), OpenAlex (author affiliation 'Independent researcher', Diamond OA, ~1,040 citations) and the JOSS landing page (published 4 Aug 2019; software repository github.com/camdavidsonpilon/lifelines; archive doi:10.5281/zenodo.805993; editor @trallard; reviewers @becarioprecario, @sunhwan). The version-of-record PDF (theoj.org, 3 pages, 'Submitted: 06 March 2019, Published: 04 August 2019') was downloaded and its full text extracted and searched; the current paper/paper.md in the GitHub repository matches it. All metadata in the lead was accurate; the reference number 1317 is an article number, not a page range, so it is cited as '4(40), 1317' per Cite Them Right. The 'abstract' returned by Semantic Scholar/OpenAlex is the paper's Summary section (JOSS papers carry no separate abstract). Claim check: the paper explicitly covers the Cox PH model and parametric cumulative-hazard models but does not name Kaplan-Meier or the log-rank test; those features were verified only from the lifelines documentation (KaplanMeierFitter, lifelines.statistics.logrank_test / multivariate_logrank_test / pairwise_logrank_test, CoxPHFitter 'implements fitting Cox's proportional hazard model'). The compound claim is therefore marked supported=false (partially supported) with a recommended rewording.",
+  "caveats": "The paper is a short software paper, not a methodological or empirical study, and contains no churn or telecom content; it should be cited only as the software citation for lifelines (and, if needed, for its Cox PH implementation details), not as a source on survival methods generally. The lifelines documentation page (lifelines.readthedocs.io) should be cited separately if the report needs a source that names Kaplan-Meier and the log-rank test; that documentation is undated/rolling, so cite it with an access date. The Semantic Scholar externalIds record the DOI in upper case (10.21105/JOSS.01317); the canonical form is lower case."
+}

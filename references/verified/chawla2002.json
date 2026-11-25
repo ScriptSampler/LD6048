@@ -1,0 +1,30 @@
+{
+  "key": "chawla2002",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Chawla, N.V.",
+    "Bowyer, K.W.",
+    "Hall, L.O.",
+    "Kegelmeyer, W.P."
+  ],
+  "year": 2002,
+  "title": "SMOTE: Synthetic Minority Over-sampling Technique",
+  "venue": "Journal of Artificial Intelligence Research",
+  "volume": "16",
+  "issue": "",
+  "pages": "321-357",
+  "doi": "10.1613/jair.953",
+  "url": "https://doi.org/10.1613/jair.953",
+  "harvard_reference": "Chawla, N.V., Bowyer, K.W., Hall, L.O. and Kegelmeyer, W.P. (2002) 'SMOTE: synthetic minority over-sampling technique', Journal of Artificial Intelligence Research, 16, pp. 321-357. doi:10.1613/jair.953.",
+  "abstract_summary": "The paper addresses building classifiers from imbalanced datasets, where the minority ('abnormal' or 'interesting') class is rare and its misclassification is costlier. Rather than over-sampling the minority class by replication, SMOTE creates synthetic minority examples in feature space: for each minority sample it selects among its k (=5) minority-class nearest neighbours and generates new points at a random position along the line segment joining the sample and the neighbour. Experiments with C4.5, Ripper and Naive Bayes on nine datasets, evaluated with AUC and the ROC convex hull, show that SMOTE combined with majority under-sampling generally achieves better performance in ROC space than under-sampling alone, and than varying Ripper's loss ratio or Naive Bayes class priors. The authors explain the gain by SMOTE forcing the learner to build larger, more general minority-class decision regions instead of the small, overfitted regions produced by replication.",
+  "claims_supported": [
+    {
+      "claim": "SMOTE generates synthetic minority examples by interpolating between neighbouring minority samples, which can improve minority-class recall and ROC space performance relative to plain undersampling.",
+      "supported": true,
+      "where": "Mechanism: Section 4.2 'SMOTE' (p. 328) states the minority class is over-sampled by introducing synthetic examples along the line segments joining a sample and any/all of its k minority-class nearest neighbours (difference vector times a random number in [0,1] added to the sample); the pseudo-code Algorithm SMOTE (p. 329, lines 13-22) computes k nearest neighbours among minority samples only and sets Synthetic = Sample[i] + gap*dif. ROC-space improvement vs plain under-sampling: abstract (p. 321) and Section 7 'Summary' (p. 352): 'The combination of SMOTE and under-sampling performs better than plain under-sampling', with domination in ROC space and more points on the ROC convex hull (Section 5 results, Figures 6-25). Minority-class recall: the paper's ROC axes are %TP (true-positive rate, i.e. recall/sensitivity) vs %FP, Section 7 opens by saying SMOTE 'can improve the accuracy of classifiers for a minority class', and Figure 5 (p. 330) reports '% Minority correct' for SMOTE vs replication. Note the paper uses the terms TP rate / sensitivity / minority-class accuracy rather than 'recall' for its own results (recall is defined on p. 326 in the IR context), and the comparison is SMOTE+under-sampling vs under-sampling alone, not SMOTE alone vs under-sampling."
+    }
+  ],
+  "verification_notes": "Verified via Crossref (api.crossref.org/works/10.1613/jair.953: authors N.V. Chawla, K.W. Bowyer, L.O. Hall, W.P. Kegelmeyer; container-title Journal of Artificial Intelligence Research; volume 16; pages 321-357; issued 2002-06-01; publisher AI Access Foundation; ISSN 1076-9757), Semantic Scholar (abstract, arXiv 1106.1813, CorpusId 1554582), OpenAlex (same metadata, full author names Nitesh V. Chawla, Kevin W. Bowyer, Lawrence Hall, W. Philip Kegelmeyer), the JAIR publisher page (jair.org article 10302, published 1 June 2002, Vol. 16) and the arXiv abstract page (journal reference JAIR 16, pp. 321-357, 2002). JAIR volumes carry no issue number, so the issue field is left empty by design. The claim was checked against the full text (arXiv PDF 1106.1813, identical to the JAIR article), specifically Section 4.2, the SMOTE pseudo-code, Section 5 results and Section 7 Summary. The lead's title capitalisation and journal name were correct; page range and DOI were added.",
+  "caveats": "The paper's headline comparison is SMOTE combined with majority under-sampling versus under-sampling alone (and versus Ripper loss ratio / Naive Bayes priors), not SMOTE in isolation. Improvement is not universal: Under-Ripper beats SMOTE-Ripper on the Oil dataset, Naive Bayes beats SMOTE-C4.5 on Pima, SMOTE and under-sampling ROC curves overlap on Can, and SMOTE-NC on Adult performs worse than plain under-sampling on AUC (Section 6.1), which the authors attribute to high-variance minority features causing synthetic points to overlap the majority class. Classifiers used are C4.5, Ripper and Naive Bayes (2002-era); the paper does not evaluate gradient boosting or logistic regression, nor telecom churn data, so any transfer to the Telco churn dataset must be argued separately. The word 'recall' should be paraphrased as true-positive rate / minority-class accuracy if quoting the paper's own results."
+}

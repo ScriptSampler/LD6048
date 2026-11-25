@@ -1,0 +1,32 @@
+{
+  "key": "vancalster2019",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Van Calster, Ben",
+    "McLernon, David J.",
+    "van Smeden, Maarten",
+    "Wynants, Laure",
+    "Steyerberg, Ewout W.",
+    "on behalf of Topic Group 'Evaluating diagnostic tests and prediction models' of the STRATOS initiative"
+  ],
+  "year": 2019,
+  "title": "Calibration: the Achilles heel of predictive analytics",
+  "venue": "BMC Medicine",
+  "volume": "17",
+  "issue": "1",
+  "pages": "230 (article number)",
+  "doi": "10.1186/s12916-019-1466-7",
+  "url": "https://doi.org/10.1186/s12916-019-1466-7",
+  "harvard_reference": "Van Calster, B., McLernon, D.J., van Smeden, M., Wynants, L. and Steyerberg, E.W. (2019) 'Calibration: the Achilles heel of predictive analytics', BMC Medicine, 17(1), 230. doi:10.1186/s12916-019-1466-7.",
+  "abstract_summary": "A position/review paper from the STRATOS initiative topic group arguing that assessment of calibration (agreement between predicted risks and observed outcome frequencies) receives far too little attention compared with discrimination (AUC). The authors argue this must change because poorly calibrated algorithms, whether from regression or flexible machine learning methods, can be misleading and potentially harmful for decision-making. They describe a hierarchy of calibration (mean, weak, moderate, strong), recommend flexible calibration curves (loess/spline) over the Hosmer-Lemeshow test, discuss how to avoid poor calibration at development (balancing model complexity against sample size, penalisation), note that calibration curves at external validation need sufficiently large samples (roughly 200 events and 200 non-events), and recommend algorithm updating (intercept adjustment, slope recalibration, or full refitting) when miscalibration is found. The stated aim is to optimise the utility of predictive analytics for shared decision-making.",
+  "claims_supported": [
+    {
+      "claim": "Calibration is often neglected; poorly calibrated risk predictions can be misleading and harmful for decision making even when discrimination is good, so calibration should be assessed (e.g. calibration plots) and models recalibrated when necessary.",
+      "supported": true,
+      "where": "Neglect: Abstract (Background: calibration assessment 'receives little attention') and section 'Discrimination is important, but are the risk estimates reliable?' (systematic reviews find calibration is assessed far less often than discrimination). Misleading/harmful: Abstract (Main text: 'poorly calibrated algorithms can be misleading and potentially harmful for clinical decision-making') and section 'How can inaccurate risk predictions be misleading?'. Even when discrimination is good: same section states poor calibration may make an algorithm less useful than a competitor with a lower AUC that is well calibrated, illustrated by the QRISK2-2011 (AUC 0.771, well calibrated) vs NICE Framingham (AUC 0.776, overestimating risk) example. Calibration plots: section 'How to assess calibration?' recommends flexible calibration curves (loess/spline) and recommends against the Hosmer-Lemeshow test. Recalibration: Abstract ('Algorithm updating should be considered'; Conclusion: 'update models when indicated') and section 'How to prevent or correct poor calibration?' (intercept updating for calibration-in-the-large, slope recalibration, full refitting when the validation sample is large)."
+    }
+  ],
+  "verification_notes": "DOI and metadata confirmed via Crossref (journal-article, BMC Medicine, vol 17, issue 1, article number 230, 2019). Abstract retrieved from Semantic Scholar (PubMed 31842878, PMC6912996). Full text checked via PubMed Central and Europe PMC, which allowed section-level verification of every component of the claim. Crossref and OpenAlex also list the STRATOS initiative topic group as a collective author; the Harvard reference uses the five named individual authors, which is standard practice. The article has an article number (230) rather than a page range; Cite Them Right style places the article number where pages would go. One caveat for the churn report: the paper's framing is clinical/medical ('clinical decision-making', 'patient counseling'); the general principles about calibration transfer directly to churn probability scoring, but the student should not imply the paper discusses churn or business decisions specifically.",
+  "caveats": "Source is written for medical risk prediction; its harm argument is about clinical decisions and patient counselling. Applying it to telecom churn is a reasonable extension of the general principle but is the student's inference, not something the paper states. The paper also recommends against the Hosmer-Lemeshow test, so the report should not cite it in support of that test."
+}

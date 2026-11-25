@@ -1,0 +1,42 @@
+{
+  "key": "pedregosa2011",
+  "found": true,
+  "item_type": "journal article",
+  "authors": [
+    "Pedregosa, Fabian",
+    "Varoquaux, Gaël",
+    "Gramfort, Alexandre",
+    "Michel, Vincent",
+    "Thirion, Bertrand",
+    "Grisel, Olivier",
+    "Blondel, Mathieu",
+    "Prettenhofer, Peter",
+    "Weiss, Ron",
+    "Dubourg, Vincent",
+    "Vanderplas, Jake",
+    "Passos, Alexandre",
+    "Cournapeau, David",
+    "Brucher, Matthieu",
+    "Perrot, Matthieu",
+    "Duchesnay, Édouard"
+  ],
+  "year": 2011,
+  "title": "Scikit-learn: Machine Learning in Python",
+  "venue": "Journal of Machine Learning Research",
+  "volume": "12",
+  "issue": "85",
+  "pages": "2825-2830",
+  "doi": "",
+  "url": "https://jmlr.org/papers/v12/pedregosa11a.html",
+  "harvard_reference": "Pedregosa, F. et al. (2011) 'Scikit-learn: machine learning in Python', Journal of Machine Learning Research, 12(85), pp. 2825-2830. Available at: https://jmlr.org/papers/v12/pedregosa11a.html (Accessed: 27 September 2026).",
+  "abstract_summary": "Short (6-page) software paper introducing scikit-learn, a BSD-licensed Python module that integrates a wide range of supervised and unsupervised machine-learning algorithms for medium-scale problems, aimed at non-specialists. The abstract stresses ease of use, performance, documentation and API consistency, with minimal dependencies (numpy, scipy). The body describes the project vision, underlying technologies (numpy, scipy, Cython), the code design (estimators with fit/predict/transform/score, cross-validation iterators, GridSearchCV, Pipeline) and benchmark timings against other Python ML toolkits on the Madelon dataset.",
+  "claims_supported": [
+    {
+      "claim": "Scikit-learn provides the estimator/pipeline API used for the models and cross-validation in this report.",
+      "supported": true,
+      "where": "Section 4 'Code Design', pp. 2827-2828 (verified from the publisher PDF). The paper states that the central object is an estimator implementing a fit method, that supervised estimators implement predict, transformers implement transform, and estimators may provide score; it describes the cross-validation iterator (K-fold, leave-one-out, stratified), the GridSearchCV object for selecting parameters by cross-validation, and the Pipeline object that combines several transformers and an estimator into a combined estimator that GridSearchCV can tune end-to-end. Note: the source supports the general statement that scikit-learn provides an estimator/Pipeline API and cross-validation tooling; the clause 'used for the models and cross-validation in this report' is the student's own statement of usage and is not something the paper can attest to."
+    }
+  ],
+  "verification_notes": "Verified on 2026-09-27 against the publisher's own page (https://jmlr.org/papers/v12/pedregosa11a.html), the publisher's BibTeX (https://jmlr.org/papers/v12/pedregosa11a.bib: volume 12, number 85, pages 2825--2830, year 2011) and the full-text PDF (https://jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf, 6 pages, header 'Journal of Machine Learning Research 12 (2011) 2825-2830', published 10/11). All 16 author names and the abstract match across page, BibTeX and PDF. Crossref returned no record for this article (JMLR does not register its papers with Crossref); the three Crossref hits were unrelated book chapters. OpenAlex (W2997591727) lists a DOI 10.5555/1953048.2078195 (an ACM Digital Library identifier), but https://doi.org/10.5555/1953048.2078195 and the handle API https://doi.org/api/handles/10.5555/1953048.2078195 both returned 404, and dl.acm.org returned 403, so that DOI is not registered/resolvable and the doi field is left empty; the reference therefore uses the publisher URL with an access date per Cite Them Right. Semantic Scholar returned HTTP 429 on two attempts; not needed because the abstract was obtained directly from the publisher. arXiv 1201.0490 is a later preprint version (v4, 19 authors) of the same paper; the JMLR version (16 authors) is the version cited.",
+  "caveats": "JMLR numbers each paper as an 'issue' within the volume, hence 12(85); many citation styles omit the issue and give 12, pp. 2825-2830 - either is acceptable but the publisher's BibTeX gives number 85. The paper describes scikit-learn circa version 0.8 (2011); module names have since changed (e.g. cross-validation utilities moved to sklearn.model_selection), though the estimator, Pipeline, GridSearchCV and cross-validation-iterator concepts described in Section 4 remain the basis of the current API. If the report relies on modern features beyond that (e.g. ColumnTransformer, StratifiedKFold in model_selection, calibration, SHAP), it should cite the scikit-learn documentation or the 2013 'API design for machine learning software' paper (Buitinck et al., 2013) in addition to this one. No DOI exists for this article; do not add the unresolvable 10.5555 identifier."
+}

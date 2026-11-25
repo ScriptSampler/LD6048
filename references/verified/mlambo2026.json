@@ -1,0 +1,33 @@
+{
+  "key": "mlambo2026",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Mlambo, Farai Fredric",
+    "Musuphi, Mpho",
+    "Letsela, Kopano"
+  ],
+  "year": 2026,
+  "title": "A Hybrid Machine Learning and Survival Analysis Framework for Churn Prediction in the Telecom Sector",
+  "venue": "Information",
+  "volume": "17",
+  "issue": "7",
+  "pages": "680",
+  "doi": "10.3390/info17070680",
+  "url": "https://doi.org/10.3390/info17070680",
+  "harvard_reference": "Mlambo, F.F., Musuphi, M. and Letsela, K. (2026) 'A hybrid machine learning and survival analysis framework for churn prediction in the telecom sector', Information, 17(7), 680. Available at: https://doi.org/10.3390/info17070680.",
+  "abstract_summary": "The authors build and compare three-stage hybrid models that predict telecom customer churn within a set timeframe and estimate how covariates affect time until churn. The data come from an Iranian telecommunications company, not the IBM/Kaggle Telco dataset. Stage 1 segments customers with K-means (KM) or agglomerative clustering. Stage 2 classifies churn with logistic regression (LR), an artificial neural network or a decision tree. Stage 3 fits a Cox proportional hazards model to estimate hazard rates and covariate effects on churn time. Models are evaluated on accuracy, precision, recall, F1, specificity and AUC-ROC. The hybrid models generally beat standalone Cox models on most metrics. The best model, KM + LR + Cox, reports accuracy 88.24%, precision 93.18%, specificity 63.64% and F1 93.01%. KM with two clusters (churners and non-churners) was the best segmentation, and cluster membership changed survival length. The authors say the framework offers insights for targeted retention strategies. According to search-indexed full-text snippets, class imbalance was handled with SMOTE and random oversampling.",
+  "claims_supported": [
+    {
+      "claim": "Combining survival analysis (time-to-churn) with machine-learning classification can improve churn prediction and support timing of retention interventions in telecom.",
+      "supported": true,
+      "where": "Abstract: the study aims at 'accurately predicting customer churn within a specified timeframe' and assessing 'how various factors influence the time until churn'. It combines clustering, ML classification (LR/ANN/DT) and a Cox PH model, and reports that 'hybrid models generally outperformed individual Cox models across most predictive performance metrics'. It ends by 'offering valuable insights for targeted retention strategies'. A full-text snippet surfaced by search describes the framework as predicting 'customer churn and its timing in a unified manner'. Caveats: (a) the improvement is measured against standalone Cox models, not against standalone ML classifiers; (b) the evidence comes from one Iranian telecom dataset; (c) 'timing of retention interventions' is a reasonable inference from the time-to-churn and retention-strategy framing, but the paper does not evaluate any intervention. Word the claim as 'can', citing one study, not as an established result."
+    },
+    {
+      "claim": "The study uses the IBM/Kaggle Telco Customer Churn dataset (state which dataset it actually uses and the reported performance).",
+      "supported": false,
+      "where": "NOT SUPPORTED. The abstract says 'a dataset from an Iranian telecommunications company was utilised', not the IBM/Kaggle Telco Customer Churn dataset. Search-indexed full-text snippets describe the data as a random sample collected over 12 months from an Iranian telecom company's database. That matches the public UCI 'Iranian Churn Dataset' (3,150 customer records over 12 months), but the paper's own naming of the UCI repository and its record count could not be read directly because the MDPI full text returned HTTP 403. Reported performance of the best model (KM + LR + Cox), from the abstract: Accuracy 88.24%, Precision 93.18%, Specificity 63.64%, F1-score 93.01%. Recall and AUC-ROC for this model are not given in the abstract. A search snippet reports that both standalone Cox models (oversampling vs SMOTE) scored Accuracy 84.42%, Precision 84.95%, Recall 100%, F1 91.86% and AUC-ROC 80.51%, but this was not checked against the full text. Do not cite this paper as a Telco (IBM/Kaggle) benchmark. Cite it only as related work showing the hybrid ML + survival approach on a different telecom dataset."
+    }
+  ],
+  "verification_notes": "Crossref (api.crossref.org/works/10.3390/info17070680) confirms: authors Farai Fredric Mlambo, Mpho Musuphi, Kopano Letsela; title as given; container-title 'Information' (MDPI AG); volume 17, issue 7, article number 680; published 13 July 2026. OpenAlex confirms the same metadata and gold OA (CC BY), with Mlambo as corresponding author. Semantic Scholar (CorpusId 290202617) returned the full abstract, which is the basis of the claim assessments. Unpaywall confirms the publisher PDF location. The MDPI landing page, HTML and PDF all returned HTTP 403 to WebFetch and curl, and the Semantic Scholar snippet API returned HTTP 429. Dataset details beyond the abstract (12-month random sample, SMOTE, standalone Cox results) therefore come from search-engine full-text snippets, not a direct read. The UCI 'Iranian Churn Dataset' identification and the 3,150-record figure are inferred from the matching description, not confirmed from the paper. Recall and AUC for the best model are not in the abstract and are left unverified. Venue: Information (ISSN 2078-2489) is a peer-reviewed MDPI open-access journal indexed in Scopus and Web of Science ESCI, not F1000Research. MDPI is sometimes criticised for fast review, but this journal is not generally classed as predatory. Received, accepted and editor dates could not be verified. The lead's metadata (authors, year, title, journal, 17(7), 680, DOI) is correct. Its implied use of the IBM/Kaggle Telco dataset is wrong: the paper uses an Iranian telecom dataset. Citation form uses the article number because MDPI has no page ranges."
+}

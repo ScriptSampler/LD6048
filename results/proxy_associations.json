@@ -1,0 +1,66 @@
+{
+  "SeniorCitizen__Contract": {
+    "cramers_v": 0.1438683664984389,
+    "p": 2.2129790664281912e-32
+  },
+  "SeniorCitizen__PaymentMethod": {
+    "cramers_v": 0.19598451589487906,
+    "p": 2.3807731790166243e-58
+  },
+  "SeniorCitizen__InternetService": {
+    "cramers_v": 0.26532401247490706,
+    "p": 2.1743887244315766e-108
+  },
+  "SeniorCitizen__PaperlessBilling": {
+    "cramers_v": 0.1565295593111728,
+    "p": 2.037833103011064e-39
+  },
+  "gender__Contract": {
+    "cramers_v": 0.008152557349604872,
+    "p": 0.791319360632198
+  },
+  "gender__PaymentMethod": {
+    "cramers_v": 0.018645841077588498,
+    "p": 0.4846479370447203
+  },
+  "gender__InternetService": {
+    "cramers_v": 0.011319816023820935,
+    "p": 0.6368387508139732
+  },
+  "gender__PaperlessBilling": {
+    "cramers_v": 0.011753691221222246,
+    "p": 0.3239368006106782
+  },
+  "Partner__Contract": {
+    "cramers_v": 0.2960394759374369,
+    "p": 9.271465654549676e-135
+  },
+  "Partner__PaymentMethod": {
+    "cramers_v": 0.16276227893705197,
+    "p": 3.3445533875870503e-40
+  },
+  "Partner__InternetService": {
+    "cramers_v": 0.0009073521208289377,
+    "p": 0.9971049904073069
+  },
+  "Partner__PaperlessBilling": {
+    "cramers_v": 0.014876622287891017,
+    "p": 0.21185365402243045
+  },
+  "Dependents__Contract": {
+    "cramers_v": 0.24421223608441336,
+    "p": 6.152877873541984e-92
+  },
+  "Dependents__PaymentMethod": {
+    "cramers_v": 0.15074411049283012,
+    "p": 1.7935563214873815e-34
+  },
+  "Dependents__InternetService": {
+    "cramers_v": 0.18026724788255377,
+    "p": 2.0009104630634743e-50
+  },
+  "Dependents__PaperlessBilling": {
+    "cramers_v": 0.11137722919364426,
+    "p": 9.011373735645387e-21
+  }
+}

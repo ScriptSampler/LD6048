@@ -1,0 +1,10 @@
+Contract,InternetService,churn_rate,n
+Month-to-month,DSL,0.322159,1223
+Month-to-month,Fiber optic,0.546053,2128
+Month-to-month,No,0.188931,524
+One year,DSL,0.0929825,570
+One year,Fiber optic,0.19295,539
+One year,No,0.0247253,364
+Two year,DSL,0.0191083,628
+Two year,Fiber optic,0.0722611,429
+Two year,No,0.00783699,638

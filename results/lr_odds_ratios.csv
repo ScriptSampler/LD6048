@@ -1,0 +1,24 @@
+feature,coef,odds_ratio,or_ci_lo,or_ci_hi,unit,label,abs_coef,C,intercept
+Contract_Two year,-1.66785,0.188651,0.128774,0.26537,vs reference level,Contract: Two year,1.66785,1.14621,-1.76408
+InternetService_No,-1.29131,0.274911,0.163486,0.636634,vs reference level,Internet service: No,1.29131,1.14621,-1.76408
+InternetService_Fiber optic,1.15968,3.1889,1.52126,4.73133,vs reference level,Internet service: Fiber optic,1.15968,1.14621,-1.76408
+TotalCharges,-0.778955,0.458885,0.377899,0.534324,per +1 SD,Total charges (log),0.778955,1.14621,-1.76408
+Contract_One year,-0.727754,0.482993,0.387588,0.60096,vs reference level,Contract: One year,0.727754,1.14621,-1.76408
+MultipleLines_Yes,0.419102,1.5206,1.21636,1.8434,vs reference level,Multiple lines: Yes,0.419102,1.14621,-1.76408
+StreamingMovies_Yes,0.406788,1.50199,1.10428,1.86507,vs reference level,Streaming movies: Yes,0.406788,1.14621,-1.76408
+StreamingTV_Yes,0.391318,1.47893,1.12412,1.84086,vs reference level,Streaming TV: Yes,0.391318,1.14621,-1.76408
+PaperlessBilling_Yes,0.382038,1.46527,1.29573,1.75564,vs reference level,Paperless billing: Yes,0.382038,1.14621,-1.76408
+PaymentMethod_Electronic check,0.346563,1.4142,1.17127,1.71183,vs reference level,Payment method: Electronic check,0.346563,1.14621,-1.76408
+OnlineSecurity_Yes,-0.310882,0.7328,0.603457,0.853632,vs reference level,Online security: Yes,0.310882,1.14621,-1.76408
+TechSupport_Yes,-0.254743,0.775116,0.592038,0.973004,vs reference level,Tech support: Yes,0.254743,1.14621,-1.76408
+PhoneService_Yes,-0.246456,0.781566,0.373738,1.18157,vs reference level,Phone service: Yes,0.246456,1.14621,-1.76408
+Dependents_Yes,-0.216008,0.805729,0.667451,0.983246,vs reference level,Dependents: Yes,0.216008,1.14621,-1.76408
+SeniorCitizen_1,0.146316,1.15756,0.927028,1.42822,vs reference level,Senior citizen: Yes,0.146316,1.14621,-1.76408
+tenure,-0.143776,0.866082,0.714341,1.05517,per +1 SD,Tenure,0.143776,1.14621,-1.76408
+OnlineBackup_Yes,-0.101038,0.903898,0.751125,1.05786,vs reference level,Online backup: Yes,0.101038,1.14621,-1.76408
+DeviceProtection_Yes,0.0656616,1.06787,0.873105,1.31834,vs reference level,Device protection: Yes,0.0656616,1.14621,-1.76408
+MonthlyCharges,-0.0556356,0.945884,0.605114,2.28167,per +1 SD,Monthly charges,0.0556356,1.14621,-1.76408
+Partner_Yes,0.0505216,1.05182,0.857462,1.21674,vs reference level,Partner: Yes,0.0505216,1.14621,-1.76408
+PaymentMethod_Credit card (automatic),-0.0180342,0.982127,0.772467,1.24109,vs reference level,Payment method: Credit card (automatic),0.0180342,1.14621,-1.76408
+gender_Male,0.0175543,1.01771,0.900329,1.17116,vs reference level,Gender: Male,0.0175543,1.14621,-1.76408
+PaymentMethod_Mailed check,2.46342e-05,1.00002,0.803763,1.27891,vs reference level,Payment method: Mailed check,2.46342e-05,1.14621,-1.76408

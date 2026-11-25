@@ -1,0 +1,31 @@
+comparison,metric,test,auc_a,auc_b,diff,se,z,p,ci_lo,ci_hi,p_two_sided,statistic,b_only_a_correct,b_only_b_correct
+Majority vs LogReg,roc_auc,DeLong,0.5,0.847672,-0.347672,0.0108583,-32.0189,0,,,,,,
+Majority vs LogReg,pr_auc,paired bootstrap,,,-0.399502,,,,-0.447365,-0.357823,0,,,
+Majority vs LogReg,roc_auc,paired bootstrap,,,-0.347672,,,,-0.368393,-0.327339,0,,,
+Majority vs LogReg,accuracy@operating,McNemar,,,,,,6.05941e-08,,,,29.3443,117,217
+Majority vs LogReg,accuracy@default,McNemar,,,,,,2.38148e-08,,,,31.1556,102,200
+DecisionTree vs LogReg,roc_auc,DeLong,0.841094,0.847672,-0.00657857,0.0045223,-1.4547,0.145753,,,,,,
+DecisionTree vs LogReg,pr_auc,paired bootstrap,,,-0.016263,,,,-0.0409199,0.00706949,0.17,,,
+DecisionTree vs LogReg,roc_auc,paired bootstrap,,,-0.00657857,,,,-0.0152195,0.00207587,0.128,,,
+DecisionTree vs LogReg,accuracy@operating,McNemar,,,,,,0.0621801,,,,3.47826,47,68
+DecisionTree vs LogReg,accuracy@default,McNemar,,,,,,0.656005,,,,0.198413,60,66
+RandomForest vs LogReg,roc_auc,DeLong,0.846878,0.847672,-0.000794389,0.00296152,-0.268237,0.788517,,,,,,
+RandomForest vs LogReg,pr_auc,paired bootstrap,,,-0.00796641,,,,-0.0233015,0.00785607,0.298,,,
+RandomForest vs LogReg,roc_auc,paired bootstrap,,,-0.000794389,,,,-0.00645234,0.00486725,0.76,,,
+RandomForest vs LogReg,accuracy@operating,McNemar,,,,,,0.482525,,,,0.493151,33,40
+RandomForest vs LogReg,accuracy@default,McNemar,,,,,,1,,,,0,27,28
+XGBoost vs LogReg,roc_auc,DeLong,0.848276,0.847672,0.000603219,0.00289106,0.20865,0.834722,,,,,,
+XGBoost vs LogReg,pr_auc,paired bootstrap,,,0.00270376,,,,-0.0115489,0.0163613,0.772,,,
+XGBoost vs LogReg,roc_auc,paired bootstrap,,,0.000603219,,,,-0.00515219,0.00656968,0.846,,,
+XGBoost vs LogReg,accuracy@operating,McNemar,,,,,,0.1461,,,,2.1125,33,47
+XGBoost vs LogReg,accuracy@default,McNemar,,,,,,0.78353,,,,0.0754717,28,25
+MLP vs LogReg,roc_auc,DeLong,0.848981,0.847672,0.00130848,0.00147031,0.889938,0.373499,,,,,,
+MLP vs LogReg,pr_auc,paired bootstrap,,,-0.00286521,,,,-0.0104492,0.00524214,0.532,,,
+MLP vs LogReg,roc_auc,paired bootstrap,,,0.00130848,,,,-0.00159851,0.00416177,0.362,,,
+MLP vs LogReg,accuracy@operating,McNemar,,,,,,0.280087,,,,1.16667,17,25
+MLP vs LogReg,accuracy@default,McNemar,,,,,,0.813664,,,,0.0555556,8,10
+Voting vs LogReg,roc_auc,DeLong,0.849279,0.847672,0.00160686,0.00183058,0.877789,0.380058,,,,,,
+Voting vs LogReg,pr_auc,paired bootstrap,,,0.0029074,,,,-0.00596191,0.0126021,0.612,,,
+Voting vs LogReg,roc_auc,paired bootstrap,,,0.00160686,,,,-0.00202505,0.00540607,0.406,,,
+Voting vs LogReg,accuracy@operating,McNemar,,,,,,0.0928919,,,,2.82353,19,32
+Voting vs LogReg,accuracy@default,McNemar,,,,,,0.281198,,,,1.16129,19,12

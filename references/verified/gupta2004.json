@@ -1,0 +1,29 @@
+{
+  "key": "gupta2004",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": [
+    "Gupta, S.",
+    "Lehmann, D.R.",
+    "Stuart, J.A."
+  ],
+  "year": 2004,
+  "title": "Valuing customers",
+  "venue": "Journal of Marketing Research",
+  "volume": "41",
+  "issue": "1",
+  "pages": "7-18",
+  "doi": "10.1509/jmkr.41.1.7.25084",
+  "url": "https://doi.org/10.1509/jmkr.41.1.7.25084",
+  "harvard_reference": "Gupta, S., Lehmann, D.R. and Stuart, J.A. (2004) 'Valuing customers', Journal of Marketing Research, 41(1), pp. 7-18. doi:10.1509/jmkr.41.1.7.25084.",
+  "abstract_summary": "The authors argue that a firm's financial value increasingly depends on intangible assets, above all its customers. They define customer value as the expected sum of discounted future earnings from customers and show that valuing the customer base makes it feasible to value firms, including high-growth firms with negative earnings. Applying the method to publicly available data for five firms, they find that a 1% improvement in retention, margin, or acquisition cost improves firm value by about 5%, 1% and 0.1% respectively, and that retention has almost five times the impact on firm value of a 1% change in discount rate or cost of capital. They conclude that linking marketing concepts to shareholder value is both possible and insightful.",
+  "claims_supported": [
+    {
+      "claim": "A one-percentage-point improvement in retention increases customer value by a much larger amount (around 5 %) than a one-point improvement in margin or acquisition cost, so retention has high leverage on firm value.",
+      "supported": true,
+      "where": "Abstract (OpenAlex record of the JMR article): 'They find that a 1% improvement in retention, margin, or acquisition cost improves firm value by 5%, 1%, and .1%, respectively. They also find that retention has almost five times greater impact on firm value than a 1% change in discount rate or capital.' The full paper reports these sensitivities in its results/discussion of the five-firm application (Table on the impact of marketing and financial instruments on customer value). Two wording caveats: (a) the abstract says '1% improvement', not 'one percentage point'; mirror the paper's '1%' wording to be strictly faithful. (b) The abstract phrases the 5%/1%/0.1% effects as changes in FIRM value (derived from customer value, which the paper defines as the discounted sum of future customer earnings); the report should say 'firm value' or 'customer/firm value' rather than only 'customer value'."
+    }
+  ],
+  "verification_notes": "Verified via Crossref (DOI 10.1509/jmkr.41.1.7.25084; Journal of Marketing Research, vol. 41, issue 1, pp. 7-18, 2004, publisher SAGE; authors Sunil Gupta, Donald R. Lehmann, Jennifer Ames Stuart) and OpenAlex (same metadata plus full abstract reconstructed from the inverted index). Semantic Scholar returns the record (CorpusId 220639871) but with a null abstract. The doi.org link redirects to journals.sagepub.com, which returned HTTP 403 to automated fetching, and the SSRN working-paper page (DOI 10.2139/ssrn.459595, 2003) also returned 403, so the abstract was taken from OpenAlex rather than the publisher page. Crossref also lists a 2026 Springer reprint of the article in 'Great Thinkers in Marketing: The Research Contributions of Donald R. Lehmann to Marketing, Volume 1' (pp. 321-344, doi:10.1007/978-3-031-88048-3_20); the original 2004 JMR article is the one to cite. The lead's citation details (authors, year, journal, 41(1)) were accurate; pages 7-18 and the DOI have been added. The full text was not accessed, so the exact section/table reference for the sensitivity analysis is based on the abstract and known structure of the paper, not a page-level check.",
+  "caveats": "Full text not accessed (publisher and SSRN pages blocked automated fetching); the claim is verified against the published abstract, which states the sensitivity result explicitly. Wording: paper says '1% improvement' (not 'one percentage point') and expresses the effect as a change in firm value; adjust the report's phrasing accordingly. The 1% is a relative improvement in the retention rate (the paper reports a retention elasticity of 3 to 7), so the report says 'a 1% relative retention gain' (checked against the author reprint on 31 October 2026)."
+}

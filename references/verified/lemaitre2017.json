@@ -1,0 +1,24 @@
+{
+  "key": "lemaitre2017",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Lemaître, Guillaume", "Nogueira, Fernando", "Aridas, Christos K."],
+  "year": 2017,
+  "title": "Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning",
+  "venue": "Journal of Machine Learning Research",
+  "volume": "18",
+  "issue": "17",
+  "pages": "1-5",
+  "doi": "",
+  "url": "http://jmlr.org/papers/v18/16-365.html",
+  "harvard_reference": "Lemaître, G., Nogueira, F. and Aridas, C.K. (2017) 'Imbalanced-learn: a Python toolbox to tackle the curse of imbalanced datasets in machine learning', Journal of Machine Learning Research, 18(17), pp. 1-5. Available at: http://jmlr.org/papers/v18/16-365.html (Accessed: 27 September 2026).",
+  "abstract_summary": "A five-page software paper introducing imbalanced-learn, an open-source Python toolbox (MIT licence, scikit-learn-contrib project) that implements state-of-the-art methods for imbalanced datasets in four groups: under-sampling, over-sampling, combinations of both, and ensemble learning. It depends only on numpy, scipy and scikit-learn and is described as fully compatible with scikit-learn. Section 3 (Implementation design) describes the sampler API (fit, sample, fit_sample), gives a SMOTE code example, lists the implemented methods (ADASYN, SMOTE, random over/under-sampling, CNN, ENN, NearMiss, NCL, OSS, Tomek links, SMOTE+ENN, SMOTE+TL, BalanceCascade, EasyEnsemble, etc.) and states that a Pipeline class inherited from scikit-learn combines samplers, transformers and estimators. Section 4 gives brief background on each strategy; Section 5 outlines future work.",
+  "claims_supported": [
+    {
+      "claim": "imbalanced-learn provides resampling methods (including SMOTE) that integrate with scikit-learn pipelines so resampling is applied only to training folds.",
+      "supported": false,
+      "where": "PARTIALLY supported only. Supported parts: (a) the toolbox provides under-/over-sampling methods including SMOTE - Abstract; Section 3 'Implementation design' Listing 1 ('Code snippet to over-sample a dataset using SMOTE') and Table 1 listing SMOTE, ADASYN, SMOTE+ENN, SMOTE+TL etc. (pp. 2-3); (b) integration with scikit-learn pipelines - Abstract ('fully compatible with scikit-learn and is part of the scikit-learn-contrib supported project') and Section 3, p. 3: 'A class Pipeline is inherited from the scikit-learn toolbox to automatically combine samplers, transformers, and estimators.' NOT supported: the paper nowhere states that resampling is applied only during fit / only to the training folds / not to test data, nor does it discuss cross-validation or data leakage. Section 3 only describes fit, sample and fit_sample methods. That training-only behaviour is documented in the imbalanced-learn user guide, 'Common pitfalls and recommended practices' (Data leakage section), https://imbalanced-learn.org/stable/common_pitfalls.html, which states that using a Pipeline avoids data leakage because resampling is delegated to imbalanced-learn. Recommended fix: cite Lemaître et al. (2017) for 'provides resampling methods including SMOTE and a scikit-learn-compatible Pipeline', and cite the imbalanced-learn documentation (a separate web reference) for 'the Pipeline applies resampling only when fitting, so only training folds are resampled'."
+    }
+  ],
+  "verification_notes": "Metadata verified against the JMLR article page (https://jmlr.org/papers/v18/16-365.html), the JMLR BibTeX file (https://jmlr.org/papers/v18/16-365.bib: volume 18, number 17, pages 1--5, year 2017) and the published PDF header ('Journal of Machine Learning Research 18 (2017) 1-5, Submitted 7/16; Published 1/17', editor Geoff Holmes). The full PDF text was read to check the claim. DOI: none exists for the JMLR article - JMLR does not register DOIs and the Crossref bibliographic query returned no match for this title/author (only unrelated works). The only DOI found (OpenAlex W2521200999) is 10.48550/arXiv.1609.06570, which belongs to the 2016 arXiv preprint (submitted 21 Sept 2016), not the 2017 JMLR version; it is therefore not placed in the doi field. Semantic Scholar API returned HTTP 429 on all attempts, so its abstract record could not be retrieved; the abstract was taken directly from the JMLR page and PDF instead. The lead reference was accurate except that it omitted the page range (pp. 1-5). Author surname carries a circumflex: Lemaître."
+}

@@ -1,0 +1,24 @@
+{
+  "key": "chen2016",
+  "found": true,
+  "item_type": "conference-paper",
+  "authors": ["Chen, Tianqi", "Guestrin, Carlos"],
+  "year": 2016,
+  "title": "XGBoost: A Scalable Tree Boosting System",
+  "venue": "KDD '16: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+  "volume": "",
+  "issue": "",
+  "pages": "785-794",
+  "doi": "10.1145/2939672.2939785",
+  "url": "https://doi.org/10.1145/2939672.2939785",
+  "harvard_reference": "Chen, T. and Guestrin, C. (2016) 'XGBoost: a scalable tree boosting system', KDD '16: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. San Francisco, CA, 13-17 August. New York: ACM, pp. 785-794. doi:10.1145/2939672.2939785.",
+  "abstract_summary": "Chen and Guestrin describe XGBoost, an end-to-end scalable tree boosting system used widely by data scientists to win machine learning challenges. Contributions stated in the abstract are a novel sparsity-aware algorithm for sparse data, a weighted quantile sketch for approximate tree learning, and system-level insights on cache access patterns, data compression and sharding. Combined, these allow XGBoost to scale beyond billions of examples using far fewer resources than existing systems. The body of the paper (Section 2) formulates a regularised learning objective (Omega(f) = gamma*T + 0.5*lambda*||w||^2, penalising leaf count and leaf weights) and optimises it with a second-order Taylor approximation using first- and second-order gradient statistics; Section 3.4 introduces sparsity-aware split finding that learns a default direction for missing values.",
+  "claims_supported": [
+    {
+      "claim": "XGBoost is a regularised, scalable gradient-boosting system with sparsity-aware split finding and second-order optimisation.",
+      "supported": true,
+      "where": "Abstract (scalable end-to-end tree boosting system; novel sparsity-aware algorithm; scales beyond billions of examples). Section 2.1 'Regularized Learning Objective' (regularisation term Omega(f) = gamma*T + 1/2 lambda ||w||^2, 'helps to smooth the final learnt weights to avoid over-fitting'). Section 2.2 'Gradient Tree Boosting' (second-order Taylor approximation of the loss using g_i and h_i; 'Second-order approximation can be used to quickly optimize the objective in the general setting'). Section 3.4 'Sparsity-aware Split Finding' (default direction for missing values learnt from data). Sections 4 and 6.5-6.6 (cache-aware access, out-of-core and distributed scaling)."
+    }
+  ],
+  "verification_notes": "Verified via Crossref (api.crossref.org/works/10.1145/2939672.2939785): title, authors Tianqi Chen and Carlos Guestrin (University of Washington), type proceedings-article, container-title 'Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining', event 'KDD '16', location San Francisco, California, USA, publisher ACM (New York, NY), issued 2016-08-13, pages 785-794. Abstract verified via Semantic Scholar (DOI:10.1145/2939672.2939785; also arXiv:1603.02754, DBLP conf/kdd/ChenG16). Full text checked via the arXiv PDF (arXiv:1603.02754) and ar5iv HTML rendering; Sections 2.1, 2.2 and 3.4 confirm the regularised objective, second-order approximation and sparsity-aware split finding respectively. No volume/issue exist for this proceedings paper (left empty). Crossref gives no ISBN or event dates; the conference dates (13-17 August 2016, San Francisco, CA, USA) were taken from the ACM copyright block printed on page 1 of the paper (arXiv PDF text extraction). The lead's 'KDD '16' venue was correct but incomplete; full proceedings title, pages and DOI added."
+}

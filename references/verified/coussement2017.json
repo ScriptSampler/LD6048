@@ -1,0 +1,24 @@
+{
+  "key": "coussement2017",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Kristof Coussement", "Stefan Lessmann", "Geert Verstraeten"],
+  "year": 2017,
+  "title": "A comparative analysis of data preparation algorithms for customer churn prediction: A case study in the telecommunication industry",
+  "venue": "Decision Support Systems",
+  "volume": "95",
+  "issue": "",
+  "pages": "27-36",
+  "doi": "10.1016/j.dss.2016.11.007",
+  "url": "https://doi.org/10.1016/j.dss.2016.11.007",
+  "harvard_reference": "Coussement, K., Lessmann, S. and Verstraeten, G. (2017) 'A comparative analysis of data preparation algorithms for customer churn prediction: a case study in the telecommunication industry', Decision Support Systems, 95, pp. 27-36. doi:10.1016/j.dss.2016.11.007.",
+  "abstract_summary": "The paper treats data preparation as the step that converts categorical and continuous predictors into a form suitable for modelling, and asks how much the choice of preparation method matters for churn prediction. Using real cross-sectional customer data from a large European telecommunications provider, the authors tune a logistic regression (logit) model by comparing alternative data-preparation methods (citing papers name discretisation/binning and weight-of-evidence coding among them) and then benchmark this optimised logit against eight state-of-the-art data-mining techniques (including decision trees, neural networks, SVMs, naive Bayes and bagged/boosted trees) that use standard, unprepared inputs. Effective data preparation raised AUC by up to 14.5% and top-decile lift by up to 34%, and the well-prepared logit model was competitive with the more advanced single and ensemble classifiers. The authors conclude that practitioners' data-preparation choices genuinely affect churn-prediction performance.",
+  "claims_supported": [
+    {
+      "claim": "Data preparation choices (encoding, binning, transformation) significantly affect churn-model performance, and well-prepared logistic regression can rival more complex learners.",
+      "supported": true,
+      "where": "Abstract (and TL;DR/abstract summaries on Semantic Scholar and the UWA research repository): the study examines data-preparation alternatives for categorical and continuous variables to enhance a logit model; reports AUC improvements up to 14.5% and top-decile-lift improvements up to 34% from data preparation alone; and finds the optimised logit competitive with eight advanced single and ensemble data-mining techniques, concluding that the chosen data-preparation technique affects churn-prediction performance. Citing papers (Semantic Scholar citation contexts) confirm discretisation/binning and weight-of-evidence coding were among the techniques compared, and that the paper shows proper preprocessing makes logistic regression competitive with random forests, SVMs and other complex learners. Caveat: 'significantly' is supported in the sense of substantial effect sizes; the abstract does not state a statistical-significance test, so avoid implying one. The parenthetical 'encoding, binning, transformation' is a fair gloss of the categorical/continuous preparation methods, but the exact list of techniques should be checked against the full text before naming specific methods in the report."
+    }
+  ],
+  "verification_notes": "Metadata verified via Crossref (DOI 10.1016/j.dss.2016.11.007; journal-article; Decision Support Systems vol. 95, pp. 27-36; published March 2017; ISSN 0167-9236), OpenAlex (same authors/volume/pages; records 2016 as online-first year) and Semantic Scholar (publicationDate 2017-03-01; DBLP journals/dss/CoussementLV17; 209 citations). Crossref lists issue as 'C', which is an Elsevier placeholder rather than a real issue number, so the issue field is left empty and omitted from the Harvard reference. Full abstract text was not returned by the Semantic Scholar/OpenAlex/Crossref APIs (publisher-elided) and the ScienceDirect/ACM/ResearchGate pages returned 403; the abstract content above was assembled from the Semantic Scholar TL;DR, the UWA Profiles and Research Repository abstract page, a search snippet of the abstract, and citation contexts from citing papers via the Semantic Scholar citations API. Full text was not accessed, so section-level references and the exact list of preparation techniques are not confirmed from the primary source. The lead's citation was accurate; page range 27-36 added."
+}

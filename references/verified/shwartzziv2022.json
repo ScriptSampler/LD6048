@@ -1,0 +1,24 @@
+{
+  "key": "shwartzziv2022",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["Shwartz-Ziv, Ravid", "Armon, Amitai"],
+  "year": 2022,
+  "title": "Tabular data: Deep learning is not all you need",
+  "venue": "Information Fusion",
+  "volume": "81",
+  "issue": "",
+  "pages": "84-90",
+  "doi": "10.1016/j.inffus.2021.11.011",
+  "url": "https://doi.org/10.1016/j.inffus.2021.11.011",
+  "harvard_reference": "Shwartz-Ziv, R. and Armon, A. (2022) 'Tabular data: deep learning is not all you need', Information Fusion, 81, pp. 84-90. doi:10.1016/j.inffus.2021.11.011.",
+  "abstract_summary": "The authors ask whether recently proposed deep-learning models for tabular data (TabNet, NODE, DNF-Net and a 1D-CNN) should replace tree ensembles such as XGBoost. They benchmark the deep models against XGBoost on 11 tabular datasets, including the datasets the deep models' own papers used plus two new Kaggle datasets (Shrutime churn-modelling and Blastchar, i.e. the Telco Customer Churn dataset), using a common hyperparameter-tuning protocol. XGBoost outperformed the deep models on most datasets (8 of 11) and needed much less tuning, converging to good performance in fewer and shorter optimisation iterations. No single deep model was consistently best; each did well mainly on the datasets from its own paper. A weighted ensemble of the deep models plus XGBoost gave the best results overall (2.32% average relative error increase vs 3.4% for XGBoost alone), and beat ensembles of classical models or of deep models without XGBoost.",
+  "claims_supported": [
+    {
+      "claim": "Across several tabular datasets, XGBoost outperformed recent deep-learning models designed for tabular data, and deep models required more tuning; an ensemble of both performed best.",
+      "supported": true,
+      "where": "Abstract: 'XGBoost outperforms these deep models across the datasets, including the datasets used in the papers that proposed the deep models. We also demonstrate that XGBoost requires much less tuning. On the positive side, we show that an ensemble of deep models and XGBoost performs better on these datasets than XGBoost alone.' Section 3.2 'Do the deep models generalize well to other datasets?': XGBoost outperformed the deep models on 8 of the 11 datasets; the ensemble of all models was best (2.32% average relative increase) with XGBoost second (3.4%). Section 3.2 'How difficult is the optimization?': XGBoost converged to good performance more quickly, in fewer and shorter iterations, and the hyperparameter search was much shorter. Section 3.2 'Do we need both XGBoost and deep networks?' and Section 4 'Discussion and Conclusions': the ensemble of XGBoost with deep models yielded the best results."
+    }
+  ],
+  "verification_notes": "Verified via Crossref (DOI 10.1016/j.inffus.2021.11.011; Information Fusion, vol. 81, pp. 84-90, publisher Elsevier BV, ISSN 1566-2535; issued/published-print May 2022; record created 26 Nov 2021), Semantic Scholar (title, authors, abstract, arXiv 2106.03253), OpenAlex (W3172701880; authors affiliated with Intel), and the arXiv v2 full text (23 Nov 2021), which matches the abstract of the journal version. Year: the journal issue is May 2022, so 2022 is correct for the published article; OpenAlex and Semantic Scholar list 2021 because the article appeared online on 26 Nov 2021 and the arXiv preprint dates from June 2021. Issue: Crossref shows 'C', an Elsevier placeholder rather than a real issue number, so the issue field is left empty and the Harvard reference cites volume 81 only. The ScienceDirect landing page returned HTTP 403, so the 'Received/Accepted' dates were not checked, but no cited field depends on them. Caveats for the report: the benchmark is from 2021 and covers four deep models (TabNet, NODE, DNF-Net, 1D-CNN) against XGBoost only; newer tabular deep models (e.g. FT-Transformer, TabPFN) are not included. Relevance: one of the 11 benchmark datasets is Blastchar, the Kaggle Telco Customer Churn dataset used in the student's report, though per-dataset figures for it were not extracted here."
+}

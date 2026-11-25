@@ -1,0 +1,25 @@
+{
+  "key": "delong1988",
+  "found": true,
+  "item_type": "journal-article",
+  "authors": ["DeLong, Elizabeth R.", "DeLong, David M.", "Clarke-Pearson, Daniel L."],
+  "year": 1988,
+  "title": "Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach",
+  "venue": "Biometrics",
+  "volume": "44",
+  "issue": "3",
+  "pages": "837-845",
+  "doi": "10.2307/2531595",
+  "url": "https://doi.org/10.2307/2531595",
+  "harvard_reference": "DeLong, E.R., DeLong, D.M. and Clarke-Pearson, D.L. (1988) 'Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach', Biometrics, 44(3), pp. 837-845. doi:10.2307/2531595.",
+  "abstract_summary": "The paper addresses how to compare diagnostic tests that produce a continuous or graded score, where each test is summarised by its ROC curve and the area beneath it. Its central point is that when two or more empirical ROC curves are built from tests applied to the same individuals, the resulting AUC estimates are correlated and any test of their difference must account for that correlation. The authors propose a nonparametric method that treats the AUC as a generalised U-statistic and derives an estimated covariance matrix for a set of correlated AUCs, from which differences can be tested.",
+  "claims_supported": [
+    {
+      "claim": "The DeLong test provides a nonparametric comparison of correlated ROC AUCs computed on the same cases.",
+      "supported": true,
+      "where": "Abstract (PubMed PMID 3203132): the paper states that when two or more empirical ROC curves are constructed from tests performed on the same individuals, analysis of differences must account for the correlated nature of the data, and that it presents a nonparametric approach to analysing areas under correlated ROC curves using generalised U-statistics theory to produce an estimated covariance matrix. This is exactly the nonparametric, same-cases, correlated-AUC comparison described in the claim."
+    }
+  ],
+  "verification_notes": "Crossref (query.bibliographic) returned the work as its top hit with DOI 10.2307/2531595, container-title Biometrics, volume 44, issue 3, year 1988, authors Elizabeth R. DeLong, David M. DeLong and Daniel L. Clarke-Pearson; the Crossref record (deposited by JSTOR) lists only the first page (837), as does OpenAlex. The full page range 837-845 and publication month (September 1988) were taken from the PubMed record (PMID 3203132) retrieved via the NCBI E-utilities XML endpoint (MedlinePgn '837-45'). Semantic Scholar has the paper (CorpusId 21877334, MAG 2328176404) but its abstract field was elided by the publisher, so the abstract was obtained verbatim from PubMed; OpenAlex's inverted-index reconstruction matches it in substance. The JSTOR landing page and the PubMed HTML page could not be fetched (JavaScript/CAPTCHA gates), but this did not affect verification. The lead citation was accurate in every field; only the page range was missing and has now been supplied. All metadata fields are verified from Crossref and/or PubMed; none were inferred.",
+  "caveats": "The page range comes from PubMed rather than Crossref, whose JSTOR-deposited record carries only the first page. The Crossref/JSTOR DOI (10.2307/2531595) is the DOI of record and resolves via doi.org to JSTOR."
+}

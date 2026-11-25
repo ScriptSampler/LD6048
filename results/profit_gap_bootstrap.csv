@@ -1,0 +1,13 @@
+split,comparison,n_customers,profit_diff,profit_diff_per_customer,ci_lo,ci_hi,share_resamples_above_zero
+oof,XGBoost vs LogReg,5634,201.848,0.0358268,-2029.99,2400.17,0.563
+oof,RandomForest vs LogReg,5634,-609.04,-0.108101,-2834.03,1755.82,0.294
+oof,MLP vs LogReg,5634,287.384,0.0510089,-1425.02,2034.97,0.62
+oof,DecisionTree vs LogReg,5634,-3932.08,-0.69792,-6953.97,-772.371,0.01
+oof,Voting vs LogReg,5634,1369.95,0.243158,-362.443,3079.45,0.939
+oof,LogReg at F1-optimal vs operating threshold,5634,-3317.45,-0.588826,-6493.05,8.5446,0.026
+test,XGBoost vs LogReg,1409,-1120.53,-0.795265,-2464.82,220.82,0.057
+test,RandomForest vs LogReg,1409,-776.728,-0.551262,-2102.78,551.645,0.126
+test,MLP vs LogReg,1409,-858.576,-0.609351,-1859.46,87.5016,0.038
+test,DecisionTree vs LogReg,1409,-1228.39,-0.871818,-2837.27,460.439,0.08
+test,Voting vs LogReg,1409,-921.096,-0.653723,-1991.84,118.154,0.042
+test,LogReg at F1-optimal vs operating threshold,1409,-1702.92,-1.2086,-3468.3,188.054,0.041

@@ -1,0 +1,98 @@
+{
+  "key": "bcs_code_of_conduct",
+  "verified_on": "2026-09-28",
+  "status_summary": "The current BCS Code of Conduct is 'Code of Conduct for BCS Members', issued as Schedule 3 to the BCS Trustee Board Regulations, Version 8. The members'-area control sheet records: Responsible Body Trustee Board; Version 8; Date Approved 2 February 2022 (Trustee Board paper TB/2022/007 Appendix 3); Date Issued 4 February 2022; Date of last review 4 June 2025 (version number unchanged). The public PDF on bcs.org is headed 'Version 8 last reviewed and approved by Trustee Board 8 June 2022'. The public web page ('BCS Code of Conduct for members - Ethics for IT professionals') carries the same four sections and clause wording as v8 but no version or date. The Code is not legislation and is not amended by the Data (Use and Access) Act 2025; it binds BCS members contractually via Bye-law 18(a) of the BCS Bye-laws (as amended by Order in Council 8 June 2022), which requires members at all times to act in accordance with the Code of Conduct, and breaches are handled under the Institute's disciplinary procedures (Trustee Board Regulations Section VIII). The Code has four sections: 1 Public Interest (clauses a-d); 2 Professional Competence and Integrity (a-g); 3 Duty to Relevant Authority (a-e); 4 Duty to the Profession (a-e), plus Appendix 1 (interpretation and definitions of 'Legislation', 'Third Parties' and 'Relevant Authority'). A Code of Conduct Review Working Group (Terms of Reference, 2024) reviews the Code annually and recommends changes via the Community Board to the Trustee Board; no Version 9 or later revision was found as at 2026-09-28.",
+  "in_force": "Yes. Version 8 is the current and operative version as at 2026-09-28 (approved 2 February 2022, issued 4 February 2022, last reviewed by Trustee Board 4 June 2025 with no change of version). It is a professional-body code binding on BCS members as a condition of membership (Bye-law 18(a)), not a statutory instrument, so 'commencement' does not apply and the Data (Use and Access) Act 2025 does not amend it.",
+  "current_version": {
+    "title": "Code of Conduct for BCS Members (Trustee Board Regulations Schedule 3, Version 8)",
+    "publisher": "BCS, The Chartered Institute for IT",
+    "version": "8",
+    "date_approved": "2022-02-02",
+    "date_issued": "2022-02-04",
+    "public_pdf_header_date": "Version 8 last reviewed and approved by Trustee Board 8 June 2022",
+    "date_of_last_review": "2025-06-04",
+    "public_pdf_url": "https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf",
+    "public_web_page_url": "https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/",
+    "members_area_control_copy_url": "https://mybcs.bcs.org/media/vixldwmn/tbregs-schedule3.pdf"
+  },
+  "four_sections": [
+    {
+      "number": 1,
+      "heading": "Public Interest",
+      "clauses": "a-d (4 clauses)",
+      "paraphrase": "Members must have due regard for public health, privacy, security and the wellbeing of others and the environment; respect the legitimate rights of Third Parties; carry out professional activities without discrimination on grounds including sex, sexual orientation, marital status, nationality, colour, race, ethnic origin, religion, age or disability; and promote equal access to the benefits of IT and inclusion of all sectors of society."
+    },
+    {
+      "number": 2,
+      "heading": "Professional Competence and Integrity",
+      "clauses": "a-g (7 clauses)",
+      "paraphrase": "Members must only undertake work within their professional competence; not claim competence they do not possess; keep knowledge, skills and competence up to date; know and comply with applicable Legislation when carrying out professional responsibilities; respect alternative viewpoints and seek, accept and offer honest criticism of work; avoid injuring others (property, reputation, employment) by false, malicious or negligent action or inaction; and reject and never offer bribery or unethical inducement."
+    },
+    {
+      "number": 3,
+      "heading": "Duty to Relevant Authority",
+      "clauses": "a-e (5 clauses)",
+      "paraphrase": "Members must carry out responsibilities with due care and diligence to the Relevant Authority's requirements while exercising professional judgement; avoid conflicts of interest with the Relevant Authority; accept professional responsibility for their own work and that of people under their supervision; not disclose or misuse confidential information without permission (or unless required by Legislation); and not misrepresent or withhold information on the performance of products, systems or services, nor exploit others' lack of knowledge or inexperience."
+    },
+    {
+      "number": 4,
+      "heading": "Duty to the Profession",
+      "clauses": "a-e (5 clauses)",
+      "paraphrase": "Members must uphold the reputation of the profession and avoid bringing it into disrepute; seek to improve professional standards through participation in their development, use and enforcement; uphold the reputation and good standing of BCS; act with integrity and respect towards BCS members and members of other professions; and encourage and support fellow members' professional development."
+    }
+  ],
+  "primary_sources": [
+    {
+      "title": "Code of Conduct for BCS Members (Trustee Board Regulations Schedule 3, Version 8)",
+      "url": "https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf",
+      "harvard_reference": "BCS, The Chartered Institute for IT (2022) Code of Conduct for BCS Members. Trustee Board Regulations Schedule 3, version 8. Available at: https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "BCS Code of Conduct for members - Ethics for IT professionals (web page)",
+      "url": "https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/",
+      "harvard_reference": "BCS, The Chartered Institute for IT (no date) BCS Code of Conduct for members: ethics for IT professionals. Available at: https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Schedule 3 to Trustee Board Regulations - Code of Conduct for BCS Members (version 8, reviewed 4 June 2025; control sheet with revision history)",
+      "url": "https://mybcs.bcs.org/media/vixldwmn/tbregs-schedule3.pdf",
+      "harvard_reference": "BCS, The Chartered Institute for IT (2025) Schedule 3 to Trustee Board Regulations: Code of Conduct for BCS Members, version 8 (reviewed by Trustee Board 4 June 2025). Available at: https://mybcs.bcs.org/media/vixldwmn/tbregs-schedule3.pdf (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Bye-laws of the British Computer Society as amended by Order in Council 8 June 2022 (Bye-law 18 Professional Conduct)",
+      "url": "https://www.bcs.org/media/1448/bye-laws.pdf",
+      "harvard_reference": "BCS, The Chartered Institute for IT (2022) Bye-laws of the British Computer Society as amended by the Lords of Her Majesty's Most Honourable Privy Council on 8 June 2022. Available at: https://www.bcs.org/media/1448/bye-laws.pdf (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "BCS Code of Conduct Review Working Group (CoCWG) Terms of Reference",
+      "url": "https://www.bcs.org/media/w4xborrn/code-of-conduct-working-group-tor.pdf",
+      "harvard_reference": "BCS, The Chartered Institute for IT (2024) BCS Code of Conduct Review Working Group (CoCWG): Terms of Reference. Available at: https://www.bcs.org/media/w4xborrn/code-of-conduct-working-group-tor.pdf (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Dealing with a breach of the code (web page)",
+      "url": "https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/dealing-with-a-breach-of-the-code/",
+      "harvard_reference": "BCS, The Chartered Institute for IT (no date) Dealing with a breach of the code. Available at: https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/dealing-with-a-breach-of-the-code/ (Accessed: 2026-09-28).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "Current version: 'Code of Conduct for BCS Members', Trustee Board Regulations Schedule 3, Version 8. Approved by Trustee Board 2 February 2022 (TB/2022/007 Appendix 3), issued 4 February 2022; the public bcs.org PDF is headed 'Version 8 last reviewed and approved by Trustee Board 8 June 2022'; the members'-area control copy records a further review on 4 June 2025 with the version number unchanged.",
+    "Cite the public PDF URL https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf (5 pages) and/or the web page https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/. The web page carries the same four headings and clause wording as v8 but shows no version number or date.",
+    "Warning: the mirror URL https://cdn.bcs.org/bcs-org-media/2211/bcs-code-of-conduct.pdf (same path on the CDN host) serves an OUTDATED Version 5 (approved 3 June 2015, last reviewed 5 June 2019), which still contains a former clause 4(e) requiring members to notify BCS of criminal convictions, bankruptcy or director disqualification. That clause was removed in Version 7 (Trustee Board 9 June 2021, on legal advice of 16 April 2021). Do not cite the cdn.bcs.org copy.",
+    "Version 8 changes (2 February 2022) were to Appendix 1 only, following the Engineering Council Licence Review 2021: added guidance to assess the need for and hold appropriate indemnity insurance, and to support a colleague or other person who in good faith raises concerns about danger, risk, malpractice or wrongdoing (whistleblowing).",
+    "Structure: introduction; breaches section; scope statement (applies to all members regardless of grade, role or jurisdiction; governs the individual's conduct, not the ethics of the Relevant Authority); four numbered sections with lettered clauses; Appendix 1 (interpretation) including definitions of 'Legislation' (any applicable laws, statutes and regulations), 'Third Parties' and 'Relevant Authority' (normally employer or client; for student members normally the academic institution).",
+    "Section 1 Public Interest (a-d): due regard for public health, privacy, security, wellbeing and the environment; legitimate rights of Third Parties; non-discrimination across protected characteristics; promotion of equal access to IT and inclusion.",
+    "Section 2 Professional Competence and Integrity (a-g): work only within competence; do not overclaim competence; continuing professional development; know and comply with applicable Legislation; respect alternative viewpoints and honest criticism; avoid injuring others by false, malicious or negligent action or inaction; reject bribery and unethical inducements.",
+    "Section 3 Duty to Relevant Authority (a-e): due care and diligence with professional judgement; avoid conflicts of interest; accept responsibility for own and supervised work; keep confidential information confidential (save with permission or as required by Legislation); do not misrepresent or withhold information on performance of products, systems or services, nor exploit others' inexperience.",
+    "Section 4 Duty to the Profession (a-e): uphold the profession's reputation; improve professional standards; uphold BCS's reputation and standing; act with integrity and respect towards BCS members and other professionals; encourage and support fellow members' development.",
+    "Legal basis: Bye-law 18(a) of the BCS Bye-laws (as amended by Order in Council 8 June 2022) obliges all members to safeguard the public interest and act at all times in accordance with the Code of Conduct; Bye-law 18(b)-(c) require the Trustee Board to make disciplinary and appeal regulations. The Bye-laws define 'Code of Conduct' as the code for members approved and prescribed by the Trustee Board from time to time. Breaches are considered under the Institute's disciplinary procedures (Trustee Board Regulations Section VIII) and can result in expulsion from membership; the web page invites reports of breaches to customerservice@bcs.uk.",
+    "Currency mechanism: the Community Board must review the Code annually; the Code of Conduct Review Working Group (ToR copyright 2024) benchmarks it against the Engineering Council's Statement of Ethical Principles, legal and regulatory requirements and member feedback, and submits recommendations via the Community Board and Registration and Standards Committee to the Trustee Board. As at 2026-09-28 no Version 9 or post-2025 revision was located on bcs.org.",
+    "Relationship to legislation: the Code is not a statute and is not amended by the Data (Use and Access) Act 2025. Its relevance to a churn-prediction project is indirect: clause 2(d) requires members to know and comply with applicable Legislation (for personal-data processing that means UK GDPR and the Data Protection Act 2018 as amended by the Data (Use and Access) Act 2025, plus PECR for marketing contact), clause 1(a) requires due regard for privacy and security, clause 1(c) prohibits discriminatory professional conduct (relevant to model fairness), clause 3(d) protects confidential customer data, and clause 3(e) prohibits misrepresenting the performance of systems (relevant to honest reporting of model metrics)."
+  ],
+  "quotable": "Clause 1(a) requires members to \"have due regard for public health, privacy, security and wellbeing of others\" (BCS, 2022, s.1(a)).",
+  "uncertainties": "1) Two dates circulate for Version 8: the public bcs.org PDF header states 'last reviewed and approved by Trustee Board 8 June 2022', whereas the members'-area control sheet records approval on 2 February 2022, issue on 4 February 2022 and a last review on 4 June 2025; all refer to the same Version 8 text, so the safest citation is 'version 8, 2022' with the public PDF URL, noting the 2025 review. 2) The members'-area copy (mybcs.bcs.org) is marked 'Confidential to BCS Members' though it was openly retrievable without login; prefer the public PDF for citation and treat the mybcs copy as corroboration. 3) The cdn.bcs.org mirror of the same path serves an obsolete Version 5 (2015/2019); search engines index it under the current title, so anyone citing from it would reproduce a removed clause. 4) The public web page has no version or date, so a citation to it should be '(no date)' and paired with the dated PDF. 5) The Code is reviewed annually (typically at the Trustee Board's June meeting); a June 2026 review could have occurred, but no evidence of any change or a Version 9 was found on bcs.org as at 2026-09-28. 6) The disciplinary regulations themselves (Trustee Board Regulations Section VIII) were not retrieved; the summary of enforcement relies on the Code's own breaches section, Bye-law 18 and the breach web page."
+}

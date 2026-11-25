@@ -1,0 +1,33 @@
+{
+  "key": "gebru2021",
+  "found": true,
+  "title": "Datasheets for datasets",
+  "authors": [
+    "Timnit Gebru",
+    "Jamie Morgenstern",
+    "Briana Vecchione",
+    "Jennifer Wortman Vaughan",
+    "Hanna Wallach",
+    "Hal Daumé III",
+    "Kate Crawford"
+  ],
+  "year": 2021,
+  "item_type": "journal-article",
+  "venue": "Communications of the ACM",
+  "volume": "64",
+  "issue": "12",
+  "pages": "86-92",
+  "doi": "10.1145/3458723",
+  "url": "https://doi.org/10.1145/3458723",
+  "harvard_reference": "Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J.W., Wallach, H., Daumé III, H. and Crawford, K. (2021) 'Datasheets for datasets', Communications of the ACM, 64(12), pp. 86-92. doi:10.1145/3458723.",
+  "abstract_summary": "The CACM record carries only a one-line abstract: 'Documentation to facilitate communication between dataset creators and consumers.' The full abstract (arXiv 1803.09010v8, the text published in CACM Dec 2021) states that the machine learning community has no standardized process for documenting datasets, which can lead to severe consequences in high-stakes domains. By analogy with electronics datasheets, the authors propose that every dataset be accompanied by a datasheet documenting its motivation, composition, collection process, recommended uses, and so on, to facilitate better communication between dataset creators and consumers and encourage the ML community to prioritize transparency and accountability. The paper supplies a question set grouped by dataset-lifecycle stage (motivation, composition, collection process, preprocessing/cleaning/labeling, uses, distribution, maintenance), a workflow for creators, an example datasheet (Pang and Lee polarity dataset), and a discussion of impact and challenges.",
+  "claims_supported": [
+    {
+      "claim": "Datasheets document a dataset's motivation, composition, collection process, recommended uses and limitations, to improve transparency and mitigate misuse.",
+      "supported": true,
+      "where": "Abstract and Section 1 Introduction: 'we propose that every dataset be accompanied with a datasheet that documents its motivation, composition, collection process, recommended uses, and so on. Datasheets for datasets have the potential to increase transparency and accountability within the machine learning community, mitigate unwanted societal biases in machine learning models...'. Section 1.1 Objectives: transparency is needed so consumers 'can select appropriate datasets for their chosen tasks and avoid unintentional misuse'; creators should reflect on 'underlying assumptions, potential risks or harms, and implications of use'. Section 3 Questions and Workflow lists the groups: motivation, composition, collection process, preprocessing/cleaning/labeling, uses, distribution, maintenance. 'Limitations' is the report's paraphrase rather than the paper's own term: Section 3.5 Uses asks 'Are there tasks for which the dataset should not be used?' and whether anything about composition/collection 'might impact future uses' or cause 'risks or harms'."
+    }
+  ],
+  "verification_notes": "Crossref (bibliographic query and work record 10.1145/3458723) confirms: journal-article, Communications of the ACM, vol. 64, issue 12, pp. 86-92, published online 2021-11-19, print 2021-12, publisher ACM, ISSN 0001-0782/1557-7317. OpenAlex confirms identical metadata (publication date 2021-11-19). Author order and names match the lead exactly; Crossref gives the sixth author as 'Hal Daumé III'. Semantic Scholar returns year 2018 for this DOI because it merges the record with the arXiv preprint (1803.09010, first posted 2018-03-23); 2021 is the correct year for the CACM article. The ACM DL landing page returned HTTP 403, so the abstract was taken from Crossref/OpenAlex (one-line) and the arXiv export API (full abstract), and the claim was checked against the full text of arXiv 1803.09010v8 (1 Dec 2021), which is labelled as the version published in CACM December 2021. Note a separate 2022 book-chapter reprint exists ('Excerpt from Datasheets for Datasets', Ethics of Data and Analytics, pp. 148-156, doi:10.1201/9781003278290-23); do not cite that DOI for the journal article.",
+  "caveats": "'Limitations' is not the paper's own wording; it corresponds to the Uses-section questions on tasks the dataset should not be used for and factors that might impact future uses, and to the 'potential risks or harms' language in Section 1.1. The CACM abstract is a one-line teaser; quote the body text or the arXiv abstract for fuller wording. Pages 86-92 refer to the CACM article; the arXiv preprint has different pagination. Page numbers and abstract not confirmed directly on dl.acm.org because the landing page blocked automated access."
+}

@@ -1,0 +1,20 @@
+{
+  "ranking_by_cv_pr_auc": [
+    "LogReg",
+    "MLP",
+    "XGBoost",
+    "RandomForest",
+    "DecisionTree",
+    "Majority"
+  ],
+  "best_single_model": "LogReg",
+  "cv_pr_auc": {
+    "LogReg": 0.6721533,
+    "MLP": 0.6674142,
+    "XGBoost": 0.6667872,
+    "RandomForest": 0.6610972,
+    "DecisionTree": 0.623972,
+    "Majority": 0.26535319999999996
+  },
+  "note": "Best model chosen on nested-CV PR-AUC (training split only), never on the test set."
+}

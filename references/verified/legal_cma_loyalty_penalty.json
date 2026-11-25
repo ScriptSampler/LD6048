@@ -1,0 +1,232 @@
+{
+  "key": "cma_loyalty_penalty",
+  "status_summary": "Verified on 2026-09-28 against gov.uk, legislation.gov.uk, ofcom.org.uk and the Citizens Advice primary document. Citizens Advice submitted the super-complaint 'Excessive prices for disengaged consumers: A super-complaint to the Competition and Markets Authority' under s.11 Enterprise Act 2002; the CMA records it as received on 28 September 2018 (the Citizens Advice page is dated 27 September 2018). It estimated a loyalty penalty of GBP 4.1bn a year (table total GBP 4,122,000,000) across mobile (handset-inclusive), broadband, home insurance, mortgages and savings. The CMA published 'Tackling the loyalty penalty: Response to a super-complaint made by Citizens Advice on 28 September 2018' on 19 December 2018, putting the penalty at around GBP 4bn a year, including 'nearly GBP 1 billion in broadband and GBP 0.3 billion in mobile (for handset inclusive contracts)', and making 8 cross-market recommendations plus market-specific recommendations to Ofcom and the FCA. The CMA published progress updates on 19 June 2019, 21 January 2020, 13 July 2020 and 1 December 2020. The gov.uk case page shows 'Case state: Closed', last updated 1 December 2020, and no later CMA loyalty-penalty update was found. In telecoms, Ofcom's statement of 15 May 2019 introduced end-of-contract notifications (ECNs) and annual best tariff information/notifications (ABTNs), in force from 15 February 2020. They remain in force today, renumbered, as General Conditions C1.21-C1.29 (ECN) and C1.30-C1.36 (ABTN) in the consolidated General Conditions with effect from 8 April 2026. The 10-40 day timing now sits in Ofcom's January 2025 C1 guidance rather than in the condition text. Ofcom also secured voluntary out-of-contract pricing commitments from mobile providers in July 2019 (all major providers except Three) and from broadband providers in September 2019 and July 2020. The Data (Use and Access) Act 2025 does not amend any of these instruments. Its Part 1 smart-data powers (in force 20 August 2025) and the DMCC Act 2024's CMA direct-enforcement powers (in force 6 April 2025) act on two of the CMA's 2018 recommendations.",
+  "in_force": "Mixed: policy documents plus regulatory conditions that are in force. (1) The Citizens Advice super-complaint, the CMA response of 19 December 2018 and the CMA updates (June 2019 to December 2020) are policy and regulatory publications, not legislation. The CMA case is recorded as 'Closed' (last updated 1 December 2020). (2) The statutory basis, Enterprise Act 2002 s.11 (super-complaints; 90-day CMA response duty), is in force in its latest revised form, and legislation.gov.uk lists no outstanding effects. (3) Ofcom's ECN and ABTN rules were made by the 15 May 2019 statement and took effect on 15 February 2020. They are IN FORCE as General Conditions C1.21-C1.29 and C1.30-C1.36 (consolidated version with effect from 8 April 2026). The ABTN scope was changed by Ofcom's EECC statement of 27 October 2020. The Data (Use and Access) Act 2025 does not affect them. (4) The 2019-2020 provider pricing commitments were voluntary, not legal obligations. (5) Related legislation: DMCC Act 2024 Part 3 (CMA direct consumer enforcement and fines) and Part 4 Chapter 1 have been in force since 6 April 2025 (SI 2025/272). DMCC Act 2024 Part 4 Chapter 2 (subscription contracts) is NOT yet in force. Government has announced commencement in January 2027 (No 10 press release, 9 August 2026), but no commencement regulations were identified. Once in force, Sch. 22 para 5 will exclude contracts bound by Ofcom general conditions from the regime. (6) Data (Use and Access) Act 2025 Part 1 (smart data) has been in force since 20 August 2025 (SI 2025/904). No telecoms smart-data scheme regulations were identified as of 28 September 2026.",
+  "primary_sources": [
+    {
+      "title": "Excessive prices for disengaged consumers: A super-complaint to the Competition and Markets Authority (Citizens Advice; web page dated 27 September 2018, received by the CMA 28 September 2018)",
+      "url": "https://www.citizensadvice.org.uk/policy/publications/excessive-prices-for-disengaged-consumers-a-super-complaint-to-the-competition-and-markets-authority/",
+      "harvard_reference": "Citizens Advice (2018) Excessive prices for disengaged consumers: A super-complaint to the Competition and Markets Authority. London: Citizens Advice. Available at: https://www.citizensadvice.org.uk/policy/publications/excessive-prices-for-disengaged-consumers-a-super-complaint-to-the-competition-and-markets-authority/ (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Excessive prices for disengaged consumers: A super-complaint to the Competition and Markets Authority - full PDF (linked from the Citizens Advice page; hosted on Citizens Advice's Contentful CDN)",
+      "url": "https://assets.ctfassets.net/mfz4nbgura3g/qJ1ZqhMKFsrhFjEMOtZvI/892a0d11d473e165152bdb3452070eae/Super-complaint_20-_20Excessive_20prices_20for_20disengaged_20consumers_20_1_.pdf",
+      "harvard_reference": "Citizens Advice (2018) Excessive prices for disengaged consumers: A super-complaint to the Competition and Markets Authority [PDF]. London: Citizens Advice. Available at: https://assets.ctfassets.net/mfz4nbgura3g/qJ1ZqhMKFsrhFjEMOtZvI/892a0d11d473e165152bdb3452070eae/Super-complaint_20-_20Excessive_20prices_20for_20disengaged_20consumers_20_1_.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Enterprise Act 2002, section 11 - Super-complaints to CMA (latest available revised version; no known outstanding effects)",
+      "url": "https://www.legislation.gov.uk/ukpga/2002/40/section/11",
+      "harvard_reference": "Enterprise Act 2002, c. 40, s. 11. Available at: https://www.legislation.gov.uk/ukpga/2002/40/section/11 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "CMA to investigate 'loyalty penalty' super-complaint (CMA press release, 28 September 2018)",
+      "url": "https://www.gov.uk/government/news/cma-to-investigate-loyalty-penalty-super-complaint",
+      "harvard_reference": "Competition and Markets Authority (2018a) CMA to investigate 'loyalty penalty' super-complaint. Press release, 28 September. Available at: https://www.gov.uk/government/news/cma-to-investigate-loyalty-penalty-super-complaint (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Tackling the loyalty penalty: Response to a super-complaint made by Citizens Advice on 28 September 2018 (CMA, 19 December 2018) - full report PDF",
+      "url": "https://assets.publishing.service.gov.uk/media/5c194665e5274a4685bfbafa/response_to_super_complaint_pdf.pdf",
+      "harvard_reference": "Competition and Markets Authority (2018b) Tackling the loyalty penalty: Response to a super-complaint made by Citizens Advice on 28 September 2018. London: CMA. Available at: https://assets.publishing.service.gov.uk/media/5c194665e5274a4685bfbafa/response_to_super_complaint_pdf.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Tackling the loyalty penalty (CMA gov.uk publication page with executive summary, published 19 December 2018)",
+      "url": "https://www.gov.uk/government/publications/tackling-the-loyalty-penalty",
+      "harvard_reference": "Competition and Markets Authority (2018c) Tackling the loyalty penalty [executive summary]. 19 December. Available at: https://www.gov.uk/government/publications/tackling-the-loyalty-penalty (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "CMA tackles loyalty penalty charges (CMA press release, 19 December 2018)",
+      "url": "https://www.gov.uk/government/news/cma-tackles-loyalty-penalty-charges",
+      "harvard_reference": "Competition and Markets Authority (2018d) CMA tackles loyalty penalty charges. Press release, 19 December. Available at: https://www.gov.uk/government/news/cma-tackles-loyalty-penalty-charges (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "'Loyalty penalty' super-complaint - CMA case page (opened 28 September 2018; case state Closed; last updated 1 December 2020)",
+      "url": "https://www.gov.uk/cma-cases/loyalty-penalty-super-complaint",
+      "harvard_reference": "Competition and Markets Authority (2020a) 'Loyalty penalty' super-complaint [case page]. Last updated 1 December 2020. Available at: https://www.gov.uk/cma-cases/loyalty-penalty-super-complaint (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Loyalty penalty update: getting better and fairer deals (CMA 6-month progress update, 19 June 2019)",
+      "url": "https://assets.publishing.service.gov.uk/media/5d08f9daed915d42ea95ddb4/Progress_update_June2019_31916_.pdf",
+      "harvard_reference": "Competition and Markets Authority (2019) Loyalty penalty update: getting better and fairer deals. 19 June. Available at: https://assets.publishing.service.gov.uk/media/5d08f9daed915d42ea95ddb4/Progress_update_June2019_31916_.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Competition and Markets Authority loyalty penalty investigation report: government response (BEIS, 18 June 2019)",
+      "url": "https://www.gov.uk/government/publications/competition-and-markets-authority-loyalty-penalty-investigation-report-government-response",
+      "harvard_reference": "Department for Business, Energy and Industrial Strategy (2019a) Competition and Markets Authority loyalty penalty investigation report: government response. 18 June. Available at: https://www.gov.uk/government/publications/competition-and-markets-authority-loyalty-penalty-investigation-report-government-response (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Tackling the loyalty penalty: letter from Greg Clark (Secretary of State, BEIS) to Andrea Coscelli (CMA), June 2019",
+      "url": "https://assets.publishing.service.gov.uk/media/5d08023aed915d0a7c17e1a9/Tackling_the_loyalty_penalty_SoS_letter.pdf",
+      "harvard_reference": "Department for Business, Energy and Industrial Strategy (2019b) Tackling the loyalty penalty: letter from the Rt Hon Greg Clark MP to Dr Andrea Coscelli. June. Available at: https://assets.publishing.service.gov.uk/media/5d08023aed915d0a7c17e1a9/Tackling_the_loyalty_penalty_SoS_letter.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "January 2020: Loyalty Penalty Update (CMA 12-month progress update, 21 January 2020)",
+      "url": "https://assets.publishing.service.gov.uk/media/5e25d4b540f0b62c54df7fc1/Loyalty_penalty_update_20_Jan.pdf",
+      "harvard_reference": "Competition and Markets Authority (2020b) January 2020: Loyalty Penalty Update. 21 January. Available at: https://assets.publishing.service.gov.uk/media/5e25d4b540f0b62c54df7fc1/Loyalty_penalty_update_20_Jan.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "CMA publishes loyalty penalty update (CMA news story, 21 January 2020)",
+      "url": "https://www.gov.uk/government/news/cma-publishes-loyalty-penalty-update",
+      "harvard_reference": "Competition and Markets Authority (2020c) CMA publishes loyalty penalty update. 21 January. Available at: https://www.gov.uk/government/news/cma-publishes-loyalty-penalty-update (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "July 2020: Loyalty Penalty Update (CMA, 13 July 2020)",
+      "url": "https://assets.publishing.service.gov.uk/media/5f0861a13a6f405a06944398/Loyalty_penalty_update_July_2020_-_web_---_pdf_-.pdf",
+      "harvard_reference": "Competition and Markets Authority (2020d) July 2020: Loyalty Penalty Update. 13 July. Available at: https://assets.publishing.service.gov.uk/media/5f0861a13a6f405a06944398/Loyalty_penalty_update_July_2020_-_web_---_pdf_-.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Loyalty penalty update - progress two years on from the CMA's super-complaint investigation (CMA, 1 December 2020)",
+      "url": "https://assets.publishing.service.gov.uk/media/5fc52bdcd3bf7f7f591e141e/Loyalty_penalty_Dec_2020__-.pdf",
+      "harvard_reference": "Competition and Markets Authority (2020e) Loyalty penalty update: progress two years on from the CMA's super-complaint investigation. 1 December. Available at: https://assets.publishing.service.gov.uk/media/5fc52bdcd3bf7f7f591e141e/Loyalty_penalty_Dec_2020__-.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Helping consumers get better deals: Statement on end-of-contract notifications and annual best tariff information (Ofcom statement, 15 May 2019; requirements in effect 15 February 2020)",
+      "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0018/148140/statement-helping-consumers-get-better-deals.pdf",
+      "harvard_reference": "Ofcom (2019a) Helping consumers get better deals: Statement on end-of-contract notifications and annual best tariff information. London: Ofcom, 15 May. Available at: https://www.ofcom.org.uk/__data/assets/pdf_file/0018/148140/statement-helping-consumers-get-better-deals.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Helping consumers get better deals: A review of the impact of end-of-contract notifications and pricing commitments by broadband and mobile providers (Ofcom project page: consultation 14 December 2018, closed 1 February 2019; statement 15 May 2019; last updated 10 May 2024)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/service-quality/helping-consumers-get-better-deals",
+      "harvard_reference": "Ofcom (2024a) Helping consumers get better deals: A review of the impact of end-of-contract notifications and pricing commitments by broadband and mobile providers [project page]. Last updated 10 May 2024. Available at: https://www.ofcom.org.uk/phones-and-broadband/service-quality/helping-consumers-get-better-deals (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Helping consumers to get better deals in communications markets: mobile handsets (Ofcom statement and consultation, 22 July 2019; closing date 16 September 2019)",
+      "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0037/157699/statement-and-consultation-mobile-handsets.pdf",
+      "harvard_reference": "Ofcom (2019b) Helping consumers to get better deals in communications markets: mobile handsets. Statement and consultation. London: Ofcom, 22 July. Available at: https://www.ofcom.org.uk/__data/assets/pdf_file/0037/157699/statement-and-consultation-mobile-handsets.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Helping consumers get better deals: A review of pricing practices in fixed broadband - Initial conclusions (Ofcom, 25 September 2019)",
+      "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0018/168003/broadband-price-differentials.pdf",
+      "harvard_reference": "Ofcom (2019c) Helping consumers get better deals: A review of pricing practices in fixed broadband. Initial conclusions. London: Ofcom, 25 September. Available at: https://www.ofcom.org.uk/__data/assets/pdf_file/0018/168003/broadband-price-differentials.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom response to the CMA's super-complaint update (Ofcom news, 21 January 2020)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/service-quality/response-to-cma-super-complaint-update",
+      "harvard_reference": "Ofcom (2020a) Ofcom response to the CMA's super-complaint update. 21 January. Available at: https://www.ofcom.org.uk/phones-and-broadband/service-quality/response-to-cma-super-complaint-update (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Companies must tell customers about their best deals (Ofcom news, 14 February 2020; rules in force 15 February 2020)",
+      "url": "https://www.ofcom.org.uk/news-centre/2020/companies-must-tell-customers-about-their-best-deals",
+      "harvard_reference": "Ofcom (2020b) Companies must tell customers about their best deals. 14 February. Available at: https://www.ofcom.org.uk/news-centre/2020/companies-must-tell-customers-about-their-best-deals (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Helping consumers get better deals: Review of pricing practices in fixed broadband - Update (Ofcom, 28 July 2020)",
+      "url": "https://www.ofcom.org.uk/__data/assets/pdf_file/0031/199075/bb-pricing-update-july-20.pdf",
+      "harvard_reference": "Ofcom (2020c) Helping consumers get better deals: Review of pricing practices in fixed broadband. Update. London: Ofcom, 28 July. Available at: https://www.ofcom.org.uk/__data/assets/pdf_file/0031/199075/bb-pricing-update-july-20.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Broadband customers to save millions following Ofcom review (Ofcom news, 28 July 2020)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/saving-money/broadband-customers-to-save-millions",
+      "harvard_reference": "Ofcom (2020d) Broadband customers to save millions following Ofcom review. 28 July. Available at: https://www.ofcom.org.uk/phones-and-broadband/saving-money/broadband-customers-to-save-millions (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Helping customers get better deals: A review of the impact of end-of-contract notifications and pricing commitments by broadband and mobile providers (Ofcom, 30 November 2021)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/130197-helping-consumers-get-better-deals-on-their-broadband/associated-documents/helping-customers-get-better-deals-2021.pdf",
+      "harvard_reference": "Ofcom (2021) Helping customers get better deals: A review of the impact of end-of-contract notifications and pricing commitments by broadband and mobile providers. London: Ofcom, 30 November. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/130197-helping-consumers-get-better-deals-on-their-broadband/associated-documents/helping-customers-get-better-deals-2021.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "End-of-contract notifications driving better deals for customers (Ofcom news on broadband ex-post evaluation, 6 May 2022)",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/saving-money/end-of-contract-notifications-driving-better-deals-for-customers",
+      "harvard_reference": "Ofcom (2022) End-of-contract notifications driving better deals for customers. 6 May. Available at: https://www.ofcom.org.uk/phones-and-broadband/saving-money/end-of-contract-notifications-driving-better-deals-for-customers (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "An ex-post evaluation of mobile annual best tariff notifications and end-of-contract notifications (Ofcom report, published 10 May 2024)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/130197-helping-consumers-get-better-deals-on-their-broadband/ex-post-evaluation/ex-post-evaulation-ecn-2024.pdf",
+      "harvard_reference": "Ofcom (2024b) An ex-post evaluation of mobile annual best tariff notifications and end-of-contract notifications. London: Ofcom, 10 May. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/130197-helping-consumers-get-better-deals-on-their-broadband/ex-post-evaluation/ex-post-evaulation-ecn-2024.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Ofcom's guidance under General Condition C1 - contract requirements (January 2025; effective 17 January 2025)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/272754-consultation-review-of-inflation-linked-telecoms-price-rises/associated-documents/ofcoms-guidance-under-general-condition-c1--contract-requirements-january-2025.pdf",
+      "harvard_reference": "Ofcom (2025) Ofcom's guidance under General Condition C1 - contract requirements (January 2025). London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/272754-consultation-review-of-inflation-linked-telecoms-price-rises/associated-documents/ofcoms-guidance-under-general-condition-c1--contract-requirements-january-2025.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "General Conditions of Entitlement: Unofficial Consolidated Version - version with effect from 8 April 2026 (Ofcom)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf",
+      "harvard_reference": "Ofcom (2026a) General Conditions of Entitlement: Unofficial Consolidated Version (version with effect from 8 April 2026). London: Ofcom. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/phones-telecoms-and-internet/information-for-industry/general-authorisation-regime/general-conditions-of-entitlement---unofficial-consolidate-version.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Pricing and consumer engagement: Trends in the UK communications sector (Ofcom, published 26 February 2026)",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/pricing/2025/pricing-and-consumer-engagement-report.pdf",
+      "harvard_reference": "Ofcom (2026b) Pricing and consumer engagement: Trends in the UK communications sector. London: Ofcom, 26 February. Available at: https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/pricing/2025/pricing-and-consumer-engagement-report.pdf (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 2) Regulations 2025 (SI 2025/272) - Part 3 and Part 4 Chapter 1 in force 6 April 2025",
+      "url": "https://www.legislation.gov.uk/uksi/2025/272/made",
+      "harvard_reference": "The Digital Markets, Competition and Consumers Act 2024 (Commencement No. 2) Regulations 2025, SI 2025/272. Available at: https://www.legislation.gov.uk/uksi/2025/272/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Digital Markets, Competition and Consumers Act 2024, Schedule 22, paragraph 5 (exclusion of contracts bound by Ofcom general conditions from the subscription contracts regime; prospective)",
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/schedule/22/paragraph/5",
+      "harvard_reference": "Digital Markets, Competition and Consumers Act 2024, c. 13, sch. 22, para. 5. Available at: https://www.legislation.gov.uk/ukpga/2024/13/schedule/22/paragraph/5 (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "PM starts roll out of 'everyday fixes' on the cost of living - ending rip-off discounts and subscription traps (Prime Minister's Office, 9 August 2026)",
+      "url": "https://www.gov.uk/government/news/pm-starts-roll-out-of-everyday-fixes-on-the-cost-of-living-ending-rip-off-discounts-and-subscription-traps",
+      "harvard_reference": "Prime Minister's Office, 10 Downing Street (2026) PM starts roll out of 'everyday fixes' on the cost of living - ending rip-off discounts and subscription traps. Press release, 9 August. Available at: https://www.gov.uk/government/news/pm-starts-roll-out-of-everyday-fixes-on-the-cost-of-living-ending-rip-off-discounts-and-subscription-traps (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 1) Regulations 2025 (SI 2025/904) - Part 1 (access to customer data and business data / smart data) in force 20 August 2025",
+      "url": "https://www.legislation.gov.uk/uksi/2025/904/made",
+      "harvard_reference": "The Data (Use and Access) Act 2025 (Commencement No. 1) Regulations 2025, SI 2025/904. Available at: https://www.legislation.gov.uk/uksi/2025/904/made (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    },
+    {
+      "title": "Smart Data 2035: The UK's Smart Data Strategy (Department for Business and Trade, 26 March 2026)",
+      "url": "https://www.gov.uk/government/publications/smart-data-strategy",
+      "harvard_reference": "Department for Business and Trade (2026) Smart Data 2035: The UK's Smart Data Strategy. 26 March. Available at: https://www.gov.uk/government/publications/smart-data-strategy (Accessed: 28 September 2026).",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "key_points": [
+    "SUPER-COMPLAINT (Citizens Advice, 2018): 'Excessive prices for disengaged consumers: A super-complaint to the Competition and Markets Authority', made under s.11 Enterprise Act 2002. The CMA records receipt on 28 September 2018 and its press release 'CMA to investigate 'loyalty penalty' super-complaint' is dated the same day. The s.11 duty requires a published response within 90 days. The five markets were mobile (handset-inclusive), broadband, home insurance, mortgages and savings. Headline estimate: GBP 4.1bn a year (Table 3 total GBP 4,122,000,000). Polling: 8 in 10 bill-payers pay a loyalty penalty in at least one market (mobile 34%, broadband 43%). A household paying it in all five markets pays up to GBP 877 a year more.",
+    "CITIZENS ADVICE TELECOMS FIGURES: mobile handset contracts: 3,965,000 adults, GBP 473.3m a year, GBP 264 per person per year. Broadband: 11,300,000 households, GBP 1,277m a year, GBP 113 per household per year.",
+    "CMA RESPONSE (19 December 2018): 'Tackling the loyalty penalty: Response to a super-complaint made by Citizens Advice on 28 September 2018', with a gov.uk executive summary and the press release 'CMA tackles loyalty penalty charges'. The CMA put the penalty at around GBP 4bn a year across the five markets: nearly GBP 1bn in broadband, GBP 0.3bn in mobile (handset-inclusive), GBP 1.1bn in savings, GBP 0.7bn in home insurance and GBP 0.8bn in mortgages. The number of people paying it ranged from under 1 million (mortgages) to over 12 million (home insurance).",
+    "CMA TABLE 4.1, TELECOMS: Mobile (handset-inclusive): Ofcom 2018 estimate of 1.5 million people (6%), GBP 330m a year, GBP 222 average; Citizens Advice estimate of 4 million (34%), GBP 473m, GBP 264. Broadband: CMA calculations of 8.7 million (37% of dual-play and 41% of triple-play customers), GBP 990m a year, GBP 112 average (GBP 72 dual-play, GBP 156 triple-play); Citizens Advice estimate of 11 million (43%), printed as 'GBP 1,1280 million', GBP 113. The CMA judged the Citizens Advice mobile estimate implausible, because Ofcom data showed only about 3.7 million handset-inclusive customers beyond their initial contract period at all.",
+    "CMA RECOMMENDATIONS (December 2018). Eight cross-market reforms: (1) bolder enforcement against harmful practices; (2) legislative change and CMA power to impose substantial fines; (3) publish the size of the loyalty penalty by market and supplier; (4) empower intermediaries; (5) press ahead with Smart Data, especially in telecoms; (6) share evidence on 'nudge' remedies; (7) targeted pricing interventions or caps where there is clear harm; (8) match price data to large surveys. Mobile (to Ofcom): providers should not keep charging the same rate once the handset is effectively paid off, and bundled customers should be moved to a fairer tariff at the end of the minimum period; raise SIM-only awareness. Broadband (to Ofcom): consider pricing interventions, including tackling legacy pricing and targeted safeguard caps for vulnerable consumers, plus smart data and collective switching.",
+    "GOVERNMENT RESPONSE: 'Competition and Markets Authority loyalty penalty investigation report: government response' (BEIS, 18 June 2019), a letter from Greg Clark to Andrea Coscelli. It accepted the roughly GBP 4bn estimate. It committed to legislate so the CMA can decide consumer-law breaches and impose fines directly, and to consider tackling subscription traps. On telecoms it agreed that charging the same price after a handset is paid off 'is not right' and backed a telecoms smart-data initiative.",
+    "CMA FOLLOW-UP (gov.uk case page): Loyalty Penalty Working Group terms of reference, 12 March 2019. 6-month update 'Loyalty penalty update: getting better and fairer deals', 19 June 2019. 12-month update 'January 2020: Loyalty Penalty Update', 21 January 2020, with news story 'CMA publishes loyalty penalty update'. 'July 2020: Loyalty Penalty Update', 13 July 2020 (progress affected by COVID-19). 'Loyalty penalty update - progress two years on from the CMA's super-complaint investigation', 1 December 2020, published with E.CA economic research on loyalty price discrimination. The case is 'Closed' and was last updated 1 December 2020.",
+    "CMA JANUARY 2020 UPDATE, TELECOMS. Mobile (citing Ofcom July 2019): of 2 million out-of-contract bundled customers, about 1.4 million would save an average GBP 11 a month on a cheaper SIM-only deal, while about 600,000 would pay about GBP 6 a month more. Voluntary commitments from all major providers except Three take effect from February 2020: Virgin Mobile, Tesco Mobile and O2 (direct customers) move to the equivalent 30-day or best airtime deal; EE gives 10% off and Vodafone GBP 5 off after 3 months out of contract. Broadband (citing Ofcom September 2019): about 8.8 million out-of-contract customers (41%), of whom 1.5 million are potentially vulnerable.",
+    "CMA DECEMBER 2020 (TWO YEARS ON) UPDATE: Ofcom and the FCA together estimated that more than 28 million customers were paying a loyalty penalty of GBP 3.4bn (with possible double counting). Broadband: out-of-contract customers (about 40%) paid just under GBP 500m a year more than their provider's average price for the same service. Commitments could benefit out-of-contract customers by over GBP 270m a year, and about 1 million vulnerable customers by about GBP 70 each. Mobile: Ofcom estimated the commitments cover 80% of the harm; the CMA remained 'significantly concerned' that Three had not engaged. The CMA welcomed the ECN rules in force from February 2020 and the proposed Open Communications (smart data) scheme.",
+    "OFCOM END-OF-CONTRACT NOTIFICATIONS: consultation 14 December 2018 (closed 1 February 2019), then the statement 'Helping consumers get better deals: Statement on end-of-contract notifications and annual best tariff information' (15 May 2019), in effect 15 February 2020 after a nine-month implementation period. Broadband, mobile, home phone and pay-TV providers must notify residential and business customers before the minimum contract period ends; residential customers receive a standalone notice 10-40 days before. The notice gives the end date, current and post-contract prices, notice period, and the provider's best tariffs, including at least one SIM-only deal for bundled handset customers and new-customer prices. Out-of-contract customers receive best tariff information at least annually.",
+    "OFCOM NEWS 14 FEBRUARY 2020 ('Companies must tell customers about their best deals'): about 20 million customers were out of contract, including 8.8 million broadband customers, with about 25,000 broadband customers reaching contract end each day. Out-of-contract broadband customers could save about GBP 100 a year (up to about GBP 150). About 1.4 million mobile customers could save by moving to SIM-only, about GBP 75 a year on average.",
+    "CURRENT LAW (verified 28 September 2026): Ofcom's 'General Conditions of Entitlement: Unofficial Consolidated Version' (with effect from 8 April 2026) contains the ECN rules at C1.21-C1.29: C1.23 duty to send; C1.24(m) consumer notice must include the provider's best tariffs; C1.27 timing; C1.28 durable medium and separate communication; C1.29 12-month record-keeping. It contains the ABTN rules at C1.30-C1.36 (C1.33(i) best tariffs; C1.34 at least once every 12 months). Ofcom's January 2025 C1 guidance (para 1.169) expects consumer ECNs to be sent 10-40 days before the Commitment Period ends. The version history records the 15 May 2019 changes as effective 15 February 2020, and an ABTN scope change on 27 October 2020 (EECC implementation).",
+    "OFCOM MOBILE HANDSETS REVIEW: 'Helping consumers to get better deals in communications markets: mobile handsets' (statement and consultation, 22 July 2019). About 2 million bundled customers were out of contract (11% of bundled customers, under 5% of pay-monthly). About 1.4 million were overpaying by just under GBP 11 a month, about GBP 182m a year in total, below Ofcom's initial GBP 330m estimate. About 600,000 would pay GBP 39m a year more if forced onto SIM-only. Three refused to apply any discount. Ofcom's November 2021 review found the aggregate overpayment had fallen from GBP 182m a year (2018) to GBP 83m a year (2020).",
+    "OFCOM FIXED BROADBAND PRICING REVIEW: 'Initial conclusions' (25 September 2019) found about 8.8 million out-of-contract customers (41%), 3.3 million of them out of contract for 2 or more years and 1.5 million potentially vulnerable. Out-of-contract customers could save GBP 800m-900m a year by re-contracting. Ofcom said it was not helpful to call the price difference a 'loyalty penalty'. The 'Update' (28 July 2020) found about 40% (8.7 million) out of contract, paying about GBP 4.70 a month above their provider's average price (GBP 3.90 for vulnerable customers, who stay out of contract longer: 44% for 2+ years vs 37%). The total impact was just under GBP 500m a year (just under GBP 80m for vulnerable customers). Provider commitments (BT, EE, Plusnet, Sky, TalkTalk, Virgin Media) were valued at over GBP 270m a year.",
+    "IMPACT EVIDENCE. Ofcom (30 November 2021): out-of-contract broadband customers fell from 40% (8.7 million, September 2019) to 35% (7.4 million, September 2020); the out-of-contract differential was about GBP 5.10 a month; the vulnerable-customer differential fell from GBP 4.40 to GBP 2.30; mobile out-of-contract share fell from 27% to 25%. Ofcom (6 May 2022) broadband ECN evaluation: re-contracting rose up to 13 percentage points (Plusnet) and 10 points at BT, EE and Virgin Media, with average savings over GBP 110 a year for some. Ofcom (10 May 2024) mobile evaluation: ABTNs had a small positive effect on re-contracting (1-2 percentage points at O2 and Tesco, largest at Three); ECN effects on switching were mixed, about 2 points where significant.",
+    "CURRENT MARKET CONTEXT: Ofcom's 'Pricing and consumer engagement' report (published 26 February 2026) found 28% of fixed-broadband customers of the largest operators out of contract for at least one service at end of June 2025, unchanged year on year. In Q2 2025, out-of-contract customers' average spend was 11%-25% above in-contract customers for most bundle types. The reverse held for bundles including mobile, because in-contract mobile customers are more often paying for a handset. The loyalty-penalty problem has therefore narrowed but not disappeared, which is relevant context for churn and retention modelling.",
+    "DATA (USE AND ACCESS) ACT 2025 AND OTHER LATER LAW: the DUA Act 2025 does not amend Enterprise Act 2002 s.11 or Ofcom's General Conditions. Its Part 1 (access to customer data and business data, i.e. Smart Data schemes) came into force on 20 August 2025 (SI 2025/904), giving a legal route for the CMA's 2018 Smart Data recommendation and the 'Open Communications' idea; the DBT 'Smart Data 2035' strategy followed on 26 March 2026. DMCC Act 2024 Part 3 (CMA direct consumer enforcement, including the power to impose fines) has been in force since 6 April 2025 (SI 2025/272), implementing recommendation 2. DMCC Part 4 Chapter 2 (subscription contracts) is not yet in force; government has announced January 2027. Sch. 22 para 5 (prospective) will exclude contracts bound by Ofcom general conditions, so telecoms contracts would stay under Ofcom's C1 regime."
+  ],
+  "quotable": "The CMA estimated the loyalty penalty at around GBP 4bn a year, 'nearly £1 billion in broadband and £0.3 billion in mobile' (CMA, 2018b, p. 50).",
+  "uncertainties": "(1) Date: Citizens Advice's page is dated 27 September 2018, but the CMA records receipt, and titles its response, as 28 September 2018. Cite 28 September 2018. The CMA case page links to an old Citizens Advice URL that now returns 404; the live page is at /policy/publications/..., and the PDF is hosted on a Contentful CDN, not gov.uk. (2) The CMA case page shows 'Closed' with no explicit closure date (last updated 1 December 2020). No later CMA loyalty-penalty update was found on gov.uk, but absence cannot be proven. The CMA's 2024 'loyalty pricing' groceries review is a separate topic. (3) CMA Table 4.1 prints the Citizens Advice broadband total as 'GBP 1,1280 million', apparently a typo; the Citizens Advice document gives GBP 1,277m. The CMA text cites mobile averages of 'GBP 264 and GBP 220', while the table shows GBP 222 for the Ofcom estimate. (4) Telecoms 'loyalty penalty' figures differ by source and definition. Mobile: Citizens Advice GBP 473m; Ofcom/CMA GBP 330m (2018); Ofcom GBP 182m (July 2019) falling to GBP 83m (2020). Broadband: Citizens Advice GBP 1,277m; CMA GBP 990m; Ofcom just under GBP 500m (July 2020 price differential). Ofcom explicitly avoids the term 'loyalty penalty', so do not present Ofcom figures as Ofcom's own 'loyalty penalty' estimates. (5) The ECN/ABTN condition numbers in the 2019 statement differ from the current numbering (C1.21-C1.36 in the 8 April 2026 consolidated version). The intermediate renumbering statements (EECC implementation, October/December 2020) were only seen through the GC version history. The consolidated GCs are Ofcom's 'unofficial' version; the legally operative texts are Ofcom's statements and notifications. (6) Most PDFs could not be parsed by the fetch tool. Their text was extracted locally (pdftotext/PyMuPDF) from the files downloaded from the cited URLs, and figures are reproduced as found. (7) The January 2027 date for the DMCC subscription regime comes from a No 10 press release (9 August 2026). No commencement SI was identified, so the date could still change. (8) No telecoms-specific Smart Data scheme regulations under DUA Act 2025 Part 1 were identified. The Smart Data 2035 strategy's telecoms content was not reviewed in detail. (9) Related Ofcom fairness measures outside the loyalty-penalty programme were not re-verified here: the ban on inflation-linked mid-contract price rises (from 17 January 2025), One Touch Switch, and the ban on locked handsets."
+}

@@ -1,0 +1,113 @@
+{
+  "features_linear": [],
+  "features_tree": [],
+  "feature_gains_pr_auc": {
+    "LogReg:avg_monthly_spend": -0.0015286613558675999,
+    "LogReg:contract_x_internet": -6.194258712548528e-05,
+    "XGBoost:n_addons": -0.002575315594699512,
+    "XGBoost:any_protection": -0.00021591184098497252,
+    "XGBoost:auto_pay": -0.0014110336429273619,
+    "XGBoost:avg_monthly_spend": -0.002541108646063306,
+    "XGBoost:price_change": -0.004385418613080982
+  },
+  "feature_gain_p_values": {
+    "LogReg:avg_monthly_spend": 0.17320994119010258,
+    "LogReg:contract_x_internet": 0.9553551580975177,
+    "XGBoost:n_addons": 0.10347534439662447,
+    "XGBoost:any_protection": 0.941906648913557,
+    "XGBoost:auto_pay": 0.23851512835673447,
+    "XGBoost:avg_monthly_spend": 0.24026877830739762,
+    "XGBoost:price_change": 0.32695105880996156
+  },
+  "collapse": true,
+  "contract_ordinal": false,
+  "log_totalcharges": true,
+  "imputation": "constant_0",
+  "collinearity_variant_scores": {
+    "keep_totalcharges": 0.661326276532284,
+    "drop_totalcharges": 0.6589441887063858,
+    "replace_with_avg_monthly_spend": 0.6581016882356009,
+    "drop_monthlycharges": 0.6614383283809071
+  },
+  "decision_rule": "Keep the principled default unless the alternative is better on the same CV folds by a corrected resampled t-test (mean PR-AUC gain > 0 and p < 0.05); the same test decides each engineered feature against no engineered features for its model family (XGBoost tuned for each feature set on the training split).",
+  "deltas": {
+    "collapse": 0.0001300946237622669,
+    "contract_ordinal": 6.17591512371507e-05,
+    "log_totalcharges": 0.01160088348830699,
+    "imputation_median": 4.842791500816457e-05,
+    "log_totalcharges_mlp": 0.014615258755123872,
+    "drop_monthlycharges": 0.00011205184862309592
+  },
+  "p_values": {
+    "collapse": 0.6367979469041954,
+    "contract_ordinal": 0.7894867941676128,
+    "log_totalcharges": 0.013127913277397178,
+    "imputation_median": 0.6133226261608857,
+    "log_totalcharges_mlp": 0.18475053041189318,
+    "collinearity": 0.05446690825185696,
+    "drop_monthlycharges": 0.738687007472262
+  },
+  "drop_totalcharges": false,
+  "collinearity_best_alternative": "drop_totalcharges",
+  "imbalance": "none_plus_threshold_moving",
+  "imbalance_tests_LogReg": {
+    "class_weight_balanced": {
+      "mean_diff_pr_auc": -0.0006851500007342582,
+      "p": 0.4386450672236634
+    },
+    "smote": {
+      "mean_diff_pr_auc": -0.0022566774708905,
+      "p": 0.2867201212272846
+    }
+  },
+  "imbalance_brier_tests_LogReg": {
+    "class_weight_balanced": {
+      "mean_diff": 0.02897793161545218,
+      "sd_diff": 0.004111253973145761,
+      "t": 11.914040026718196,
+      "df": 9.0,
+      "p": 8.185964421883913e-07,
+      "n_folds": 10.0
+    },
+    "smote": {
+      "mean_diff": 0.027201321341947533,
+      "sd_diff": 0.003915449001763137,
+      "t": 11.742874166427612,
+      "df": 9.0,
+      "p": 9.258080944030818e-07,
+      "n_folds": 10.0
+    }
+  },
+  "imbalance_table_LogReg": {
+    "pr_auc_mean": {
+      "none": 0.6729271600205909,
+      "class_weight_balanced": 0.6722420100198566,
+      "smote": 0.6706704825497004,
+      "threshold_moving": 0.6729271600205909
+    },
+    "pr_auc_sd": {
+      "none": 0.017005084081148588,
+      "class_weight_balanced": 0.016405665398842615,
+      "smote": 0.019706435169191808,
+      "threshold_moving": 0.017005084081148588
+    },
+    "brier_mean": {
+      "none": 0.13299072071295043,
+      "class_weight_balanced": 0.1619686523284026,
+      "smote": 0.16019204205489795,
+      "threshold_moving": 0.13299072071295043
+    },
+    "recall_mean": {
+      "none": 0.5448160535117057,
+      "class_weight_balanced": 0.7979933110367894,
+      "smote": 0.7876254180602007,
+      "threshold_moving": 0.5448160535117057
+    },
+    "recall_moved_mean": {
+      "none": null,
+      "class_weight_balanced": null,
+      "smote": null,
+      "threshold_moving": 0.7384615384615384
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate_train": 0.2653532126375577,
+  "churn_rate_test": 0.2654364797728886,
+  "churners_train": 1495,
+  "churners_test": 374,
+  "test_size": 0.2,
+  "seed": 42,
+  "stratified": true
+}
